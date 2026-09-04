@@ -1,0 +1,275 @@
+{
+  "course": "B.Tech",
+  "branches": [
+    {
+      "branch": "3D Animation & Design",
+      "branch_id": "a165c765-db1c-2a6e-11b9-54e42e55db81",
+      "file": "3d_animation_design.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 4,
+      "total_units": 10
+    },
+    {
+      "branch": "Aeronautical Engineering",
+      "branch_id": "f1b46fc1-0a32-67bc-141a-30adbc63fb7e",
+      "file": "aeronautical_engineering.json",
+      "semesters": 8,
+      "subjects": 104,
+      "subjects_with_units": 48,
+      "total_units": 184
+    },
+    {
+      "branch": "Biomedical & Robotics Engineering",
+      "branch_id": "ea3fb196-1572-463b-4c64-e52faf028e7f",
+      "file": "biomedical_robotics_engineering.json",
+      "semesters": 4,
+      "subjects": 48,
+      "subjects_with_units": 33,
+      "total_units": 107
+    },
+    {
+      "branch": "CSE Specialization",
+      "branch_id": "b4e4e703-cf76-0cd9-3181-eb7ce3ebe634",
+      "file": "cse_specialization.json",
+      "semesters": 4,
+      "subjects": 43,
+      "subjects_with_units": 37,
+      "total_units": 115
+    },
+    {
+      "branch": "Chemical Engineering",
+      "branch_id": "108a0fd5-bb59-703d-1481-52aa509f9bfe",
+      "file": "chemical_engineering.json",
+      "semesters": 7,
+      "subjects": 86,
+      "subjects_with_units": 37,
+      "total_units": 116
+    },
+    {
+      "branch": "Civil Engineering",
+      "branch_id": "83ac7834-33d1-3107-6a69-78b1f2cec67f",
+      "file": "civil_engineering.json",
+      "semesters": 8,
+      "subjects": 169,
+      "subjects_with_units": 144,
+      "total_units": 322
+    },
+    {
+      "branch": "Civil Engineering with Computer Applications",
+      "branch_id": "ed4cdf7f-0ed7-fe3a-72e5-016fa05d67a8",
+      "file": "civil_engineering_with_computer_applications.json",
+      "semesters": 8,
+      "subjects": 124,
+      "subjects_with_units": 102,
+      "total_units": 437
+    },
+    {
+      "branch": "Computer Science & Engineering",
+      "branch_id": "8cfeb316-e240-50ef-9fb7-2bc0e22c2cef",
+      "file": "computer_science_engineering.json",
+      "semesters": 8,
+      "subjects": 134,
+      "subjects_with_units": 116,
+      "total_units": 442
+    },
+    {
+      "branch": "Computer Science & Engineering (AI & ML)",
+      "branch_id": "3bcb324a-3178-8537-aca7-ce406244d7d1",
+      "file": "computer_science_engineering_ai_ml.json",
+      "semesters": 2,
+      "subjects": 35,
+      "subjects_with_units": 15,
+      "total_units": 55
+    },
+    {
+      "branch": "Computer Science & Engineering (AI)",
+      "branch_id": "4941b0fd-2702-bd1f-a9d4-2850556c8417",
+      "file": "computer_science_engineering_ai.json",
+      "semesters": 3,
+      "subjects": 50,
+      "subjects_with_units": 32,
+      "total_units": 131
+    },
+    {
+      "branch": "Computer Science & Engineering (Cyber Security)",
+      "branch_id": "b7ad23ec-1157-f071-4674-3bc5622ea81c",
+      "file": "computer_science_engineering_cyber_security.json",
+      "semesters": 2,
+      "subjects": 35,
+      "subjects_with_units": 15,
+      "total_units": 54
+    },
+    {
+      "branch": "Computer Science & Engineering (Data Science)",
+      "branch_id": "03c66973-679c-ec4c-c207-9d10a9fce7e6",
+      "file": "computer_science_engineering_data_science.json",
+      "semesters": 2,
+      "subjects": 36,
+      "subjects_with_units": 11,
+      "total_units": 48
+    },
+    {
+      "branch": "Computer Science & Engineering (IoT)",
+      "branch_id": "45b7eaa3-c929-18e6-998a-ac45b88fa398",
+      "file": "computer_science_engineering_iot.json",
+      "semesters": 3,
+      "subjects": 53,
+      "subjects_with_units": 48,
+      "total_units": 197
+    },
+    {
+      "branch": "Computer Science & Engineering (Networks)",
+      "branch_id": "7503ec53-3c83-1447-0033-71061b132cac",
+      "file": "computer_science_engineering_networks.json",
+      "semesters": 1,
+      "subjects": 15,
+      "subjects_with_units": 11,
+      "total_units": 49
+    },
+    {
+      "branch": "Electrical Engineering",
+      "branch_id": "aadf0437-4e41-f281-4bba-7030e13e5648",
+      "file": "electrical_engineering.json",
+      "semesters": 8,
+      "subjects": 189,
+      "subjects_with_units": 153,
+      "total_units": 470
+    },
+    {
+      "branch": "Electronics & Communication Engineering",
+      "branch_id": "b085e519-4e59-eb99-c95e-09a6d13d9ab6",
+      "file": "electronics_communication_engineering.json",
+      "semesters": 8,
+      "subjects": 100,
+      "subjects_with_units": 87,
+      "total_units": 287
+    },
+    {
+      "branch": "Electronics VLSI Design",
+      "branch_id": "e62ac933-a80a-aa46-6db7-9d0e56f62efb",
+      "file": "electronics_vlsi_design.json",
+      "semesters": 6,
+      "subjects": 66,
+      "subjects_with_units": 49,
+      "total_units": 166
+    },
+    {
+      "branch": "Fire Technology",
+      "branch_id": "89ceff8a-e009-68e5-64b3-04264b3c2f92",
+      "file": "fire_technology.json",
+      "semesters": 3,
+      "subjects": 31,
+      "subjects_with_units": 28,
+      "total_units": 91
+    },
+    {
+      "branch": "Food Processing Engineering",
+      "branch_id": "18c836ad-512c-4dae-c48e-0bf1a1fe82f7",
+      "file": "food_processing_engineering.json",
+      "semesters": 4,
+      "subjects": 41,
+      "subjects_with_units": 28,
+      "total_units": 83
+    },
+    {
+      "branch": "Information Technology",
+      "branch_id": "3816d3e8-4903-f1ce-adfc-4b6f3bdbc785",
+      "file": "information_technology.json",
+      "semesters": 3,
+      "subjects": 32,
+      "subjects_with_units": 14,
+      "total_units": 41
+    },
+    {
+      "branch": "Instrumentation & Control Engineering",
+      "branch_id": "c5261e45-d079-2376-1925-66e106657b57",
+      "file": "instrumentation_control_engineering.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 7,
+      "total_units": 17
+    },
+    {
+      "branch": "Leather Technology",
+      "branch_id": "64a41747-a709-a761-7479-d4ebc0858ea6",
+      "file": "leather_technology.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 7,
+      "total_units": 20
+    },
+    {
+      "branch": "Mathematics & Computing",
+      "branch_id": "17ebeb7e-94dd-1200-ac87-27e6d6cad323",
+      "file": "mathematics_computing.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 4,
+      "total_units": 10
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "branch_id": "cfc6da5e-6af9-5ad2-7463-0af546b09347",
+      "file": "mechanical_engineering.json",
+      "semesters": 8,
+      "subjects": 103,
+      "subjects_with_units": 85,
+      "total_units": 310
+    },
+    {
+      "branch": "Mechatronics / Smart Manufacturing",
+      "branch_id": "f8c54a4f-c28c-15a4-b0dc-f7bff4300179",
+      "file": "mechatronics_smart_manufacturing.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 7,
+      "total_units": 20
+    },
+    {
+      "branch": "Mining Engineering",
+      "branch_id": "f592af96-c93b-e93a-c4e4-7385ee88255c",
+      "file": "mining_engineering.json",
+      "semesters": 8,
+      "subjects": 106,
+      "subjects_with_units": 94,
+      "total_units": 346
+    },
+    {
+      "branch": "Petrochemical Engineering",
+      "branch_id": "37a0418e-b1bb-6b2a-4a15-54720068c28d",
+      "file": "petrochemical_engineering.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 7,
+      "total_units": 20
+    },
+    {
+      "branch": "Plastic & Polymer Engineering",
+      "branch_id": "40b672bb-a0e5-8263-c491-5ad32d7ff641",
+      "file": "plastic_polymer_engineering.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 7,
+      "total_units": 20
+    },
+    {
+      "branch": "Robotics Engineering",
+      "branch_id": "f8b1e8be-ae89-1706-0cce-793658b4ecfd",
+      "file": "robotics_engineering.json",
+      "semesters": 6,
+      "subjects": 69,
+      "subjects_with_units": 49,
+      "total_units": 152
+    },
+    {
+      "branch": "Waste Management",
+      "branch_id": "bd48533b-14b0-5240-3109-f520ce17f6ea",
+      "file": "waste_management.json",
+      "semesters": 1,
+      "subjects": 10,
+      "subjects_with_units": 7,
+      "total_units": 20
+    }
+  ]
+}

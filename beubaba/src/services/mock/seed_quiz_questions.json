@@ -1,0 +1,1750 @@
+[
+{
+"id": "q_100104_u0_001",
+"subject_code": "100104",
+"unit_index": 0,
+"topic": "Interference",
+"type": "single",
+"difficulty": "easy",
+"stem": "In Young’s double-slit experiment, the fringe width is directly proportional to",
+"options": [
+"the square of the wavelength",
+"the slit separation",
+"the wavelength of light",
+"the frequency of light"
+],
+"explanation": "Fringe width β = λD/d, so β ∝ λ.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100104_u0_002",
+"subject_code": "100104",
+"unit_index": 0,
+"topic": "Interference",
+"type": "single",
+"difficulty": "easy",
+"stem": "Two coherent sources are required for sustained interference because they must maintain a",
+"options": [
+"constant phase difference",
+"large intensity difference",
+"random phase difference",
+"different wavelength"
+],
+"explanation": "Sustained interference needs a constant (time-independent) phase relationship between sources.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100104_u0_003",
+"subject_code": "100104",
+"unit_index": 0,
+"topic": "Diffraction",
+"type": "single",
+"difficulty": "medium",
+"stem": "In a single-slit diffraction pattern, the width of the central maximum is",
+"options": [
+"twice that of secondary maxima",
+"half of secondary maxima",
+"independent of slit width",
+"equal to secondary maxima"
+],
+"explanation": "The central maximum spans 2λD/a, which is twice the width of each secondary maximum.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100104_u0_004",
+"subject_code": "100104",
+"unit_index": 0,
+"topic": "Polarisation",
+"type": "single",
+"difficulty": "easy",
+"stem": "Light can be polarised because it is a",
+"options": [
+"standing wave",
+"longitudinal wave",
+"transverse wave",
+"mechanical wave"
+],
+"explanation": "Only transverse waves have a vibration direction perpendicular to propagation, allowing polarisation.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100104_u1_005",
+"subject_code": "100104",
+"unit_index": 1,
+"topic": "Laser",
+"type": "single",
+"difficulty": "medium",
+"stem": "Population inversion in a laser means",
+"options": [
+"more atoms in the higher energy state than the lower",
+"no atoms in excited state",
+"all atoms in ground state",
+"equal atoms in both states"
+],
+"explanation": "Population inversion is a non-equilibrium state with more atoms in the upper level, enabling stimulated emission to dominate.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100104_u1_006",
+"subject_code": "100104",
+"unit_index": 1,
+"topic": "Laser",
+"type": "single",
+"difficulty": "easy",
+"stem": "The phenomenon responsible for light amplification in a laser is",
+"options": [
+"scattering",
+"stimulated emission",
+"spontaneous emission",
+"absorption"
+],
+"explanation": "Laser = Light Amplification by Stimulated Emission of Radiation.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100104_u1_007",
+"subject_code": "100104",
+"unit_index": 1,
+"topic": "Optical Fibre",
+"type": "single",
+"difficulty": "easy",
+"stem": "Optical fibres transmit light using the principle of",
+"options": [
+"polarisation",
+"diffraction",
+"dispersion",
+"total internal reflection"
+],
+"explanation": "Light stays confined in the core by repeated total internal reflection at the core-cladding boundary.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100104_u2_008",
+"subject_code": "100104",
+"unit_index": 2,
+"topic": "Quantum",
+"type": "single",
+"difficulty": "easy",
+"stem": "The de Broglie wavelength of a particle of momentum p is",
+"options": [
+"p/h",
+"h/p²",
+"hp",
+"h/p"
+],
+"explanation": "λ = h/p, where h is Planck’s constant.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100104_u2_009",
+"subject_code": "100104",
+"unit_index": 2,
+"topic": "Quantum",
+"type": "single",
+"difficulty": "medium",
+"stem": "Heisenberg’s uncertainty principle relates the uncertainties in",
+"options": [
+"charge and time",
+"position and momentum",
+"mass and velocity",
+"energy and charge"
+],
+"explanation": "Δx·Δp ≥ ħ/2; position and momentum cannot both be known exactly.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100104_u2_010",
+"subject_code": "100104",
+"unit_index": 2,
+"topic": "Quantum",
+"type": "single",
+"difficulty": "hard",
+"stem": "For which scattering angle is the Compton shift maximum?",
+"options": [
+"90°",
+"45°",
+"0°",
+"180°"
+],
+"explanation": "Compton shift Δλ = (h/m_ec)(1−cosθ) is maximum when cosθ = −1, i.e. θ = 180°.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100104_u2_011",
+"subject_code": "100104",
+"unit_index": 2,
+"topic": "Quantum",
+"type": "single",
+"difficulty": "medium",
+"stem": "A characteristic that a valid wave function must satisfy is that it is",
+"options": [
+"always real",
+"discontinuous",
+"infinite everywhere",
+"single valued, continuous and normalizable"
+],
+"explanation": "A physically acceptable ψ must be single-valued, continuous and square-integrable (normalizable).",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100104_u3_012",
+"subject_code": "100104",
+"unit_index": 3,
+"topic": "Dielectrics",
+"type": "single",
+"difficulty": "easy",
+"stem": "The dielectric constant of a perfect vacuum is",
+"options": [
+"1",
+"infinite",
+"0",
+"8.85×10⁻¹²"
+],
+"explanation": "Relative permittivity of vacuum is exactly 1 by definition.",
+"source": "BEU syllabus — Engineering Physics",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100103_u0_001",
+"subject_code": "100103",
+"unit_index": 0,
+"topic": "Atomic structure",
+"type": "single",
+"difficulty": "medium",
+"stem": "According to VSEPR theory, the shape of a molecule with four bonding pairs and no lone pair is",
+"options": [
+"tetrahedral",
+"square planar",
+"octahedral",
+"trigonal planar"
+],
+"explanation": "Four bonding pairs and no lone pair (AX4) arrange tetrahedrally to minimise repulsion, e.g. CH₄.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100103_u0_002",
+"subject_code": "100103",
+"unit_index": 0,
+"topic": "Atomic structure",
+"type": "single",
+"difficulty": "medium",
+"stem": "The molecule showing sp hybridisation of carbon is",
+"options": [
+"C₂H₄ (ethene)",
+"C₂H₂ (acetylene)",
+"CCl₄",
+"CH₄ (methane)"
+],
+"explanation": "Acetylene has a triple bond; each carbon is sp hybridised (two σ + two π bonds).",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100103_u1_003",
+"subject_code": "100103",
+"unit_index": 1,
+"topic": "Water",
+"type": "single",
+"difficulty": "easy",
+"stem": "Temporary hardness of water is caused by",
+"options": [
+"chlorides of calcium",
+"nitrates of sodium",
+"bicarbonates of calcium and magnesium",
+"sulphates of magnesium"
+],
+"explanation": "Temporary hardness is due to Ca/Mg bicarbonates and is removed by boiling.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100103_u1_004",
+"subject_code": "100103",
+"unit_index": 1,
+"topic": "Water",
+"type": "single",
+"difficulty": "easy",
+"stem": "The unit commonly used to express hardness of water is",
+"options": [
+"g/L of Mg",
+"ppm of CaCO₃",
+"mol/L of Ca",
+"pH"
+],
+"explanation": "Hardness is expressed as parts per million (ppm) of CaCO₃ equivalent.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100103_u1_005",
+"subject_code": "100103",
+"unit_index": 1,
+"topic": "Water",
+"type": "single",
+"difficulty": "medium",
+"stem": "The process of removing all ions from water using resins is called",
+"options": [
+"coagulation",
+"chlorination",
+"sedimentation",
+"demineralisation"
+],
+"explanation": "Ion-exchange (cation + anion resins) removes all ions, giving demineralised water.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100103_u2_006",
+"subject_code": "100103",
+"unit_index": 2,
+"topic": "Electrochemistry",
+"type": "single",
+"difficulty": "easy",
+"stem": "In a galvanic cell, oxidation occurs at the",
+"options": [
+"anode",
+"cathode",
+"electrolyte",
+"salt bridge"
+],
+"explanation": "By definition oxidation (loss of electrons) occurs at the anode in any electrochemical cell.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100103_u2_007",
+"subject_code": "100103",
+"unit_index": 2,
+"topic": "Electrochemistry",
+"type": "single",
+"difficulty": "medium",
+"stem": "The Nernst equation is used to calculate the",
+"options": [
+"electrode potential at non-standard conditions",
+"activation energy",
+"rate of reaction",
+"molar mass"
+],
+"explanation": "The Nernst equation gives cell/electrode potential as a function of concentration and temperature.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100103_u2_008",
+"subject_code": "100103",
+"unit_index": 2,
+"topic": "Corrosion",
+"type": "single",
+"difficulty": "easy",
+"stem": "Rusting of iron is an example of",
+"options": [
+"physical weathering",
+"electrochemical corrosion",
+"sublimation",
+"dry corrosion only"
+],
+"explanation": "Rusting is electrochemical (wet) corrosion requiring water and oxygen, forming hydrated iron oxide.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100103_u3_009",
+"subject_code": "100103",
+"unit_index": 3,
+"topic": "Fuels",
+"type": "single",
+"difficulty": "medium",
+"stem": "The calorific value of a fuel is highest for",
+"options": [
+"hydrogen",
+"petrol",
+"wood",
+"coal"
+],
+"explanation": "Hydrogen has the highest calorific value (~142 MJ/kg) among common fuels.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100103_u3_010",
+"subject_code": "100103",
+"unit_index": 3,
+"topic": "Polymers",
+"type": "single",
+"difficulty": "medium",
+"stem": "Bakelite is an example of a",
+"options": [
+"thermosetting polymer",
+"natural fibre",
+"thermoplastic",
+"elastomer"
+],
+"explanation": "Bakelite (phenol-formaldehyde) is a cross-linked thermosetting polymer that cannot be remoulded.",
+"source": "BEU syllabus — Engineering Chemistry",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100102_u0_001",
+"subject_code": "100102",
+"unit_index": 0,
+"topic": "Matrices",
+"type": "single",
+"difficulty": "medium",
+"stem": "The rank of a non-zero 3×3 matrix whose determinant is zero is at most",
+"options": [
+"1",
+"2",
+"3",
+"0"
+],
+"explanation": "A zero determinant means the matrix is singular, so rank < 3, i.e. at most 2.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100102_u0_002",
+"subject_code": "100102",
+"unit_index": 0,
+"topic": "Matrices",
+"type": "single",
+"difficulty": "medium",
+"stem": "A square matrix A is called orthogonal if",
+"options": [
+"AᵀA = I",
+"Aᵀ = A",
+"det A = 0",
+"A² = I"
+],
+"explanation": "Orthogonal matrices satisfy AᵀA = AAᵀ = I, so Aᵀ = A⁻¹.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100102_u0_003",
+"subject_code": "100102",
+"unit_index": 0,
+"topic": "Eigenvalues",
+"type": "single",
+"difficulty": "medium",
+"stem": "The sum of the eigenvalues of a square matrix equals its",
+"options": [
+"determinant",
+"trace",
+"rank",
+"order"
+],
+"explanation": "The sum of eigenvalues equals the trace (sum of diagonal elements); the product equals the determinant.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100102_u1_004",
+"subject_code": "100102",
+"unit_index": 1,
+"topic": "Differential Calculus",
+"type": "single",
+"difficulty": "easy",
+"stem": "If y = e^{ax}, then the n-th derivative dⁿy/dxⁿ is",
+"options": [
+"aⁿ e^{ax}",
+"e^{ax}",
+"a e^{ax}",
+"n·e^{ax}"
+],
+"explanation": "Each differentiation multiplies by a, so the n-th derivative is aⁿ e^{ax}.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100102_u1_005",
+"subject_code": "100102",
+"unit_index": 1,
+"topic": "Mean Value Theorem",
+"type": "single",
+"difficulty": "medium",
+"stem": "Rolle’s theorem requires the function to be continuous on [a,b], differentiable on (a,b) and",
+"options": [
+"f′(a) = 0",
+"f(a) = f(b)",
+"f(b) = 0",
+"f(a) = 0"
+],
+"explanation": "Rolle’s theorem additionally needs equal end values f(a)=f(b) to guarantee f′(c)=0.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100102_u2_006",
+"subject_code": "100102",
+"unit_index": 2,
+"topic": "Partial Differentiation",
+"type": "single",
+"difficulty": "medium",
+"stem": "A function f(x,y) is homogeneous of degree n if f(tx,ty) equals",
+"options": [
+"tⁿ f(x,y)",
+"n·f(x,y)",
+"t f(x,y)",
+"f(x,y)/tⁿ"
+],
+"explanation": "By definition of homogeneity of degree n, f(tx,ty) = tⁿ f(x,y) (Euler’s theorem).",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100102_u2_007",
+"subject_code": "100102",
+"unit_index": 2,
+"topic": "Maxima-Minima",
+"type": "single",
+"difficulty": "hard",
+"stem": "For f(x,y), a point is a saddle point when rt − s² is",
+"options": [
+"negative",
+"equal to one",
+"zero",
+"positive"
+],
+"explanation": "With r=f_xx, t=f_yy, s=f_xy: rt−s²<0 indicates a saddle point.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100102_u3_008",
+"subject_code": "100102",
+"unit_index": 3,
+"topic": "Integration",
+"type": "single",
+"difficulty": "medium",
+"stem": "The value of ∫₀^{π/2} sin²x dx is",
+"options": [
+"π/4",
+"π/2",
+"1",
+"π"
+],
+"explanation": "∫₀^{π/2} sin²x dx = π/4 by the standard reduction/Wallis formula.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100102_u3_009",
+"subject_code": "100102",
+"unit_index": 3,
+"topic": "Beta-Gamma",
+"type": "single",
+"difficulty": "medium",
+"stem": "The value of Γ(1/2) is",
+"options": [
+"π",
+"√π",
+"1",
+"√π/2"
+],
+"explanation": "Γ(1/2) = √π is a standard result of the gamma function.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100102_u3_010",
+"subject_code": "100102",
+"unit_index": 3,
+"topic": "Vector Calculus",
+"type": "single",
+"difficulty": "easy",
+"stem": "The divergence of a vector field gives a",
+"options": [
+"vector",
+"tensor",
+"matrix",
+"scalar"
+],
+"explanation": "div F = ∇·F is a scalar; curl gives a vector.",
+"source": "BEU syllabus — Engineering Mathematics - I",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100203_u0_001",
+"subject_code": "100203",
+"unit_index": 0,
+"topic": "Basics",
+"type": "single",
+"difficulty": "easy",
+"stem": "Which of the following is NOT a valid C keyword?",
+"options": [
+"continue",
+"function",
+"return",
+"static"
+],
+"explanation": "“function” is not a C keyword; return, static and continue are.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100203_u0_002",
+"subject_code": "100203",
+"unit_index": 0,
+"topic": "Data types",
+"type": "single",
+"difficulty": "medium",
+"stem": "The size of int in C is",
+"options": [
+"always 4 bytes",
+"compiler/architecture dependent",
+"always 2 bytes",
+"always 8 bytes"
+],
+"explanation": "The C standard only fixes minimum sizes; int width depends on the compiler/architecture.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100203_u0_003",
+"subject_code": "100203",
+"unit_index": 0,
+"topic": "Operators",
+"type": "single",
+"difficulty": "easy",
+"stem": "The output of the expression 5/2 in C (integer division) is",
+"options": [
+"2.0",
+"3",
+"2.5",
+"2"
+],
+"explanation": "Integer division truncates toward zero, so 5/2 = 2.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100203_u1_004",
+"subject_code": "100203",
+"unit_index": 1,
+"topic": "Control flow",
+"type": "single",
+"difficulty": "easy",
+"stem": "How many times does the loop `for(i=0;i<5;i++)` execute its body?",
+"options": [
+"5",
+"4",
+"6",
+"infinite"
+],
+"explanation": "i runs 0,1,2,3,4 — five iterations before i<5 fails.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100203_u1_005",
+"subject_code": "100203",
+"unit_index": 1,
+"topic": "Control flow",
+"type": "single",
+"difficulty": "medium",
+"stem": "A `switch` statement without `break` in its cases leads to",
+"options": [
+"a compile error",
+"an infinite loop",
+"fall-through to subsequent cases",
+"only the first case running"
+],
+"explanation": "Without break, control falls through and executes following cases too.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100203_u2_006",
+"subject_code": "100203",
+"unit_index": 2,
+"topic": "Functions",
+"type": "single",
+"difficulty": "medium",
+"stem": "In C, arguments are passed to functions by default using",
+"options": [
+"call by value",
+"call by name",
+"call by reference",
+"call by pointer"
+],
+"explanation": "C passes arguments by value; reference semantics require passing pointers explicitly.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100203_u2_007",
+"subject_code": "100203",
+"unit_index": 2,
+"topic": "Recursion",
+"type": "single",
+"difficulty": "easy",
+"stem": "A recursive function must have a",
+"options": [
+"global variable",
+"base case to terminate",
+"while loop",
+"static array"
+],
+"explanation": "Without a base case the recursion never stops, causing a stack overflow.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100203_u3_008",
+"subject_code": "100203",
+"unit_index": 3,
+"topic": "Arrays & Pointers",
+"type": "single",
+"difficulty": "medium",
+"stem": "For an array `a`, the expression `a[i]` is equivalent to",
+"options": [
+"*(a) + i",
+"*(i)",
+"*(a + i)",
+"a + i"
+],
+"explanation": "Array indexing is pointer arithmetic: a[i] == *(a+i).",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100203_u3_009",
+"subject_code": "100203",
+"unit_index": 3,
+"topic": "Pointers",
+"type": "single",
+"difficulty": "hard",
+"stem": "If p is a pointer to int, then p++ increases the address stored in p by",
+"options": [
+"1 byte",
+"0",
+"sizeof(int) bytes",
+"4 bits"
+],
+"explanation": "Pointer arithmetic scales by the pointed-to type size, so p++ advances by sizeof(int).",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100203_u3_010",
+"subject_code": "100203",
+"unit_index": 3,
+"topic": "Strings",
+"type": "single",
+"difficulty": "easy",
+"stem": "In C, a string is terminated by the character",
+"options": [
+"space",
+"\\n",
+"EOF",
+"\\0 (null character)"
+],
+"explanation": "C strings are null-terminated; the ‘\\0’ marks the end.",
+"source": "BEU syllabus — Programming for Problem Solving",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_100212_u0_001",
+"subject_code": "100212",
+"unit_index": 0,
+"topic": "DC Circuits",
+"type": "single",
+"difficulty": "easy",
+"stem": "Kirchhoff’s current law (KCL) is based on the conservation of",
+"options": [
+"charge",
+"momentum",
+"energy",
+"mass"
+],
+"explanation": "KCL (ΣI at a node = 0) expresses conservation of charge.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100212_u0_002",
+"subject_code": "100212",
+"unit_index": 0,
+"topic": "DC Circuits",
+"type": "single",
+"difficulty": "easy",
+"stem": "Kirchhoff’s voltage law (KVL) is based on the conservation of",
+"options": [
+"flux",
+"charge",
+"energy",
+"power"
+],
+"explanation": "KVL (ΣV around a loop = 0) expresses conservation of energy.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100212_u0_003",
+"subject_code": "100212",
+"unit_index": 0,
+"topic": "DC Circuits",
+"type": "single",
+"difficulty": "easy",
+"stem": "Three equal resistors R in parallel give an equivalent resistance of",
+"options": [
+"R",
+"3R",
+"R/3",
+"R²"
+],
+"explanation": "For n equal resistors in parallel, R_eq = R/n = R/3.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100212_u1_004",
+"subject_code": "100212",
+"unit_index": 1,
+"topic": "AC Fundamentals",
+"type": "single",
+"difficulty": "medium",
+"stem": "The RMS value of a sinusoidal voltage of peak Vm is",
+"options": [
+"Vm",
+"2Vm/π",
+"Vm/√2",
+"Vm·√2"
+],
+"explanation": "For a sine wave, V_rms = V_m/√2 ≈ 0.707 V_m.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100212_u1_005",
+"subject_code": "100212",
+"unit_index": 1,
+"topic": "AC Fundamentals",
+"type": "single",
+"difficulty": "medium",
+"stem": "In a purely inductive AC circuit, the current",
+"options": [
+"lags by 45°",
+"lags the voltage by 90°",
+"is in phase with voltage",
+"leads the voltage by 90°"
+],
+"explanation": "In a pure inductor current lags voltage by 90° (ELI).",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_100212_u1_006",
+"subject_code": "100212",
+"unit_index": 1,
+"topic": "AC Fundamentals",
+"type": "single",
+"difficulty": "easy",
+"stem": "Power factor is defined as the cosine of the angle between",
+"options": [
+"voltage and current",
+"resistance and reactance",
+"power and energy",
+"two currents"
+],
+"explanation": "Power factor = cosφ, where φ is the phase angle between voltage and current.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100212_u2_007",
+"subject_code": "100212",
+"unit_index": 2,
+"topic": "Transformers",
+"type": "single",
+"difficulty": "easy",
+"stem": "A transformer works on the principle of",
+"options": [
+"mutual induction",
+"electrostatic induction",
+"the Hall effect",
+"self induction only"
+],
+"explanation": "A transformer transfers energy between windings by mutual electromagnetic induction.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100212_u2_008",
+"subject_code": "100212",
+"unit_index": 2,
+"topic": "Transformers",
+"type": "single",
+"difficulty": "medium",
+"stem": "A transformer cannot operate on",
+"options": [
+"DC supply",
+"AC supply",
+"sinusoidal supply",
+"50 Hz supply"
+],
+"explanation": "DC produces no changing flux, so no EMF is induced; transformers need AC.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_100212_u3_009",
+"subject_code": "100212",
+"unit_index": 3,
+"topic": "Machines",
+"type": "single",
+"difficulty": "medium",
+"stem": "The direction of force on a current-carrying conductor in a magnetic field is given by",
+"options": [
+"Coulomb’s law",
+"Fleming’s right-hand rule",
+"Fleming’s left-hand rule",
+"Lenz’s law"
+],
+"explanation": "Fleming’s left-hand rule gives force direction (motor rule); right-hand is for generated EMF.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_100212_u3_010",
+"subject_code": "100212",
+"unit_index": 3,
+"topic": "Measurement",
+"type": "single",
+"difficulty": "hard",
+"stem": "A moving-coil instrument can measure",
+"options": [
+"both AC and DC directly",
+"AC only",
+"neither",
+"DC only (directly)"
+],
+"explanation": "PMMC (moving-coil) meters respond to average value and read DC directly; AC needs a rectifier.",
+"source": "BEU syllabus — Basic Electrical Engineering",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105302_u0_001",
+"subject_code": "105302",
+"unit_index": 0,
+"topic": "Complexity",
+"type": "single",
+"difficulty": "easy",
+"stem": "The time complexity of binary search on a sorted array of n elements is",
+"options": [
+"O(log n)",
+"O(n log n)",
+"O(n)",
+"O(1)"
+],
+"explanation": "Binary search halves the search space each step, giving O(log n).",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105302_u0_002",
+"subject_code": "105302",
+"unit_index": 0,
+"topic": "Complexity",
+"type": "single",
+"difficulty": "medium",
+"stem": "Which sorting algorithm has the best worst-case time complexity?",
+"options": [
+"Selection sort — O(n²)",
+"Merge sort — O(n log n)",
+"Insertion sort — O(n²)",
+"Bubble sort — O(n²)"
+],
+"explanation": "Merge sort guarantees O(n log n) in the worst case; the others are O(n²).",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_105302_u1_003",
+"subject_code": "105302",
+"unit_index": 1,
+"topic": "Stack",
+"type": "single",
+"difficulty": "easy",
+"stem": "A stack follows the order",
+"options": [
+"random access",
+"FIFO (first in, first out)",
+"priority order",
+"LIFO (last in, first out)"
+],
+"explanation": "A stack is Last-In-First-Out; the most recently pushed element is popped first.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105302_u1_004",
+"subject_code": "105302",
+"unit_index": 1,
+"topic": "Queue",
+"type": "single",
+"difficulty": "easy",
+"stem": "Which data structure is most suitable for implementing a scheduler’s ready list (first come first served)?",
+"options": [
+"Binary tree",
+"Stack",
+"Graph",
+"Queue"
+],
+"explanation": "FCFS scheduling needs FIFO ordering, which a queue provides.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105302_u1_005",
+"subject_code": "105302",
+"unit_index": 1,
+"topic": "Expression",
+"type": "single",
+"difficulty": "medium",
+"stem": "Postfix (Reverse Polish) evaluation is typically done using a",
+"options": [
+"queue",
+"heap",
+"stack",
+"linked list"
+],
+"explanation": "Operands are pushed and operators pop operands from a stack during postfix evaluation.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105302_u2_006",
+"subject_code": "105302",
+"unit_index": 2,
+"topic": "Trees",
+"type": "single",
+"difficulty": "hard",
+"stem": "An AVL tree imbalance of type LL is corrected by a",
+"options": [
+"single left rotation",
+"left-right rotation",
+"single right rotation",
+"right-left rotation"
+],
+"explanation": "A left-left (LL) imbalance is fixed by a single right rotation about the unbalanced node.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105302_u2_007",
+"subject_code": "105302",
+"unit_index": 2,
+"topic": "Trees",
+"type": "single",
+"difficulty": "medium",
+"stem": "In a binary search tree, an in-order traversal visits the nodes in",
+"options": [
+"level order",
+"ascending sorted order",
+"random order",
+"descending order"
+],
+"explanation": "In-order traversal of a BST yields keys in ascending sorted order.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_105302_u2_008",
+"subject_code": "105302",
+"unit_index": 2,
+"topic": "Trees",
+"type": "single",
+"difficulty": "medium",
+"stem": "The maximum number of nodes in a binary tree of height h (root at height 0) is",
+"options": [
+"2h",
+"h²",
+"2^(h+1) − 1",
+"2^h"
+],
+"explanation": "A full binary tree of height h has 2^(h+1)−1 nodes.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105302_u3_009",
+"subject_code": "105302",
+"unit_index": 3,
+"topic": "Graphs",
+"type": "single",
+"difficulty": "medium",
+"stem": "Breadth-first search of a graph uses a",
+"options": [
+"tree",
+"queue",
+"stack",
+"priority queue"
+],
+"explanation": "BFS explores level by level using a FIFO queue.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_105302_u3_010",
+"subject_code": "105302",
+"unit_index": 3,
+"topic": "Graphs",
+"type": "single",
+"difficulty": "hard",
+"stem": "Dijkstra’s shortest path algorithm fails when the graph has",
+"options": [
+"negative edge weights",
+"undirected edges",
+"cycles",
+"many vertices"
+],
+"explanation": "Dijkstra assumes non-negative weights; negative edges break its greedy correctness (use Bellman-Ford).",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105302_u3_011",
+"subject_code": "105302",
+"unit_index": 3,
+"topic": "Hashing",
+"type": "single",
+"difficulty": "medium",
+"stem": "Collision resolution by chaining stores colliding elements in",
+"options": [
+"a stack",
+"a linked list at the bucket",
+"the next empty slot",
+"a separate array"
+],
+"explanation": "Separate chaining keeps a linked list of entries hashing to the same bucket.",
+"source": "BEU syllabus — Data Structure and Algorithms",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_105305_u0_001",
+"subject_code": "105305",
+"unit_index": 0,
+"topic": "Basics",
+"type": "single",
+"difficulty": "easy",
+"stem": "The primary purpose of an operating system is to",
+"options": [
+"host websites",
+"design circuits",
+"compile source code",
+"manage hardware resources and provide services to programs"
+],
+"explanation": "An OS manages CPU, memory, I/O and files, and provides an interface/services to applications.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105305_u1_002",
+"subject_code": "105305",
+"unit_index": 1,
+"topic": "Process",
+"type": "single",
+"difficulty": "medium",
+"stem": "A process control block (PCB) does NOT contain",
+"options": [
+"the source code of the compiler",
+"CPU registers",
+"the process state",
+"program counter"
+],
+"explanation": "The PCB stores process state, PC, registers, scheduling info — not the compiler’s source code.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105305_u1_003",
+"subject_code": "105305",
+"unit_index": 1,
+"topic": "Scheduling",
+"type": "single",
+"difficulty": "medium",
+"stem": "Which scheduling algorithm can cause starvation of long processes?",
+"options": [
+"Shortest Job First",
+"First Come First Served",
+"FIFO",
+"Round Robin"
+],
+"explanation": "SJF/priority scheduling can starve long (or low-priority) jobs if short jobs keep arriving.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105305_u1_004",
+"subject_code": "105305",
+"unit_index": 1,
+"topic": "Scheduling",
+"type": "single",
+"difficulty": "easy",
+"stem": "Round-robin scheduling is most characterised by its",
+"options": [
+"priority levels",
+"deadline",
+"time quantum",
+"job length estimate"
+],
+"explanation": "Round robin allocates a fixed time quantum to each process cyclically.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105305_u2_005",
+"subject_code": "105305",
+"unit_index": 2,
+"topic": "Synchronization",
+"type": "single",
+"difficulty": "hard",
+"stem": "A deadlock cannot occur if we prevent",
+"options": [
+"context switching",
+"multithreading",
+"paging",
+"at least one of the four Coffman conditions"
+],
+"explanation": "Breaking any one of mutual exclusion, hold-and-wait, no-preemption, or circular wait prevents deadlock.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105305_u2_006",
+"subject_code": "105305",
+"unit_index": 2,
+"topic": "Synchronization",
+"type": "single",
+"difficulty": "medium",
+"stem": "A semaphore that can take only values 0 and 1 is called a",
+"options": [
+"counting semaphore",
+"monitor",
+"binary semaphore",
+"mutex array"
+],
+"explanation": "A binary semaphore is restricted to {0,1}; a counting semaphore may take any non-negative value.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105305_u3_007",
+"subject_code": "105305",
+"unit_index": 3,
+"topic": "Memory",
+"type": "single",
+"difficulty": "hard",
+"stem": "Which page replacement algorithm can suffer from Belady’s anomaly?",
+"options": [
+"Optimal",
+"MRU",
+"LRU",
+"FIFO"
+],
+"explanation": "FIFO can show Belady’s anomaly (more frames → more faults); stack algorithms like LRU cannot.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105305_u3_008",
+"subject_code": "105305",
+"unit_index": 3,
+"topic": "Memory",
+"type": "single",
+"difficulty": "medium",
+"stem": "The technique that allows a process larger than physical memory to run is",
+"options": [
+"compaction",
+"segmentation only",
+"virtual memory (paging/demand paging)",
+"swapping only"
+],
+"explanation": "Virtual memory with demand paging loads only needed pages, letting large processes run.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105305_u3_009",
+"subject_code": "105305",
+"unit_index": 3,
+"topic": "Memory",
+"type": "single",
+"difficulty": "medium",
+"stem": "Thrashing occurs when a system spends most of its time",
+"options": [
+"paging/swapping instead of executing",
+"in idle state",
+"compiling",
+"executing user code"
+],
+"explanation": "Thrashing is excessive paging due to insufficient frames, so little useful work is done.",
+"source": "BEU syllabus — Operating System",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105406_u0_001",
+"subject_code": "105406",
+"unit_index": 0,
+"topic": "OSI Model",
+"type": "single",
+"difficulty": "easy",
+"stem": "How many layers does the OSI reference model have?",
+"options": [
+"8",
+"5",
+"4",
+"7"
+],
+"explanation": "The OSI model has 7 layers: physical, data link, network, transport, session, presentation, application.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_105406_u0_002",
+"subject_code": "105406",
+"unit_index": 0,
+"topic": "OSI Model",
+"type": "single",
+"difficulty": "medium",
+"stem": "Routing of packets across networks is the responsibility of the",
+"options": [
+"data link layer",
+"network layer",
+"session layer",
+"transport layer"
+],
+"explanation": "The network layer (e.g. IP) handles logical addressing and routing between networks.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_105406_u0_003",
+"subject_code": "105406",
+"unit_index": 0,
+"topic": "OSI Model",
+"type": "single",
+"difficulty": "medium",
+"stem": "Reliable end-to-end delivery and flow control are provided by the",
+"options": [
+"application layer",
+"physical layer",
+"transport layer",
+"network layer"
+],
+"explanation": "The transport layer (e.g. TCP) provides reliable, ordered, end-to-end delivery.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105406_u1_004",
+"subject_code": "105406",
+"unit_index": 1,
+"topic": "TCP/IP",
+"type": "single",
+"difficulty": "easy",
+"stem": "Which protocol is connection-oriented and reliable?",
+"options": [
+"UDP",
+"IP",
+"TCP",
+"ICMP"
+],
+"explanation": "TCP is connection-oriented with acknowledgements and retransmission; UDP is connectionless.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105406_u1_005",
+"subject_code": "105406",
+"unit_index": 1,
+"topic": "TCP/IP",
+"type": "single",
+"difficulty": "medium",
+"stem": "The default subnet mask for a Class C IPv4 network is",
+"options": [
+"255.255.255.0",
+"255.255.0.0",
+"255.0.0.0",
+"255.255.255.255"
+],
+"explanation": "Class C uses a 24-bit network portion: 255.255.255.0.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105406_u1_006",
+"subject_code": "105406",
+"unit_index": 1,
+"topic": "TCP/IP",
+"type": "single",
+"difficulty": "easy",
+"stem": "An IPv4 address is how many bits long?",
+"options": [
+"32",
+"64",
+"16",
+"128"
+],
+"explanation": "IPv4 addresses are 32 bits; IPv6 addresses are 128 bits.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105406_u2_007",
+"subject_code": "105406",
+"unit_index": 2,
+"topic": "Data Link",
+"type": "single",
+"difficulty": "medium",
+"stem": "The CRC (cyclic redundancy check) is used for",
+"options": [
+"error detection",
+"compression",
+"encryption",
+"routing"
+],
+"explanation": "CRC is an error-detection code appended by the data link layer.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 0
+},
+{
+"id": "q_105406_u2_008",
+"subject_code": "105406",
+"unit_index": 2,
+"topic": "Data Link",
+"type": "single",
+"difficulty": "medium",
+"stem": "Which access method is used by classic Ethernet?",
+"options": [
+"CSMA/CA",
+"Polling",
+"CSMA/CD",
+"Token passing"
+],
+"explanation": "Classic (shared) Ethernet uses CSMA/CD; Wi-Fi uses CSMA/CA.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_105406_u3_009",
+"subject_code": "105406",
+"unit_index": 3,
+"topic": "Application",
+"type": "single",
+"difficulty": "easy",
+"stem": "DNS primarily translates",
+"options": [
+"URLs to ports",
+"domain names to IP addresses",
+"ports to sockets",
+"IP to MAC addresses"
+],
+"explanation": "DNS resolves human-readable domain names into IP addresses.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_105406_u3_010",
+"subject_code": "105406",
+"unit_index": 3,
+"topic": "Application",
+"type": "single",
+"difficulty": "easy",
+"stem": "Which protocol is used to send email between mail servers?",
+"options": [
+"HTTP",
+"FTP",
+"SMTP",
+"SNMP"
+],
+"explanation": "SMTP (Simple Mail Transfer Protocol) transfers email; POP/IMAP retrieve it.",
+"source": "BEU syllabus — Computer Networks",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_119601_u0_001",
+"subject_code": "119601",
+"unit_index": 0,
+"topic": "Basics",
+"type": "single",
+"difficulty": "easy",
+"stem": "A collection of logically related data and a set of programs to access it is called a",
+"options": [
+"file system",
+"database management system",
+"spreadsheet",
+"compiler"
+],
+"explanation": "A DBMS is software managing a database plus access programs.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 1
+},
+{
+"id": "q_119601_u0_002",
+"subject_code": "119601",
+"unit_index": 0,
+"topic": "Model",
+"type": "single",
+"difficulty": "easy",
+"stem": "In the relational model, a row of a table is formally called a",
+"options": [
+"attribute",
+"domain",
+"schema",
+"tuple"
+],
+"explanation": "A row is a tuple; a column is an attribute; the set of allowed values is the domain.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_119601_u1_003",
+"subject_code": "119601",
+"unit_index": 1,
+"topic": "Keys",
+"type": "single",
+"difficulty": "medium",
+"stem": "A candidate key that is chosen to uniquely identify tuples is the",
+"options": [
+"super key",
+"foreign key",
+"primary key",
+"secondary key"
+],
+"explanation": "The primary key is the selected candidate key; a foreign key references another relation’s key.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_119601_u1_004",
+"subject_code": "119601",
+"unit_index": 1,
+"topic": "Keys",
+"type": "single",
+"difficulty": "medium",
+"stem": "A foreign key in a relation refers to the",
+"options": [
+"a view",
+"a non-key attribute",
+"an index",
+"primary key of another (or same) relation"
+],
+"explanation": "A foreign key enforces referential integrity by referencing a primary key.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_119601_u2_005",
+"subject_code": "119601",
+"unit_index": 2,
+"topic": "Normalization",
+"type": "single",
+"difficulty": "medium",
+"stem": "A relation is in 1NF if all its attributes are",
+"options": [
+"candidate keys",
+"functionally dependent",
+"indexed",
+"atomic (indivisible)"
+],
+"explanation": "First normal form requires atomic, single-valued attributes (no repeating groups).",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_119601_u2_006",
+"subject_code": "119601",
+"unit_index": 2,
+"topic": "Normalization",
+"type": "single",
+"difficulty": "hard",
+"stem": "Which normal form removes transitive dependency on the primary key?",
+"options": [
+"1NF",
+"2NF",
+"3NF",
+"BCNF"
+],
+"explanation": "Third normal form eliminates transitive dependencies of non-key attributes on the key.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_119601_u2_007",
+"subject_code": "119601",
+"unit_index": 2,
+"topic": "Normalization",
+"type": "single",
+"difficulty": "hard",
+"stem": "2NF removes",
+"options": [
+"transitive dependency",
+"multivalued dependency",
+"partial dependency on a composite key",
+"join dependency"
+],
+"explanation": "Second normal form removes partial dependencies (non-key attributes depending on part of a composite key).",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 2
+},
+{
+"id": "q_119601_u3_008",
+"subject_code": "119601",
+"unit_index": 3,
+"topic": "SQL",
+"type": "single",
+"difficulty": "medium",
+"stem": "Which SQL clause is used to filter rows before grouping?",
+"options": [
+"ORDER BY",
+"GROUP BY",
+"HAVING",
+"WHERE"
+],
+"explanation": "WHERE filters rows before aggregation; HAVING filters groups after GROUP BY.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_119601_u3_009",
+"subject_code": "119601",
+"unit_index": 3,
+"topic": "SQL",
+"type": "single",
+"difficulty": "medium",
+"stem": "The SQL command to remove a table structure and its data completely is",
+"options": [
+"ALTER",
+"DELETE",
+"TRUNCATE",
+"DROP TABLE"
+],
+"explanation": "DROP TABLE removes the table definition and data; DELETE/TRUNCATE remove only rows.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 3
+},
+{
+"id": "q_119601_u3_010",
+"subject_code": "119601",
+"unit_index": 3,
+"topic": "Transactions",
+"type": "single",
+"difficulty": "medium",
+"stem": "The property ensuring a transaction is all-or-nothing is",
+"options": [
+"durability",
+"isolation",
+"atomicity",
+"consistency"
+],
+"explanation": "Atomicity (the A in ACID) guarantees a transaction executes fully or not at all.",
+"source": "BEU syllabus — Database Management Systems",
+"verified": true,
+"correct_index": 2
+}
+]

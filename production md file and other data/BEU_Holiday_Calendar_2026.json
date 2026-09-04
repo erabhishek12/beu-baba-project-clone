@@ -1,0 +1,263 @@
+{
+  "calendar": {
+    "title": "BEU Holiday Calendar 2026",
+    "title_hi": "बिहार अभियंत्रण विश्वविद्यालय, पटना — अवकाश तालिका 2026",
+    "university": "Bihar Engineering University, Patna",
+    "year": 2026,
+    "type": "holiday_calendar",
+    "source": "Uploaded BEU Holiday 2026 calendar image",
+    "official_total": {
+      "holiday_days": 65,
+      "sundays": 8,
+      "total": 73
+    },
+    "notes": [
+      "Republic Day (26 January) and Independence Day (15 August) are to be observed according to applicable rules.",
+      "Muslim festival holiday dates may be changed according to the relevant government order.",
+      "Additional holidays may be declared by government order.",
+      "The June summer vacation entry is specifically for teachers."
+    ],
+    "holidays": [
+      {
+        "id": 1,
+        "name": "New Year",
+        "name_hi": "नववर्ष आरंभ",
+        "date": "2026-01-01",
+        "day": "Thursday",
+        "holiday_days": 1
+      },
+      {
+        "id": 2,
+        "name": "Makar Sankranti",
+        "name_hi": "मकर संक्रांति",
+        "date": "2026-01-14",
+        "day": "Wednesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 3,
+        "name": "Basant Panchami / Saraswati Puja",
+        "name_hi": "वसंत पंचमी / सरस्वती पूजा",
+        "date": "2026-01-23",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 4,
+        "name": "Sant Ravidas Jayanti",
+        "name_hi": "संत रविदास जयंती",
+        "date": "2026-02-01",
+        "day": "Sunday",
+        "holiday_days": 0
+      },
+      {
+        "id": 5,
+        "name": "Shab-e-Barat",
+        "name_hi": "शब-ए-बारात",
+        "date": "2026-02-04",
+        "day": "Wednesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 6,
+        "name": "Maha Shivratri",
+        "name_hi": "महाशिवरात्रि",
+        "date": "2026-02-15",
+        "day": "Sunday",
+        "holiday_days": 0
+      },
+      {
+        "id": 7,
+        "name": "Holika Dahan / Holi",
+        "name_hi": "होलिकादहन / होली",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-04",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "holiday_days": 3
+      },
+      {
+        "id": 8,
+        "name": "Eid-ul-Fitr",
+        "name_hi": "ईद-उल-फितर",
+        "date": "2026-03-21",
+        "day": "Saturday",
+        "holiday_days": 1
+      },
+      {
+        "id": 9,
+        "name": "Bihar Diwas",
+        "name_hi": "बिहार दिवस",
+        "date": "2026-03-22",
+        "day": "Sunday",
+        "holiday_days": 0
+      },
+      {
+        "id": 10,
+        "name": "Emperor Ashoka Jayanti",
+        "name_hi": "सम्राट अशोक जयंती",
+        "date": "2026-03-26",
+        "day": "Thursday",
+        "holiday_days": 1
+      },
+      {
+        "id": 11,
+        "name": "Ram Navami",
+        "name_hi": "रामनवमी",
+        "date": "2026-03-27",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 12,
+        "name": "Mahavir Jayanti",
+        "name_hi": "महावीर जयंती",
+        "date": "2026-03-31",
+        "day": "Tuesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 13,
+        "name": "Good Friday",
+        "name_hi": "गुड फ्राइडे",
+        "date": "2026-04-03",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 14,
+        "name": "Dr. B. R. Ambedkar Jayanti",
+        "name_hi": "डॉ. भीम राव अंबेडकर जयंती",
+        "date": "2026-04-14",
+        "day": "Tuesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 15,
+        "name": "Veer Kunwar Singh Jayanti",
+        "name_hi": "वीर कुँवर सिंह जयंती",
+        "date": "2026-04-23",
+        "day": "Thursday",
+        "holiday_days": 1
+      },
+      {
+        "id": 16,
+        "name": "Janki Navami",
+        "name_hi": "जानकी नवमी",
+        "date": "2026-04-25",
+        "day": "Saturday",
+        "holiday_days": 1
+      },
+      {
+        "id": 17,
+        "name": "May Day / Labour Day / Buddha Purnima",
+        "name_hi": "मई दिवस / श्रम दिवस / बुद्ध पूर्णिमा",
+        "date": "2026-05-01",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 18,
+        "name": "Eid-ul-Adha / Bakrid",
+        "name_hi": "ईद-उल-जोहा (बकरीद)",
+        "date": "2026-05-28",
+        "day": "Thursday",
+        "holiday_days": 1
+      },
+      {
+        "id": 19,
+        "name": "Summer Vacation (Teachers Only) / Muharram / Kabir Jayanti",
+        "name_hi": "ग्रीष्मावकाश (केवल शिक्षकों के लिए) / मुहर्रम / कबीर जयंती",
+        "start_date": "2026-06-01",
+        "end_date": "2026-06-30",
+        "holiday_days": 26,
+        "sundays": 4,
+        "note": "Summer vacation is specifically for teachers."
+      },
+      {
+        "id": 20,
+        "name": "Chehlum",
+        "name_hi": "चेहल्लुम",
+        "date": "2026-08-04",
+        "day": "Tuesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 21,
+        "name": "Prophet Muhammad's Birthday",
+        "name_hi": "हज़रत मोहम्मद साहब का जन्म दिवस",
+        "date": "2026-08-26",
+        "day": "Wednesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 22,
+        "name": "Raksha Bandhan",
+        "name_hi": "रक्षाबंधन",
+        "date": "2026-08-28",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 23,
+        "name": "Krishna Janmashtami",
+        "name_hi": "श्री कृष्ण जन्माष्टमी",
+        "date": "2026-09-04",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 24,
+        "name": "Mahatma Gandhi Jayanti",
+        "name_hi": "महात्मा गांधी जयंती",
+        "date": "2026-10-02",
+        "day": "Friday",
+        "holiday_days": 1
+      },
+      {
+        "id": 25,
+        "name": "Durga Puja",
+        "name_hi": "दुर्गा पूजा",
+        "start_date": "2026-10-17",
+        "end_date": "2026-10-20",
+        "days": [
+          "Saturday",
+          "Sunday",
+          "Monday",
+          "Tuesday"
+        ],
+        "holiday_days": 3,
+        "sundays": 1
+      },
+      {
+        "id": 26,
+        "name": "Diwali / Chitragupta Puja / Bhai Dooj / Chhath Puja",
+        "name_hi": "दीपावली / चित्रगुप्त पूजा / भाई दूज एवं छठ पूजा",
+        "start_date": "2026-11-08",
+        "end_date": "2026-11-16",
+        "holiday_days": 7,
+        "sundays": 2
+      },
+      {
+        "id": 27,
+        "name": "Guru Nanak Jayanti / Kartik Purnima",
+        "name_hi": "गुरुनानक जयंती / कार्तिक पूर्णिमा",
+        "date": "2026-11-24",
+        "day": "Tuesday",
+        "holiday_days": 1
+      },
+      {
+        "id": 28,
+        "name": "Christmas / Winter Vacation",
+        "name_hi": "क्रिसमस / शीतकालीन अवकाश",
+        "start_date": "2026-12-25",
+        "end_date": "2026-12-31",
+        "holiday_days": 6,
+        "sundays": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,1337 @@
+{
+  "branch": "Computer Science & Engineering (Cyber Security)",
+  "branch_id": "b7ad23ec-1157-f071-4674-3bc5622ea81c",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 5,
+      "subjects": [
+        {
+          "subject_name": "Artificial Intelligence",
+          "subject_code": "152501",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction",
+              "topics": [
+                "Overview",
+                "Turing Test",
+                "Intelligent Agents"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Problem Solving",
+              "topics": [
+                "Solving Problems By Searching",
+                "Uninformed Search",
+                "Depth First Search",
+                "Breadth First Search",
+                "DFID",
+                "Heuristic Search",
+                "Generate And Test",
+                "Best First Search",
+                "Beam Search",
+                "Hill Climbing",
+                "A*"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Problem Reduction Search And Stochastic Methods",
+              "topics": [
+                "AND/OR Graphs",
+                "AO*",
+                "Constraint Satisfaction",
+                "Means-Ends Analysis",
+                "Stochastic Search Methods",
+                "Simulated Annealing",
+                "Particle Swarm Optimization",
+                "Game Playing",
+                "Minimax Algorithm",
+                "Alpha-Beta Pruning"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Knowledge And Reasoning",
+              "topics": [
+                "Building A Knowledge Base",
+                "Propositional Logic",
+                "First Order Logic",
+                "Inference In First Order Logic",
+                "Resolution – Refutation Proofs",
+                "Theorem Proving In First Order Logic",
+                "Planning",
+                "Partial Order Planning",
+                "Uncertain Knowledge And Reasoning",
+                "Probabilities",
+                "Bayesian Networks"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Learning",
+              "topics": [
+                "Overview Of Different Forms Of Learning",
+                "Unsupervised",
+                "Supervised",
+                "Semi-Supervised",
+                "K-Means Clustering Algorithm",
+                "Decision Trees",
+                "Neural Networks",
+                "Deep Learning"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Advanced Topics",
+              "topics": [
+                "Introduction To Computer Vision",
+                "Natural Language Processing",
+                "Expert Systems",
+                "Robotics",
+                "Genetic Algorithm",
+                "S. Russell And P. Norvig, “Artificial Intelligence: A Modern Approach,” Prentice Hall",
+                "E. Rich, K. Knight And S. B. Nair, “Artificial Intelligence,” TMH.",
+                "C. Bishop,“Pattern Recognition And Machine Learning,” Springer",
+                "D. W. Patterson, “Introduction To Artificial Intelligence And Expert Systems,” Prentice Hall",
+                "A. C. Staugaard, Jr., “Robotics And AI: An Introduction To Applied Machine Intelligence,” Prentice Hall",
+                "I. Bratko, “Prolog Programming For Artificial Intelligence,” Addison-Wesley",
+                "S. O. Haykin, “Neural Networks And Learning Machines,” Prentice Hall",
+                "D. Jurafsky And J. H. Martin, “Speech And Language Processing,” Prentice Hall."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Artificial Intelligence Lab",
+          "subject_code": "152501P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Preform Any Ten Experiments. Write The Following Programs Using Python/Prolog",
+                "Week 1: Write A Program To Print The Multiplication Table For The Given Number. Write A Program To Find Factorial Of A Number. Write A Program To Check Whether The Given Number Is Prime Or Not.",
+                "Week 2: Write A Program To Implement Simple Calculator Program. Write A Program To Generate Calendar For The Given Month And Year. Write A Program To Illustrate Different Set Operations.",
+                "Week 3: Write A Program To Implement Simple Chat Bot.",
+                "Week 4: Write A Program To Remove Punctuations From The Given String. Write A Program To Sort The Sentence In Alphabetical Order.",
+                "Week 5: Write A Program To Implement Of Towers Of Hanoi Problem.",
+                "Week 6: Write A Program To Implement Breadth First Search.",
+                "Week 7: Write A Program To Implement Depth First Search.",
+                "Week 8: Write A Program To Implement Hill Climbing Algorithm.",
+                "Week 9: Write A Program To Implement A* Algorithm.",
+                "Week 10: Write A Program To Implement Tic- Tac- Toe Game."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Automata Theory & Compiler Design",
+          "subject_code": "152502",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Formal Language And Regular Expressions",
+              "topics": [
+                "Languages",
+                "Definition Languages Regular Expressions",
+                "Finite Automata - DFA, NFA",
+                "Conversion Of Regular Expression To NFA",
+                "NFA To DFA"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Applications And Context Free Grammars",
+              "topics": [
+                "Applications Of Finite Automata To Lexical Analysis",
+                "Lex Tools",
+                "Context Free Grammars",
+                "Derivation",
+                "Parse Trees",
+                "Ambiguity LL(K) Grammars And LL(1) Parsing"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Parsing And Semantics",
+              "topics": [
+                "Bottom Up Parsing Handle Pruning LR Grammar Parsing",
+                "LALR Parsing",
+                "Parsing Ambiguous Grammars",
+                "YACC Programming Specification",
+                "Semantics",
+                "Syntax Directed Translation",
+                "S- Attributed And L- Attributed Grammars",
+                "Intermediate Code - Abstract Syntax Tree",
+                "Translation Of Simple Statements And Control Flow Statements"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Context Sensitive Features And Type Checking",
+              "topics": [
+                "Context Sensitive Features - Chomsky Hierarchy Of Languages And Recognizers",
+                "Type Checking",
+                "Type Conversions",
+                "Equivalence Of Type Expressions",
+                "Overloading Of Functions And Operations"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Run Time Storage And Code Optimization Run Time Storage Storage",
+              "topics": [
+                "Run Time Storage",
+                "Storage Organization",
+                "Storage Allocation Strategies Scope Access To Now Local Names",
+                "Parameters",
+                "Language Facilities For Dynamics Storage Allocation",
+                "Code Optimization",
+                "Principal Sources Of Optimization",
+                "Optimization Of Basic Blocks",
+                "Peephole Optimization",
+                "Flow Graphs",
+                "Data Flow Analysis Of Flow Graphs"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Code Generation",
+              "topics": [
+                "Machine Dependent Code Generation",
+                "Object Code Forms",
+                "Generic Code Generation Algorithm",
+                "Register Allocation And Assignment",
+                "Using DAG Representation Of Blocks",
+                "Introduction To Theory Of Computation. Sipser, 2nd Edition, Thomson.",
+                "Compilers Principles, Techniques And Tools Aho, Ullman, Ravisethi, Pearson Education.",
+                "Modern Compiler Construction In C, Andrew W.Appel Cambridge University Press.",
+                "Compiler Construction, LOUDEN, Thomson.",
+                "Elements Of Compiler Design, A. Meduna, Auerbach Publications, Taylor And Francis Group.",
+                "Principles Of Compiler Design, V. Raghavan, TMH.",
+                "Engineering A Compiler, K. D. Cooper, L. Torczon, ELSEVIER.",
+                "Introduction To Formal Languages And Automata Theory And Computation - Kamala Krithivasan And Rama R, Pearson.",
+                "Modern Compiler Design, D. Grune And Others, Wiley- India.",
+                "A Text Book On Automata Theory, S. F. B. Nasir, P. K. Srimani, Cambridge Univ. Press.",
+                "Automata And Language, A. Meduna, Springer."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Database Management System",
+          "subject_code": "152503",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Data Abstraction And Models Data Abstraction Data Independence Data Definition",
+              "topics": [
+                "Data Abstraction",
+                "Data Independence",
+                "Data Definition Language (DDL)",
+                "Data Manipulation Language (DML)",
+                "Data Models",
+                "Entity- Relationship Model",
+                "Network Model",
+                "Relational And Object Oriented Data Models",
+                "Integrity Constraints",
+                "Data Manipulation Operations",
+                "Unit 2.0: Relational Query Languages And Design Relational Algebra Tuple And Domain Relational Calculus SQL3 DDL And DML Constructs Open Source And Commercial DBMS - MYSQL, ORACLE, DB2, SQL Server Relational Database Design Domain And Data Dependency Armstrong's Axioms Normal Forms Dependency Preservation Lossless Design Query Processing And Optimization Evaluation Of Relational Algebra Expressions Query Equivalence Join Strategies Query Optimization Algorithms",
+                "Relational Algebra",
+                "Tuple And Domain Relational Calculus",
+                "SQL3",
+                "DDL And DML Constructs",
+                "Open Source And Commercial DBMS - MYSQL, ORACLE, DB2, SQL Server",
+                "Relational Database Design",
+                "Domain And Data Dependency",
+                "Armstrong's Axioms",
+                "Normal Forms",
+                "Dependency Preservation",
+                "Lossless Design",
+                "Query Processing And Optimization",
+                "Evaluation Of Relational Algebra Expressions",
+                "Query Equivalence",
+                "Join Strategies",
+                "Query Optimization Algorithms"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Storage Strategies",
+              "topics": [
+                "Indices",
+                "B- Trees",
+                "Hashing"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Transaction Processing",
+              "topics": [
+                "Concurrency Control",
+                "ACID Property",
+                "Serializability Of Scheduling",
+                "Locking And Timestamp Based Schedulers",
+                "Multi- Version And Optimistic Concurrency Control Schemes",
+                "Database Recovery"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Database Security",
+              "topics": [
+                "Authentication",
+                "Authorization And Access Control",
+                "DAC, MAC And RBAC Models",
+                "Intrusion Detection",
+                "SQL Injection"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Advanced Topics",
+              "topics": [
+                "Object Oriented And Object Relational Databases",
+                "Logical Databases",
+                "Web Databases",
+                "Distributed Databases",
+                "Data Warehousing And Data Mining",
+                "Database System Concepts, 6th Edition By Abraham Silberschatz, Henry F. Korth, S. Sudarshan, McGraw- Hill.",
+                "Principles Of Database And Knowledge - Base Systems, Vol 1 By J. D. Ullman, Computer Science Press.",
+                "Fundamentals Of Database Systems, 5th Edition By R. Elmasri And S. Navathe, Pearson Education",
+                "Foundations Of Databases, Reprint By Serge Abiteboul, Richard Hull, Victor Vianu, Addison - Wesley."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Database Management System Lab",
+          "subject_code": "152503P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Student Should Decide On A Case Study And Formulate The Problem Statement.",
+                "Conceptual Designing Using ER Diagrams (Identifying Entities, Attributes, Keys And Relationships Between Entities, Cardinalities, Generalization, Specialization Etc.) Note: Student Is Required To Submit A Document By Drawing ER Diagram To The Lab Teacher.",
+                "Converting ER Model To Relational Model (Represent Entities And Relationships In Tabular Form, Represent Attributes As Columns, Identifying Keys) Note: Student Is Required To Submit A Document Showing The Database Tables Created From ER Model.",
+                "Normalization -To Remove The Redundancies And Anomalies In The Above Relational Tables, Normalize Up To Third Normal Form.",
+                "Creation Of Tables Using SQL-Overview Of Using SQL Tool, Data Types In SQL, Creating Tables (Along With Primary And Foreign Keys), Altering Tables And Dropping Tables.",
+                "Practicing DML Commands-Insert, Select, Update, Delete.",
+                "Practicing Queries Using ANY, ALL, IN, EXISTS, NOT EXISTS, UNION, INTERSECT, CONSTRAINTS Etc.",
+                "Practicing Sub Queries (Nested, Correlated) And Joins (Inner, Outer And Equi).",
+                "Practice Queries Using COUNT, SUM, AVG, MAX, MIN, GROUP BY, HAVING, VIEWS Creation And Dropping.",
+                "Practicing On Triggers - Creation Of Trigger, Insertion Using Trigger, Deletion Using Trigger, Updating Using Trigger."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Computer Network",
+          "subject_code": "152504",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Overview Of Data Communication And Networking",
+              "topics": [
+                "OSI Reference Model",
+                "TCP/IP Protocol Suite",
+                "Network Architecture And Physical Topology"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Physical Layer",
+              "topics": [
+                "Analog And Digital Signals",
+                "Transmission Impairment",
+                "Data Rate Limits",
+                "Performance Analysis Of A Network",
+                "Representation And Synchronization Of Bits",
+                "Analog And Digital Transmission",
+                "Multiplexing And Spreading Techniques",
+                "Guided Transmission Media",
+                "Circuit, Packet And Virtual Circuit Switching"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Data Link Layer",
+              "topics": [
+                "Framing",
+                "Flow And Error Control (Noiseless And Noisy Channels Protocols)",
+                "PointToPoint Protocol",
+                "Random Access Protocols (Pure/Slotted ALOHA, CSMA/CD, CSMA/CA)",
+                "Controlled Access Protocol (Bit- Map, Polling And Token Passing)",
+                "Channelization (TDMA, FDMA, CDMA)",
+                "Physical Addressing And Ethernet",
+                "Connecting LANs And Virtual LANs"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Network Layer",
+              "topics": [
+                "Internet Protocol Version 4 And 6",
+                "Address Mapping (ARP, RARP, BOOTP And DHCP)",
+                "ICMP And IGMP",
+                "Routing Algorithms"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Transport Layer",
+              "topics": [
+                "UDP",
+                "TCP",
+                "Congestion Control And QoS",
+                "Client- Server Model And Socket Interface"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Application Layer",
+              "topics": [
+                "DNS",
+                "Remote Logging",
+                "Electronic Mail (SMTP, POP)",
+                "FTP",
+                "Introduction To WWW And HTTP",
+                "B. Forouzan, \"Data Communication And Network\", McGraw-Hill Publications. 4th Ed.",
+                "A. S. Tanenbaum, \"Computer Networks\", Pearson Education Asia. 5th Ed.",
+                "W. Stalling, \"Data And Computer Communication\", PHI (EEE). 8th Ed.",
+                "A. L. Garcia And I. Widjaja, \"Communication Networks: Fundamental Concepts And Key Architectures\", Tata McGraw-Hill. 2nd Ed.",
+                "S. Sharma, \"A Course In Computer Networks\", Kataria. 3rd Ed."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Seminar",
+          "subject_code": "152505",
+          "type": "theory",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Details For Seminar Will Be Provided By The Department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Graph Theory [152506]",
+          "subject_code": "152506",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction What Is Graph Application Of Graphs Finite And Infinite Graphs Incidence And Degree Isolated Vertex Pendant Vertex Null Graph Paths And Circuits Isomorphism Sub Graphs A Puzzle With Multicolored Cubes Walks Paths Circuits Connected Graphs Disconnected Graphs And Components Euler Graphs Operations On Graphs More On Euler Graphs Hamiltonian Paths And Circuits The Traveling Salesman Problem",
+                "What Is Graph",
+                "Application Of Graphs",
+                "Finite And Infinite Graphs",
+                "Incidence And Degree",
+                "Isolated Vertex",
+                "Pendant Vertex",
+                "Null Graph",
+                "Paths And Circuits",
+                "Isomorphism",
+                "Sub Graphs",
+                "A Puzzle With Multicolored Cubes",
+                "Walks",
+                "Paths",
+                "Circuits",
+                "Connected Graphs",
+                "Disconnected Graphs And Components",
+                "Euler Graphs",
+                "Operations On Graphs",
+                "More On Euler Graphs",
+                "Hamiltonian Paths And Circuits",
+                "The Traveling Salesman Problem"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Trees And Fundamental Circuits Trees Some Properties Of Trees Pendant",
+              "topics": [
+                "Trees",
+                "Some Properties Of Trees",
+                "Pendant Vertices In A Tree",
+                "Distance And Centers In A Tree",
+                "Rooted And Binary Trees",
+                "On Counting Trees",
+                "Spanning Trees",
+                "Fundamental Circuits",
+                "Finding All Spanning Trees Of A Graph",
+                "Spanning Trees In A Weighted Graph",
+                "Unit 3.0: Cut Set, And Cut Vertices Properties Of A Cut Set All Cut Sets In A Graph Fundamental Circuits And Cut Sets Connectivity And Separability Network Flows 1- Isomorphism 2- Isomorphism Planar And Dual Graphs Combinatorial Vs. Geometric Graphs Planar Graph Kuratowski's Two Graphs Difference Representations Of A Planar Graph Detection Of Planarity Geometric Dual Combinatorial Duel More On Criteria Of Planarity Thickness And Crossings",
+                "Properties Of A Cut Set",
+                "All Cut Sets In A Graph",
+                "Fundamental Circuits And Cut Sets",
+                "Connectivity And Separability",
+                "Network Flows",
+                "1- Isomorphism",
+                "2- Isomorphism",
+                "Planar And Dual Graphs",
+                "Combinatorial Vs. Geometric Graphs",
+                "Planar Graph",
+                "Kuratowski's Two Graphs",
+                "Difference Representations Of A Planar Graph",
+                "Detection Of Planarity",
+                "Geometric Dual",
+                "Combinatorial Duel",
+                "More On Criteria Of Planarity",
+                "Thickness And Crossings"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Matrix Representation Of Graphs",
+              "topics": [
+                "Incidence Matrix Sub Matrices Of A(G)",
+                "Circuits Matrix",
+                "Fundamental Circuit Matrix And Rank Of B",
+                "An Application To A Switching Network",
+                "Cut- Set Matrix",
+                "Relationships Among Af, Bf And Cf",
+                "Path Matrix",
+                "Adjacency Matrix"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Coloring, Covering And Partitioning",
+              "topics": [
+                "Chromatic Number",
+                "Chromatic Partitioning",
+                "Chromatics Polynomial",
+                "Coverings",
+                "Four Color Problem"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Directed Graphs",
+              "topics": [
+                "What's A Directed Graphs",
+                "Some Types Of Digraphs",
+                "Digraphs And Binary Relations",
+                "Directed Paths And Connectedness",
+                "Euler Digraphs",
+                "Trees With Directed Edges",
+                "Fundamental Circuits In Digraphs",
+                "Matrices A, B And C Of Digraphs",
+                "Adjacency Matrix Of A Digraph",
+                "Paired Comparisons And Tournaments",
+                "Acyclic Digraphs And Decyelization",
+                "Douglas B. West, \"Introduction To Graph Theory\", Prentice Hall Of India",
+                "Deo, N: Graph Theory, PHI.",
+                "Bondy And Murthy: Graph Theory And Application. Addison Wesley.",
+                "R. Diestel, \"Graph Theory\", Springer-Verlag, 2nd Edition, 2000.",
+                "John M. Aldous And Robin J. Wilson: Graphs And Applications-An Introductory Approach, Springer",
+                "Robin J, Wilson: Introduction To Graph Theory, Addison Wesley.",
+                "Frank Harary, \"Graph Theory\", Narosa.",
+                "R. Ahuja, T. Magnanti, And J. Orlin, \"Network Flows: Theory, Algorithms, And Applications\"."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Internet Of Things [152507]",
+          "subject_code": "152507",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction To IoT",
+              "topics": [
+                "Architectural Overview",
+                "Design Principles And Needed Capabilities",
+                "IoT Applications",
+                "Sensing",
+                "Actuation",
+                "Basics Of Networking",
+                "M2M And IoT Technology Fundamentals- Devices And Gateways"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Data Management And Business Processes Data Management Business Processes In",
+              "topics": [
+                "Data Management",
+                "Business Processes In IoT",
+                "Everything As A Service (XaaS)",
+                "Role Of Cloud In IoT",
+                "Security Aspects In IoT"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Elements Of IoT: Hardware Components",
+              "topics": [
+                "Computing (Arduino, Raspberry Pi)",
+                "Communication",
+                "Sensing",
+                "Actuation",
+                "I/O Interfaces"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Software Components And Protocols",
+              "topics": [
+                "Software Components- Programming API's (Using Python/Node.js/Arduino) For Communication",
+                "Protocols- MQTT",
+                "ZigBee",
+                "Bluetooth",
+                "CoAP",
+                "UDP",
+                "TCP"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "IoT Application Development",
+              "topics": [
+                "Solution Framework For IoT Applications- Implementation Of Device Integration",
+                "Data Acquisition And Integration",
+                "Device Data Storage- Unstructured Data Storage On Cloud/Local Server",
+                "Authentication",
+                "Authorization Of Devices"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "IoT Case Studies",
+              "topics": [
+                "IoT Case Studies And Mini Projects Based On Industrial Automation",
+                "Transportation",
+                "Agriculture",
+                "Healthcare",
+                "Home Automation",
+                "Vijay Madisetti, Arshdeep Bahga, Internet Of Things, \"A Hands On Approach\", University Press",
+                "Dr. SRN Reddy, Rachit Thukral And Manasi Mishra, \"Introduction To Internet Of Things: A Practical Approach\", ETI Labs",
+                "Pethuru Raj And Anupama C. Raman, \"The Internet Of Things: Enabling Technologies, Platforms, And Use Cases\", CRC Press",
+                "Jeeva Jose, \"Internet Of Things\", Khanna Publishing House, Delhi",
+                "Adrian McEwen, \"Designing The Internet Of Things\", Wiley",
+                "Raj Kamal, \"Internet Of Things: Architecture And Design\", McGraw Hill",
+                "Cuno Pfister, \"Getting Started With The Internet Of Things\", O Reilly Media."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Natural Language Processing [152508]",
+          "subject_code": "152508",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Sound",
+              "topics": [
+                "Biology Of Speech Processing",
+                "Place And Manner Of Articulation",
+                "Word Boundary Detection",
+                "Argmax Based Computations",
+                "HMM And Speech Recognition"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Words And Word Forms",
+              "topics": [
+                "Morphology Fundamentals",
+                "Morphological Diversity Of Indian Languages",
+                "Morphology Paradigms",
+                "Finite State Machine Based Morphology",
+                "Automatic Morphology Learning",
+                "Shallow Parsing",
+                "Named Entities",
+                "Maximum Entropy Models",
+                "Random Fields"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Structures",
+              "topics": [
+                "Theories Of Parsing",
+                "Parsing Algorithms",
+                "Robust And Scalable Parsing On Noisy Text As In Web Documents"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Hybrid Parsing And Ambiguity Resolution",
+              "topics": [
+                "Hybrid Of Rule Based And Probabilistic Parsing",
+                "Scope Ambiguity And Attachment Ambiguity Resolution"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Meaning",
+              "topics": [
+                "Lexical Knowledge Networks",
+                "Wordnet Theory",
+                "Indian Language Wordnets And Multilingual Dictionaries",
+                "Semantic Roles",
+                "Word Sense Disambiguation",
+                "WSD And Multilinguality",
+                "Metaphors",
+                "Coreferences"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Web 2.0 Applications",
+              "topics": [
+                "Sentiment Analysis",
+                "Text Entailment",
+                "Robust And Scalable Machine Translation",
+                "Question Answering In Multilingual Setting",
+                "Cross Lingual Information Retrieval (CLIR)",
+                "Jurafsky, Dan And Martin, James, \"Speech And Language Processing\", 2nd Edition, Prentice Hall, 2008",
+                "Manning, Christopher And Heinrich, Schutze, \"Foundations Of Statistical Natural Language Processing\", MIT Press, 1999",
+                "Allen James, \"Natural Language Understanding\", 2nd Edition, Benjamin Cumming, 1995",
+                "Charniak, Eugene, \"Statistical Language Learning\", MIT Press, 1993"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Professional Practice, Law & Ethics",
+          "subject_code": "152509",
+          "type": "theory",
+          "credits": 0,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Detailed Syllabus For This Subject will be Provided By The Department Or Instructor."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: E-Commerce and ERP [152509E]",
+          "subject_code": "152509E",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction To E- Commerce",
+              "topics": [
+                "Evolution Of E- Commerce",
+                "Advantage And Disadvantage Of E Commerce",
+                "Roadmap Of E- Commerce In India",
+                "Business Models Of E- Commerce",
+                "Model Based On Transaction Party",
+                "B2B",
+                "B2C",
+                "C2B",
+                "C2C"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "E Marketing",
+              "topics": [
+                "The Scope Of E- Marketing",
+                "Identifying Web Presence Goals",
+                "Uniqueness Of The Web",
+                "Meeting The Need Of Website Visitors",
+                "Website Design Issues",
+                "Factors That Make People Return To Your Site",
+                "Strategies For Website Development",
+                "Site Adhesion",
+                "Content, Format And Access",
+                "Maintaining A Website",
+                "E- Advertising",
+                "E- Branding"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "E- Payment System",
+              "topics": [
+                "Digital Payment Requirement",
+                "Digital Token Based E- Payment System",
+                "Electronic Cash",
+                "Smart Card And Electronics Payment System",
+                "Credit And Debit Card",
+                "Virtual Currency",
+                "Digital Wallet",
+                "Risk Of Electronics Payment System"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Digital Signature And E Security Digital Signature E Security Security",
+              "topics": [
+                "Digital Signature",
+                "E Security",
+                "Security On The Internet",
+                "Network And Website Security Risk",
+                "Denial- Of- Service Attack",
+                "Viruses",
+                "Unauthorized Access To Computer Network",
+                "Security Standards",
+                "Firewall",
+                "Cryptography",
+                "Key Management",
+                "Password Systems",
+                "Digital Certificates",
+                "Digital Signatures",
+                "Unit 5.0: Enterprise Resource Planning (ERP) Introductory Concepts Advantages & Disadvantages Of ERP ERP And Related Technologies Business Process Reengineering Data Warehousing Data Mining Supply Chain Management ERP Implementation ERP Implementation Life Cycle Implementation Methodology Hidden Costs Organizing Implementation - Contracts With Vendors, Consultants And Users Project Management And Monitoring",
+                "Introductory Concepts",
+                "Advantages & Disadvantages Of ERP",
+                "ERP And Related Technologies",
+                "Business Process Reengineering",
+                "Data Warehousing",
+                "Data Mining",
+                "Supply Chain Management",
+                "ERP Implementation",
+                "ERP Implementation Life Cycle Implementation Methodology",
+                "Hidden Costs",
+                "Organizing Implementation - Contracts With Vendors, Consultants And Users",
+                "Project Management And Monitoring"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "ERP Business Modules",
+              "topics": [
+                "Introduction To Basic Modules Of ERP System",
+                "Business Modules In An ERP Package- Finance",
+                "Manufacturing",
+                "Human Resource",
+                "Plant Maintenance",
+                "Materials Management",
+                "Quality Management",
+                "Sales And Distribution",
+                "Alexis Leon, \"ERP Demystified\", Tata McGraw Hill.",
+                "E-Commerce An Indian Perspective By P.T.Joseph, PHI",
+                "K.K. Bajaj, D. Nag \"E-Commerce\", 2nd Edition, McGraw-Hill Education, New Delhi.",
+                "Bhaskar Bharat, \"Electronic Commerce-Technology And Application\", McGraw-Hill Education, New Delhi.",
+                "Mary Sumner, \"Enterprise Resource Planning\", 2005, PHI Learning India Pvt. Ltd. /Pearson Education, New Delhi.",
+                "Chan, \"E-Commerce Fundamentals And Applications\", Wiley India, New Delhi.",
+                "Vinod Kumar Garg And N.K. Venkata Krishnan, \"Enterprise Resource Planning - Concepts And Planning\", Prentice Hall, 1998."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Web and Internet Technology [152510]",
+          "subject_code": "152510",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Web Basics Introduction Concept Of Internet- History Of Internet Protocols Of Internet World Wide Web URL Web Server Web Browser Recent Web Technologies - A Case Study On WWW, Web 2.0 Etc. Client/Server Computing C/S Computing Middleware Fat Client VS Fat Servers N-Tiered Software Architecture Markup- Language Markup Languages And Their Grammars - SGML, DTD Resources HTML CSS XML XSL Query Languages For XML",
+                "Introduction",
+                "Concept Of Internet- History Of Internet",
+                "Protocols Of Internet",
+                "World Wide Web",
+                "URL",
+                "Web Server",
+                "Web Browser",
+                "Recent Web Technologies - A Case Study On WWW, Web 2.0 Etc.",
+                "Client/Server Computing",
+                "C/S Computing",
+                "Middleware",
+                "Fat Client VS Fat Servers",
+                "N-Tiered Software Architecture",
+                "Markup- Language",
+                "Markup Languages And Their Grammars - SGML, DTD Resources",
+                "HTML",
+                "CSS",
+                "XML",
+                "XSL",
+                "Query Languages For XML"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "HTML",
+              "topics": [
+                "Introduction",
+                "History Of HTML",
+                "Structure Of HTML Document",
+                "Text Basics",
+                "Images And Multimedia",
+                "Links And Webs",
+                "Document Layout",
+                "Cascading Style Sheet- HTML 4 Style Sheet Features",
+                "Creating Forms",
+                "Frames And Tables",
+                "Dynamic HTML",
+                "Introduction Of DHTML- HTML Vs. DHTML",
+                "Advantages Of DHTML",
+                "CSS Of DHTML",
+                "Event Handling",
+                "Data Binding",
+                "Browser Object Models",
+                "Unit 3.0: XML Introduction And Programming Introduction Of XML- Some Current Applications Of XML Features Of XML Anatomy Of XML Document The XML Declaration Element Tags- Nesting And Structure XML Text And Text Formatting Element Table Element Mark- Up Element And Attributes Document Type Definition (DTD), Types XML Programming- XML Objects Checking Validity Understanding XLinks, XPointer Event- Driven Programming XML Scripting",
+                "Introduction Of XML- Some Current Applications Of XML",
+                "Features Of XML",
+                "Anatomy Of XML Document",
+                "The XML Declaration",
+                "Element Tags- Nesting And Structure",
+                "XML Text And Text Formatting Element",
+                "Table Element",
+                "Mark- Up Element And Attributes",
+                "Document Type Definition (DTD), Types",
+                "XML Programming- XML Objects",
+                "Checking Validity",
+                "Understanding XLinks, XPointer",
+                "Event- Driven Programming",
+                "XML Scripting",
+                "Unit 4.0: XML Presentation Technology & XML Processor Introduction XML With Style Sheet Technologies- Concept Of XSL XML Schema Importance Of XML Schema Creating Element In XML Schema XML Schema Types Introduction Of XML Processor- Components Of XML Processor Concept Of DOM And SAX Introduction Of Java Script JavaScript Characteristics Objects In Java Script Dynamic HTML With Java Script XML Http Request The XML Http Request Object Events For The XML Http Request Object Request Object For XML Http Request Response Object For XML Http Request",
+                "XML With Style Sheet Technologies- Concept Of XSL",
+                "XML Schema",
+                "Importance Of XML Schema",
+                "Creating Element In XML Schema",
+                "XML Schema Types",
+                "Introduction Of XML Processor- Components Of XML Processor",
+                "Concept Of DOM And SAX",
+                "Introduction Of Java Script",
+                "JavaScript Characteristics",
+                "Objects In Java Script",
+                "Dynamic HTML With Java Script",
+                "XML Http Request",
+                "The XML Http Request Object",
+                "Events For The XML Http Request Object",
+                "Request Object For XML Http Request",
+                "Response Object For XML Http Request"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "AJAX",
+              "topics": [
+                "Introduction",
+                "AJAX Introduction",
+                "AJAX Components",
+                "Handling Dynamic HTML With Ajax",
+                "CSS To Define Look And Feel",
+                "Understand The XML Mark-Up",
+                "XMLHttpRequest",
+                "AJAX Using XML And XML Http Request",
+                "Accessing, Creating And Modifying XML Nodes",
+                "Loading XML Data Into An HTML Page",
+                "Receiving XML Responses",
+                "Handling Response XML",
+                "Unit 6.0: PHP Introduction & AJAX With Database PHP Introduction Structure Of PHP PHP Functions AJAX With PHP PHP Code And The Complete AJAX Example AJAX Database Working Of AJAX With PHP Ajax PHP Database Form AJAX PHP MySQL Select Query Active Server Page & ASP Database Connectivity Introduction Of ASP ASP – Variables ASP Control Structure ASP Objects' Properties And Methods ASP Components ASP Database Connection ASP Scripting Components",
+                "PHP Introduction",
+                "Structure Of PHP",
+                "PHP Functions",
+                "AJAX With PHP",
+                "PHP Code And The Complete AJAX Example",
+                "AJAX Database",
+                "Working Of AJAX With PHP",
+                "Ajax PHP Database Form",
+                "AJAX PHP MySQL Select Query",
+                "Active Server Page & ASP Database Connectivity",
+                "Introduction Of ASP",
+                "ASP – Variables",
+                "ASP Control Structure",
+                "ASP Objects' Properties And Methods",
+                "ASP Components",
+                "ASP Database Connection",
+                "ASP Scripting Components",
+                "Jeffrey C. Jackson, \"Web Technologies: A Computer Science Perspective\", Pearson Education",
+                "Developing Web Applications, Ralph Moseley And M. T. Savaliya, Wiley-India",
+                "Web Technologies, Black Book, Dreamtech Press",
+                "Web Design, Joel Sklar, Cengage Learning",
+                "Developing Web Applications In PHP And AJAX, Harwani, McGraw-Hill",
+                "Eric T. Freeman, Elisabeth Robson, \"Head First JavaScript Programming\", O'Reilly Media",
+                "L. Beighley, Michael Morrison, \"Head First PHP & MySQL\", O-Reilly Media",
+                "B. Basham, Kathy Sierra, Bert Bates, \"Head First Servlets And JSP\", O'Reilly Publication.",
+                "R. M. Riordan, \"Head First Ajax\", O'Reilly Media.",
+                "Web Design With HTML, CSS, JavaScript And Query Set By Jon Duckett"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Summer Entrepreneurship-II [152511]",
+          "subject_code": "152511",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "This Is A 6-Week Course. Specific Syllabus And Project Guidelines Will Be Provided By The Department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "NPTEL Course",
+          "subject_code": "152512",
+          "type": "theory",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Details For NPTEL Course Will Be Provided By The Department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective Courses-I",
+          "subject_code": "1525XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "subjects": [
+        {
+          "subject_name": "Machine Learning",
+          "subject_code": "152601",
+          "type": "theory",
+          "credits": 4,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Machine Learning Lab",
+          "subject_code": "152601P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Cryptography",
+          "subject_code": "152602",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Web application Security",
+          "subject_code": "152603",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Web application Security Lab",
+          "subject_code": "152603P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "AI and Ethics",
+          "subject_code": "152604",
+          "type": "theory",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Constitution of India",
+          "subject_code": "152605",
+          "type": "theory",
+          "credits": 0,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "NPTEL Course-II Lab",
+          "subject_code": "152606P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II: Soft Computing [152607]",
+          "subject_code": "152607",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II: Distributed Database [152608]",
+          "subject_code": "152608",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II: Mobile and Wireless Computing [152609]",
+          "subject_code": "152609",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II: Cloud Computing [152610]",
+          "subject_code": "152610",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II: Data Mining [152611]",
+          "subject_code": "152611",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-III: Quantum Computing [152612]",
+          "subject_code": "152612",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-III: Real Time Systems [152613]",
+          "subject_code": "152613",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-III: Bitcoin and Crypto Currencies [152614]",
+          "subject_code": "152614",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-III: Block Chain Technology [152615]",
+          "subject_code": "152615",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-III: Pattern Recognition [152616]",
+          "subject_code": "152616",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II",
+          "subject_code": "1526XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    }
+  ]
+}

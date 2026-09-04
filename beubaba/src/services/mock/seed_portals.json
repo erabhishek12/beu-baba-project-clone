@@ -1,0 +1,87 @@
+{
+"results": {
+"title": "Results",
+"items": [
+{
+"name": "BEU B.Tech Result Portal",
+"url": "https://beu-bih.ac.in/result-one",
+"desc": "Official BEU results — all semesters"
+}
+]
+},
+"official": {
+"title": "BEU Official",
+"items": [
+{
+"name": "BEU Official Website",
+"url": "https://beu-bih.ac.in/",
+"desc": "Bihar Engineering University home"
+},
+{
+"name": "BEU Notifications & Circulars",
+"url": "https://beu-bih.ac.in/notification",
+"desc": "Latest official notices"
+},
+{
+"name": "BEU Student Login Portal",
+"url": "http://beu.intelliexams.com/BEUEXAMS/LoginScreens/frmStudentLoginPage.aspx",
+"desc": "Exam / student services login"
+},
+{
+"name": "BEU Results Home",
+"url": "https://beu-bih.ac.in/result-one",
+"desc": "Result declarations"
+}
+]
+},
+"learning": {
+"title": "Learning & Skills",
+"items": [
+{
+"name": "NPTEL",
+"url": "https://nptel.ac.in/",
+"desc": "Free IIT/IISc video courses & certification"
+},
+{
+"name": "SWAYAM",
+"url": "https://swayam.gov.in/",
+"desc": "Govt online courses with credits"
+},
+{
+"name": "AICTE Internships",
+"url": "https://internship.aicte-india.org/",
+"desc": "Internship opportunities portal"
+},
+{
+"name": "GATE 2026",
+"url": "https://gate2026.iitg.ac.in/",
+"desc": "GATE exam papers & syllabus"
+}
+]
+},
+"scholarship": {
+"title": "Scholarships",
+"items": [
+{
+"name": "National Scholarship Portal",
+"url": "https://scholarships.gov.in/",
+"desc": "Central & state scholarships"
+},
+{
+"name": "Bihar PMS (Post-Matric)",
+"url": "https://pmsonline.bih.nic.in/",
+"desc": "Bihar post-matric scholarship"
+},
+{
+"name": "AICTE Student Schemes",
+"url": "https://www.aicte-india.org/schemes/students-development-schemes",
+"desc": "Pragati, Saksham & more"
+},
+{
+"name": "7 Nishchay Yuva Upmission",
+"url": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+"desc": "Bihar student credit card & skills"
+}
+]
+}
+}

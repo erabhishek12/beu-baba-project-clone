@@ -1,0 +1,807 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================================
+   Premium self-hosted typography (variable woff2, latin subset).
+   - Sora           → display / headings (modern, geometric, confident).
+   - Plus Jakarta   → body & UI (humanist, highly readable at small sizes).
+   Self-hosted so the sandboxed in-app preview renders them too (no CDN).
+   font-display: swap keeps first paint instant.
+   ========================================================================= */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/PlusJakartaSans.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: swap;
+  src: url('/fonts/Sora.woff2') format('woff2');
+}
+
+/* =========================================================================
+   BEU BABA — DESIGN TOKENS (single source of truth)
+   Two fully-tokenized themes:
+     • light → soft WHITE NEUMORPHISM + premium frosted glass
+     • dark  → soft DARK NEUMORPHISM (deep, comfortable, never pure black)
+   Every color, shadow, blur and edge below flips through these variables;
+   components never hard-code a theme value.
+   ========================================================================= */
+:root {
+  /* ---- Color: soft lavender-white foundation (light, airy, premium) ---- */
+  --color-background: #eef0fb;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f1f2fb;
+
+  --color-text-primary: #1c2140;
+  --color-text-secondary: #5b6079;
+  --color-text-tertiary: #9497b6;
+
+  --color-border: #e6e7f5;
+
+  /* ---- Accent: soft periwinkle indigo (primary interactive) ---- */
+  --color-accent: #5b6ef0;
+  --color-accent-strong: #4453d6;
+  --color-accent-soft: #eaecfe;
+  --color-accent-ink: #2f3aa8;
+
+  /* ---- Violet highlight (brand personality, badges & active accents) ---- */
+  --color-gold: #8b5cf6;
+  --color-gold-soft: #f0e9fe;
+  --color-gold-ink: #6d34d4;
+
+  /* ---- Category accents (soft pastel tile tints) ---- */
+  --cat-blue: #5b7cfa;
+  --cat-blue-soft: #e9edff;
+  --cat-violet: #8b5cf6;
+  --cat-violet-soft: #f0e9fe;
+  --cat-teal: #12b3a6;
+  --cat-teal-soft: #dcf5f1;
+  --cat-coral: #f6784b;
+  --cat-coral-soft: #ffe9e0;
+
+  /* ---- Semantic (muted, never neon) ---- */
+  --color-success: #2f855a;
+  --color-success-soft: #e5f2ec;
+  --color-warning: #b5811d;
+  --color-warning-soft: #f6eed9;
+  --color-danger: #e0483f;
+  --color-danger-soft: #fce7e4;
+
+  /* ---- Liquid glass material system (5 levels) ---- */
+  --glass-subtle-bg: rgba(255, 255, 255, 0.42);
+  --glass-standard-bg: rgba(255, 255, 255, 0.56);
+  --glass-elevated-bg: rgba(255, 255, 255, 0.66);
+  --glass-floating-bg: rgba(255, 255, 255, 0.72);
+  --glass-modal-bg: rgba(255, 255, 255, 0.94);
+
+  --glass-border: rgba(255, 255, 255, 0.68);
+  --glass-border-strong: rgba(255, 255, 255, 0.85);
+
+  --glass-blur-sm: 16px;
+  --glass-blur-md: 26px;
+  --glass-blur-lg: 36px;
+  --glass-blur-xl: 48px;
+
+  --glass-shadow-sm: 0 2px 10px rgba(46, 51, 110, 0.05), 0 8px 24px rgba(46, 51, 110, 0.06);
+  --glass-shadow-md: 0 6px 18px rgba(46, 51, 110, 0.07), 0 16px 40px rgba(46, 51, 110, 0.08);
+  --glass-shadow-lg: 0 12px 30px rgba(46, 51, 110, 0.1), 0 28px 70px rgba(46, 51, 110, 0.12);
+
+  /* ---- Neumorphism material system (soft extruded / pressed surfaces) ----
+     Light = white extrusion on a pale canvas; the raised surface sits a
+     half-step above the page so cards read as soft pillows, not stickers. */
+  --neu-hi: #ffffff;
+  --neu-lo: #d4d9e6;
+  --neu-surface: #f5f6fd;
+
+  --neu-sm: -2px -2px 4px var(--neu-hi), 2px 2px 5px var(--neu-lo);
+  --neu-md: -4px -4px 9px var(--neu-hi), 5px 5px 12px var(--neu-lo);
+  --neu-lg: -8px -8px 18px var(--neu-hi), 10px 11px 24px var(--neu-lo);
+  --neu-inset-sm: inset -1px -1px 3px var(--neu-hi), inset 2px 2px 5px var(--neu-lo);
+  --neu-inset: inset -2px -2px 5px var(--neu-hi), inset 3px 3px 8px var(--neu-lo);
+
+  /* ---- Interactive chips (header buttons, hover wells) ---- */
+  --chip-bg: rgba(255, 255, 255, 0.55);
+  --chip-bg-strong: rgba(255, 255, 255, 0.78);
+
+  /* ---- Material edges / sheen / lift (theme-aware) ---- */
+  --edge-a: rgba(255, 255, 255, 0.95);
+  --edge-b: rgba(255, 255, 255, 0.2);
+  --sheen: rgba(255, 255, 255, 0.55);
+  --liquid-hover: rgba(255, 255, 255, 0.7);
+  --lift-1: rgba(59, 66, 120, 0.35);
+  --lift-2: rgba(59, 66, 120, 0.28);
+
+  /* ---- Ambient environment wash ---- */
+  --env-1: rgba(91, 110, 240, 0.1);
+  --env-2: rgba(139, 92, 246, 0.09);
+  --env-3: rgba(91, 124, 250, 0.07);
+  --env-base: #f4f5fe;
+
+  /* ---- Skeleton shimmer ---- */
+  --skeleton-b: #e9edf4;
+
+  /* ---- Brand logo mark ---- */
+  --logo-tile-a: #ffffff;
+  --logo-tile-b: #eef0fb;
+  --logo-stroke: #e6e7f5;
+  --logo-cap: #4453d6;
+  --logo-cap2: #8b5cf6;
+  --logo-face: #2f3aa8;
+
+  /* ---- Bottom navigation wave ---- */
+  --nav-fill: rgba(255, 255, 255, 0.7);
+  --nav-stroke: rgba(255, 255, 255, 0.9);
+  --nav-drop: drop-shadow(0 12px 30px rgba(40, 60, 90, 0.14));
+
+  /* ---- Motion tokens ---- */
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --motion-slow: 320ms;
+  --ease-standard: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-emphasized: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ---- Layout ---- */
+  --page-margin: 20px;
+  --nav-height: 68px;
+  --header-h: 56px;
+  color-scheme: light;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-h: 64px;
+    --page-margin: 24px;
+  }
+}
+
+/* =========================================================================
+   DARK THEME — premium dark neumorphism.
+   Deep comfortable charcoals (never #000), soft top-light extrusion,
+   controlled periwinkle/violet accents, high readability.
+   ========================================================================= */
+[data-theme='dark'] {
+  --color-background: #272c39;
+  --color-surface: #303644;
+  --color-surface-secondary: #3a4152;
+
+  --color-text-primary: #eceef4;
+  --color-text-secondary: #aab1c0;
+  --color-text-tertiary: #97a0b4;
+
+  --color-border: #414a5c;
+
+  --color-accent: #8b8cf8;
+  --color-accent-strong: #a3a4ff;
+  --color-accent-soft: rgba(139, 140, 248, 0.16);
+  --color-accent-ink: #c6c7ff;
+
+  --color-gold: #a78bfa;
+  --color-gold-soft: rgba(167, 139, 250, 0.16);
+  --color-gold-ink: #cabffd;
+
+  --cat-blue: #7d95ff;
+  --cat-blue-soft: rgba(125, 149, 255, 0.15);
+  --cat-violet: #a78bfa;
+  --cat-violet-soft: rgba(167, 139, 250, 0.15);
+  --cat-teal: #3ecfbf;
+  --cat-teal-soft: rgba(62, 207, 191, 0.14);
+  --cat-coral: #ff8f6b;
+  --cat-coral-soft: rgba(255, 143, 107, 0.14);
+
+  --color-success: #55c98a;
+  --color-success-soft: rgba(85, 201, 138, 0.15);
+  --color-warning: #d9a441;
+  --color-warning-soft: rgba(217, 164, 65, 0.15);
+  --color-danger: #f0716a;
+  --color-danger-soft: rgba(240, 113, 106, 0.15);
+
+  --glass-subtle-bg: rgba(38, 43, 54, 0.5);
+  --glass-standard-bg: rgba(40, 45, 57, 0.66);
+  --glass-elevated-bg: rgba(44, 50, 63, 0.78);
+  --glass-floating-bg: rgba(48, 54, 68, 0.86);
+  --glass-modal-bg: rgba(35, 39, 49, 0.94);
+
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --glass-border-strong: rgba(255, 255, 255, 0.15);
+
+  --glass-shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.28), 0 8px 24px rgba(0, 0, 0, 0.22);
+  --glass-shadow-md: 0 6px 18px rgba(0, 0, 0, 0.32), 0 16px 40px rgba(0, 0, 0, 0.26);
+  --glass-shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.38), 0 28px 70px rgba(0, 0, 0, 0.32);
+
+  /* Dark extrusion: a whisper of top-light, a pool of bottom shadow. */
+  --neu-hi: rgba(255, 255, 255, 0.05);
+  --neu-lo: rgba(8, 10, 16, 0.55);
+  --neu-surface: #262b36;
+
+  --chip-bg: rgba(255, 255, 255, 0.07);
+  --chip-bg-strong: rgba(255, 255, 255, 0.12);
+
+  --edge-a: rgba(255, 255, 255, 0.22);
+  --edge-b: rgba(255, 255, 255, 0.06);
+  --sheen: rgba(255, 255, 255, 0.09);
+  --liquid-hover: rgba(48, 54, 68, 0.85);
+  --lift-1: rgba(0, 0, 0, 0.55);
+  --lift-2: rgba(0, 0, 0, 0.42);
+
+  --env-1: rgba(124, 122, 240, 0.12);
+  --env-2: rgba(167, 139, 250, 0.08);
+  --env-3: rgba(91, 124, 250, 0.06);
+  --env-base: #262b36;
+
+  --skeleton-b: #313745;
+
+  --logo-tile-a: #2e3340;
+  --logo-tile-b: #232733;
+  --logo-stroke: #3b4152;
+  --logo-cap: #9b9cff;
+  --logo-cap2: #b7a5fd;
+  --logo-face: #dcd9ff;
+
+  --nav-fill: rgba(37, 42, 53, 0.8);
+  --nav-stroke: rgba(255, 255, 255, 0.16);
+  --nav-drop: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.45));
+
+  color-scheme: dark;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* =========================================================================
+   Native-app feel: behave like an installed app, not a web page.
+   ========================================================================= */
+html {
+  overscroll-behavior: none;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  overscroll-behavior-y: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+}
+
+input,
+textarea,
+[contenteditable='true'],
+.selectable {
+  -webkit-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: theme('fontFamily.sans');
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'ss01', 'cv01';
+  transition: background-color var(--motion-slow) ease, color var(--motion-slow) ease;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+.text-display,
+.text-h1,
+.text-h2,
+.text-h3 {
+  font-family: theme('fontFamily.display');
+}
+.text-display,
+.text-h1 {
+  font-weight: 800;
+}
+.text-h2,
+.text-h3 {
+  font-weight: 700;
+}
+
+/* Quiet ambient environment layer — subtle, static, theme-aware */
+.bb-environment {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(1100px 760px at 6% -14%, var(--env-1), transparent 56%),
+    radial-gradient(880px 640px at 106% 2%, var(--env-2), transparent 52%),
+    radial-gradient(1000px 900px at 50% 120%, var(--env-3), transparent 60%),
+    linear-gradient(180deg, var(--env-base) 0%, var(--color-background) 100%);
+}
+
+/* =========================================================================
+   Glass material utilities (theme-aware via tokens)
+   ========================================================================= */
+@layer components {
+  .glass-subtle {
+    background: var(--glass-subtle-bg);
+    backdrop-filter: blur(var(--glass-blur-sm)) saturate(1.4);
+    -webkit-backdrop-filter: blur(var(--glass-blur-sm)) saturate(1.4);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow-sm);
+  }
+  .glass-standard {
+    background: var(--glass-standard-bg);
+    backdrop-filter: blur(var(--glass-blur-md)) saturate(1.5);
+    -webkit-backdrop-filter: blur(var(--glass-blur-md)) saturate(1.5);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow-sm);
+  }
+  .glass-elevated {
+    background: var(--glass-elevated-bg);
+    backdrop-filter: blur(var(--glass-blur-lg)) saturate(1.6);
+    -webkit-backdrop-filter: blur(var(--glass-blur-lg)) saturate(1.6);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow-md);
+  }
+  .glass-floating {
+    background: var(--glass-floating-bg);
+    backdrop-filter: blur(var(--glass-blur-lg)) saturate(1.7);
+    -webkit-backdrop-filter: blur(var(--glass-blur-lg)) saturate(1.7);
+    border: 1px solid var(--glass-border-strong);
+    box-shadow: var(--glass-shadow-md);
+  }
+  .glass-modal {
+    background: var(--glass-modal-bg);
+    backdrop-filter: blur(var(--glass-blur-xl)) saturate(1.8);
+    -webkit-backdrop-filter: blur(var(--glass-blur-xl)) saturate(1.8);
+    border: 1px solid var(--glass-border-strong);
+    box-shadow: var(--glass-shadow-lg);
+  }
+  /* Thin top inner highlight to sell the material edge */
+  .glass-highlight {
+    position: relative;
+  }
+  .glass-highlight::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(145deg, var(--edge-a), var(--edge-b) 32%, rgba(255, 255, 255, 0) 60%);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+  /* Inner sheen — sells the frosted depth on larger cards */
+  .glass-sheen {
+    position: relative;
+    overflow: hidden;
+  }
+  .glass-sheen::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(120% 80% at 85% -20%, var(--sheen), transparent 55%);
+    pointer-events: none;
+  }
+
+  /* =======================================================================
+     Neumorphic material utilities — soft extruded / pressed surfaces.
+     Use for feature tiles, cards, wells and inputs; glass stays for
+     floating chrome (header, nav, modals, sheets).
+     ======================================================================= */
+  .neu-sm {
+    background: var(--neu-surface);
+    box-shadow: var(--neu-sm);
+  }
+  .neu {
+    background: var(--neu-surface);
+    box-shadow: var(--neu-md);
+  }
+  .neu-lg {
+    background: var(--neu-surface);
+    box-shadow: var(--neu-lg);
+  }
+  .neu-inset-sm {
+    background: var(--neu-surface);
+    box-shadow: var(--neu-inset-sm);
+  }
+  .neu-inset {
+    background: var(--neu-surface);
+    box-shadow: var(--neu-inset);
+  }
+  /* Tactile press: an extruded tile settles into its well. */
+  .neu-press {
+    transition:
+      box-shadow var(--motion-base) var(--ease-standard),
+      transform var(--motion-fast) var(--ease-standard);
+  }
+  .neu-press:active {
+    box-shadow: var(--neu-inset-sm);
+    transform: scale(0.985);
+  }
+
+  /* Desktop header navigation pill (soft inset well when active). */
+  .nav-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    transition:
+      color var(--motion-fast) ease,
+      background-color var(--motion-fast) ease,
+      box-shadow var(--motion-fast) ease;
+  }
+  .nav-pill:hover {
+    color: var(--color-text-primary);
+    background: var(--chip-bg);
+  }
+  .nav-pill[data-active='true'] {
+    color: var(--color-accent-ink);
+    background: var(--color-accent-soft);
+    box-shadow: var(--neu-inset-sm);
+  }
+
+  /* Neumorphic input well (search bars, text fields on neu surfaces). */
+  .input-neu {
+    background: var(--neu-surface);
+    box-shadow: var(--neu-inset-sm);
+    border: 1px solid transparent;
+    transition:
+      box-shadow var(--motion-fast) ease,
+      border-color var(--motion-fast) ease;
+  }
+  .input-neu:focus,
+  .input-neu:focus-within {
+    border-color: var(--color-accent);
+    box-shadow:
+      var(--neu-inset-sm),
+      0 0 0 3px var(--color-accent-soft);
+  }
+}
+
+@layer utilities {
+  .page-x {
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+  }
+  .safe-b {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .safe-t {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+  .tnum {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Accessible focus ring — soft, on-brand, only for keyboard navigation. */
+:where(a, button, input, textarea, select, [tabindex]):focus {
+  outline: none;
+}
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-accent-soft), 0 0 0 4px var(--color-accent);
+  border-radius: 10px;
+}
+
+/* Skeleton shimmer surface (theme-aware) */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-surface-secondary) 25%,
+    var(--skeleton-b) 37%,
+    var(--color-surface-secondary) 63%
+  );
+  background-size: 200% 100%;
+}
+
+/* Static gradient hairline edge (put on a p-px wrapper around a glass card). */
+.edge-light {
+  position: relative;
+  background: linear-gradient(
+    160deg,
+    var(--edge-a) 0%,
+    var(--edge-b) 30%,
+    rgba(176, 135, 47, 0.22) 65%,
+    var(--edge-b) 100%
+  );
+}
+[data-theme='dark'] .edge-light {
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.06) 30%,
+    rgba(167, 139, 250, 0.12) 65%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+}
+
+/* Tactile press for interactive glass tiles. */
+.press-tile {
+  transition:
+    transform var(--motion-fast) ease,
+    box-shadow var(--motion-base) ease,
+    background-color var(--motion-fast) ease;
+}
+.press-tile:active {
+  transform: scale(0.985);
+}
+
+/* =========================================================================
+   Liquid depth — genuine iOS-liquid-glass interaction for any glass tile.
+   Theme-aware: lifts, deepens shadow, brightens frost, slow sheen glides.
+   ========================================================================= */
+.liquid-depth {
+  position: relative;
+  isolation: isolate;
+  transition:
+    transform 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 260ms ease;
+  will-change: transform;
+}
+.liquid-depth::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  background: radial-gradient(130% 90% at 50% -30%, var(--sheen), rgba(255, 255, 255, 0) 60%);
+  transition: opacity 300ms ease;
+}
+.liquid-depth::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(115deg, transparent 30%, var(--sheen) 48%, rgba(255, 255, 255, 0) 66%);
+  background-size: 220% 220%;
+  background-position: 120% 0;
+  transition:
+    opacity 260ms ease,
+    background-position 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+@media (hover: hover) {
+  .liquid-depth:hover {
+    transform: translateY(-4px) scale(1.012);
+    box-shadow:
+      0 18px 40px -18px var(--lift-1),
+      0 6px 16px -10px var(--lift-2);
+    background-color: var(--liquid-hover);
+  }
+  .liquid-depth:hover::after {
+    opacity: 1;
+  }
+  .liquid-depth:hover::before {
+    opacity: 1;
+    background-position: -40% 0;
+  }
+}
+.liquid-depth:focus-visible {
+  transform: translateY(-3px) scale(1.01);
+}
+.liquid-depth:active {
+  transform: translateY(-1px) scale(0.99);
+  box-shadow: 0 10px 24px -16px var(--lift-1);
+  transition-duration: 120ms;
+}
+
+/* =========================================================================
+   Reduced motion — remove decorative movement, preserve state changes
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skeleton {
+    animation: none !important;
+  }
+  .liquid-depth:hover {
+    transform: none !important;
+  }
+  .liquid-depth::before {
+    display: none;
+  }
+}
+
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+.reduce-motion .skeleton {
+  animation: none !important;
+}
+.reduce-motion .liquid-depth:hover {
+  transform: none !important;
+}
+.reduce-motion .liquid-depth::before {
+  display: none;
+}
+
+/* =========================================================================
+   FRIENDLY KID-APP EXTENSIONS (reference-matched, theme-aware)
+   - Baloo 2 Var        → rounded display face for headings / hero / nav
+   - Noto Devanagari Var→ Hindi lines (onboarding, bilingual captions)
+   - hero + pastel tiles, chips, circular soft buttons
+   ========================================================================= */
+@font-face {
+  font-family: 'Baloo 2 Var';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/Baloo2.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Noto Sans Devanagari Var';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/NotoDevanagari.woff2') format('woff2-variations');
+}
+
+/* Purple hero banner gradient (light); deeper violet in dark mode. */
+.bb-hero {
+  background: linear-gradient(135deg, #8f7bf3 0%, #a191f6 55%, #b4a9f8 100%);
+}
+[data-theme='dark'] .bb-hero {
+  background: linear-gradient(135deg, #5647c5 0%, #6455d2 55%, #7264da 100%);
+}
+.bb-hero-mint {
+  background: linear-gradient(135deg, #63c9a8 0%, #7fd6b8 60%, #9ae2c8 100%);
+}
+[data-theme='dark'] .bb-hero-mint {
+  background: linear-gradient(135deg, #2a7a62 0%, #338d72 60%, #3da184 100%);
+}
+.bb-hero-lav {
+  background: linear-gradient(135deg, #b9a7f2 0%, #c8baf6 60%, #d6cbf9 100%);
+}
+[data-theme='dark'] .bb-hero-lav {
+  background: linear-gradient(135deg, #6a5bc4 0%, #7869cf 60%, #8578d8 100%);
+}
+
+/* Pastel category tiles (soft top-left light, like clay renders). */
+.bb-tile-lav { background: linear-gradient(145deg, #efeaff 0%, #e2dafc 100%); }
+.bb-tile-mint { background: linear-gradient(145deg, #e2f8ef 0%, #d2f2e4 100%); }
+.bb-tile-peach { background: linear-gradient(145deg, #ffefe2 0%, #ffe4d0 100%); }
+.bb-tile-pink { background: linear-gradient(145deg, #ffe9f1 0%, #ffdce9 100%); }
+[data-theme='dark'] .bb-tile-lav { background: linear-gradient(145deg, #453a85 0%, #3b3178 100%); }
+[data-theme='dark'] .bb-tile-mint { background: linear-gradient(145deg, #215847 0%, #1c4c3d 100%); }
+[data-theme='dark'] .bb-tile-peach { background: linear-gradient(145deg, #6b4a30 0%, #5d402a 100%); }
+[data-theme='dark'] .bb-tile-pink { background: linear-gradient(145deg, #6b3350 0%, #5d2c46 100%); }
+
+/* Filter chips: active = solid accent pill, inactive = raised surface pill. */
+.bb-chip {
+  flex-shrink: 0;
+  white-space: nowrap;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding: 6px 14px;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  box-shadow: var(--neu-sm);
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.bb-chip-active {
+  border-color: transparent;
+  background: var(--color-accent);
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(91, 110, 240, 0.35);
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('/fonts/Unbounded.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/Caveat.woff2') format('woff2-variations');
+}
+
+/* Gentle floating loop for hero characters (disabled by reduce-motion). */
+@keyframes bb-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+.bb-float { animation: bb-float 4.2s ease-in-out infinite; }
+.reduce-motion .bb-float { animation: none; }
+
+.bb-hero-pink {
+  background: linear-gradient(135deg, #e06aa8 0%, #e883b8 55%, #ef9cc7 100%);
+}
+[data-theme='dark'] .bb-hero-pink {
+  background: linear-gradient(135deg, #93406f 0%, #a34d7d 55%, #b25a8b 100%);
+}
+.bb-hero-peach {
+  background: linear-gradient(135deg, #f0925c 0%, #f4a474 55%, #f7b68c 100%);
+}
+[data-theme='dark'] .bb-hero-peach {
+  background: linear-gradient(135deg, #9c5a30 0%, #ab673b 55%, #ba7446 100%);
+}
+
+/* Tap-to-flip cards (special thanks): 3D turn + opacity cross-fade
+   (opacity guarantees correct faces even where backface-visibility is flaky). */
+.flip-scene { perspective: 1200px; }
+.flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.flip-inner.flipped { transform: rotateY(180deg); }
+.flip-front {
+  position: relative;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: opacity 0.25s ease 0.12s;
+}
+.flip-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: opacity 0.25s ease 0.12s;
+}
+.flip-front { opacity: 1; }
+.flip-back { opacity: 0; transform: rotateY(180deg); }
+.flip-inner.flipped .flip-front { opacity: 0; }
+.flip-inner.flipped .flip-back { opacity: 1; }
+.reduce-motion .flip-inner { transition: none; }
+.reduce-motion .flip-face { transition: none; }

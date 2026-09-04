@@ -1,0 +1,2207 @@
+{
+  "branch": "Food Processing Engineering",
+  "branch_id": "18c836ad-512c-4dae-c48e-0bf1a1fe82f7",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 1,
+      "subjects": [
+        {
+          "subject_name": "Communication Skills",
+          "subject_code": "100101",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Communication Skills Lab",
+          "subject_code": "100101P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Engineering Mathematics-I",
+          "subject_code": "100102",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Linear Algebra-I",
+              "topics": [
+                "Elementary Row operations",
+                "Gauss -Jordan Method for finding the inverse of Matrix",
+                "Complex Matrix: Hermitian",
+                "Skew Hermitian and Unitary Matrix",
+                "Vector space",
+                "Sub Spaces",
+                "Linear dependence and Independences of Vectors",
+                "Linear Span",
+                "Basis",
+                "Dimension",
+                "Extension of basis of subspace",
+                "The rank of a matrix",
+                "Row and column space",
+                "Solvability of system of linear equations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Linear Algebra-II",
+              "topics": [
+                "Linear Transformations",
+                "Kernel and Range of linear transformation",
+                "Matrix Representation of a linear transformation",
+                "Rank-Nullity Theorem",
+                "Eigen Value and Eigen Vectors",
+                "Properties of Eigen vectors",
+                "Eigen Bases",
+                "Orthogonal Transformation",
+                "Similarity Transformation",
+                "Matrix Diagonalization",
+                "Cayley- Hamilton Theorem"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Calculus for single variable",
+              "topics": [
+                "Inderminate form",
+                "L'Hospital Rule",
+                "Rolle's Theorem",
+                "Mean Value Theorem",
+                "Expansion of function (single variable)",
+                "Taylor and Maclaurin Series",
+                "Riemann Integration",
+                "Riemann Sum",
+                "Improper Integrals",
+                "Beta and Gamma function and their properties"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Multivariable Calculus (Differentiation)",
+              "topics": [
+                "Function with two or more variable",
+                "Limit",
+                "Continuity and Partial differentiation",
+                "Total Differentiation",
+                "Taylor's series and Maclaurin's series for function with two variable",
+                "Jacobian",
+                "Maxima and Minima",
+                "Method of Lagrange's multiplier"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Multivariable Calculus (Integration)",
+              "topics": [
+                "Double Integral",
+                "Change of order of integration",
+                "Triple integral",
+                "Change of Variable in a Double and Triple Integrals",
+                "Change to polar coordinate",
+                "Change to cylindrical coordinate",
+                "Change to spherical polar coordinate",
+                "Application to area and volume using double and triple integral"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Vector Calculus",
+              "topics": [
+                "Scalar and vector fields",
+                "Gradient",
+                "Directional derivative",
+                "Divergence",
+                "Curl and their properties",
+                "Line integral",
+                "Green's theorem in plane (without proof)",
+                "Surface integral",
+                "Stoke's theorem (without proof)",
+                "Volume Integral",
+                "Gauss-Divergence' theorem (without proof)",
+                "AICTE's Prescribed Textbook: Mathematics-I (Calculus & Linear Algebra), Reena Garg, Khanna Book Publishing Co. ISBN-10 9391505171",
+                "Advanced Engineering Mathematics, Chandrika Prasad & Reena Garg, Khanna Book Publishing Co., 2021. ISBN 10: 9386173522/ISBN 13: 9789386173522.",
+                "Higher Engineering Mathematics, B.V. Ramana, Tata McGraw Hill New Delhi, 11th Reprint, 2010, ISBN-10 007063419X ISBN-13978-0070634190.",
+                "Advanced Engineering Mathematics, SrkIyengar Rk Jain, Narosa, 5th Edition, ISBN-10 8184875606 ISBN-13978-8184875607",
+                "Advanced Engineering Mathematics, Erwin Kreyszig, 9th Edition, John Wiley & Sons, 2006."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry",
+          "subject_code": "100103",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Atomic and Molecular Structure Electromagnetic radiations Dual nature of electron and Heisenberg uncertainty Principle Photoelectric effect Planck's theory Principles for the combination of atomic orbitals to form a molecular diagram of molecular orbitals Bent's rule VSEPR theory (typical example) co-ordination numbers and geometries Isomerism in transition metal compounds Metal Carbonyls Synthesis and Structure",
+                "Electromagnetic radiations",
+                "Dual nature of electron and Heisenberg uncertainty Principle",
+                "Photoelectric effect",
+                "Planck's theory",
+                "Principles for the combination of atomic orbitals to form a molecular diagram of molecular orbitals",
+                "Bent's rule",
+                "VSEPR theory (typical example) co-ordination numbers and geometries",
+                "Isomerism in transition metal compounds",
+                "Metal Carbonyls",
+                "Synthesis and Structure"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Spectroscopy",
+              "topics": [
+                "Principle of rotational and vibrational spectroscopy",
+                "Selection rule for application in diatomic molecules",
+                "Elementary idea of electronic spectroscopy",
+                "UV-VIS spectroscopy with related to rules and its applications",
+                "Basic Principle of nuclear Magnetic resonance spectroscopy with applications"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Electrochemistry and Fuels",
+              "topics": [
+                "Nernst equation",
+                "EMF and electrochemical cell",
+                "The introduction of corrosion",
+                "Corrosion mechanism",
+                "Types of corrosion",
+                "Water line corrosion",
+                "Stress corrosion",
+                "Pitting corrosion",
+                "Lead acid storage cell",
+                "Leclanche cell",
+                "Calorific value of fuels",
+                "Proximate and ultimate analysis of coals",
+                "Fuel cells",
+                "Bio fuels"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Water Chemistry",
+              "topics": [
+                "Hardness of water",
+                "Estimation of water hardness by EDTA and Alkalinity method",
+                "Removal of the hardness of water- soda lime process",
+                "Zeolite process",
+                "Ion exchange process",
+                "Boiler problem",
+                "Sludge",
+                "Scale formation",
+                "Priming and foaming",
+                "Boiler corrosion",
+                "Caustic embrittlement",
+                "Unit 5.0: Polymer and Plastics Polymerization techniques (free radical, Ionic, And co-ordination mechanism) Preparation properties Technical application of phenol-formaldehyde resins Elastomers Synthetic rubbers (Buna-S, Buna-N, Neoprene) Inorganic polymers Silicones Adhesives Epoxy resins The structural difference between thermoplastic and thermosetting Plastics The Importance of commercially important thermoplastics and thermosets Poly ethylene Polyvinyl chloride Polystyrene",
+                "Polymerization techniques (free radical, Ionic, And co-ordination mechanism)",
+                "Preparation properties",
+                "Technical application of phenol-formaldehyde resins",
+                "Elastomers",
+                "Synthetic rubbers (Buna-S, Buna-N, Neoprene)",
+                "Inorganic polymers",
+                "Silicones",
+                "Adhesives",
+                "Epoxy resins",
+                "The structural difference between thermoplastic and thermosetting Plastics",
+                "The Importance of commercially important thermoplastics and thermosets",
+                "Poly ethylene",
+                "Polyvinyl chloride",
+                "Polystyrene"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Organic Reactions and Synthesis of A Drug Molecule",
+              "topics": [
+                "Introduction to intermediate and reaction involving Substitution",
+                "Addition",
+                "Elimination",
+                "Oxidation-reduction",
+                "Diels Elder cyclization and epoxide ring opening reactions",
+                "Synthesis of commonly used drug molecules like aspirin",
+                "University Chemistry, B.H. Mahan, Pearson",
+                "Chemistry, principles and application, M.J. Sienko and R.A. Plane, McGraw Hill International",
+                "Fundamentals of molecular Spectroscopy, C.N. Banwell",
+                "Engineering Chemistry (NPTEL Web- Book), B.L. Tembe, Kamaluddin and M.S. Krishnan, NPTEL",
+                "Physical Chemistry, P.W. Atkins, Oxford University Press",
+                "A text book of engineering chemistry, S. Chawala, Dhanpat Rai Publication",
+                "General Chemistry Part 1, R. Sarkar, New Central Book agency"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry Lab",
+          "subject_code": "100103P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "To estimate hardness of water by alkalinity method",
+                "To estimate hardness of water by EDTA method",
+                "To remove hardness of water by ion exchange method",
+                "Determination of pH of a given acid solution using a standard sodium hydroxide solution",
+                "Determination of surface tension and viscosity",
+                "Chemical analysis of salt (Acid radical and basic radical)",
+                "Adsorption of acetic acid by charcoal",
+                "Test of adulteration of fat butter, sugar, turmeric powder, chilli powder and pepper",
+                "Saponification/ acid value of an oil",
+                "Identification of organic substances and their functional groups",
+                "Potentiometric determination of redox potentials and emf",
+                "Synthesis of drug/ polymer like ASPRIN/ Urea- formaldehyde resin",
+                "Thin layer chromatography",
+                "Analysis of flue gas by orsat apparatus"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Introduction to AI",
+          "subject_code": "100105",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Engineering Graphics and Design",
+          "subject_code": "100107",
+          "type": "theory",
+          "credits": 2,
+          "L": 2,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Engineering Drawing",
+              "topics": [
+                "Principles of Engineering Graphics and Their Significance",
+                "Usage of Drawing Instruments",
+                "Lettering",
+                "Conic Sections including the Rectangular Hyperbola (General Method Only)",
+                "Cycloid",
+                "Epicycloid",
+                "Hypocycloid and Involute",
+                "Scales Plain",
+                "Diagonal and Vernier Scales"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Orthographic Projections",
+              "topics": [
+                "Principles of Orthographic Projections",
+                "Conventions Projections of Points and Lines",
+                "Inclined to Both Planes",
+                "Projections of Planes Inclined Planes Auxiliary Planes"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Projections of Regular Solids",
+              "topics": [
+                "Types of Solids",
+                "Projects of Solids (Prism, Pyramids, Cone, And cylinder): Inclined to Both the Planes- Auxiliary Views",
+                "Draw Simple Annotation",
+                "Dimensioning and Scale"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sections and Sectional Views of Right Angular Solids",
+              "topics": [
+                "Section of Solids (Prism, Cylinder, Pyramid, Cone)",
+                "Auxiliary Views",
+                "Development of Surfaces Of Right Regular Solids- Prism",
+                "Pyramid",
+                "Cylinder And Cone",
+                "Draw The Sectional Orthographic Views of Geometrical Solids",
+                "Objects From Industry And Dwellings (Foundation To Slab Only)"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Isometric Projections",
+              "topics": [
+                "Isometric Views",
+                "Compound Solids",
+                "Principles of Isometric Projection Isometric Scale",
+                "Conventions",
+                "Isometric Views of Lines",
+                "Planes",
+                "Simple and Conversion of Isometric Views to Orthographic Views And Vice-Versa",
+                "Unit- 6.0: Overview of Computer Graphics Listing the Computer Technologies that Impact on Graphical Communication Demonstrating Knowledge of the Theory of CAD Software [Such As: The Menu System, Toolbars (Standard, Object Properties, Draw, Modify And Dimension), Drawing Area (Background, Crosshairs, Coordinate System), Dialog Boxes And Windows, Shortcut Menus (Button Bars), The Command Line (Where Applicable), The Status Bar, Different Methods of Zoom as Used in CAD, Select and Erase Objects Isometric Views of Lines Planes Simple And Compound Solids",
+                "Listing the Computer Technologies that Impact on Graphical Communication",
+                "Demonstrating Knowledge of the Theory of CAD Software [Such As: The Menu System, Toolbars (Standard, Object Properties, Draw, Modify And Dimension), Drawing Area (Background, Crosshairs, Coordinate System), Dialog Boxes And Windows, Shortcut Menus (Button Bars), The Command Line (Where Applicable), The Status Bar, Different Methods of Zoom as Used in CAD, Select and Erase Objects",
+                "Simple And Compound Solids",
+                "Engineering Drawing, N.D. Bhatt, Charotar Publishing House, 53rd Edition, ISBN: 978-9380358277",
+                "A Textbook of Engineering Drawing, R.K. Dhawan, S. Chand Publishing, Revised Edition, ISBN: 978-8121929571",
+                "Engineering Drawing and Graphics, K. Venugopal, V. Prabhu Raja, New Age International Publishers, 3rd Edition, ISBN: 978-8122430120",
+                "Engineering Graphics with AutoCAD, D.M. Kulkarni, A.P. Rastogi, A.K. Sarkar, PHI Learning Pvt. Ltd., 1s Edition, ISBN: 978-8120337834"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Graphics and Design Lab",
+          "subject_code": "100107P",
+          "type": "lab",
+          "credits": 2,
+          "L": 0,
+          "T": 0,
+          "P": 4,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "(Which includes dimensioning methods, different types of line, construction of different polygon, divide the line and angle in parts, use of stencil)",
+                "Construction of Plane, Diagonal & Vernier Scales.",
+                "Construction of Ellipses, Parabolas, and Hyperbolas using the general method.",
+                "Construction of cycloid, epicycloid, hypocycloid, and involute of a circle.",
+                "Projection of Points and Lines inclined to both planes.",
+                "Projections of Planes (e.g., rectangular, triangular) in inclined positions.",
+                "Projection of Solids (prisms, pyramids, cones, and cylinders)",
+                "Drawing of Sections of Prisms, Cylinders, Pyramids, and Cones.",
+                "Development of Surfaces for prisms, pyramids, cylinders, and cones.",
+                "Construction of Isometric views of lines, planes, and simple solids.",
+                "Introduction to CAD Software.",
+                "Use of CAD software to draw basic geometric shapes, apply dimensions, and modify objects."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Programming for Problem Solving Lab",
+          "subject_code": "100112P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Tutorial 1: Problem solving using computers. Lab 1: Familiarization with programming environment.",
+                "Tutorial 2: Variable types and type conversions. Lab 2: Simple computational problems using arithmetic expressions.",
+                "Tutorial 3: Branching and logical expressions. Lab 3: Problems involving if-then-else structures.",
+                "Tutorial 4: Loops, while and for loops. Lab 4: Iterative problems e.g., sum of series.",
+                "Tutorial 5: 1D Arrays: searching, sorting. Lab 5: 1D Array manipulation.",
+                "Tutorial 6: 2D arrays and Strings. Lab 6: Matrix problems, String operations.",
+                "Tutorial 7: Functions, call by value. Lab 7: Simple functions.",
+                "Tutorial 8 & 9: Numerical methods (Root finding, numerical differentiation, numerical integration). Lab 8 and 9: Programming for solving Numerical methods problems.",
+                "Tutorial 10: Recursion, structure of recursive calls. Lab 10: Recursive functions.",
+                "Tutorial 11: Pointers, structures and dynamic memory allocation. Lab 11: Pointers and structures.",
+                "Tutorial 12: File handling. Lab 12: File operations."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Sports/Yoga/NCC/NSS",
+          "subject_code": "100113P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Any topics related to innovative project."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "subjects": [
+        {
+          "subject_name": "Engineering Physics",
+          "subject_code": "100201",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Frame of Reference Non-Inertial frame of reference Rotating coordinate system",
+              "topics": [
+                "Frame of Reference",
+                "Non-Inertial frame of reference",
+                "Rotating coordinate system",
+                "Centripetal and Coriolis acceleration and its application in weather system",
+                "Oscillations",
+                "Harmonic Oscillator",
+                "Damped Harmonic motion - overdamped",
+                "Critically Damped and lightly damped oscillators",
+                "Force Oscillators and Resonance",
+                "Unit 2.0 Optics Huygens's Principle Superposition of Waves and interference of Light by wave front- splitting and amplitude-splitting Young's double slit experiment Michelson interferometer Fraunhofer diffraction from single slit and circular aperture Diffraction Grating and their resolving power LASER Einstein's theory of matter-radiations interaction Einstein's Coefficients (A and B) Amplification by population inversion Different types of lasers - Gas Laser Helium-Neon Laser Solid State Laser (Ruby Neodymium) Semiconductor Laser",
+                "Optics",
+                "Huygens's Principle",
+                "Superposition of Waves and interference of Light by wave front- splitting and amplitude-splitting",
+                "Young's double slit experiment",
+                "Michelson interferometer",
+                "Fraunhofer diffraction from single slit and circular aperture",
+                "Diffraction Grating and their resolving power",
+                "LASER",
+                "Einstein's theory of matter-radiations interaction",
+                "Einstein's Coefficients (A and B)",
+                "Amplification by population inversion",
+                "Different types of lasers - Gas Laser",
+                "Helium-Neon Laser",
+                "Solid State Laser (Ruby",
+                "Neodymium)",
+                "Semiconductor Laser",
+                "Unit 3.0 Quantum Mechanics Compton Effect Photoelectric Effect Wave Particle duality De Broglie's hypothesis Heisenberg's Uncertainty Principle Wave function and wave packets Phase and group velocities Schrodinger's Wave Equation Normalization Expectation values Eigenvalues and Eigenfunction Applications in One dimensions Application of Schrodinger Wave Equation for particle in one dimensional box its wavefunction and eigenvalue of energy and momentum",
+                "Quantum Mechanics",
+                "Compton Effect",
+                "Photoelectric Effect",
+                "Wave Particle duality",
+                "De Broglie's hypothesis",
+                "Heisenberg's Uncertainty Principle",
+                "Wave function and wave packets",
+                "Phase and group velocities",
+                "Schrodinger's Wave Equation",
+                "Normalization",
+                "Expectation values",
+                "Eigenvalues and Eigenfunction",
+                "Applications in One dimensions",
+                "Application of Schrodinger Wave Equation for particle in one dimensional box its wavefunction and eigenvalue of energy and momentum",
+                "Unit 4.0 Vector Calculus Gradient Divergence and Curl Line Surface and Volume integrals Gauss's Divergence theorem and Stokes' theorem in Cartesian Coordinate Electrostatics Gauss's Law and its applications Divergence and Curl of Electrostatic fields Electrostatic Potential Boundary Conditions Poisson's and Laplace's equations Dielectrics Polarization Bound Charges Electric displacement Boundary Conditions in dielectrics",
+                "Vector Calculus",
+                "Gradient",
+                "Divergence and Curl",
+                "Line",
+                "Surface and Volume integrals",
+                "Gauss's Divergence theorem and Stokes' theorem in Cartesian Coordinate",
+                "Electrostatics",
+                "Gauss's Law and its applications",
+                "Divergence and Curl of Electrostatic fields",
+                "Electrostatic Potential",
+                "Boundary Conditions",
+                "Poisson's and Laplace's equations",
+                "Dielectrics",
+                "Polarization",
+                "Bound Charges",
+                "Electric displacement",
+                "Boundary Conditions in dielectrics",
+                "Unit 5.0 Magnetostatics Lorentz force Biot-Savart and Ampere's circuital laws and their applications Divergence and Curl of Magneto static fields Magnetic vector potential Force and torque on a magnetic dipole Magnetic Materials Magnetization Bound currents Boundary conditions Electrodynamics and Electromagnetic Waves Ohm's law Motional EMF Faraday's Law Lenz's law Self and mutual inductance Energy stored in magnetic field Maxwell's equations in vacuum and nonconducting medium Continuity Equation Poynting Theorem Wave Equations: plain electromagnetic wave in vacuum and their transverse nature and Polarization",
+                "Magnetostatics",
+                "Lorentz force",
+                "Biot-Savart and Ampere's circuital laws and their applications",
+                "Divergence and Curl of Magneto static fields",
+                "Magnetic vector potential",
+                "Force and torque on a magnetic dipole",
+                "Magnetic Materials",
+                "Magnetization",
+                "Bound currents",
+                "Electrodynamics and Electromagnetic Waves",
+                "Ohm's law",
+                "Motional EMF",
+                "Faraday's Law",
+                "Lenz's law",
+                "Self and mutual inductance",
+                "Energy stored in magnetic field",
+                "Maxwell's equations in vacuum and nonconducting medium",
+                "Continuity Equation",
+                "Poynting Theorem",
+                "Wave Equations: plain electromagnetic wave in vacuum and their transverse nature and Polarization"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Introduction to Solids and Semi-Conductors Free electron theory of metal",
+              "topics": [
+                "Introduction to Solids and Semi-Conductors",
+                "Free electron theory of metal",
+                "Fermi level",
+                "Bloch's theorem for particle in a periodic Potential",
+                "Kroning-Penney model and origin of energy band",
+                "Electronic Materials",
+                "Metals",
+                "Semiconductors and insulators",
+                "Intrinsic and extrinsic semiconductors",
+                "Carrier transport",
+                "Diffusion and drift",
+                "P-N junction",
+                "Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles, R. Eisberg R. Resnick, Wiley India Pvt. Ltd ISBN 978-81-265-0818-1",
+                "Theory of Vibration with Application, W.T. Thomson M. D. Dahleh, Pearson India ISBN 978-81-317-0482-0",
+                "Introduction to Electrodynamics, D.J. Griffiths, Pearson India, ISBN 978-93-325- 5044-5",
+                "Electromagnetism, I.S. Grant, W. R. Phillips, Wiley India Pvt. Ltd ISBN 978-04-719- 2712-9",
+                "The Feynman Lectures on Physics, R.P. Feynman R. B. Leighton, Pearson India ISBN 978-00-710-7458-2",
+                "Optics, Ajay Ghatak, McGraw Hill ISBN 978-93-901-1359-0",
+                "Physics of Vibration and Waves, H. J. Pain, Wiley India Pvt. Ltd, ISBN 978-04-700- 1296-3",
+                "Concept of Modern Physics, Arthur Beiser, McGraw Hill ISBN 978-93-513-4185-7",
+                "Introduction to Solid State Physics, C. Kittle, Wiley India Pvt. Ltd, ISBN 978-81- 265-7843-6"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Physics Lab",
+          "subject_code": "100201P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Determination of the capacitance and permittivity of the given material.",
+                "Determination of e/m of electron.",
+                "Determination of Planck's constant and Photoelectric Work Function using Photoelectric cell.",
+                "Verification of inverse square law using photocell.",
+                "Determination of Wavelength of (He-Ne) LASER using Diffraction Grating Method.",
+                "Calculation of Energy Band Gap of a semiconductor.",
+                "Determination of Dielectric constant using resonance method.",
+                "Determination of Wavelength of Sodium light by measuring the diameter of the Newton's Ring.",
+                "Determination of curvature of convex surface of a lens by Newton's ring.",
+                "Verification of existence of Bohr's Energy level with Frank-Hertz apparatus.",
+                "Determination of the Earth's horizontal magnetic field intensity and magnetic Moment of a magnet by employing magnetometer.",
+                "Verification of Faraday's Law and Lenz's Law of Electromagnetic Induction."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Mathematics-II",
+          "subject_code": "100202",
+          "type": "theory",
+          "credits": 4,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Complex Analysis - I",
+              "topics": [
+                "Functions of complex variable",
+                "Limit",
+                "Continuity",
+                "Differentiability",
+                "Analytic function",
+                "Cauchy-Riemann Equations in Cartesian and polar form",
+                "Harmonic function and harmonic conjugate"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Complex Analysis - II",
+              "topics": [
+                "Line Integral",
+                "Contour integrals",
+                "Cauchy theorem",
+                "Cauchy's Integral formula(without proof)",
+                "Taylors series",
+                "Zero of analytic functions",
+                "Singularities",
+                "Laurent's series",
+                "Residue",
+                "Cauchy residue theorem(without Proof) and its applications"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Ordinary Differential Equations",
+              "topics": [
+                "Linear differential equations of nth Order with constant coefficients",
+                "Solution of Homogeneous and Non-Homogeneous Equations",
+                "Equations with variable coefficients",
+                "Cauchy- Euler Equations",
+                "Method of Variation of Parameters"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sequence and Series",
+              "topics": [
+                "Introduction of Sequence and Series",
+                "Nature of series Tests of convergence of Series: Comparison test",
+                "D'Alembert ratio test",
+                "Cauchy's Root test",
+                "Raabe's test",
+                "Logarithmic test",
+                "Cauchy's condensation test"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Laplace Transform Laplace Transform Existence theorem Properties of Laplace Transform",
+              "topics": [
+                "Laplace Transform",
+                "Existence theorem",
+                "Properties of Laplace Transform",
+                "Laplace Transform of Periodic functions",
+                "Inverse Laplace Transform",
+                "Convolution theorem",
+                "Application of Laplace Transform to solve Ordinary differential equations"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Fourier Series Fourier Series Fourier Series for odd and even",
+              "topics": [
+                "Fourier Series",
+                "Fourier Series for odd and even functions",
+                "Half range sine and cosine series",
+                "Parseval's theorem",
+                "Advanced Engineering Mathematics, Kreyszig Erwin, John Wiley and Sons, 10th Edition, 2020 ISBN:978-0470-45836-5",
+                "Advanced Engineering Mathematics, Dass H.K., S Chand and Company pvt.Ltd., 22nd Edition, 2018 ISBN:978-93-5283-718-2",
+                "Higher Engineering Mathematics, Grewal B.S., Khanna Publishers, 44th Edition, 2023 ISBN:9788174091154",
+                "Complex Variables (Theory and Applications), Kasana H.S., PHI, 2nd Edition.2015 ISBN:978-81-203-2641-5",
+                "A Text Book of Engineering Mathematics, Bali N.P., Goyal Manish Laxmi Publications, 9th Edition, 2014",
+                "Higher Engineering Mathematics, Ramana B.V., Tata McGraw Hill New Delhi, 11th Reprint, 2010, ISBN-10 007063419X ISBN-13 978-0070634190",
+                "Differential Equations, Ross S.L., Wiley Publications, 3rd edition, 2016 ISBN:978-81- 265-1537-0",
+                "Advanced Differential Equations, Raisinghania M.D., S.Chand and Company PVT.LTD., 18th Edition, 2015 ISBN:978-81-219-0893-1",
+                "Schaum's Outlines Complex Variables, Spiegel Murray R, Lipschutz Seymour, Schiller J John and Spellman Dennis, MC Graw Hill Education Private Ltd.2nd Edition, 2010 ISBN:978-0-07-008538-1"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Programming for Problem Solving",
+          "subject_code": "100203",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction to Programming Introduction to components of a computer system (disks Memory Processor Where a program is stored and executed Operating system Compilers etc.) Idea of Algorithm: steps to solve logical and numerical problems Representation of Algorithm: Flowchart/ Pseudo code with examples From algorithms to programs Source code Variables (with data types) variables and memory locations Syntax and Logical Errors in compilation Object and executable code",
+                "Introduction to components of a computer system (disks",
+                "Memory",
+                "Processor",
+                "Where a program is stored and executed",
+                "Operating system",
+                "Compilers etc.)",
+                "Idea of Algorithm: steps to solve logical and numerical problems",
+                "Representation of Algorithm: Flowchart/ Pseudo code with examples",
+                "From algorithms to programs",
+                "Source code",
+                "Variables (with data types) variables and memory locations",
+                "Syntax and Logical Errors in compilation",
+                "Object and executable code"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Operators, Conditional Branching and Loops",
+              "topics": [
+                "Arithmetic expressions/arithmetic operators",
+                "Relational operators",
+                "Logical operators",
+                "Bitwise operators and precedence",
+                "Writing and evaluation of conditionals and consequent branching",
+                "Iteration and loops"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Arrays and String",
+              "topics": [
+                "Array declaration & initialization",
+                "Bound checking arrays (1-d",
+                "2-d)",
+                "Character arrays and strings",
+                "Unit 4.0: Function, Recursion and Pointers Functions (including using built in libraries) Parameter passing in functions Call by value Passing arrays to functions Recursion As a different way of solving problems Example programs Such as Finding Factorial Fibonacci series Ackerman function etc. Idea of pointers Defining pointers Use of Pointers in self- referential structures Idea of call by reference",
+                "Functions (including using built in libraries)",
+                "Parameter passing in functions",
+                "Call by value",
+                "Passing arrays to functions",
+                "Recursion",
+                "As a different way of solving problems",
+                "Example programs",
+                "Such as Finding Factorial",
+                "Fibonacci series",
+                "Ackerman function etc.",
+                "Idea of pointers",
+                "Defining pointers",
+                "Use of Pointers in self- referential structures",
+                "Idea of call by reference",
+                "Unit 5.0: User defined Data Types and File handling Structure- defining Declaring Initializing Accessing structure members Processing of structure Array of structures Structures within structure Structure and function Type definition Union- definition Declaration Accessing union members Initializing union Introduction File declaration Opening and closing a file Working with text and binary files I/O operations on file Error handling Random access to files",
+                "Structure- defining",
+                "Declaring",
+                "Initializing",
+                "Accessing structure members",
+                "Processing of structure",
+                "Array of structures",
+                "Structures within structure",
+                "Structure and function",
+                "Type definition",
+                "Union- definition",
+                "Declaration",
+                "Accessing union members",
+                "Initializing union",
+                "Introduction",
+                "File declaration",
+                "Opening and closing a file",
+                "Working with text and binary files",
+                "I/O operations on file",
+                "Error handling",
+                "Random access to files"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Basic Algorithms",
+              "topics": [
+                "Searching",
+                "Basic Sorting Algorithms (Bubble",
+                "Insertion and Selection)",
+                "Finding roots of equations",
+                "Notion of order of complexity through example programs (no formal definition required)",
+                "Programming in ANSI C 4th Ed,E Balagurusamy, McGraw Hill Education India Private Limited, ISBN-978-9339219666, 7th Edition",
+                "The C Programming Language 2e, W. Kernighan / Dennis Ritchie, Pearson Education India, 978-9332549449, 2nd Edition",
+                "Computer Fundamentals and Programming in C,ReemaThareja, Oxford University Press, ISBN-978-9354977893, 3rd Edition"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Programming for Problem Solving Lab",
+          "subject_code": "100203P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Tutorial 1: Problem solving using computers: Lab1: Familiarization with programming environment",
+                "Tutorial 2: Variable types and type conversions: Lab 2: Simple computational problems using arithmetic expressions",
+                "Tutorial 3: Branching and logical expressions: Lab 3: Problems involving if-then-else structures",
+                "Tutorial 4: Loops, while and for loops: Lab 4: Iterative problems e.g., sum of series",
+                "Tutorial 5: 1D Arrays: searching, sorting: Lab 5: 1D Array manipulation",
+                "Tutorial 6: 2D arrays and Strings: Lab 6: Matrix problems, String operations",
+                "Tutorial 7: Functions, call by value: Lab 7: Simple functions",
+                "Tutorial 8 & 9: Numerical methods (Root finding, numerical differentiation, numerical integration): Lab 8 and 9: Programming for solving Numerical methods problems",
+                "Tutorial 10: Recursion, structure of recursive calls: Lab 10: Recursive functions",
+                "Tutorial 11: Pointers, structures and dynamic memory allocation: Lab 11: Pointers and structures",
+                "Tutorial 12: File handling: Lab 12: File operations"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Workshop Practices",
+          "subject_code": "100206",
+          "type": "theory",
+          "credits": 2,
+          "L": 2,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Sheet Metal Working",
+              "topics": [
+                "Sheet material: GI sheets",
+                "Aluminium",
+                "Tin plate",
+                "Copper",
+                "Brass etc",
+                "Tools: steel rule",
+                "Vernier callipers",
+                "Micrometer",
+                "Sheet metal gauge",
+                "Scriber",
+                "Divider",
+                "Punches",
+                "Chisels",
+                "Hammers",
+                "Snips",
+                "Pliers",
+                "Stakes etc",
+                "Operations: scribing",
+                "Bending",
+                "Shearing",
+                "Punching etc",
+                "Product development: hexagonal box with cap",
+                "Funnel etc"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Joining",
+              "topics": [
+                "Classifications of joining processes",
+                "Brazing",
+                "Soldering",
+                "Mechanical Joints",
+                "Arc welding",
+                "Gas welding etc",
+                "Unit 3.0: Pattern Making and Foundry Practice Pattern material: wood Cast iron Brass Aluminium Waxes etc Types of patterns: split Single piece Match plate etc Tools: cope Drag Core Core prints Shovel Riddle Rammer Trowel Slick Lifter Sprue pin Bellow Mallet Vent rod Furnace etc Moulding sands: green sand Dry sand Loam sand Facing sand etc Sand casting: Sand preparation Mould making Melting Pouring Cleaning",
+                "Pattern material: wood",
+                "Cast iron",
+                "Brass",
+                "Aluminium",
+                "Waxes etc",
+                "Types of patterns: split",
+                "Single piece",
+                "Match plate etc",
+                "Tools: cope",
+                "Drag",
+                "Core",
+                "Core prints",
+                "Shovel",
+                "Riddle",
+                "Rammer",
+                "Trowel",
+                "Slick",
+                "Lifter",
+                "Sprue pin",
+                "Bellow",
+                "Mallet",
+                "Vent rod",
+                "Furnace etc",
+                "Moulding sands: green sand",
+                "Dry sand",
+                "Loam sand",
+                "Facing sand etc",
+                "Sand casting: Sand preparation",
+                "Mould making",
+                "Melting",
+                "Pouring",
+                "Cleaning"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Fitting Shop",
+              "topics": [
+                "Introduction to Fitting",
+                "Fitting Tools: Files and their classification",
+                "Holding Tools",
+                "Cutting Tools",
+                "Measuring and Marking Tools",
+                "Thread Making Tools",
+                "Various Fitting Power Tools",
+                "Methods Of Filing: Cross Filling and Draw Filing",
+                "Other associated operations Marking",
+                "Sawing and Chipping",
+                "Safety and Precautions in Fitting Shop",
+                "Unit 5.0: Carpentry Shop Introduction to Carpentry Shop Types of Wood Seasoning of Wood: Types of Seasoning Methods Defects in wood Structure of Wood Carpentry Tools Measuring Tools Marking Tools Cutting Tools Planning Tools Drilling and Boring Tools Holding Tools Striking Tools Auxiliary tools and materials used in Carpentry Wood working Processes Carpentry joints Wood Working Machines: Wood Working Lathe Circular Saw Thickness Planer Band saw Safety and precautions in Carpentry Shop",
+                "Introduction to Carpentry Shop",
+                "Types of Wood",
+                "Seasoning of Wood: Types of Seasoning Methods",
+                "Defects in wood",
+                "Structure of Wood",
+                "Carpentry Tools",
+                "Measuring Tools",
+                "Marking Tools",
+                "Planning Tools",
+                "Drilling and Boring Tools",
+                "Striking Tools",
+                "Auxiliary tools and materials used in Carpentry",
+                "Wood working Processes",
+                "Carpentry joints",
+                "Wood Working Machines: Wood Working Lathe",
+                "Circular Saw",
+                "Thickness Planer",
+                "Band saw",
+                "Safety and precautions in Carpentry Shop"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Smithy Shop",
+              "topics": [
+                "Introduction to Smithy Shop",
+                "Forging Tools and Equipment",
+                "Forging Operations: Drawing",
+                "Upsetting",
+                "Swaging",
+                "Punching",
+                "Drifting",
+                "Fullering",
+                "Bending",
+                "Hot Working Processes: Rolling",
+                "Drop Forging",
+                "Press Forging",
+                "Hot Extrusion",
+                "Hot Drawing",
+                "Cold Working Process",
+                "Safety and Precautions in Smithy Shop",
+                "Hajra Choudhury S.K., Hajra Choudhury A.K. And Nirjhar Roy S.K., \"ElementsOf Workshop Technology\", Vol. I 2008 And Vol. Ii 2010, Media PromotersAnd Publishers Private Limited, Mumbai.",
+                "Kalpakjian S. And Steven S. Schmid, \"Manufacturing Engineering And Technology\", 4th Edition, Pearson Education India Edition, 2002.",
+                "Gowri P. Hariharan And A. Suresh Babu,\"Manufacturing Technology - I\"Pearson Education, 2008.",
+                "Roy A. Lindberg, \"Processes And Materials Of Manufacture\", 4th Edition, Prentice Hall India, 1998.",
+                "Rao P.N., \"Manufacturing Technology\", Vol. I And Vol. Ii, Tata McgrawhillHouse, 2017."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Workshop Practices Lab",
+          "subject_code": "100206P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Learn and apply of different fitting tools -like work holding, marking, measuring, cutting, finishing and miscellaneous. Student will also prepare the report with sketch, specifications and applications of fitting tools demonstrated.",
+                "Prepare one simple and another male-female type fitting jobs as per given drawings- 2 jobs",
+                "Learn and apply of different tin smithy tools. Student will also prepare the report with sketch, specifications and applications of tin smithy tools demonstrated.",
+                "Learn and apply of welding equipments and making minimum one model.",
+                "Learn and apply of foundry tools and making minimum one model.",
+                "Learn and apply of carpentry tools and making minimum one model.",
+                "Learn and apply of Sheet Metal tools and making minimum one model.",
+                "Learn and apply of Lathe Tools & operations for making a job.",
+                "Learn and apply the application of measuring tools.",
+                "Learn and apply any casting process for making a model"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Food Chemistry",
+          "subject_code": "100207",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Carbohydrate Metabolism General formula Definition Classification of carbohydrates Monosaccharides Oligosaccharides and polysaccharide Open and cyclic structure of glucose Structure of disaccharides- Maltose and Sucrose Polysaccharides- general introduction to their source and structure of starch Cellulose Glycogen Metabolic pathways for breakdown of carbohydrates: Glycolytic pathway Pentose phosphate pathway Citric acid cycle Electron transport chain ATP balance Gluconeogenesis",
+                "General formula",
+                "Definition",
+                "Classification of carbohydrates",
+                "Monosaccharides",
+                "Oligosaccharides and polysaccharide",
+                "Open and cyclic structure of glucose",
+                "Structure of disaccharides- Maltose and Sucrose",
+                "Polysaccharides- general introduction to their source and structure of starch",
+                "Cellulose",
+                "Glycogen",
+                "Metabolic pathways for breakdown of carbohydrates: Glycolytic pathway",
+                "Pentose phosphate pathway",
+                "Citric acid cycle",
+                "Electron transport chain",
+                "ATP balance",
+                "Gluconeogenesis",
+                "Unit 2.0: Protein Metabolism Amino acids Classification of amino acids (acidic Basic and neutral) Structure of protein (fibrous Globular Tertiary and quaternary structure of protein) Properties of proteins- Amphoteric Isoelectric point Hydrolysis Denaturation Coagulation Introduction to Casein protein in milk Separation of amino acids by Chromatographic method (paper Thin layer chromatography) Metabolism of proteins- digestion Absorption of dietary proteins and removal of nitrogen from amino acids Urea cycle",
+                "Amino acids",
+                "Classification of amino acids (acidic",
+                "Basic and neutral)",
+                "Structure of protein (fibrous",
+                "Globular",
+                "Tertiary and quaternary structure of protein)",
+                "Properties of proteins- Amphoteric",
+                "Isoelectric point",
+                "Hydrolysis",
+                "Denaturation",
+                "Coagulation",
+                "Introduction to Casein protein in milk",
+                "Separation of amino acids by Chromatographic method (paper",
+                "Thin layer chromatography)",
+                "Metabolism of proteins- digestion",
+                "Absorption of dietary proteins and removal of nitrogen from amino acids",
+                "Urea cycle"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Lipid Metabolism",
+              "topics": [
+                "Definition",
+                "Structure",
+                "Classification of lipids",
+                "Simple lipids -fats and oils",
+                "Saponification",
+                "Iodine value",
+                "Fatty acids",
+                "Derived lipids -steroids-cholesterol",
+                "Good cholesterol-high density cholesterol and bad cholesterol-low density cholesterol",
+                "Metabolism of lipids- absorption",
+                "Lipolysis",
+                "B-oxidation",
+                "Ketogenesis and lipogenesis"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Enzymes",
+              "topics": [
+                "Concepts",
+                "Classification",
+                "Physico- chemical nature",
+                "Mechanism of enzyme action",
+                "Enzyme kinetics (MME and their transformations)",
+                "Factors affecting enzyme activity",
+                "Enzyme inhibition",
+                "Enzyme specificity",
+                "Co-factors",
+                "Basic concepts on lysozymes & Isozymes",
+                "Enzyme unit",
+                "Turn over number",
+                "Allosteric enzyme"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Food Additives",
+              "topics": [
+                "Introduction to uses",
+                "Advantages and harmful effects of food additives with few examples: Preservatives",
+                "Flavoring agents",
+                "Essence",
+                "Sweetening agents",
+                "Antioxidants",
+                "Thickeners and gelling agents",
+                "Emulsifiers",
+                "Colors (natural and synthetic)",
+                "Bleaching agents",
+                "Anti-caking agents",
+                "Acidity regulators-acid",
+                "Bases",
+                "Buffers",
+                "Food Adulteration and its prevention"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Vitamins and Minerals",
+              "topics": [
+                "Vitamins: Fat soluble and water-soluble vitamins (A",
+                "B1",
+                "B6",
+                "B2",
+                "B12",
+                "C",
+                "D",
+                "E",
+                "K)",
+                "Sources and deficiency diseases",
+                "Minerals: Types of minerals",
+                "Importance of Minerals like Na",
+                "K",
+                "Fe",
+                "I",
+                "Zn",
+                "Their functions",
+                "Sources",
+                "Effects of excessive mineral consumption",
+                "Dietary supplements-definition and examples",
+                "Harmful effects of high dose of dietary supplements"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Food Chemistry Lab",
+          "subject_code": "100207P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Detection of reducing sugar and non-reducing sugars using Fehling's solution.",
+                "Estimation of reducing sugar and total reducing sugar in given food sample by Lane and Eynon method.",
+                "Estimation of lactose in milk sample by titrimetric method",
+                "Identify amino acids in a mixture by thin layer chromatography.",
+                "Detection of presence of proteins- Biuret test, Ninhydrin test and Xanthoproteic test.",
+                "Detection of coagulation process of proteins using heating method and Chemical methods- using vinegar and Copper Sulphate in food (egg/milk).",
+                "Estimation of saponification value of fats and oils.",
+                "Estimation of iodine value of fats and oils.",
+                "Detection of presence of fats in the given food sample- solubility test, spot test, Acrolein test and Baudouin Test.",
+                "Detection the effect of pH and temperature on hydrolysis of starch by salivary amylase.",
+                "Estimation of concentration of sodium benzoate in fruit juice.",
+                "Determination of maximum use level of given food additives in particular food as per FSSAL."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Swachha Bharat Mission",
+          "subject_code": "100214P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Understanding the importance of cleanliness and sanitation: The course could aim to create awareness about the significance of cleanliness and sanitation in maintaining personal health, environmental sustainability, and community well-being. It could cover topics such as waste management, sanitation practices, and the impact of poor sanitation on public health.",
+                "Developing skills for effective waste management: The course could provide training on various waste management techniques, such as waste segregation, composting, recycling, and proper disposal of hazardous waste. It could also emphasize the importance of reducing waste generation and promoting sustainable waste management practices.",
+                "Promoting behavioural change towards cleanliness: The course could focus on influencing positive behavioural change among individuals and communities towards cleanliness. It could include modules on promoting good hygiene practices, creating awareness about the harmful effects of littering and open defecation, and encouraging responsible waste disposal habits.",
+                "Creating awareness about Swachh Bharat Mission initiatives: The course could provide information about the Swachh Bharat Mission initiatives and campaigns launched by the Government of India to promote cleanliness and sanitation, such as Swachh Survekshan, Swachh Bharat Abhiyan, and Clean India Campaign. It could also discuss the progress made, challenges faced, and future prospects of the Swachh Bharat Mission.",
+                "Engaging in community participation and advocacy: The course could emphasize the importance of community participation in the Swachh Bharat Mission and provide tools and strategies for engaging with local communities to promote cleanliness and sanitation. It could also encourage advocacy for policy changes and innovations to address sanitation-related issues at the community, regional, and national levels.",
+                "Increased awareness and knowledge about cleanliness and sanitation: Participants of the course may gain a deeper understanding of the importance of cleanliness and sanitation, including the impact on personal health, environmental sustainability, and community well-being. They may learn about various waste management techniques, hygiene practices, and the initiatives of the Swachh Bharat Mission.",
+                "Enhanced skills for effective waste management: Participants may acquire practical skills related to waste management, such as waste segregation, composting, recycling, and proper disposal of hazardous waste. They may also develop skills in reducing waste generation and promoting sustainable waste management practices in their communities or workplaces.",
+                "Positive behavioral change towards cleanliness: The course may influence participants to adopt positive behavioral changes towards cleanliness, such as avoiding littering, practicing good hygiene habits, and promoting responsible waste disposal. Participants may develop a sense of responsibility towards maintaining cleanliness in their surroundings and actively contribute towards creating a cleaner environment.",
+                "Increased community participation and advocacy: Participants may become actively engaged in community participation and advocacy efforts related to cleanliness and sanitation. They may collaborate with local communities, government bodies, and non- governmental organizations (NGOs) to raise awareness, implement cleanliness initiatives, and advocate for policy changes or innovations to address sanitation-related issues.",
+                "Contribution towards Swachh Bharat Mission objectives: Participants may contribute towards the objectives of the Swachh Bharat Mission, such as promoting cleanliness, ensuring proper waste management, and eliminating open defecation. They may actively participate in Swachh Bharat Mission campaigns, initiatives, and activities, and make a positive impact on their communities and society at large.",
+                "Any topics related to Swatch Bharat Mission"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "subjects": [
+        {
+          "subject_name": "Engineering Mathematics -III (PDE, Prob/Stat)",
+          "subject_code": "115301",
+          "type": "theory",
+          "credits": 4,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Definition of partial differential equations First order partial differential equations",
+              "topics": [
+                "Definition of partial differential equations",
+                "First order partial differential equations",
+                "Solutions of first order linear PDEs",
+                "Solution to homogenous and non-homogenous linear partial differential equations of second order by complimentary function and particular integral method",
+                "Unit 2.0 Second-order linear equations and their classification Initial and boundary conditions D'Alembert's solution of the wave equation Duhamel's principle for one dimensional wave equation Heat diffusion and vibration problems Separation of variables method to simple problems in Cartesian coordinates The Laplacian in plane Cylindrical and spherical polar coordinates Solutions with Bessel functions and Legendre functions One dimensional diffusion equation and its solution by separation of variables",
+                "Second-order linear equations and their classification",
+                "Initial and boundary conditions",
+                "D'Alembert's solution of the wave equation",
+                "Duhamel's principle for one dimensional wave equation",
+                "Heat diffusion and vibration problems",
+                "Separation of variables method to simple problems in Cartesian coordinates",
+                "The Laplacian in plane",
+                "Cylindrical and spherical polar coordinates",
+                "Solutions with Bessel functions and Legendre functions",
+                "One dimensional diffusion equation and its solution by separation of variables"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Probability spaces Conditional probability Independence Discrete random variables Independent random",
+              "topics": [
+                "Probability spaces",
+                "Conditional probability",
+                "Independence",
+                "Discrete random variables",
+                "Independent random variables",
+                "The multinomial distribution",
+                "Poisson approximation to the binomial distribution",
+                "Infinite sequences of Bernoulli trials",
+                "Sums of independent random variables",
+                "Expectation of discrete random variables",
+                "Moments",
+                "Variance of a sum",
+                "Correlation coefficient",
+                "Chebyshev's inequality"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Continuous random variables and their properties Distribution functions and densities",
+              "topics": [
+                "Continuous random variables and their properties",
+                "Distribution functions and densities",
+                "Normal",
+                "Exponential and gamma densities",
+                "Bivariate distributions and their properties",
+                "Distribution of sums and quotients",
+                "Conditional densities",
+                "Bayes' rule"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Basic statistics Measures of central tendency: moments Skewness and kurtosis",
+              "topics": [
+                "Basic statistics",
+                "Measures of central tendency: moments",
+                "Skewness and kurtosis",
+                "Probability distributions: binomial",
+                "Poisson and normal - evaluation of statistical parameters for these three distributions",
+                "Correlation and regression - rank correlation",
+                "Curve fitting by the method of least squares fitting of straight lines",
+                "Second degree parabolas and more general curves"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Test of significance: large sample test for single proportion Difference",
+              "topics": [
+                "Test of significance: large sample test for single proportion",
+                "Difference of proportions",
+                "Tests for single mean",
+                "Difference of means",
+                "And difference of standard deviations",
+                "Test for ratio of variances - chi- square test for goodness of fit and independence of attributes",
+                "Erwin Kreyszig, Advanced Engineering Mathematics, 9thEdition, John Wiley & Sons, 2006.",
+                "N.P. Bali and Manish Goyal, A text book of Engineering Mathematics, Laxmi Publications.",
+                "P. G. Hoel, S. C. Port and C. J. Stone, Introduction to Probability Theory, Universal Book Stall.",
+                "S. Ross, A First Course in Probability, 6th Ed., Pearson Education India, 2002."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Principles of Food Preservation",
+          "subject_code": "115302",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 0,
+          "P": 1,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Food Spoilage and Food Preservation",
+              "topics": [
+                "Parameters of foods that affect their stability",
+                "Causes of food spoilage",
+                "Microorganisms and food spoilage",
+                "Enzymatic reactions and chemical changes in foods",
+                "Food preservation principles",
+                "Methods",
+                "Unit 2.0: Thermal Processing of Food Thermal destruction of microbial cells and bacteria spores Kinetics of microbial death Heat penetration into foods Method of determining lethality of thermal processes Thermal destruction of enzymes Mechanisms of heat transfer in food Blanching Pasteurization And sterilization Thermal processing of foods in containers and outside containers Principle of aseptic technology Thermal destruction of nutrients and quality factors Optimization of the thermal processes fornutrient retention Thermal processing equipment and technology",
+                "Thermal destruction of microbial cells and bacteria spores",
+                "Kinetics of microbial death",
+                "Heat penetration into foods",
+                "Method of determining lethality of thermal processes",
+                "Thermal destruction of enzymes",
+                "Mechanisms of heat transfer in food",
+                "Blanching",
+                "Pasteurization",
+                "And sterilization",
+                "Thermal processing of foods in containers and outside containers",
+                "Principle of aseptic technology",
+                "Thermal destruction of nutrients and quality factors",
+                "Optimization of the thermal processes fornutrient retention",
+                "Thermal processing equipment and technology"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Chilling of Food",
+              "topics": [
+                "Chilling of food: normal behaviour of foods stored at chilling temperatures: animal tissues",
+                "Plant tissues and non-tissue food",
+                "Quality loss in foods stored at chilling temperatures",
+                "Temperature",
+                "Relative humidity and other conditions selected for chilling storage",
+                "Storage of food in chilled atmospheres of modified composition",
+                "Chilling equipment"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Freezing of Food",
+              "topics": [
+                "Freezing of foods: effect of low temperature on microbial activity",
+                "Enzymatic activity and rate of chemical changes",
+                "Crystallization of water: nucleation",
+                "Crystal growth",
+                "Physical and chemical changes associated with ice formation",
+                "Prefreezing treatments for major classes of natural food tissues",
+                "Freezing methods and equipment",
+                "Storage of frozen foods",
+                "Unit 5.0: Dehydration and Concentration of Food Water activity and food preservation: free and bound water in foods Water activity and sorption behaviour of foods Water activity and microbial spoilage Water activity and enzymatic reactions Effects of water activity on the chemical deterioration of foods Dehydration of foods: mass and heat balance in air drying Constant and falling rate period drying Psychometric chart Analysis of drying under constant external conditions Shrinkage during drying Nutrient destruction and other deteriorative reactions occurring during drying Industrial drying processes and equipment for foods Freeze drying Reconstitutability of dried foods",
+                "Water activity and food preservation: free and bound water in foods",
+                "Water activity and sorption behaviour of foods",
+                "Water activity and microbial spoilage",
+                "Water activity and enzymatic reactions",
+                "Effects of water activity on the chemical deterioration of foods",
+                "Dehydration of foods: mass and heat balance in air drying",
+                "Constant and falling rate period drying",
+                "Psychometric chart",
+                "Analysis of drying under constant external conditions",
+                "Shrinkage during drying",
+                "Nutrient destruction and other deteriorative reactions occurring during drying",
+                "Industrial drying processes and equipment for foods",
+                "Freeze drying",
+                "Reconstitutability of dried foods"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Other Methods of Food Processing",
+              "topics": [
+                "Recent developments in food processing: extrusion",
+                "Food packaging",
+                "Food irradiation",
+                "High pressure processing",
+                "Ultrasound technology",
+                "Etc.",
+                "Food Processing: Principles and Applications, Ramaswamy, H and Marcotte, M, CRC Press 2006, ISBN-13: 978-1587160080.",
+                "Food Processing Technology: Principles and Practices, Fellows, PJ Woodhead Publishing, ISBN-13 978-0081019078."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Food Processing Operations",
+          "subject_code": "115303",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit Operations -Size Reduction",
+              "topics": [
+                "Size reduction: theory of communition",
+                "Ritinger's law",
+                "Kick's law",
+                "Bond's law and their applications in calculation of energy required in grinding",
+                "Crushing efficiency",
+                "Size reduction equipment used in food industry"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Mixing",
+              "topics": [
+                "Mixing: solid mixing",
+                "Mixing index",
+                "Rate of mixing",
+                "Theory of liquid mixing",
+                "Equipment for liquid and solid mixing"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Sieving and Sedimentation",
+              "topics": [
+                "Separation based on size",
+                "Effectiveness of screens",
+                "Types of screens",
+                "Factors affecting the sieving process",
+                "Fineness modules and particle size distribution",
+                "Gravitational sedimentation of particles in liquids and gases",
+                "Sedimentation equipment"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Centrifugal separation",
+              "topics": [
+                "Basic equation",
+                "Centrifugal clarification",
+                "Equipment",
+                "Filtration: fundamental equation for filtration",
+                "Filtration equipment",
+                "Crystallization: rate of crystallization",
+                "Crystallization equilibrium"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Distillation",
+              "topics": [
+                "Liquid vapor equilibrium",
+                "Distillation of binary mixtures",
+                "Simple distillation",
+                "Continuous distillation",
+                "Flash distillation",
+                "Steam distillation"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Leaching and extraction",
+              "topics": [
+                "Gas - liquid equilibria",
+                "Solid - liquid equilibria",
+                "Extraction-solid liquid extraction",
+                "Liquid- liquid extraction",
+                "Stage equilibrium extraction",
+                "Food Processing Technology, P. Fellows, Woodhead Publishing Series in Food Science, Technology and Nutrition, 2016, ISBN-13:978-0081019078.",
+                "Unit Operations in Food, Processing R. L. Earle, ELSEVIER, 2nd, 1983, ISBN: 9781483293103."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Food Processing Operations Lab",
+          "subject_code": "115303P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "D.F.Z value for a heating process meant for inactivation of microorganisms.",
+                "Thermal process time by formula method",
+                "Thermal process time by graphical method",
+                "Steam properties using Mollier diagram",
+                "Steam properties using steam tables",
+                "Boiling point elevation",
+                "Multiple effect evaporator",
+                "Relative humidity and other thermodynamic properties of air using Psychrometric chart",
+                "Drying characteristics of a food material during convective dehydration",
+                "Moisture diffusivity of a food material during dehydration.",
+                "Activation energy for dehydration of a food sample.",
+                "Freeze drying time determined by experiment and from modified Plank's equation",
+                "Freezing point depression of a food material.",
+                "Freezing curve for pure water and a food material.",
+                "Freezing time for a given food sample using Heislier charts or unsteady state heat transfer solutions."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Food Microbiology",
+          "subject_code": "115304",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Food Microbiology",
+              "topics": [
+                "Developments in food microbiology",
+                "Prokaryotic and eukaryotic cell",
+                "Morphology",
+                "Structure",
+                "Microbiology and reproduction of bacteria",
+                "Yeast and mould"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Culture and Microbial Growth",
+              "topics": [
+                "Serial dilution",
+                "Pour plate",
+                "Streak plate",
+                "Spread plate",
+                "Slant broth and enrichment culture",
+                "Lyophilization",
+                "Growth curves",
+                "Synchronous growth",
+                "Doubling/generation time",
+                "Intrinsic and extrinsic factors",
+                "Relationship between number of generations and total number of microbes"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Food Spoilage",
+              "topics": [
+                "Microbiology of raw milk and fermented milk products viz. yoghurt",
+                "Cheese",
+                "Cereals products",
+                "Fruits and vegetable",
+                "Meat and meat products",
+                "Egg and fish"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Spoilage and their effect on Human I",
+              "topics": [
+                "Bacterial and fungal food spoilage",
+                "Food poisoning",
+                "Food borne infection",
+                "Food borne intoxication"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Spoilage and their effect on Human II",
+              "topics": [
+                "Toxins produced by Staphylococcus",
+                "Clostridium",
+                "Aspergillum",
+                "Bacterial pathogens- Salmonella",
+                "Bacillus",
+                "Listeria",
+                "E. coli",
+                "Shigella",
+                "Campylobacter"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Microbial Control",
+              "topics": [
+                "Source of microorganisms",
+                "Physical and chemical agents used in microbial control",
+                "Disinfected agents and its dynamics",
+                "Food Microbiology: Fundamentals and Frontiers, Michael P. Doylel, Francisco DiezGonzalez, Colin Hill, ASM Press, Washington, DC, 2019 ISBN: 978- 1555819965.",
+                "Modern Food Microbiology Jay, James M., Loessner, Martin J., Golden, David A, CBSPD ISBN: 9788123904757."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Food Microbiology Lab",
+          "subject_code": "115304P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Carbohydrates in the given food sample",
+                "Browning reaction and inhibition of browning reaction.",
+                "Acid value, RM value and Polenske value of given oil or fat sample",
+                "Amount of fat in the given food samples",
+                "Protein by Kjeldhal, electrophoresis methods",
+                "Pectic substances and pectin in fruit",
+                "Vitamins in foods",
+                "Gram staining technique of bacteria",
+                "Size of a given microbial cell",
+                "Total viable count in a culture",
+                "Growth curve of microorganisms.",
+                "Pure culture using different techniques.",
+                "Analysis of food sample by standard plate count (SPC) method.",
+                "Quality of milk by methylene blue reduction (MBRT) tes",
+                "Presumptive test for coliforms in milk."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Python Programming",
+          "subject_code": "115305",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Basics Programming Syntax, Conditional and Iterative Statements Procedure oriented vs. object-oriented approach of programming Python character set Python tokens Variables Concept of lvalue and rvalue Use of comments Data types: number (integer, floating point, complex) Boolean Sequence (string, list, tuple) None Mapping (dictionary) Mutable and immutable data types Operators: arithmetic operators Relational operators Logical operators Assignment operator Augmented assignment operators Expressions Statement Type conversion & input/output: precedence of operators Expression Evaluation of expression Conditional statements: simple if statement If- else statement If- elif-else statement Iterative statements: while loop For loop Range function Break and continue statements Nested loops",
+                "Procedure oriented vs. object-oriented approach of programming",
+                "Python character set",
+                "Python tokens",
+                "Variables",
+                "Concept of lvalue and rvalue",
+                "Use of comments",
+                "Data types: number (integer, floating point, complex)",
+                "Boolean",
+                "Sequence (string, list, tuple)",
+                "None",
+                "Mapping",
+                "(dictionary)",
+                "Mutable and immutable data types",
+                "Operators: arithmetic operators",
+                "Relational operators",
+                "Logical operators",
+                "Assignment operator",
+                "Augmented assignment operators",
+                "Expressions",
+                "Statement",
+                "Type conversion & input/output: precedence of operators",
+                "Expression",
+                "Evaluation of expression",
+                "Conditional statements: simple if statement",
+                "If- else statement",
+                "If- elif-else statement",
+                "Iterative statements: while loop",
+                "For loop",
+                "Range function",
+                "Break and continue statements",
+                "Nested loops",
+                "Unit 2.0: String, List, Tuples, Set and Dictionary String: indexing String operations (concatenation, repetition, membership & slicing) Traversing a string using loops Built-in functions Lists: introduction Indexing List operations: concatenation Repetition Membership & slicing Traversing a list Built- in list functions Linear search on list of numbers and counting the frequency of elements in a list Tuples: creating Initializing Accessing elements Tuple assignment Performing operations on tuples Tuple methods and built-in functions Nested tuples Set: creating set Traversing Adding Removing data in set Performing set operations like join Union intersection Difference Dictionary: accessing items in a dictionary using keys Mutability of dictionary: adding a new item Modifying an existing item Built-in dictionary functions",
+                "String: indexing",
+                "String operations (concatenation, repetition, membership & slicing)",
+                "Traversing a string using loops",
+                "Built-in functions",
+                "Lists: introduction",
+                "Indexing",
+                "List operations: concatenation",
+                "Repetition",
+                "Membership & slicing",
+                "Traversing a list",
+                "Built- in list functions",
+                "Linear search on list of numbers and counting the frequency of elements in a list",
+                "Tuples: creating",
+                "Initializing",
+                "Accessing elements",
+                "Tuple assignment",
+                "Performing operations on tuples",
+                "Tuple methods and built-in functions",
+                "Nested tuples",
+                "Set: creating set",
+                "Traversing",
+                "Adding",
+                "Removing data in set",
+                "Performing set operations like join",
+                "Union intersection",
+                "Difference",
+                "Dictionary: accessing items in a dictionary using keys",
+                "Mutability of dictionary: adding a new item",
+                "Modifying an existing item",
+                "Built-in dictionary functions",
+                "Unit 3.0: Python Functions, Modules and Packages Functions: types of function (built- in functions, functions defined in module, user defined functions) Creating user defined function Arguments and parameters Default parameters Positional parameters Lambda functions Returning value Scope of a variable: global scope Local scope Modules and packages: importing module using 'import' regular expressions Exception handling PyPI python package index Pip python package manager Importing libraries and functions",
+                "Functions: types of function (built- in functions, functions defined in module, user defined functions)",
+                "Creating user defined function",
+                "Arguments and parameters",
+                "Default parameters",
+                "Positional parameters",
+                "Lambda functions",
+                "Returning value",
+                "Scope of a variable: global scope",
+                "Local scope",
+                "Modules and packages: importing module using 'import' regular expressions",
+                "Exception handling",
+                "PyPI python package index",
+                "Pip python package manager",
+                "Importing libraries and functions",
+                "Unit 4.0: Object-Oriented Programming (OOP) OOPs object oriented programming concepts and approach Abstraction Encapsulation Class Object Class method vs static method in python Class and static variable Constructor and destructors in python Inheritance: types of inheritance: single Multiple Multilevel Hierarchical Polymorphism: polymorphism with class method Polymorphism with inheritance Method overriding Overloading",
+                "OOPs object oriented programming concepts and approach",
+                "Abstraction",
+                "Encapsulation",
+                "Class",
+                "Object",
+                "Class method vs static method in python",
+                "Class and static variable",
+                "Constructor and destructors in python",
+                "Inheritance: types of inheritance: single",
+                "Multiple",
+                "Multilevel",
+                "Hierarchical",
+                "Polymorphism: polymorphism with class method",
+                "Polymorphism with inheritance",
+                "Method overriding",
+                "Overloading",
+                "Unit 5.0: Exception and File Handling in Python Exception handling: syntax errors Exceptions Need of exception handling User-defined exceptions Raising exceptions Handling exceptions Catching exceptions Try except - else clause Try - finally clause Recovering and continuing with finally Built-in exception classes File handling: text file and binary file File types Open and close files Reading and writing text files Reading and writing binary files File access modes",
+                "Exception handling: syntax errors",
+                "Exceptions",
+                "Need of exception handling",
+                "User-defined exceptions",
+                "Raising exceptions",
+                "Handling exceptions",
+                "Catching exceptions",
+                "Try except - else clause",
+                "Try - finally clause",
+                "Recovering and continuing with finally",
+                "Built-in exception classes",
+                "File handling: text file and binary file",
+                "File types",
+                "Open and close files",
+                "Reading and writing text files",
+                "Reading and writing binary files",
+                "File access modes",
+                "Unit 6.0: Data Analysis with Pandas Pandas data structures: series Declaration Selecting elements Assigning values Filtering values Operations Mathematical functions Evaluating values Handling missing data Creating series from dictionaries Adding two series Data frame: defining Selecting elements Assigning values Membership Deleting a column Filtering Index objects: indexing Re-indexing Dropping Sorting and ranking Descriptive statistics data loading: reading and writing csv Xls Text data files Data cleaning and preparation: handling missing data Removing duplicates Replacing values Vectorized string methods Hierarchical indexing Merging and combining Data aggregation and grouping",
+                "Pandas data structures: series",
+                "Declaration",
+                "Selecting elements",
+                "Assigning values",
+                "Filtering values",
+                "Operations",
+                "Mathematical functions",
+                "Evaluating values",
+                "Handling missing data",
+                "Creating series from dictionaries",
+                "Adding two series",
+                "Data frame: defining",
+                "Membership",
+                "Deleting a column",
+                "Filtering",
+                "Index objects: indexing",
+                "Re-indexing",
+                "Dropping",
+                "Sorting and ranking",
+                "Descriptive statistics data loading: reading and writing csv",
+                "Xls",
+                "Text data files",
+                "Data cleaning and preparation: handling missing data",
+                "Removing duplicates",
+                "Replacing values",
+                "Vectorized string methods",
+                "Hierarchical indexing",
+                "Merging and combining",
+                "Data aggregation and grouping",
+                "Introduction to Computing and Problem-Solving using Python, E. Balagurusamy, McGraw Hill Education (India)Pvt. Ltd. 1st Edition /2016, ISBN-10: 9352602587 ISBN-13: 978-9352602582.",
+                "Core Python Applications Programming, Wesley J. Chun, 3rd Edition, Pearson Education, 2016, ISBN-10: 0132678209 ISBN-13: 978-0132678209.",
+                "Python Cookbook, David Beazley, Brian Jones., Third Edition, Orelly Publication, 2013, ISBN 978-1449340377.",
+                "Python Data Analytics, Fabio Nelli, Apress, 2015, ISBN: 9781484209585.",
+                "Python for Data Analysis: Data Wrangling with Pandas, Numpy, and IPython, Wes McKinney, O'REILLY, 2017, Second Edition ISBN-10: 1491957662 ISBN-13: 78- 1491957660."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Python Programming Lab",
+          "subject_code": "115305P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "a) Download and Install IDLE. Write and execute Python program to- b) Calculate the Area of a Triangle where its three sides a, b, c are given. $s=(a+b+c)/2$ Area=square root of $s(s-a)(s-b)(s-c)$ (write program without using function) c) Swap Two Variables d) Solve quadratic equation for real numbers.",
+                "Write and execute Python program to- a) Check if a Number is Positive, Negative or zero. b) Check whether the given year is a Leap Year. c) Print all Prime Numbers in an Interval. d) Display the multiplication Table based on the given input. e) Print the Fibonacci sequence. f) Find the Factorial of a Number.",
+                "Write and execute Python program to- a) Check whether the string is Palindrome b) Reverse words in a given String in Python c) identify in a strings the name, position and counting of vowels. d) Count the Number of matching characters in a pair of string (set) e) Python program for removing i-th character from a string",
+                "Write and execute Python program to- a) find largest number in a given list without using max(). b) find the common numbers from two lists. c) create a list of even numbers and another list of odd numbers from a given list. d) To find number of occurrences of given number without using built-in methods.",
+                "Write and execute Python program to- a) find the index of an item of a tuple. b) find the length of a tuple. c) to reverse a tuple. d) Write a Python program to sort a list of tuple by its float element. Sample data: [('item1', '12.20'), ('item2', '15.10'), ('item3', '24.5')] Expected Output: [('item3', '24.5'), ('item2', '15.10'), ('item1', '12.20')]",
+                "Write and execute Python program to- a) create an intersection of sets. b) create a union of sets. c) create set difference. d) check if two given sets have no elements in common.",
+                "Write and execute Python program to- a) Write a Python script to concatenate two dictionaries to create a new one b) Write a Python script to merge two Python dictionaries. c) Write a Python program to combine two dictionary adding values for common keys. d1= {'a': 100, 'b': 200, 'c':300} d2= {'a': 300, 'b': 200, 'd': 400} Sample output: d({'a': 400, 'b': 400, 'd': 400, 'c': 300})",
+                "Write and execute Python program to- a) Write a Python function for reversing a string and call it. b) Write a Python function for calculating compound interest and call it. c) Write a Python function for calculating the factorial of a number and call it to calculate $!n/(!r)*!(n-r)$ where symbol \"!\" stands for factorial.",
+                "Write program using OOP approach to a) create an instance of a specified class and display the namespace of the said instance b) create a Python class named Student with two attributes: student_id, student_name. Add a new attribute: student class. Create a function to display all attributes and their values in the Student class. c) Create a Python class named Student with two instances student1, student2 and assign values to the instances' attributes. Print all the attributes of the student1, student2 instances d) Write programs to demonstrate use of following types of inheritance: i. Single inheritance ii. Multiple inheritance iii. Multilevel inheritance e) Demonstrate use of polymorphism with following situations: i. Polymorphism in operator ii. Polymorphism in user defined method iii. Polymorphism in built-in function iv. Polymorphism with class method v. Polymorphism with method overriding",
+                "Using exception handling feature such as try...except, try finally- write minimum three programs to handle following types of exceptions. a) i. TypeError ii. NameError iii. Index Error iv. KeyError v. ValueError vi. IOError vii. ZeroDivisionError b) Write Python program to demonstrate file operations.",
+                "Working with a Series using Pandas a) Create a series using list and dictionary. 10b. Create a series using NumPy functions inPandas. b) Print the index and values of series. c) Print the first and last few rows from theseries.",
+                "Working with Data Frame Rows a) Slicing Data Frame using loc and iloc. 11b. Filter multiple rows using isin. b) Select first n rows and last n rows c) Select rows randomly n rows and fractions of rows (use df. sample method) d) Count the number of rows with eachunique value of variables e) Select nlargest and nsmallest values. 11g. Order/sort the rows",
+                "Merge and combine data a) Perform the append, concat and combinefirst operations on Data Frames. b) Apply different types of merge on data. 12c. Use a query method to filter Data Frame c) with multiple conditions."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Universal Human Values",
+          "subject_code": "115306",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction to Value Education Right understanding Relationship and physical facility (holistic development and the role of education) Understanding value education sharing about oneself Self-exploration as the process for value education Continuous happiness and prosperity the basic human aspirations Exploring human consciousness Happiness and prosperity - current scenario Method to fulfill the basic human aspirations",
+                "Right understanding",
+                "Relationship and physical facility (holistic development and the role of education)",
+                "Understanding value education sharing about oneself",
+                "Self-exploration as the process for value education",
+                "Continuous happiness and prosperity the basic human aspirations",
+                "Exploring human consciousness",
+                "Happiness and prosperity - current scenario",
+                "Method to fulfill the basic human aspirations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Harmony in the Human Being",
+              "topics": [
+                "Understanding human being as the co-existence of the self and the body",
+                "Distinguishing between the needs of the self and the body",
+                "The body as an instrument of the self",
+                "Understanding harmony in the self",
+                "Harmony of the self with the body",
+                "Programme to ensure self-regulation and health"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Harmony in the Family and Society",
+              "topics": [
+                "Harmony in the family the basic unit of human interaction",
+                "'Trust' the foundational value in relationship",
+                "'Respect' as the right evaluation",
+                "Other feelings",
+                "Justice in human- to-human relationship",
+                "Understanding harmony in the society",
+                "Vision for the universal human order"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Harmony in the Nature/Existence",
+              "topics": [
+                "Understanding harmony in the nature",
+                "Interconnectedness",
+                "Self-regulation and mutual fulfilment among the four orders of nature",
+                "Realizing existence as co-existence at all levels",
+                "The holistic perception of harmony in existence",
+                "Unit 5.0: Implications of the Holistic Understanding - a Look at Professional Natural acceptance of human values Definitiveness of (ethical) human conduct A basis for humanistic education Humanistic constitution and universal human order Competence in professional ethics Holistic technologies Production systems and management models-typical case studies Strategies for transition towards value-based life and profession",
+                "Natural acceptance of human values",
+                "Definitiveness of (ethical) human conduct",
+                "A basis for humanistic education",
+                "Humanistic constitution and universal human order",
+                "Competence in professional ethics",
+                "Holistic technologies",
+                "Production systems and management models-typical case studies",
+                "Strategies for transition towards value-based life and profession"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Competence in Professional Ethics",
+              "topics": [
+                "Competence in professional ethics",
+                "Holistic technologies",
+                "Production systems and management models-typical case studies",
+                "Strategies for transition towards value-based life and profession",
+                "A Foundation Course in Human Values and Professional Ethics, RR Gaur, R Asthana, G P Bagaria, 2nd Revised Edition, Excel Books, New Delhi, 2019. ISBN 978-93-8703447.",
+                "Jeevan Vidya: EkParichaya, A Nagaraj, Jeevan VidyaPrakashan, Amarkantak, 1999.",
+                "Human Values, A.N. Tripathi, New Age Intl. Publishers, New Delhi, 2004.",
+                "The Story of Stuff (Book).",
+                "The Story of My Experiments with Truth - by Mohandas Karamchand Gandhi.",
+                "Small is Beautiful - E. F Schumacher.",
+                "Slow is Beautiful - Cecile Andrews.",
+                "Economy of Permanence - JC Kumarappa.",
+                "Bharat Mein Angreji Raj - Pandit Sunderlal.",
+                "Rediscovering India - by Dharampal.",
+                "Hind Swaraj or Indian Home Rule - by Mohandas K. Gandhi.",
+                "India Wins Freedom - Maulana Abdul Kalam Azad.",
+                "Vivekananda - Romain Rolland (English)",
+                "Gandhi - Romain Rolland (English)"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Indian Knowledge System",
+          "subject_code": "115307",
+          "type": "theory",
+          "credits": 0,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Indian Knowledge Systems",
+              "topics": [
+                "Overview of IKS",
+                "Organization of IKS",
+                "Conception and constitution of knowledge in indian tradition",
+                "The oral tradition",
+                "Models and strategies of IKS"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Overview of IKS Domains",
+              "topics": [
+                "The vedasas the basis of IKS",
+                "Overview of all the six vedängas"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Relevance in Current Technical Education System I",
+              "topics": [
+                "Relevance of following IKS domains in present technical education system: arthashastra (indian economics and political systems)",
+                "Ganitaand jyamiti(indianmathematics",
+                "Astronomy and geometry",
+                "Rasayana (indianchemical sciences)"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Relevance in Current Technical Education System II",
+              "topics": [
+                "Ayurveda (indian biological sciences / diet & nutrition)",
+                "Jyotishvidya (observational astronomy and calendar systems)",
+                "Prakriti vidya(indian system of terrestrial/ material sciences/ecology and atmospheric sciences)"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Relevance in Current Technical Education System III",
+              "topics": [
+                "Vastu vidya(indian system of aesthetics-iconography and built-environment /architecture)",
+                "Nyayashastra(indian systems of social ethics",
+                "Logic and law)"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Advanced IKS Domains",
+              "topics": [
+                "Shilpa andnatyashastra (indian classical arts: performing and fine arts)",
+                "Sankhyaand yoga darshna(indian psychology",
+                "Yoga and consciousness studies)",
+                "Vrikshayurveda(plant science/sustainable agriculture/food preservation methods)",
+                "Introduction to Indian Knowledge System: Concepts and Applications, Archak, K.B. (2012)., Kaveri Books, New Delhi, ISBN-13:978-9391818203",
+                "Introduction To Indian Knowledge System: Concepts and Applications, Mahadevan, B. Bhat, VinayakRajat, NagendraPavana R.N., PHI, ISBN: 9789391818203.",
+                "Glimpse into Kautilya's Arthashastra Ramachandrudu P. (2010), Sanskrit Academy, Hyderabad, ISBN:9788380171074.",
+                "\"Introduction\" in Studies in Epics and Purāņas, (Eds.), KM Munshi and N ChandrashekaraAiyer Bhartiya VidyaBhavan."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Internship - I",
+          "subject_code": "115308",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Internship I is of a minimum duration of two weeks which can be completed in an Industry/Institute in consultation with concerned Engineering College/Institute. After completion of Internship a detailed report of the Internship mentioning the training undertaken along with certificate should be submitted."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "subjects": [
+        {
+          "subject_name": "Food Engineering",
+          "subject_code": "115401",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Food Engineering Lab",
+          "subject_code": "115401P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Human Nutrition",
+          "subject_code": "115402",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Human Nutrition Lab",
+          "subject_code": "115402P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Industrial Microbiology",
+          "subject_code": "115403",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Industrial Microbiology Lab",
+          "subject_code": "115403P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Technology of Cereal, Pulses and Oilseeds Products",
+          "subject_code": "115404",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Technology of Cereal, Pulses and Oilseeds Products Lab",
+          "subject_code": "115404P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 3,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Energy, Environment and Sustainability",
+          "subject_code": "115405",
+          "type": "theory",
+          "credits": 0,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "NPTEL-I (Open Course)",
+          "subject_code": "115406",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    }
+  ]
+}

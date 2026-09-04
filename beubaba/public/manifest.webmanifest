@@ -1,0 +1,79 @@
+{
+  "name": "BEU BABA — Academic Companion",
+  "short_name": "BEU BABA",
+  "description": "A premium academic companion for engineering students: syllabus, previous-year questions, quizzes, calculators, results and support.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#eef0fb",
+  "theme_color": "#eef0fb",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "books"],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    { "src": "/assets/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/assets/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-mobile-1.jpg",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home — your study dashboard"
+    },
+    {
+      "src": "/assets/screenshot-mobile-2.jpg",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Quiz — practice university-level MCQs"
+    },
+    {
+      "src": "/assets/screenshot-wide-1.jpg",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "BEU BABA on desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quiz",
+      "short_name": "Quiz",
+      "description": "Practice MCQs",
+      "url": "/quiz?source=shortcut",
+      "icons": [{ "src": "/assets/shortcut-quiz.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Previous Year Questions",
+      "short_name": "PYQ",
+      "description": "Browse PYQ papers",
+      "url": "/study?source=shortcut",
+      "icons": [{ "src": "/assets/shortcut-pyq.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Toolbox",
+      "short_name": "Toolbox",
+      "description": "CGPA, attendance & more",
+      "url": "/tools/toolbox?source=shortcut",
+      "icons": [{ "src": "/assets/shortcut-tools.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Check Result",
+      "short_name": "Result",
+      "description": "BEU results",
+      "url": "/tools/results?source=shortcut",
+      "icons": [{ "src": "/assets/shortcut-result.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

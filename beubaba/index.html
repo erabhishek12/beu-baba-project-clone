@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/app-icon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#eef0fb" />
+
+    <!-- Apply the stored (or system) theme before first paint: no flash. -->
+    <script>
+      ;(function () {
+        var t = 'light'
+        try {
+          var s = localStorage.getItem('beubaba:theme')
+          t =
+            s === 'dark' || s === 'light'
+              ? s
+              : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+        } catch (e) {}
+        document.documentElement.setAttribute('data-theme', t)
+      })()
+    </script>
+
+    <!-- Preload premium self-hosted fonts so headings/body paint without FOUT -->
+    <link
+      rel="preload"
+      href="/fonts/PlusJakartaSans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/fonts/Sora.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="description"
+      content="BEU BABA — a premium academic companion for engineering students: syllabus, PYQs, quizzes, tools and support."
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Native-app feel on iOS/Android when installed -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="BEU BABA" />
+    <meta name="application-name" content="BEU BABA" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>BEU BABA</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,476 @@
+{
+  "branch": "Leather Technology",
+  "branch_id": "64a41747-a709-a761-7479-d4ebc0858ea6",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 1,
+      "subjects": [
+        {
+          "subject_name": "Communication Skills",
+          "subject_code": "100101",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Communication Skills Lab",
+          "subject_code": "100101P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Engineering Mathematics-I",
+          "subject_code": "100102",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Linear Algebra-I",
+              "topics": [
+                "Elementary Row operations",
+                "Gauss-Jordan Method for finding the inverse of Matrix",
+                "Complex Matrix: Hermitian, Skew Hermitian and Unitary Matrix",
+                "Vector space",
+                "Sub Spaces",
+                "Linear dependence and Independences of Vectors",
+                "Linear Span",
+                "Basis",
+                "Dimension",
+                "Extension of basis of subspace",
+                "The rank of a matrix",
+                "Row and column space",
+                "Solvability of system of linear equations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Linear Algebra-II",
+              "topics": [
+                "Linear Transformations",
+                "Kernel and Range of linear transformation",
+                "Matrix Representation of a linear transformation",
+                "Rank-Nullity Theorem",
+                "Eigen Value and Eigen Vectors",
+                "Properties of Eigen vectors",
+                "Eigen Bases",
+                "Orthogonal Transformation",
+                "Similarity Transformation",
+                "Matrix Diagonalization",
+                "Cayley-Hamilton Theorem"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Calculus for single variable",
+              "topics": [
+                "Indeterminate form",
+                "L'Hospital Rule",
+                "Rolle's Theorem",
+                "Mean Value Theorem",
+                "Expansion of function (single variable)",
+                "Taylor and Maclaurin Series",
+                "Riemann Integration",
+                "Riemann Sum",
+                "Improper Integrals",
+                "Beta and Gamma function and their properties"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Multivariable Calculus (Differentiation)",
+              "topics": [
+                "Function with two or more variable",
+                "Limit, continuity and Partial differentiation",
+                "Total Differentiation",
+                "Taylor's series and Maclaurin's series for function with two variable",
+                "Jacobian",
+                "Maxima and Minima",
+                "Method of Lagrange's multiplier"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Multivariable Calculus (Integration)",
+              "topics": [
+                "Double Integral",
+                "Change of order of integration",
+                "Triple integral",
+                "Change of Variable in a Double and Triple Integrals",
+                "Change to polar coordinate",
+                "Change to cylindrical coordinate",
+                "Change to spherical polar coordinate",
+                "Application to area and volume using double and triple integral"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Vector Calculus",
+              "topics": [
+                "Scalar and vector fields",
+                "Gradient",
+                "Directional derivative",
+                "Divergence",
+                "Curl and their properties",
+                "Line integral",
+                "Green's theorem in plane (without proof)",
+                "Surface integral",
+                "Stoke's theorem (without proof)",
+                "Volume Integral",
+                "Gauss-Divergence' theorem (without proof)",
+                "AICTE's Prescribed Textbook: Mathematics-I (Calculus & Linear Algebra), Reena Garg, Khanna Book Publishing Co. ISBN-10 9391505171",
+                "Advanced Engineering Mathematics, Chandrika Prasad & Reena Garg, Khanna Book Publishing Co., 2021. ISBN 10: 9386173522 / ISBN 13: 9789386173522.",
+                "Higher Engineering Mathematics, B.V. Ramana, Tata McGraw Hill New Delhi, 11th Reprint, 2010, ISBN-10 007063419X ISBN-13978-0070634190.",
+                "Advanced Engineering Mathematics, Srklyengar Rk Jain, Narosa, 5th Edition, ISBN-10 8184875606 ISBN-13978-8184875607",
+                "Advanced Engineering Mathematics, Erwin Kreyszig, 9th Edition, John Wiley & Sons, 2006."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry",
+          "subject_code": "100103",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Atomic and Molecular Structure Electromagnetic radiations Dual nature of electron and Heisenberg uncertainty Principle Photoelectric effect Planck's theory Principles for the combination of atomic orbitals to form a molecular diagram of molecular orbitals Bent's rule VSEPR theory (typical example) Coordination numbers and geometries Isomerism in transition metal compounds Metal Carbonyls: Synthesis and Structure",
+                "Electromagnetic radiations",
+                "Dual nature of electron and Heisenberg uncertainty Principle",
+                "Photoelectric effect",
+                "Planck's theory",
+                "Principles for the combination of atomic orbitals to form a molecular diagram of molecular orbitals",
+                "Bent's rule",
+                "VSEPR theory (typical example)",
+                "Coordination numbers and geometries",
+                "Isomerism in transition metal compounds",
+                "Metal Carbonyls: Synthesis and Structure"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Spectroscopy",
+              "topics": [
+                "Principle of rotational and vibrational spectroscopy",
+                "Selection rule for application in diatomic molecules",
+                "Elementary idea of electronic spectroscopy",
+                "UV-VIS spectroscopy with related to rules and its applications",
+                "Basic Principle of nuclear Magnetic resonance spectroscopy with applications"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Electrochemistry and Fuels",
+              "topics": [
+                "Nernst equation",
+                "EMF and electrochemical cell",
+                "Introduction of corrosion",
+                "Corrosion mechanism",
+                "Types of corrosion",
+                "Water line corrosion",
+                "Stress corrosion",
+                "Pitting corrosion",
+                "Lead acid storage cell",
+                "Leclanche cell",
+                "Calorific value of fuels",
+                "Proximate and ultimate analysis of coals",
+                "Fuel cells",
+                "Bio fuels"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Water Chemistry",
+              "topics": [
+                "Hardness of water",
+                "Estimation of water hardness by EDTA and Alkalinity method",
+                "Removal of the hardness of water: soda lime process, zeolite process, Ion exchange process",
+                "Boiler problem",
+                "Sludge and scale formation",
+                "Priming and foaming",
+                "Boiler corrosion",
+                "Caustic embrittlement",
+                "Unit 5.0: Polymer and Plastics Polymerization techniques (free radical, ionic, and co-ordination mechanism) Preparation properties and technical application of phenol-formaldehyde resins Elastomers Synthetic rubbers (Buna-S, Buna-N, neoprene) Inorganic polymers Silicones Adhesives Epoxy resins Structural difference between thermoplastic and thermosetting Plastics Importance of commercially important thermoplastics and thermosets Poly ethylene Polyvinyl chloride Polystyrene",
+                "Polymerization techniques (free radical, ionic, and co-ordination mechanism)",
+                "Preparation properties and technical application of phenol-formaldehyde resins",
+                "Elastomers",
+                "Synthetic rubbers (Buna-S, Buna-N, neoprene)",
+                "Inorganic polymers",
+                "Silicones",
+                "Adhesives",
+                "Epoxy resins",
+                "Structural difference between thermoplastic and thermosetting Plastics",
+                "Importance of commercially important thermoplastics and thermosets",
+                "Poly ethylene",
+                "Polyvinyl chloride",
+                "Polystyrene"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Organic Reactions and Synthesis of A Drug Molecule",
+              "topics": [
+                "Introduction to intermediate and reaction involving Substitution, addition, elimination, oxidation-reduction",
+                "Diets Elder cyclization and epoxide ring opening reactions",
+                "Synthesis of commonly used drug molecules like aspirin",
+                "University Chemistry, B.H. Mahan, Pearson",
+                "Chemistry, principles and application, M.J. Sienko and R.A. Plane, McGraw Hill International",
+                "Fundamentals of molecular Spectroscopy, C.N. Banwell, McGraw Hill International",
+                "Engineering Chemistry (NPTEL Web- Book), B.L. Tembe, Kamaluddin and M.S. Krishnan, NPTEL",
+                "Physical Chemistry, P.W. Atkins, Oxford University Press",
+                "A text book of engineering chemistry, S. Chawala, Dhanpat Rai Publication",
+                "General Chemistry Part 1, R. Sarkar, New Central Book agency"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry Lab",
+          "subject_code": "100103P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "To estimate hardness of water by alkalinity method",
+                "To estimate hardness of water by EDTA method",
+                "To remove hardness of water by ion exchange method",
+                "Determination of pH of a given acid solution using a standard sodium hydroxide solution",
+                "Determination of surface tension and viscosity",
+                "Chemical analysis of salt (Acid radical and basic radical)",
+                "Adsorption of acetic acid by charcoal",
+                "Test of adulteration of fat butter, sugar, turmeric powder, chilli powder and pepper",
+                "Saponification/ acid value of an oil",
+                "Identification of organic substances and their functional groups",
+                "Potentiometric determination of redox potentials and emf",
+                "Synthesis of drug/ polymer like ASPRIN/ Urea- formaldehyde resin",
+                "Thin layer chromatography",
+                "Analysis of flue gas by orsat apparatus"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Introduction to AI",
+          "subject_code": "100105",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Engineering Graphics and Design",
+          "subject_code": "100107",
+          "type": "theory",
+          "credits": 2,
+          "L": 2,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Engineering Drawing",
+              "topics": [
+                "Principles of Engineering Graphics and Their Significance",
+                "Usage of Drawing Instruments",
+                "Lettering",
+                "Conic Sections including the Rectangular Hyperbola (General Method Only)",
+                "Cycloid, Epicycloid, Hypocycloid and Involute",
+                "Scales Plain, Diagonal and Vernier Scales"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Orthographic Projections",
+              "topics": [
+                "Principles of Orthographic Projections",
+                "Conventions",
+                "Projections of Points and Lines Inclined to Both Planes",
+                "Projections of Planes Inclined Planes",
+                "Auxiliary Planes"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Projections of Regular Solids",
+              "topics": [
+                "Types of Solids",
+                "Projects of Solids (Prism, pyramids, cone, and cylinder): Inclined to Both the Planes",
+                "Auxiliary Views",
+                "Draw Simple Annotation, Dimensioning and Scale"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sections and Sectional Views of Right Angular Solids",
+              "topics": [
+                "Section of Solids (Prism, Cylinder, Pyramid, Cone)",
+                "Auxiliary Views",
+                "Development of Surfaces Of Right Regular Solids: Prism, Pyramid, Cylinder And Cone",
+                "Draw The Sectional Orthographic Views of Geometrical Solids, Objects From Industry And Dwellings (Foundation To Slab Only)"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Isometric Projections",
+              "topics": [
+                "Isometric Views",
+                "Compound Solids",
+                "Principles of Isometric Projection Isometric Scale",
+                "Conventions",
+                "Isometric Views of Lines, Planes, Simple and Conversion of Isometric Views to Orthographic Views And Vice-Versa",
+                "Unit 6.0: Overview of Computer Graphics Listing the Computer Technologies that Impact on Graphical Communication Demonstrating Knowledge of the Theory of CAD Software The Menu System Toolbars (Standard, Object Properties, Draw, Modify And Dimension) Drawing Area (Background, Crosshairs, Coordinate System) Dialog Boxes And Windows Shortcut Menus (Button Bars) The Command Line (Where Applicable) The Status Bar Different Methods of Zoom as Used in CAD Select and Erase Objects Isometric Views of Lines, Planes, Simple And Compound Solids",
+                "Listing the Computer Technologies that Impact on Graphical Communication",
+                "Demonstrating Knowledge of the Theory of CAD Software",
+                "The Menu System",
+                "Toolbars (Standard, Object Properties, Draw, Modify And Dimension)",
+                "Drawing Area (Background, Crosshairs, Coordinate System)",
+                "Dialog Boxes And Windows",
+                "Shortcut Menus (Button Bars)",
+                "The Command Line (Where Applicable)",
+                "The Status Bar",
+                "Different Methods of Zoom as Used in CAD",
+                "Select and Erase Objects",
+                "Isometric Views of Lines, Planes, Simple And Compound Solids",
+                "Engineering Drawing, N.D. Bhatt, Charotar Publishing House, 53rd Edition, ISBN: 978-9380358277",
+                "A Textbook of Engineering Drawing, R.K. Dhawan, S. Chand Publishing, Revised Edition, ISBN: 978-8121929571",
+                "Engineering Drawing and Graphics, K. Venugopal, V. Prabhu Raja, New Age International Publishers, 3rd Edition, ISBN: 978-8122430120",
+                "Engineering Graphics with AutoCAD, D.M. Kulkarni, A.P. Rastogi, A.K. Sarkar, PHI Learning Pvt. Ltd., 1st Edition, ISBN: 978-8120337834"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Graphics and Design Lab",
+          "subject_code": "100107P",
+          "type": "lab",
+          "credits": 2,
+          "L": 0,
+          "T": 0,
+          "P": 4,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Which includes dimensioning methods, different types of line, construction of different polygon, divide the line and angle in parts, use of stencil",
+                "Construction of Plane, Diagonal & Vernier Scales",
+                "Construction of Ellipses, Parabolas, and Hyperbolas using the general method",
+                "Construction of cycloid, epicycloid, hypocycloid, and involute of a circle",
+                "Projection of Points and Lines inclined to both planes",
+                "Projections of Planes (e.g., rectangular, triangular) in inclined positions",
+                "Projection of Solids (prisms, pyramids, cones, and cylinders)",
+                "Drawing of Sections of Prisms, Cylinders, Pyramids, and Cones",
+                "Development of Surfaces for prisms, pyramids, cylinders, and cones",
+                "Construction of Isometric views of lines, planes, and simple solids",
+                "Introduction to CAD Software",
+                "Use of CAD software to draw basic geometric shapes, apply dimensions, and modify objects"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Programming for Problem Solving Lab",
+          "subject_code": "100112P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Tutorial 1: Problem solving using computers. Lab 1: Familiarization with programming environment.",
+                "Tutorial 2: Variable types and type conversions. Lab 2: Simple computational problems using arithmetic expressions.",
+                "Tutorial 3: Branching and logical expressions. Lab 3: Problems involving if-then-else structures.",
+                "Tutorial 4: Loops, while and for loops. Lab 4: Iterative problems e.g., sum of series.",
+                "Tutorial 5: 1D Arrays: searching, sorting. Lab 5: 1D Array manipulation.",
+                "Tutorial 6: 2D arrays and Strings. Lab 6: Matrix problems, String operations.",
+                "Tutorial 7: Functions, call by value. Lab 7: Simple functions.",
+                "Tutorial 8 & 9: Numerical methods (Root finding, numerical differentiation, numerical integration). Lab 8 and 9: Programming for solving Numerical methods problems.",
+                "Tutorial 10: Recursion, structure of recursive calls. Lab 10: Recursive functions.",
+                "Tutorial 11: Pointers, structures and dynamic memory allocation. Lab 11: Pointers and structures.",
+                "Tutorial 12: File handling. Lab 12: File operations."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Sports/Yoga/NCC/NSS",
+          "subject_code": "100113P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Encouraging creativity and innovation: The course could aim to foster a culture of creativity and innovation among engineering students. It could provide opportunities for students to generate and develop new ideas, think critically, and come up with innovative solutions to real-world problems. This objective could be achieved through brainstorming sessions, design thinking exercises, and hands-on projects.",
+                "Enhancing problem-solving skills: The course could focus on enhancing the problem-solving skills of engineering students. It could provide training on various problem-solving techniques, such as root cause analysis, critical thinking, and decision-making. Students may learn how to identify and analyse complex problems, develop feasible solutions, and implement them effectively.",
+                "Developing project management skills: The course could aim to develop project management skills among engineering students. It could cover topics such as project planning, scheduling, budgeting, and risk management. Students may learn how to manage resources, communicate effectively, and work collaboratively in a project-based environment.",
+                "Promoting interdisciplinary collaboration: The course could encourage interdisciplinary collaboration among engineering students. It could provide opportunities for students from different engineering disciplines to work together on innovative projects. This could foster cross-disciplinary learning, encourage diverse perspectives, and promote teamwork and collaboration skills.",
+                "Facilitating practical application of engineering concepts: The course could focus on the practical application of engineering concepts and principles. It could provide students with opportunities to apply their theoretical knowledge to real-world projects, prototypes, or simulations. Students may learn how to translate engineering theories into practical solutions and develop hands-on experience in implementing innovative projects.",
+                "Upon completion, students may have:",
+                "Developed innovative projects: Students may have successfully developed innovative projects that demonstrate their creativity, problem-solving skills, and technical competence. These projects could be prototypes, models, simulations, or practical solutions to real-world problems, showcasing their ability to apply engineering concepts in a creative and innovative manner.",
+                "Improved critical thinking and problem-solving skills: Students may have honed their critical thinking and problem-solving skills through various course activities, such as brainstorming, design thinking, and project development. They may have learned to analyse complex problems, identify viable solutions, and make informed decisions based on technical, economic, and social considerations.",
+                "Enhanced project management and teamwork skills: Students may have gained practical experience in managing projects, including planning, scheduling, budgeting, and risk management. They may have learned how to work effectively in a team, collaborate with diverse team members, and communicate project progress and results professionally.",
+                "Increased interdisciplinary knowledge and collaboration: Students may have gained exposure to interdisciplinary concepts and collaborated with peers from different engineering disciplines. They may have learned to appreciate diverse perspectives, leverage interdisciplinary knowledge, and work collaboratively to develop innovative solutions that integrate multiple domains of engineering.",
+                "Cultivated a mindset of innovation and entrepreneurship: Students may have developed a mindset of innovation and entrepreneurship, recognizing the importance of creativity, adaptability, and continuous improvement in engineering practice. They may have learned to identify opportunities, think critically, and take risks to develop and implement innovative projects with commercial or societal potential.",
+                "Any topics related to innovative project."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    }
+  ]
+}

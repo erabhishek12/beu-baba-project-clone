@@ -1,0 +1,2860 @@
+{
+  "branch": "Biomedical & Robotics Engineering",
+  "branch_id": "ea3fb196-1572-463b-4c64-e52faf028e7f",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 1,
+      "subjects": [
+        {
+          "subject_name": "Communication Skills",
+          "subject_code": "100101",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Communication Skills Lab",
+          "subject_code": "100101P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Engineering Mathematics-I",
+          "subject_code": "100102",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Linear Algebra-I",
+              "topics": [
+                "Elementary Row operations",
+                "Gauss-Jordan Method for finding the inverse of Matrix",
+                "Complex Matrix: Hermitian, Skew Hermitian and Unitary Matrix",
+                "Vector space",
+                "Sub Spaces",
+                "Linear dependence and Independences of Vectors",
+                "Linear Span",
+                "Basis",
+                "Dimension",
+                "Extension of basis of subspace",
+                "The rank of a matrix",
+                "Row and column space",
+                "Solvability of system of linear equations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Linear Algebra-II",
+              "topics": [
+                "Linear Transformations",
+                "Kernel and Range of linear transformation",
+                "Matrix Representation of a linear transformation",
+                "Rank-Nullity Theorem",
+                "Eigen Value and Eigen Vectors",
+                "Properties of Eigen vectors",
+                "Eigen Bases",
+                "Orthogonal Transformation",
+                "Similarity Transformation",
+                "Matrix Diagonalization",
+                "Cayley-Hamilton Theorem"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Calculus for single variable",
+              "topics": [
+                "Indeterminate form",
+                "L'Hospital Rule",
+                "Rolle's Theorem",
+                "Mean Value Theorem",
+                "Expansion of function (single variable)",
+                "Taylor and Maclaurin Series",
+                "Riemann Integration",
+                "Riemann Sum",
+                "Improper Integrals",
+                "Beta and Gamma function and their properties"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Multivariable Calculus (Differentiation)",
+              "topics": [
+                "Function with two or more variable",
+                "Limit, continuity and Partial differentiation",
+                "Total Differentiation",
+                "Taylor's series and Maclaurin's series for function with two variable",
+                "Jacobian",
+                "Maxima and Minima",
+                "Method of Lagrange's multiplier"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Multivariable Calculus (Integration)",
+              "topics": [
+                "Double Integral",
+                "Change of order of integration",
+                "Triple integral",
+                "Change of Variable in a Double and Triple Integrals",
+                "Change to polar coordinate",
+                "Change to cylindrical coordinate",
+                "Change to spherical polar coordinate",
+                "Application to area and volume using double and triple integral"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Vector Calculus",
+              "topics": [
+                "Scalar and vector fields",
+                "Gradient",
+                "Directional derivative",
+                "Divergence",
+                "Curl and their properties",
+                "Line integral",
+                "Green's theorem in plane (without proof)",
+                "Surface integral",
+                "Stoke's theorem (without proof)",
+                "Volume Integral",
+                "Gauss-Divergence' theorem (without proof)",
+                "AICTE's Prescribed Textbook: Mathematics-I (Calculus & Linear Algebra), Reena Garg, Khanna Book Publishing Co. ISBN-10 9391505171",
+                "Advanced Engineering Mathematics, Chandrika Prasad & Reena Garg, Khanna Book Publishing Co., 2021. ISBN 10: 9386173522 / ISBN 13: 9789386173522.",
+                "Higher Engineering Mathematics, B.V. Ramana, Tata McGraw Hill New Delhi, 11th Reprint, 2010, ISBN-10 007063419X ISBN-13978-0070634190.",
+                "Advanced Engineering Mathematics, Srklyengar Rk Jain, Narosa, 5th Edition, ISBN-10 8184875606 ISBN-13978-8184875607",
+                "Advanced Engineering Mathematics, Erwin Kreyszig, 9th Edition, John Wiley & Sons, 2006."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry",
+          "subject_code": "100103",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Atomic and Molecular Structure Electromagnetic radiations Dual nature of electron and Heisenberg uncertainty Principle Photoelectric effect Planck's theory Principles for the combination of atomic orbitals to form a molecular diagram of molecular orbitals Bent's rule VSEPR theory (typical example) Coordination numbers and geometries Isomerism in transition metal compounds Metal Carbonyls: Synthesis and Structure",
+                "Electromagnetic radiations",
+                "Dual nature of electron and Heisenberg uncertainty Principle",
+                "Photoelectric effect",
+                "Planck's theory",
+                "Principles for the combination of atomic orbitals to form a molecular diagram of molecular orbitals",
+                "Bent's rule",
+                "VSEPR theory (typical example)",
+                "Coordination numbers and geometries",
+                "Isomerism in transition metal compounds",
+                "Metal Carbonyls: Synthesis and Structure"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Spectroscopy",
+              "topics": [
+                "Principle of rotational and vibrational spectroscopy",
+                "Selection rule for application in diatomic molecules",
+                "Elementary idea of electronic spectroscopy",
+                "UV-VIS spectroscopy with related to rules and its applications",
+                "Basic Principle of nuclear Magnetic resonance spectroscopy with applications"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Electrochemistry and Fuels",
+              "topics": [
+                "Nernst equation",
+                "EMF and electrochemical cell",
+                "Introduction of corrosion",
+                "Corrosion mechanism",
+                "Types of corrosion",
+                "Water line corrosion",
+                "Stress corrosion",
+                "Pitting corrosion",
+                "Lead acid storage cell",
+                "Leclanche cell",
+                "Calorific value of fuels",
+                "Proximate and ultimate analysis of coals",
+                "Fuel cells",
+                "Bio fuels"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Water Chemistry",
+              "topics": [
+                "Hardness of water",
+                "Estimation of water hardness by EDTA and Alkalinity method",
+                "Removal of the hardness of water: soda lime process, zeolite process, Ion exchange process",
+                "Boiler problem",
+                "Sludge and scale formation",
+                "Priming and foaming",
+                "Boiler corrosion",
+                "Caustic embrittlement",
+                "Unit 5.0: Polymer and Plastics Polymerization techniques (free radical, ionic, and co-ordination mechanism) Preparation properties and technical application of phenol-formaldehyde resins Elastomers Synthetic rubbers (Buna-S, Buna-N, neoprene) Inorganic polymers Silicones Adhesives Epoxy resins Structural difference between thermoplastic and thermosetting Plastics Importance of commercially important thermoplastics and thermosets Poly ethylene Polyvinyl chloride Polystyrene",
+                "Polymerization techniques (free radical, ionic, and co-ordination mechanism)",
+                "Preparation properties and technical application of phenol-formaldehyde resins",
+                "Elastomers",
+                "Synthetic rubbers (Buna-S, Buna-N, neoprene)",
+                "Inorganic polymers",
+                "Silicones",
+                "Adhesives",
+                "Epoxy resins",
+                "Structural difference between thermoplastic and thermosetting Plastics",
+                "Importance of commercially important thermoplastics and thermosets",
+                "Poly ethylene",
+                "Polyvinyl chloride",
+                "Polystyrene"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Organic Reactions and Synthesis of A Drug Molecule",
+              "topics": [
+                "Introduction to intermediate and reaction involving Substitution, addition, elimination, oxidation-reduction",
+                "Diets Elder cyclization and epoxide ring opening reactions",
+                "Synthesis of commonly used drug molecules like aspirin",
+                "University Chemistry, B.H. Mahan, Pearson",
+                "Chemistry, principles and application, M.J. Sienko and R.A. Plane, McGraw Hill International",
+                "Fundamentals of molecular Spectroscopy, C.N. Banwell, McGraw Hill International",
+                "Engineering Chemistry (NPTEL Web- Book), B.L. Tembe, Kamaluddin and M.S. Krishnan, NPTEL",
+                "Physical Chemistry, P.W. Atkins, Oxford University Press",
+                "A text book of engineering chemistry, S. Chawala, Dhanpat Rai Publication",
+                "General Chemistry Part 1, R. Sarkar, New Central Book agency"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry Lab",
+          "subject_code": "100103P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "To estimate hardness of water by alkalinity method",
+                "To estimate hardness of water by EDTA method",
+                "To remove hardness of water by ion exchange method",
+                "Determination of pH of a given acid solution using a standard sodium hydroxide solution",
+                "Determination of surface tension and viscosity",
+                "Chemical analysis of salt (Acid radical and basic radical)",
+                "Adsorption of acetic acid by charcoal",
+                "Test of adulteration of fat butter, sugar, turmeric powder, chilli powder and pepper",
+                "Saponification/ acid value of an oil",
+                "Identification of organic substances and their functional groups",
+                "Potentiometric determination of redox potentials and emf",
+                "Synthesis of drug/ polymer like ASPRIN/ Urea- formaldehyde resin",
+                "Thin layer chromatography",
+                "Analysis of flue gas by orsat apparatus"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Introduction to AI",
+          "subject_code": "100105",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Engineering Graphics and Design",
+          "subject_code": "100107",
+          "type": "theory",
+          "credits": 2,
+          "L": 2,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Engineering Drawing",
+              "topics": [
+                "Principles of Engineering Graphics and Their Significance",
+                "Usage of Drawing Instruments",
+                "Lettering",
+                "Conic Sections including the Rectangular Hyperbola (General Method Only)",
+                "Cycloid, Epicycloid, Hypocycloid and Involute",
+                "Scales Plain, Diagonal and Vernier Scales"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Orthographic Projections",
+              "topics": [
+                "Principles of Orthographic Projections",
+                "Conventions",
+                "Projections of Points and Lines Inclined to Both Planes",
+                "Projections of Planes Inclined Planes",
+                "Auxiliary Planes"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Projections of Regular Solids",
+              "topics": [
+                "Types of Solids",
+                "Projects of Solids (Prism, pyramids, cone, and cylinder): Inclined to Both the Planes",
+                "Auxiliary Views",
+                "Draw Simple Annotation, Dimensioning and Scale"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sections and Sectional Views of Right Angular Solids",
+              "topics": [
+                "Section of Solids (Prism, Cylinder, Pyramid, Cone)",
+                "Auxiliary Views",
+                "Development of Surfaces Of Right Regular Solids: Prism, Pyramid, Cylinder And Cone",
+                "Draw The Sectional Orthographic Views of Geometrical Solids, Objects From Industry And Dwellings (Foundation To Slab Only)"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Isometric Projections",
+              "topics": [
+                "Isometric Views",
+                "Compound Solids",
+                "Principles of Isometric Projection Isometric Scale",
+                "Conventions",
+                "Isometric Views of Lines, Planes, Simple and Conversion of Isometric Views to Orthographic Views And Vice-Versa",
+                "Unit 6.0: Overview of Computer Graphics Listing the Computer Technologies that Impact on Graphical Communication Demonstrating Knowledge of the Theory of CAD Software The Menu System Toolbars (Standard, Object Properties, Draw, Modify And Dimension) Drawing Area (Background, Crosshairs, Coordinate System) Dialog Boxes And Windows Shortcut Menus (Button Bars) The Command Line (Where Applicable) The Status Bar Different Methods of Zoom as Used in CAD Select and Erase Objects Isometric Views of Lines, Planes, Simple And Compound Solids",
+                "Listing the Computer Technologies that Impact on Graphical Communication",
+                "Demonstrating Knowledge of the Theory of CAD Software",
+                "The Menu System",
+                "Toolbars (Standard, Object Properties, Draw, Modify And Dimension)",
+                "Drawing Area (Background, Crosshairs, Coordinate System)",
+                "Dialog Boxes And Windows",
+                "Shortcut Menus (Button Bars)",
+                "The Command Line (Where Applicable)",
+                "The Status Bar",
+                "Different Methods of Zoom as Used in CAD",
+                "Select and Erase Objects",
+                "Isometric Views of Lines, Planes, Simple And Compound Solids",
+                "Engineering Drawing, N.D. Bhatt, Charotar Publishing House, 53rd Edition, ISBN: 978-9380358277",
+                "A Textbook of Engineering Drawing, R.K. Dhawan, S. Chand Publishing, Revised Edition, ISBN: 978-8121929571",
+                "Engineering Drawing and Graphics, K. Venugopal, V. Prabhu Raja, New Age International Publishers, 3rd Edition, ISBN: 978-8122430120",
+                "Engineering Graphics with AutoCAD, D.M. Kulkarni, A.P. Rastogi, A.K. Sarkar, PHI Learning Pvt. Ltd., 1st Edition, ISBN: 978-8120337834"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Graphics and Design Lab",
+          "subject_code": "100107P",
+          "type": "lab",
+          "credits": 2,
+          "L": 0,
+          "T": 0,
+          "P": 4,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Which includes dimensioning methods, different types of line, construction of different polygon, divide the line and angle in parts, use of stencil",
+                "Construction of Plane, Diagonal & Vernier Scales",
+                "Construction of Ellipses, Parabolas, and Hyperbolas using the general method",
+                "Construction of cycloid, epicycloid, hypocycloid, and involute of a circle",
+                "Projection of Points and Lines inclined to both planes",
+                "Projections of Planes (e.g., rectangular, triangular) in inclined positions",
+                "Projection of Solids (prisms, pyramids, cones, and cylinders)",
+                "Drawing of Sections of Prisms, Cylinders, Pyramids, and Cones",
+                "Development of Surfaces for prisms, pyramids, cylinders, and cones",
+                "Construction of Isometric views of lines, planes, and simple solids",
+                "Introduction to CAD Software",
+                "Use of CAD software to draw basic geometric shapes, apply dimensions, and modify objects"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Programming for Problem Solving Lab",
+          "subject_code": "100112P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Tutorial 1: Problem solving using computers. Lab 1: Familiarization with programming environment.",
+                "Tutorial 2: Variable types and type conversions. Lab 2: Simple computational problems using arithmetic expressions.",
+                "Tutorial 3: Branching and logical expressions. Lab 3: Problems involving if-then-else structures.",
+                "Tutorial 4: Loops, while and for loops. Lab 4: Iterative problems e.g., sum of series.",
+                "Tutorial 5: 1D Arrays: searching, sorting. Lab 5: 1D Array manipulation.",
+                "Tutorial 6: 2D arrays and Strings. Lab 6: Matrix problems, String operations.",
+                "Tutorial 7: Functions, call by value. Lab 7: Simple functions.",
+                "Tutorial 8 & 9: Numerical methods (Root finding, numerical differentiation, numerical integration). Lab 8 and 9: Programming for solving Numerical methods problems.",
+                "Tutorial 10: Recursion, structure of recursive calls. Lab 10: Recursive functions.",
+                "Tutorial 11: Pointers, structures and dynamic memory allocation. Lab 11: Pointers and structures.",
+                "Tutorial 12: File handling. Lab 12: File operations."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Sports/Yoga/NCC/NSS",
+          "subject_code": "100113P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Encouraging creativity and innovation: The course could aim to foster a culture of creativity and innovation among engineering students. It could provide opportunities for students to generate and develop new ideas, think critically, and come up with innovative solutions to real-world problems. This objective could be achieved through brainstorming sessions, design thinking exercises, and hands-on projects.",
+                "Enhancing problem-solving skills: The course could focus on enhancing the problem-solving skills of engineering students. It could provide training on various problem-solving techniques, such as root cause analysis, critical thinking, and decision-making. Students may learn how to identify and analyse complex problems, develop feasible solutions, and implement them effectively.",
+                "Developing project management skills: The course could aim to develop project management skills among engineering students. It could cover topics such as project planning, scheduling, budgeting, and risk management. Students may learn how to manage resources, communicate effectively, and work collaboratively in a project-based environment.",
+                "Promoting interdisciplinary collaboration: The course could encourage interdisciplinary collaboration among engineering students. It could provide opportunities for students from different engineering disciplines to work together on innovative projects. This could foster cross-disciplinary learning, encourage diverse perspectives, and promote teamwork and collaboration skills.",
+                "Facilitating practical application of engineering concepts: The course could focus on the practical application of engineering concepts and principles. It could provide students with opportunities to apply their theoretical knowledge to real-world projects, prototypes, or simulations. Students may learn how to translate engineering theories into practical solutions and develop hands-on experience in implementing innovative projects.",
+                "Upon completion, students may have:",
+                "Developed innovative projects: Students may have successfully developed innovative projects that demonstrate their creativity, problem-solving skills, and technical competence. These projects could be prototypes, models, simulations, or practical solutions to real-world problems, showcasing their ability to apply engineering concepts in a creative and innovative manner.",
+                "Improved critical thinking and problem-solving skills: Students may have honed their critical thinking and problem-solving skills through various course activities, such as brainstorming, design thinking, and project development. They may have learned to analyse complex problems, identify viable solutions, and make informed decisions based on technical, economic, and social considerations.",
+                "Enhanced project management and teamwork skills: Students may have gained practical experience in managing projects, including planning, scheduling, budgeting, and risk management. They may have learned how to work effectively in a team, collaborate with diverse team members, and communicate project progress and results professionally.",
+                "Increased interdisciplinary knowledge and collaboration: Students may have gained exposure to interdisciplinary concepts and collaborated with peers from different engineering disciplines. They may have learned to appreciate diverse perspectives, leverage interdisciplinary knowledge, and work collaboratively to develop innovative solutions that integrate multiple domains of engineering.",
+                "Cultivated a mindset of innovation and entrepreneurship: Students may have developed a mindset of innovation and entrepreneurship, recognizing the importance of creativity, adaptability, and continuous improvement in engineering practice. They may have learned to identify opportunities, think critically, and take risks to develop and implement innovative projects with commercial or societal potential.",
+                "Any topics related to innovative project."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "subjects": [
+        {
+          "subject_name": "Electronic Devices & Circuits",
+          "subject_code": "105311",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Semiconductor & PN Junction Diode Intrinsic Semiconductor Extrinsic Semiconductor N-Type & P-Type Semiconductor Formation Of PN Junction Depletion Region Barrier Potential Working Of PN Junction Under Open Circuit Working Under Forward Bias Working Under Reverse Bias Diode Current Equation V-I Characteristics Of PN Junction Diode Special Type Of Diode: Zener Diode Light Emitting Diode (LED) Laser Diode Photodiode Solar Diode",
+                "Intrinsic Semiconductor",
+                "Extrinsic Semiconductor",
+                "N-Type & P-Type Semiconductor",
+                "Formation Of PN Junction",
+                "Depletion Region",
+                "Barrier Potential",
+                "Working Of PN Junction Under Open Circuit",
+                "Working Under Forward Bias",
+                "Working Under Reverse Bias",
+                "Diode Current Equation",
+                "V-I Characteristics Of PN Junction Diode",
+                "Special Type Of Diode: Zener Diode",
+                "Light Emitting Diode (LED)",
+                "Laser Diode",
+                "Photodiode",
+                "Solar Diode",
+                "Unit 2.0: Bipolar Junction Transistor (BJT) Physical Structure And Operation Modes Active Region Operation Of Transistor D.C. Analysis Of Transistor Circuits Transistor As An Amplifier BJT Biasing: Fixed Bias Emitter Feedback Bias Collector Feedback Bias Voltage Divider Bias Basic BJT Amplifier Configuration: Common Emitter Common Base Common Collector Amplifiers Transistor As A Switch: Cut-Off And Saturation Modes High Frequency Model Of BJT Amplifier",
+                "Physical Structure And Operation Modes",
+                "Active Region Operation Of Transistor",
+                "D.C. Analysis Of Transistor Circuits",
+                "Transistor As An Amplifier",
+                "BJT Biasing: Fixed Bias",
+                "Emitter Feedback Bias",
+                "Collector Feedback Bias",
+                "Voltage Divider Bias",
+                "Basic BJT Amplifier Configuration: Common Emitter",
+                "Common Base",
+                "Common Collector Amplifiers",
+                "Transistor As A Switch: Cut-Off And Saturation Modes",
+                "High Frequency Model Of BJT Amplifier"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Field Effect Transistor (FET)",
+              "topics": [
+                "JFET Construction, Operation And Biasing",
+                "Types Of MOSFET",
+                "Enhancement-Type MOSFET: Structure And Physical Operation",
+                "Current-Voltage Characteristics",
+                "D.C. Operation Of MOSFET Circuits",
+                "MOSFET As An Amplifier",
+                "Biasing In MOSFET Amplifiers",
+                "Basic MOSFET Amplifier Configuration: Common Source",
+                "Common Gate",
+                "Common Drain Types",
+                "High Frequency Model Of MOSFET Amplifier",
+                "Unit 4.0: Amplifiers And Oscillators Multistage Amplifier Multistage Amplifier Configuration Multistage Or Cascade Amplifier Classification Of Multi-Stage Amplifier Coupling And Frequency Response Of Cascaded Systems Effect Of Cascading On Multiuser Amplifier Gain, Impedances, Bandwidth Miller Theorem Darlington Pair Bootstrap Circuit Power Amplifier: Class A Large Amplifiers Class B Amplifier Class AB Operation Push Pull Class C Power Amplifiers Tuned Amplifier: Single Tuned Double Tuned Stagger Tuned Amplifiers Characteristics Feedback Amplifiers: Concept Of Feedback Positive And Negative Feedback Voltage And Current Feedback Oscillators: Condition For Sustained Oscillation R-C Phase Shift Oscillator Hartley Oscillator Colpitts Oscillator Crystal Oscillator Wein Bridge Oscillator",
+                "Multistage Amplifier",
+                "Multistage Amplifier Configuration",
+                "Multistage Or Cascade Amplifier",
+                "Classification Of Multi-Stage Amplifier",
+                "Coupling And Frequency Response Of Cascaded Systems",
+                "Effect Of Cascading On Multiuser Amplifier Gain, Impedances, Bandwidth",
+                "Miller Theorem",
+                "Darlington Pair",
+                "Bootstrap Circuit",
+                "Power Amplifier: Class A Large Amplifiers",
+                "Class B Amplifier",
+                "Class AB Operation Push Pull",
+                "Class C Power Amplifiers",
+                "Tuned Amplifier: Single Tuned",
+                "Double Tuned",
+                "Stagger Tuned Amplifiers Characteristics",
+                "Feedback Amplifiers: Concept Of Feedback",
+                "Positive And Negative Feedback",
+                "Voltage And Current Feedback",
+                "Oscillators: Condition For Sustained Oscillation",
+                "R-C Phase Shift Oscillator",
+                "Hartley Oscillator",
+                "Colpitts Oscillator",
+                "Crystal Oscillator",
+                "Wein Bridge Oscillator"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Combinational Circuit",
+              "topics": [
+                "Boolean Function And Logic Gates",
+                "DeMorgan's Theorem",
+                "Simplification Of Boolean Function",
+                "Arithmetic Circuits: Half Adders",
+                "Full Adders",
+                "Combinational Logic Circuits: Multiplexer",
+                "De-Multiplexer",
+                "Encoder",
+                "Decoder"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sequential Circuits & Logic Families",
+              "topics": [
+                "Flip-Flop",
+                "Counters",
+                "Shift Register",
+                "Logic Family: RTL",
+                "TTL",
+                "HTL",
+                "ECL",
+                "CMOS Family",
+                "Modulus Of Counter",
+                "Asynchronous Counter: Ripple Up/Down Counter",
+                "Decade Counter",
+                "Synchronous Counter: Ring Counter",
+                "Johnson Counter",
+                "D/A Converter",
+                "A/D Converters",
+                "Sample And Hold Circuits",
+                "Multi-Vibrators: Astable",
+                "Monostable",
+                "Bistable",
+                "Robert L Boylestad and Louis Nashelsky, \"Electronic Devices and Circuit Theory\", 10th Edition, Pearson Prentice Hall, 2009.",
+                "David A. Bell, \"Electronic Devices and Circuits\", 5th Edition, Oxford University Press, 2008.",
+                "Jacob Millman, Christos C. Halkias, \"Integrated Electronics: Analog and Digital Circuits and Systems\", McGraw-Hill, 2015.",
+                "Charles H. Roth Jr, Larry L. Kinney, \"Fundamentals of Logic Design\", 7th Edition, Cengage Learning, ISBN: 978-1133628477.",
+                "Morris Mano, \"Digital Logic and Computer Design\", Pearson, 2016, ISBN: 9789332542525.",
+                "Tomas Lang, Milos Ercegovac, Jaime H. Moreno, \"Introduction to Digital System\", Wiley, 2005, ISBN: 978-8126522514.",
+                "John M. Yarbrough, \"Digital Logic Applications & Design\", Cengage Delmar Learning India Pvt, 2015, ISBN: 9788131500583."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Electronics Lab",
+          "subject_code": "105311P",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "To Observe The Waveform Of Clamper Circuit.",
+                "To Observe The Waveform Of Clipper Circuit.",
+                "Construct The Circuit And Plot The V-I Characteristics Of The PN Junction Diode And Measure The Cut In Voltage.",
+                "Construct The Circuit And Plot The Characteristics Of A Zener Diode. Find The Breakdown Voltage.",
+                "Plot The Input And Output Characteristics Of CE Transistor.",
+                "Plot The Drain And Transfer Characteristics Of FET.",
+                "Determine Frequency Response Of CE Amplifier With And Without Bypass Capacitor.",
+                "Determine Frequency Response Of CC Amplifier And Find The Input And Output Impedances.",
+                "Realization Of Half And Full Adders, Half And Full Subtractor Using Logic Gates.",
+                "a. Build Half And Full Adders Using The IC's – MUX–74153. b. Build 3 – Bit Binary To Gray And BCD To Excess–3 Code Converters Using IC DEMUX – 74139.",
+                "Operational Verification Of Flip–Flops: (i) T Type (ii) D Type And (iii) J–K Master Slave.",
+                "Construct Decade Counter (0-9) Using IC 7490. Or Construct Decade Counter (0-9) Using IC 7490 On EDA/Simulation Tool."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Fundamentals of Robotics",
+          "subject_code": "105312",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction Of Robot Introduction To Robotics And Automation Laws Of Robot Brief History Of Robotics Basic Components Of Robot Robot Specifications Classification Of Robots Human System And Robotics Industrial Robots Robot Anatomy - Four Common Configurations Of Robot Robot Motions - Linear, Rotational, Revolving, Twisting, Cylindrical, Spherical Degrees Of Freedom Of Robot Introduction To Degrees Of Freedom Three Degrees Of Freedom Associated With Arm And Body Polar Robot Three Degrees Of Freedom Associated With Robot Wrist Joint Notation Scheme Work Volume Links And Joints Spatial Resolution Accuracy Repeatability Compliance",
+                "Introduction To Robotics And Automation",
+                "Laws Of Robot",
+                "Brief History Of Robotics",
+                "Basic Components Of Robot",
+                "Robot Specifications",
+                "Classification Of Robots",
+                "Human System And Robotics",
+                "Industrial Robots",
+                "Robot Anatomy - Four Common Configurations Of Robot",
+                "Robot Motions - Linear, Rotational, Revolving, Twisting, Cylindrical, Spherical",
+                "Degrees Of Freedom Of Robot",
+                "Introduction To Degrees Of Freedom",
+                "Three Degrees Of Freedom Associated With Arm And Body Polar Robot",
+                "Three Degrees Of Freedom Associated With Robot Wrist",
+                "Joint Notation Scheme",
+                "Work Volume",
+                "Links And Joints",
+                "Spatial Resolution",
+                "Accuracy",
+                "Repeatability",
+                "Compliance"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Mechanical Components And Robot Drive Systems",
+              "topics": [
+                "Drive Systems For Robots, Salient Features And Comparison",
+                "Different Types Of End Effectors, Design, Applications",
+                "Grippers",
+                "Welding And Soldering Tools",
+                "Cutting And Milling Tools",
+                "Gearing Systems And Transmissions",
+                "Bearings And Linkages In Robot Design"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Sensors",
+              "topics": [
+                "Sensor Evaluation And Selection",
+                "Piezoelectric Sensors",
+                "Linear Position And Displacement Sensing",
+                "Revolvers",
+                "Encoders",
+                "Velocity Measurement",
+                "Proximity, Tactile, Compliance And Range Sensing",
+                "Image Processing And Object Recognition",
+                "Cameras",
+                "LiDAR",
+                "Ultrasonic Sensors"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "CAD Tools For Robotics",
+              "topics": [
+                "Overview Of CAD And Its Significance In Robotics",
+                "Introduction Of CAD Software",
+                "User Interface And Navigation Within CAD Software",
+                "Sketching And Basic 2D Drawing Tools",
+                "Dimensioning And Annotations In CAD",
+                "Techniques For Assembling Components In CAD",
+                "Introduction To Simulation Tools Within CAD Software",
+                "Motion Analysis And Simulation Of Robotic Movements"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Safety And Economy Of Robots",
+              "topics": [
+                "Work Cycle Time Analysis",
+                "Economics And Effectiveness Of Robots",
+                "Safety Systems And Devices",
+                "Concepts Of Testing Methods And Acceptance Rule For Industrial Robots",
+                "Robot Integration With CAD/CAM/CIM",
+                "Collision Free Motion Planning",
+                "Robot Applications In Engineering And Specific Applications In Healthcare/Biomedical",
+                "R.K. Mittal and J. Nagarath, \"Robotics and Control\", Tata McGraw Hill, 1995. ISBN: 9780070482937.",
+                "Robert J. Schilling, \"Fundamentals of Robotics\", Pearson, Facsimile edition, 2003. ISBN: 9780133444339.",
+                "Richard D. Klafter, \"Robotics Engineering\", PHI, 2003. ISBN: 9780134687520.",
+                "Mikell P. Groover, \"Industrial Robotics - Technology, Programming and Applications\", 2nd Edition, Tata McGraw Hill. ISBN: 9781259006210.",
+                "K.S. Fu, R.C. Gonzales, Lee, \"Robotics\", McGraw Hill International, 2008. ISBN: 9780070226258.",
+                "Ganesh S. Hegde, \"Industrial Robotics\", Laxmi Publications, Second edition, 2015."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Robotics Lab",
+          "subject_code": "105312P",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Identify Components Of Real Robot And Its DH Parameters.",
+                "Identify The Different Types Of Mechanical Components (E.g., Gears, Bearings, Shafts) Commonly Used In Robotic Systems.",
+                "Analyze Gear Ratios, Torque Transmission, And Speed Control Using Different Gear Configurations.",
+                "Integration Of Assorted Sensors (IR, Potentiometer, Strain Gauges Etc.) In A Robotic System.",
+                "Navigate The CAD Software, Create Simple Sketches, And Explore Various Tool Options.",
+                "Create 2D Sketches Using Different Tools And Apply Constraints And Dimensions.",
+                "Control Experiment Using Available Hardware/Software.",
+                "Assemble Components, Apply Constraints, And Generate An Exploded View."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Basic Human Anatomy & Physiology",
+          "subject_code": "105313",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "General Anatomy And Physiology",
+              "topics": [
+                "Homeostasis: Levels Of Structural Complexity",
+                "The Internal Environment And Homeostasis",
+                "Communication",
+                "Movement Of Substances Within The Body",
+                "Body Fluids",
+                "Cell Structure And Functions",
+                "Tissues: Epithelial Tissue (All Types)",
+                "Connective Tissue (All Types)",
+                "Cartilage - Hyaline Cartilage, Fibrocartilage, Elastic Cartilage",
+                "Unit 2.0: Cardiovascular System Introduction Blood Vessels - Arteries And Arterioles Veins And Venules Capillaries Control Of Blood Vessel Diameter Blood Supply - Internal Respiration, Cell Nutrition Heart - Position, Structure - Pericardium, Myocardium, Endocardium Interior Of The Heart Flow Of Blood Through The Heart Blood Supply To Heart Conducting System Of The Heart Factors Affecting Heart Rate Cardiac Cycle Cardiac Output Blood Pressure Control Of Blood Pressure Pulse And Factors Affecting The Pulse Rate Circulation Of The Blood - Pulmonary Circulation Systemic Circulation - Aorta (Different Parts Of Aorta & Their Blood Supply, In Brief) Summary Of The Main Blood Vessels (Arteries & Veins, Brief Explanation With Flow Diagram Only)",
+                "Introduction",
+                "Blood Vessels - Arteries And Arterioles",
+                "Veins And Venules",
+                "Capillaries",
+                "Control Of Blood Vessel Diameter",
+                "Blood Supply - Internal Respiration, Cell Nutrition",
+                "Heart - Position, Structure - Pericardium, Myocardium, Endocardium",
+                "Interior Of The Heart",
+                "Flow Of Blood Through The Heart",
+                "Blood Supply To Heart",
+                "Conducting System Of The Heart",
+                "Factors Affecting Heart Rate",
+                "Cardiac Cycle",
+                "Cardiac Output",
+                "Blood Pressure",
+                "Control Of Blood Pressure",
+                "Pulse And Factors Affecting The Pulse Rate",
+                "Circulation Of The Blood - Pulmonary Circulation",
+                "Systemic Circulation - Aorta (Different Parts Of Aorta & Their Blood Supply, In Brief)",
+                "Summary Of The Main Blood Vessels (Arteries & Veins, Brief Explanation With Flow Diagram Only)",
+                "Unit 3.0: Nervous System Functional Components Of Nervous System Neurons: Properties Of Neurons Cell Bodies Axon And Dendrites Nerve Impulse (Action Potential) Types Of Nerves Synapse And Neurotransmitters Neuromuscular Junction Central Nervous System: Meninges Ventricles Of The Brain And CSF Brain: Cerebrum, Functions Of Cerebrum Functional Areas Of The Cerebrum Brainstem Cerebellum Spinal Cord - Grey Matter, White Matter Spinal Nerves (In Brief List & Functions Only) Cranial Nerves (In Brief List & Functions Only) Autonomic Nervous System (In Brief) - Functions And Effects",
+                "Functional Components Of Nervous System",
+                "Neurons: Properties Of Neurons",
+                "Cell Bodies",
+                "Axon And Dendrites",
+                "Nerve Impulse (Action Potential)",
+                "Types Of Nerves",
+                "Synapse And Neurotransmitters",
+                "Neuromuscular Junction",
+                "Central Nervous System: Meninges",
+                "Ventricles Of The Brain And CSF",
+                "Brain: Cerebrum, Functions Of Cerebrum",
+                "Functional Areas Of The Cerebrum",
+                "Brainstem",
+                "Cerebellum",
+                "Spinal Cord - Grey Matter, White Matter",
+                "Spinal Nerves (In Brief List & Functions Only)",
+                "Cranial Nerves (In Brief List & Functions Only)",
+                "Autonomic Nervous System (In Brief) - Functions And Effects",
+                "Unit 4.0: Respiratory System Organs Of Respiration Nose And Nasal Cavity - Position, Structure And Functions Pharynx - Position, Structure, Functions Larynx - Position, Structure And Functions Trachea - Position, Structure, Functions Bronchi, Bronchioles And Alveoli - Structure And Functions Lungs - Position, Associated Structure, Pleura And Pleural Cavity Respiration - Muscles Of Respiration Cycle Of Respiration Variables Affecting Respiration Lung Volumes And Capacity Digestive System: Introduction Organs Of The Digestive System Basic Structure Of The Alimentary Canal Stomach - Structure, Gastric Juice And Functions Of Stomach",
+                "Organs Of Respiration",
+                "Nose And Nasal Cavity - Position, Structure And Functions",
+                "Pharynx - Position, Structure, Functions",
+                "Larynx - Position, Structure And Functions",
+                "Trachea - Position, Structure, Functions",
+                "Bronchi, Bronchioles And Alveoli - Structure And Functions",
+                "Lungs - Position, Associated Structure, Pleura And Pleural Cavity",
+                "Respiration - Muscles Of Respiration",
+                "Cycle Of Respiration",
+                "Variables Affecting Respiration",
+                "Lung Volumes And Capacity",
+                "Digestive System: Introduction",
+                "Organs Of The Digestive System",
+                "Basic Structure Of The Alimentary Canal",
+                "Stomach - Structure, Gastric Juice And Functions Of Stomach",
+                "Unit 5.0: Urinary System And Skeletal System Introduction Kidneys - Gross Structure Of Kidney Microscopic Structure Of Kidney Functions Of Kidney Bone - Types Of Bone Bone Structure Microscopic Structure Of Bone Functions Of Bone Skull Bones (Name And Position Only) Sinuses Fontanelles Vertebral Column - Characteristics Of Typical Vertebra Different Parts Of Vertebral Column (Name And Position Only) Features Of Vertebral Column Functions Of Vertebral Column Bones Of Thoracic Cage (Name And Position Only) Bones Of Shoulder Girdle And Upper Limb (Name And Position Only) Bones Of Pelvic Girdle And Lower Limb (Name And Position Only) Muscle Tissue: Skeletal Muscle, Smooth Muscle, Cardiac Muscle Functions Of Muscle Tissue Types Of Joint - Fibrous, Cartilaginous, Synovial Characteristics Of Synovial Joints Shoulder Joint Hip Joint Knee Joint",
+                "Kidneys - Gross Structure Of Kidney",
+                "Microscopic Structure Of Kidney",
+                "Functions Of Kidney",
+                "Bone - Types Of Bone",
+                "Bone Structure",
+                "Microscopic Structure Of Bone",
+                "Functions Of Bone",
+                "Skull Bones (Name And Position Only)",
+                "Sinuses",
+                "Fontanelles",
+                "Vertebral Column - Characteristics Of Typical Vertebra",
+                "Different Parts Of Vertebral Column (Name And Position Only)",
+                "Features Of Vertebral Column",
+                "Functions Of Vertebral Column",
+                "Bones Of Thoracic Cage (Name And Position Only)",
+                "Bones Of Shoulder Girdle And Upper Limb (Name And Position Only)",
+                "Bones Of Pelvic Girdle And Lower Limb (Name And Position Only)",
+                "Muscle Tissue: Skeletal Muscle, Smooth Muscle, Cardiac Muscle",
+                "Functions Of Muscle Tissue",
+                "Types Of Joint - Fibrous, Cartilaginous, Synovial",
+                "Characteristics Of Synovial Joints",
+                "Shoulder Joint",
+                "Hip Joint",
+                "Knee Joint",
+                "Anne Waugh and Allison Grant, \"Ross & Wilson's Anatomy and Physiology in Health and Illness\", 9th Edition, Churchill Livingstone Publications. ASIN: B0CGXM68YX.",
+                "Guyton and Hall, \"Textbook of Medical Physiology\", 14th Edition, Elsevier. ISBN-978-0323597128.",
+                "William F. Ganong, \"Review of Medical Physiology\", 26th Edition, McGraw-Hill Education / Medical Publications. ISBN-10: 1260122409.",
+                "Lauralee Sherwood, \"Human Physiology: From Cells to Systems\", 6th Edition, Thomson India Edition, 2007. ISBN: 978-0495110590."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Materials Science & Biomaterials",
+          "subject_code": "105314",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction To Biomaterials & Ferrous Alloys Introduction Of Biomaterials Classification Of Biomaterials General Applications The Iron-Carbon Equilibrium Diagram - Phases, Invariant Reactions Microstructure Of Slowly Cooled Steels - Eutectoid Steel, Hypo And Hypereutectoid Steels Effect Of Alloying Elements On The Fe-C System Diffusion In Solids - Fick's Laws Phase Transformations - T-T-T Diagram For Eutectoid Steel Pearlitic, Bainitic And Martensitic Transformations Tempering Of Martensite Steels - Stainless Steels Cast Irons Composite Biomaterials: Properties, Classification And Applications In Fabrication Of Biodvices And Implants",
+                "Introduction Of Biomaterials",
+                "Classification Of Biomaterials",
+                "General Applications",
+                "The Iron-Carbon Equilibrium Diagram - Phases, Invariant Reactions",
+                "Microstructure Of Slowly Cooled Steels - Eutectoid Steel, Hypo And Hypereutectoid Steels",
+                "Effect Of Alloying Elements On The Fe-C System",
+                "Diffusion In Solids - Fick's Laws",
+                "Phase Transformations - T-T-T Diagram For Eutectoid Steel",
+                "Pearlitic, Bainitic And Martensitic Transformations",
+                "Tempering Of Martensite",
+                "Steels - Stainless Steels",
+                "Cast Irons",
+                "Composite Biomaterials: Properties, Classification And Applications In Fabrication Of Biodvices And Implants",
+                "Unit 2.0: Mechanical And Biological Testing Of Materials Tensile Test - Plastic Deformation Mechanisms - Slip And Twinning Role Of Dislocations In Slip Strengthening Methods - Strain Hardening Refinement Of The Grain Size Solid Solution Strengthening Precipitation Hardening Creep Resistance - Creep Curves Mechanisms Of Creep Creep-Resistant Materials Fracture - The Griffith Criterion Critical Stress Intensity Factor And Its Determination Fatigue Failure - Fatigue Tests Methods Of Increasing Fatigue Life Hardness - Rockwell And Brinell Hardness Knoop And Vickers Micro Hardness Physiochemical Test Invitro And Invivo Types Different Forms Of Corrosion Wear Electrochemical Corrosion Testing",
+                "Tensile Test - Plastic Deformation Mechanisms - Slip And Twinning",
+                "Role Of Dislocations In Slip",
+                "Strengthening Methods - Strain Hardening",
+                "Refinement Of The Grain Size",
+                "Solid Solution Strengthening",
+                "Precipitation Hardening",
+                "Creep Resistance - Creep Curves",
+                "Mechanisms Of Creep",
+                "Creep-Resistant Materials",
+                "Fracture - The Griffith Criterion",
+                "Critical Stress Intensity Factor And Its Determination",
+                "Fatigue Failure - Fatigue Tests",
+                "Methods Of Increasing Fatigue Life",
+                "Hardness - Rockwell And Brinell Hardness",
+                "Knoop And Vickers Micro Hardness",
+                "Physiochemical Test",
+                "Invitro And Invivo Types",
+                "Different Forms Of Corrosion",
+                "Wear",
+                "Electrochemical Corrosion Testing",
+                "Unit 3.0: Magnetic, Dielectric And Superconducting Materials Ferromagnetism - Domain Theory Types Of Energy - Hysteresis Hard And Soft Magnetic Materials Ferrites Dielectric Materials - Types Of Polarization Langevin-Debye Equation Frequency Effects On Polarization Dielectric Breakdown Insulating Materials Properties And Applications Of Metallic Biomaterials And Its Biocompatibility: Stainless Steel Titanium, Titanium Based Alloys Cobalt - Chromium Alloys In Fabrication Of Bio-Devices And Implants",
+                "Ferromagnetism - Domain Theory",
+                "Types Of Energy - Hysteresis",
+                "Hard And Soft Magnetic Materials",
+                "Ferrites",
+                "Dielectric Materials - Types Of Polarization",
+                "Langevin-Debye Equation",
+                "Frequency Effects On Polarization",
+                "Dielectric Breakdown",
+                "Insulating Materials",
+                "Properties And Applications Of Metallic Biomaterials And Its Biocompatibility: Stainless Steel",
+                "Titanium, Titanium Based Alloys",
+                "Cobalt - Chromium Alloys In Fabrication Of Bio-Devices And Implants",
+                "Unit 4.0: Semi-Conductor Materials, Polymeric And Degradable Biomaterials Energy Bands Of Solids: Conductors, Semiconductors, On Conductors Types Of Semiconductors Diffusion, Hall Effect Thermal And Electrical Conductivity Of Semiconductor Materials Materials For Fabrication Of Semiconductor Devices Classification, Polyurethanes, PTFE, Polyethylene, Polypropylene, Polyacrylates, PMMA, PHEMA Hydrogel Silicone Rubber Biopolymer In Fabrication Of Biodvices And Implants Thermoplastic And Thermosetting Plastics Degradable Biomaterials (PGA And PLA) Applications In Drug Delivery Systems",
+                "Energy Bands Of Solids: Conductors, Semiconductors, On Conductors",
+                "Types Of Semiconductors",
+                "Diffusion, Hall Effect",
+                "Thermal And Electrical Conductivity Of Semiconductor Materials",
+                "Materials For Fabrication Of Semiconductor Devices",
+                "Classification, Polyurethanes, PTFE, Polyethylene, Polypropylene, Polyacrylates, PMMA, PHEMA",
+                "Hydrogel",
+                "Silicone Rubber",
+                "Biopolymer In Fabrication Of Biodvices And Implants",
+                "Thermoplastic And Thermosetting Plastics",
+                "Degradable Biomaterials (PGA And PLA)",
+                "Applications In Drug Delivery Systems",
+                "Unit 5.0: Micro-Electronic Components And New Materials Photoemissive Material Impurities Used To Emit Different Colours Of Light/Wavelength Electroluminescence And Junction LASERS Material For Flexible And Wearable Antennas Photovoltaic Material Materials Used And Application Micro Motors, Micro Relay And Micro Switches Ceramics - Types And Applications Composites: Classification, Role Of Matrix And Reinforcement Processing Of Fiber Reinforced Plastics Metallic Glasses: Types, Glass Forming Ability Of Alloys Melt Spinning Process, Applications Shape Memory Alloys: Phases, Shape Memory Effect Pseudoelastic Effect, NiTi Alloy, Applications Nanomaterials: Preparation (Bottom Up And Top Down Approaches), Properties And Applications Carbon Nanotubes: Types",
+                "Photoemissive Material",
+                "Impurities Used To Emit Different Colours Of Light/Wavelength",
+                "Electroluminescence And Junction LASERS",
+                "Material For Flexible And Wearable Antennas",
+                "Photovoltaic Material",
+                "Materials Used And Application Micro Motors, Micro Relay And Micro Switches",
+                "Ceramics - Types And Applications",
+                "Composites: Classification, Role Of Matrix And Reinforcement",
+                "Processing Of Fiber Reinforced Plastics",
+                "Metallic Glasses: Types, Glass Forming Ability Of Alloys",
+                "Melt Spinning Process, Applications",
+                "Shape Memory Alloys: Phases, Shape Memory Effect",
+                "Pseudoelastic Effect, NiTi Alloy, Applications",
+                "Nanomaterials: Preparation (Bottom Up And Top Down Approaches), Properties And Applications",
+                "Carbon Nanotubes: Types",
+                "Balasubramaniam, R., \"Callister's Materials Science and Engineering\", Wiley India Pvt. Ltd., 2014. ISBN: 9788126541607.",
+                "Raghavan, V., \"Physical Metallurgy: Principles and Practice\", PHI Learning, 2015. ASIN: B0198B86X4.",
+                "J.V. Park, \"Biomaterial Science and Engineering\", Plenum Press, New York. ISBN: 978-0306416897.",
+                "Callister, William D., \"Material Science and Engineering\", 2nd Edition, Wiley India. ISBN: 9788126541607.",
+                "Raghavan, V., \"Materials Science and Engineering: A First Course\", PHI Learning, 2015. ISBN: 13:9788120350922.",
+                "Askeland, D., \"Materials Science and Engineering\", Brooks/Cole, 2010. ISBN: 978-0495296027.",
+                "Smith, W.F., Hashemi, J. & Prakash, R., \"Materials Science and Engineering\", Tata McGraw Hill Education Pvt. Ltd., 2014. ISBN: 978-1259062759.",
+                "Wahab, M.A., \"Solid State Physics: Structure and Properties of Materials\", Narosa Publishing House, 2009. ISBN: 978-8173192661."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Python Programming",
+          "subject_code": "105315",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1: Introduction To Python What Is Python And History Of Python? Unique Features Of Python Python-2 And Python-3 Differences Install Python And Environment Setup First Python Program Python Identifiers, Keywords And Indentation Comments And Document Interlude In Python Command Line Arguments Getting User Input Python Data Types: What Are Variables? Python Core Objects And Functions Number And Maths Week 1 Assignments",
+                "What Is Python And History Of Python?",
+                "Unique Features Of Python",
+                "Python-2 And Python-3 Differences",
+                "Install Python And Environment Setup",
+                "First Python Program",
+                "Python Identifiers, Keywords And Indentation",
+                "Comments And Document Interlude In Python",
+                "Command Line Arguments",
+                "Getting User Input",
+                "Python Data Types: What Are Variables?",
+                "Python Core Objects And Functions",
+                "Number And Maths",
+                "Week 1 Assignments"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "List, Ranges & Tuples In Python",
+              "topics": [
+                "Introduction Lists In Python",
+                "More About Lists",
+                "Understanding Iterators",
+                "Generators, Comprehensions And Lambda Expressions",
+                "Introduction Generators And Yield",
+                "Next And Ranges",
+                "Understanding And Using Ranges",
+                "More About Ranges",
+                "Ordered Sets With Tuples"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Python Dictionaries And Sets",
+              "topics": [
+                "Introduction To The Section",
+                "Python Dictionaries",
+                "More On Dictionaries",
+                "Sets Python Sets Examples"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Input And Output In Python",
+              "topics": [
+                "Reading And Writing Text Files",
+                "Writing Text Files",
+                "Appending To Files And Challenge",
+                "Writing Binary Files Manually",
+                "Using Pickle To Write Binary Files"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Python Functions And Modules",
+              "topics": [
+                "Python Built In Function",
+                "Python User Defined Functions",
+                "Python Packages Functions",
+                "Defining And Calling Function",
+                "The Anonymous Functions",
+                "Loops And Statement In Python",
+                "Python Modules & Packages"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Python Object Oriented",
+              "topics": [
+                "Overview Of OOP",
+                "Creating Classes And Objects",
+                "Accessing Attributes",
+                "Built-In Class Attributes",
+                "Destroying Objects"
+              ]
+            },
+            {
+              "unit_index": 6,
+              "unit_title": "Python Exceptions Handling",
+              "topics": [
+                "What Is Exception?",
+                "Handling An Exception Try….Except…Else",
+                "Try-Finally Clause",
+                "Argument Of An Exception",
+                "Python Standard Exceptions",
+                "Raising An Exceptions",
+                "User-Defined Exceptions"
+              ]
+            },
+            {
+              "unit_index": 7,
+              "unit_title": "Python Regular Expressions",
+              "topics": [
+                "What Are Regular Expressions?",
+                "The Match Function",
+                "The Search Function",
+                "Matching Vs Searching",
+                "Search And Replace",
+                "Extended Regular Expressions",
+                "Wildcard"
+              ]
+            },
+            {
+              "unit_index": 8,
+              "unit_title": "Python Multithreaded Programming",
+              "topics": [
+                "What Is Multithreading?",
+                "Starting A New Thread",
+                "The Threading Module",
+                "Synchronizing Threads",
+                "Multithreaded Priority Queue",
+                "Python Spreadsheet Interfaces",
+                "Python XML Interfaces"
+              ]
+            },
+            {
+              "unit_index": 9,
+              "unit_title": "Using Databases In Python",
+              "topics": [
+                "Python MySQL Database Access",
+                "Install The MySQLdb And Other Packages",
+                "Create Database Connection",
+                "CREATE, INSERT, READ, UPDATE And DELETE Operation",
+                "DML And DDL Operation With Databases",
+                "Performing Transactions",
+                "Handling Database Errors",
+                "Web Scraping In Python",
+                "Unit 11: Python For Data Analysis Numpy: Introduction To Numpy Creating Arrays Using Arrays And Scalars Indexing Arrays Array Transposition Universal Array Function Array Processing Array Input And Output Pandas: What Is Pandas? Where It Is Used? Series In Pandas Index Objects Reindex Drop Entry Selecting Entries Data Alignment Rank And Sort Summary Statics Missing Data Index Hierarchy Matplotlib: Python For Data Visualization Welcome To The Data Visualization Section Introduction To Matplotlib",
+                "Numpy: Introduction To Numpy",
+                "Creating Arrays",
+                "Using Arrays And Scalars",
+                "Indexing Arrays",
+                "Array Transposition",
+                "Universal Array Function",
+                "Array Processing",
+                "Array Input And Output",
+                "Pandas: What Is Pandas? Where It Is Used?",
+                "Series In Pandas",
+                "Index Objects",
+                "Reindex",
+                "Drop Entry",
+                "Selecting Entries",
+                "Data Alignment",
+                "Rank And Sort",
+                "Summary Statics",
+                "Missing Data",
+                "Index Hierarchy",
+                "Matplotlib: Python For Data Visualization",
+                "Welcome To The Data Visualization Section",
+                "Introduction To Matplotlib"
+              ]
+            },
+            {
+              "unit_index": 10,
+              "unit_title": "Django Web Framework In Python",
+              "topics": [
+                "Introduction To Django And Full Stack Web Development"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Mathematics – III",
+          "subject_code": "105316",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1: Partial Differential Equations Definition Of Partial Differential Equations First Order Partial Differential Equations Solutions Of First Order Linear PDEs Solution To Homogenous And Non-Homogenous Linear Partial Differential Equations Of Second Order By Complimentary Function And Particular Integral Method Second-Order Linear Equations And Their Classification Initial And Boundary Conditions D'Alembert's Solution Of The Wave Equation Duhamel's Principle For One Dimensional Wave Equation Heat Diffusion And Vibration Problems Separation Of Variables Method To Simple Problems In Cartesian Coordinates The Laplacian In Plane, Cylindrical And Spherical Polar Coordinates Solutions With Bessel Functions And Legendre Functions One Dimensional Diffusion Equation And Its Solution By Separation Of Variables",
+                "Definition Of Partial Differential Equations",
+                "First Order Partial Differential Equations",
+                "Solutions Of First Order Linear PDEs",
+                "Solution To Homogenous And Non-Homogenous Linear Partial Differential Equations Of Second Order By Complimentary Function And Particular Integral Method",
+                "Second-Order Linear Equations And Their Classification",
+                "Initial And Boundary Conditions",
+                "D'Alembert's Solution Of The Wave Equation",
+                "Duhamel's Principle For One Dimensional Wave Equation",
+                "Heat Diffusion And Vibration Problems",
+                "Separation Of Variables Method To Simple Problems In Cartesian Coordinates",
+                "The Laplacian In Plane, Cylindrical And Spherical Polar Coordinates",
+                "Solutions With Bessel Functions And Legendre Functions",
+                "One Dimensional Diffusion Equation And Its Solution By Separation Of Variables",
+                "Unit 2: Probability Theory Probability Spaces Conditional Probability Independence Discrete Random Variables Independent Random Variables The Multinomial Distribution Poisson Approximation To The Binomial Distribution Infinite Sequences Of Bernoulli Trials Sums Of Independent Random Variables Expectation Of Discrete Random Variables Moments Variance Of A Sum Correlation Coefficient Chebyshev's Inequality Continuous Random Variables And Their Properties Distribution Functions And Densities Normal, Exponential And Gamma Densities Bivariate Distributions And Their Properties Distribution Of Sums And Quotients Conditional Densities Bayes' Rule",
+                "Probability Spaces",
+                "Conditional Probability",
+                "Independence",
+                "Discrete Random Variables",
+                "Independent Random Variables",
+                "The Multinomial Distribution",
+                "Poisson Approximation To The Binomial Distribution",
+                "Infinite Sequences Of Bernoulli Trials",
+                "Sums Of Independent Random Variables",
+                "Expectation Of Discrete Random Variables",
+                "Moments",
+                "Variance Of A Sum",
+                "Correlation Coefficient",
+                "Chebyshev's Inequality",
+                "Continuous Random Variables And Their Properties",
+                "Distribution Functions And Densities",
+                "Normal, Exponential And Gamma Densities",
+                "Bivariate Distributions And Their Properties",
+                "Distribution Of Sums And Quotients",
+                "Conditional Densities",
+                "Bayes' Rule",
+                "Unit 3: Basic Statistics & Distributions Measures Of Central Tendency: Moments, Skewness And Kurtosis Probability Distributions: Binomial, Poisson And Normal - Evaluation Of Statistical Parameters For These Three Distributions Correlation And Regression - Rank Correlation Curve Fitting By The Method Of Least Squares - Fitting Of Straight Lines, Second Degree Parabolas And More General Curves Test Of Significance: Large Sample Test For Single Proportion, Difference Of Proportions Tests For Single Mean, Difference Of Means, And Difference Of Standard Deviations Test For Ratio Of Variances - Chi-Square Test For Goodness Of Fit And Independence Of Attributes",
+                "Measures Of Central Tendency: Moments, Skewness And Kurtosis",
+                "Probability Distributions: Binomial, Poisson And Normal - Evaluation Of Statistical Parameters For These Three Distributions",
+                "Correlation And Regression - Rank Correlation",
+                "Curve Fitting By The Method Of Least Squares - Fitting Of Straight Lines, Second Degree Parabolas And More General Curves",
+                "Test Of Significance: Large Sample Test For Single Proportion, Difference Of Proportions",
+                "Tests For Single Mean, Difference Of Means, And Difference Of Standard Deviations",
+                "Test For Ratio Of Variances - Chi-Square Test For Goodness Of Fit And Independence Of Attributes",
+                "Erwin Kreyszig, \"Advanced Engineering Mathematics\", 9th Edition, John Wiley & Sons, 2006.",
+                "N.P. Bali and Manish Goyal, \"A Text Book Of Engineering Mathematics\", Laxmi Publications, Reprint, 2010.",
+                "P. G. Hoel, S. C. Port and C. J. Stone, \"Introduction To Probability Theory\", Universal Book Stall, 2003 (Reprint).",
+                "S. Ross, \"A First Course In Probability\", 6th Ed., Pearson Education India, 2002."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "subjects": [
+        {
+          "subject_name": "Energy, Environment and Sustainability",
+          "subject_code": "114705",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Ecosystem and Biodiversity Ecosystem - definition, types - aquatic and terrestrial ecosystem Structure of a basic ecosystem Food chain and food web Cycles in ecosystem - water, carbon, nitrogen, sulphur and phosphorus Biodiversity - definition, types - genetic, species and ecosystem biodiversity Threats - Habitat loss, poaching of wild life, man-wild life conflicts - endangered and endemic species of India Conservation of biodiversity",
+                "Ecosystem - definition, types - aquatic and terrestrial ecosystem",
+                "Structure of a basic ecosystem",
+                "Food chain and food web",
+                "Cycles in ecosystem - water, carbon, nitrogen, sulphur and phosphorus",
+                "Biodiversity - definition, types - genetic, species and ecosystem biodiversity",
+                "Threats - Habitat loss, poaching of wild life, man-wild life conflicts - endangered and endemic species of India",
+                "Conservation of biodiversity",
+                "Unit 2.0: Sustainable Energy Sources Sustainable/ Renewable energy sources - solar energy, wind energy, small hydro energy, bio energy, geothermal, and new energy sources - hydrogen energy, ocean energy and tidal energy Definition of energy audit, energy conservation, energy efficiency and energy management (definition only with one/two examples) Solar Energy - (i) Solar thermal energy conversion principle and applications - solar water heater, solar dryers, solar stills distillation, solar cooker, solar ponds (ii) PV system energy conversion principle, solar cell technologies, thin film generations, solar cell, module, array, series parallel combinations and operations, applications - standalone, SPV water pump Wind Energy, wind plant and its parts, types - horizontal and vertical axis, principle of harnessing wind energy, advantages and challenges of harnessing wind energy Small hydro energy - Principle, types - Mini, Micro and Pico, advantages and disadvantages Biomass - biomass energy sources and their energy content, biological conversion technologies - thermo-chemical conversion, bio-chemical conversion and oil extraction, biogas production, types of biogas plant - floating (gobar gas) and fixed type New Energy Sources: hydrogen energy, geothermal, ocean - tidal and wave energy",
+                "Sustainable/ Renewable energy sources - solar energy, wind energy, small hydro energy, bio energy, geothermal, and new energy sources - hydrogen energy, ocean energy and tidal energy",
+                "Definition of energy audit, energy conservation, energy efficiency and energy management (definition only with one/two examples)",
+                "Solar Energy - (i) Solar thermal energy conversion principle and applications - solar water heater, solar dryers, solar stills distillation, solar cooker, solar ponds",
+                "(ii) PV system energy conversion principle, solar cell technologies, thin film generations, solar cell, module, array, series parallel combinations and operations, applications - standalone, SPV water pump",
+                "Wind Energy, wind plant and its parts, types - horizontal and vertical axis, principle of harnessing wind energy, advantages and challenges of harnessing wind energy",
+                "Small hydro energy - Principle, types - Mini, Micro and Pico, advantages and disadvantages",
+                "Biomass - biomass energy sources and their energy content, biological conversion technologies - thermo-chemical conversion, bio-chemical conversion and oil extraction, biogas production, types of biogas plant - floating (gobar gas) and fixed type",
+                "New Energy Sources: hydrogen energy, geothermal, ocean - tidal and wave energy",
+                "Unit 3.0: Environmental Pollution Environmental pollution - air, water, noise and soil Air pollution - sources of air pollution - chemical, photochemical, green house effect, ozone layer depletion and acid rain Air pollutants classification - primary and secondary pollutants Adverse effects of air pollution on human, plant and animal Air monitoring system and air pollution control Water pollution - sources of water pollution Adverse effects of water pollution Control of water pollution Physical and chemical standard of domestic water as per Indian standard Sound Pollution - causes, controlling measures, measurement of sound pollution (deciblage), industrial and non - industrial Soil Pollution - soil profile, pollutants in soil, their adverse effects, controlling measures",
+                "Environmental pollution - air, water, noise and soil",
+                "Air pollution - sources of air pollution - chemical, photochemical, green house effect, ozone layer depletion and acid rain",
+                "Air pollutants classification - primary and secondary pollutants",
+                "Adverse effects of air pollution on human, plant and animal",
+                "Air monitoring system and air pollution control",
+                "Water pollution - sources of water pollution",
+                "Adverse effects of water pollution",
+                "Control of water pollution",
+                "Physical and chemical standard of domestic water as per Indian standard",
+                "Sound Pollution - causes, controlling measures, measurement of sound pollution (deciblage), industrial and non - industrial",
+                "Soil Pollution - soil profile, pollutants in soil, their adverse effects, controlling measures"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Climate Change and Sustainable Development",
+              "topics": [
+                "Topics not specified in document",
+                "Ecology and Control of the Natural Environment, Izrael, Y.A., Kluwer Academic Publisher, eBook ISBN: 978-94-011-3390-6",
+                "Renewable Energy Sources and Emerging Technologies, Kothari, D.P. Singal, K.C., Ranjan, Rakesh, PHI Learning, New Delhi, 2009, ISBN-13 - 978-8120344709",
+                "Green Technologies and Environmental Sustainability, Singh, Ritu, Kumar, Sanjeev, Springer International Publishing, 2017 eBook ISBN 978-3-319-50654-8",
+                "Coping with Natural Hazards: Indian Context, K. S. Valadia Orient Longman, ISBN-10:8125027351, ISBN-13: 978-8125027355",
+                "Introduction to Engineering and Environment, Edward S. Rubin McGraw Hill Publications ISBN-10: 0071181857, ISBN-13: 978-0071181853",
+                "Environmental Science, Subrat Roy, Khanna Book Publishing Co. (P) Ltd., ISBN-978: 93-91505-65-3"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Biomedical Transducer and Instrumentation",
+          "subject_code": "117401",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Overview and Basic Concepts",
+              "topics": [
+                "Overview of biomedical transducers and instrumentation",
+                "Basic concepts: transduction principles, sensors, and actuators",
+                "Signal conditioning techniques",
+                "Introduction to physiological measurements and applications",
+                "Biomedical sensors and their classifications"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Biosignal Acquisition and Processing - I",
+              "topics": [
+                "Physiology of bioelectric signals (ECG, EEG, EMG, etc.)",
+                "Principles of biosignal acquisition and processing",
+                "Electrodes and electrode-skin interface"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Biosignal Acquisition and Processing - II",
+              "topics": [
+                "Amplification, filtering, and artifact removal techniques",
+                "Noise reduction and signal enhancement methods"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Imaging Modalities in Biomedical Instrumentation",
+              "topics": [
+                "Introduction to medical imaging techniques",
+                "Instrumentation of X-ray imaging and computed tomography (CT)",
+                "Instrumentation of magnetic resonance imaging (MRI)",
+                "Instrumentation of ultrasound imaging principles and applications",
+                "Instrumentation of nuclear medicine imaging techniques"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Biomedical Instrumentation for Therapeutic Applications",
+              "topics": [
+                "Principles of therapeutic devices: pacemakers, defibrillators, etc.",
+                "Drug delivery systems and infusion pumps",
+                "Neurostimulation devices and prosthetics",
+                "Rehabilitation and assistive devices",
+                "Wearable health monitoring devices"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Emerging Trends in Biomedical Instrumentation",
+              "topics": [
+                "Wearable biosensors and remote monitoring systems",
+                "Point-of-care diagnostic devices",
+                "Nanotechnology in biomedical instrumentation",
+                "Biomedical robotics and artificial intelligence",
+                "Regulatory standards and ethical considerations",
+                "Introduction to Biomedical Engineering, John Enderle, Joseph Bronzino, and Susan Blanchard, Academic Press Inc, ISBN-13: 978-0122386602",
+                "Biomedical Instrumentation and Measurements, Leslie Cromwell, Fred J. Weibell, and Erich A. Pfeiffer, Pearson Education India; 2nd edition, ISBN-13: 978-9332556911",
+                "Biomedical Sensors and Instruments, Tatsuo Tagawa, Toshiyo Tamura, P. Ake Oberg, CRC Press,(22 March 2011), ISBN:9781420090796",
+                "Principles of Biomedical Instrumentation and Measurement, Richard Aston, Pearson Prentice Hall (20 March 1990), ISBN-13: 978-0675209434",
+                "Medical Instrumentation: Application and Design, John G. Webster, Wiley; Fourth edition (1 January 2015), ISBN-13: 978-8126553792",
+                "Biomedical Instrumentation Technology and Applications, R.S. Khandpur, McGraw Hill Education; 1st edition (16 December 2004), ISBN-13: 978-0071447843"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Biomedical Transducer and Instrumentation Lab [117401P]",
+          "subject_code": "117401P",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Calibration and verification of various biomedical transducers and sensors",
+                "Experimentation with signal conditioning circuits",
+                "Calibration of biomedical sensors",
+                "Data acquisition systems and software",
+                "Acquisition and processing of bioelectric signals (ECG, EEG, EMG) using lab-grade equipment",
+                "Design and implementation of filtering and amplification circuits",
+                "Electrode-skin interface and electrode placement techniques",
+                "Signal processing using MATLAB or similar software",
+                "Demonstration of X-ray imaging and CT scan procedures",
+                "MRI imaging principles and safety precautions",
+                "Ultrasound imaging techniques and image interpretation",
+                "Simulations to nuclear medicine imaging experiments",
+                "Dissection and demonstration of therapeutic devices",
+                "Simulation of drug delivery systems and infusion pumps",
+                "Experimentation with neurostimulation devices",
+                "Wearable health monitoring devices",
+                "Wearable Biosensors",
+                "Demonstration of point-of-care diagnostic devices",
+                "Experimentation with nanotechnology-based biomedical instruments",
+                "Regulatory standards and ethical issues in biomedical instrumentation"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Robotics Engineering",
+          "subject_code": "117402",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction - Robot Anatomy",
+              "topics": [
+                "Robot Anatomy, types of robots, degree of freedom, robot workspace",
+                "Robot configurations, mobile robots",
+                "Coordinate frames - mappings: changing descriptions from frame to frame - translations, rotations, homogenous transformations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Introduction-II",
+              "topics": [
+                "RPY configurations",
+                "Overview of robot subsystems - sensors and actuators",
+                "Pneumatic, hydraulic, and electrical actuators",
+                "Specifications of different industrial robots"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Robot Mechanisms",
+              "topics": [
+                "Types of links, kinematics pair and classification of kinematics pairs",
+                "Types of constrained motion",
+                "Kinematic chain degrees of freedom of mechanisms",
+                "Linear and angular velocity of rigid bodies",
+                "Motion of the links of a robot - velocity propagation from link to link",
+                "Jacobians - singularity"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Robot Kinematics",
+              "topics": [
+                "Forward Kinematics: denavit hartenberg (DH) notation of forward kinematic equations",
+                "Forward kinematic analysis for four axes SCARA robot and three, five, and six-axis articulated robots",
+                "The inverse kinematics problem: general properties of solutions",
+                "Inverse kinematics of four-axis SCARA robot and three and five-axis articulated robot"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Workspace Analysis and Trajectory Planning",
+              "topics": [
+                "Workspace analysis, work envelope of a four axis SCARA robot",
+                "Work envelope of five axis articulated robot workspace fixtures",
+                "The pick and place operations",
+                "Joint space technique - continuous path motion, interpolated motion, straight-line motion",
+                "Cartesian space technique in trajectory planning"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Manipulator Dynamics",
+              "topics": [
+                "Lagrange's equation for kinetic and potential energy",
+                "Link inertia tensor, link jacobian manipulator inertia tensor",
+                "Lagrange-euler dynamic model - for a two-axis planar robot",
+                "Newton euler formulation, lagrange euler formulation",
+                "Robotics and Control, R. K. Mittal, I. J. Nagrath, Tata McGraw-Hill Publishing Company Ltd ISBN-978-0070482937",
+                "Theory of Machines and Mechanism, J. E. Shigley and J.J.Uicker Jr., McGraw Hill ISBN019515598X",
+                "Introduction to robotics: analysis, control, applications, Niku, Saeed B, John Wiley & Sons, 2020 ISBN-978-1119527626",
+                "Introduction to Robotics, S K Saha, Tata McGraw-Hill, Second Edition, 2017 ISBN-978-9332902800",
+                "Fundamentals of Robotics Analysis and Control, Robert J. Schilling, PHI Learning, 2009. ISBN-978-0133444339"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Robotics Engineering Lab [117402P]",
+          "subject_code": "117402P",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Coordinate frames and transformations in robotics using roboanalyzer/MATLAB/others",
+                "Performing position analysis, velocity analysis, acceleration analysis and dynamic force analysis using MATLAB/others",
+                "Evaluation of Joint angles of robot by inverse kinematics using C/MATLAB/others",
+                "Determination of mass moment of inertia and radius of gyration of robotic links",
+                "Forward kinematics of robots using roboanalyzer/MATLAB/others",
+                "Inverse kinematics of robots using roboanalyzer/MATLAB/others",
+                "Forward and inverse dynamics of robots using roboanalyzer/MATLAB/others",
+                "Virtual Models of Industrial Robots using roboanalyzer/MATLAB/others",
+                "Graphical modeling of scara, cartesian, cylindrical, polar robot (robo analyzer)",
+                "Graphical modeling of multi-robot cell (abb studio/robo analyzer)",
+                "Robot programming and simulation for any industrial process (Packaging, Assembly)",
+                "Robot programming and simulation for machining (cutting, welding)"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Sensors and Actuators",
+          "subject_code": "117403",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Sensor Classifications and Characteristics",
+              "topics": [
+                "Sensor classifications and characteristics",
+                "Overview and their working",
+                "Touch and proximity sensors: IR, Photodiodes, Tactile sensors, Collision sensors, Interaction sensors, Proximity/distance sensors"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Position and Velocity Measurement",
+              "topics": [
+                "Optical encoder",
+                "Potentiometer",
+                "2D and 3D cameras velocity measurement",
+                "Inertia sensors: Gyroscopes, Accelerometer"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Force and Torque Measurement",
+              "topics": [
+                "Force sensors: definition, types, application, advantage and disadvantage",
+                "Torque sensors: definition, types, application, advantage and disadvantage",
+                "Range sensors: IR, Ultrasonic sensors, laser ranger finder: definition, types, application, advantage and disadvantage"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Robotic Actuators",
+              "topics": [
+                "Hydraulic actuators: operating principle, advantage and disadvantage",
+                "Pneumatic actuators: operating principle, advantage and disadvantage",
+                "Electrical actuators: operating principle, advantage and disadvantage"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Introduction to Motors",
+              "topics": [
+                "DC motors: Component, types, application, advantage and disadvantage",
+                "AC motors: Component, types, application, advantage and disadvantage",
+                "Stepping motors: Component, types, application, advantage and disadvantage",
+                "Servo motors: Component, types, application, advantage and disadvantage"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Motion Transmission",
+              "topics": [
+                "Gear transmission: Component, application, advantage and disadvantage",
+                "Belt transmission: Component, application, advantage and disadvantage",
+                "Hydraulic drive: Component, application, advantage and disadvantage",
+                "Sensors, Actuators and Their Interfaces: A multidisciplinary introduction, Nathan Ida, 2nd Edition, 2020.",
+                "Industrial Robotics: Technology Programming and Applications, Mikell P Groover, 2nd Edition, Tata McGraw Hill Education Private Limited, 2012.",
+                "Introduction to Robotics, Analysis and Control, John J Craig, 2nd Edition-Wesley 1999.",
+                "Fundamentals of Robotics, Analysis and control, Robert J Schilling, Prentice Hall of India."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Sensors and Actuators Lab [117403P]",
+          "subject_code": "117403P",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "To evaluate the performance and effectiveness of an IR proximity sensor",
+                "To understand and calibrate the sensitivity of Use a capacitive touch sensor",
+                "Learn how to control the position of a servomotor",
+                "Understand the basic operation of a stepping motor",
+                "To investigate how different gear ratios affect the speed and torque of a gear transmission system",
+                "To evaluate the performance of hydraulic actuators under various operating conditions",
+                "To analyze the performance of pneumatic cylinders under various conditions",
+                "To calibrate a force sensor and determine its accuracy",
+                "To evaluate how temperature variations affect the performance of a force sensor",
+                "To calibrate a torque sensor and determine its accuracy",
+                "To study the performance of servomotor control for open & closed loop system",
+                "To study the PLC control process of bottle filling Module"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Principles of Communication Engineering",
+          "subject_code": "117404",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Analog Modulation",
+              "topics": [
+                "Frequency domain representation of signals",
+                "Principles of amplitude modulation systems - DSB, SSB and VSB modulations",
+                "Angle Modulation - Representation of FM and PM signals",
+                "Generation and detection of modulation AM and FM",
+                "Super heterodyne receiver"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Digital Modulation",
+              "topics": [
+                "Fundamentals of digital communication system",
+                "Analog vs. digital communication",
+                "Basic digital communication nomenclature",
+                "Generation and detection of modulation schemes - phase shift keying, frequency shift keying, minimum shift keying, Quadrature amplitude modulation",
+                "Power spectra, bandwidth efficiency, BER"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Probability & Random Processes",
+              "topics": [
+                "Review of probability and random process",
+                "Gaussian and white noise characteristics",
+                "Noise in amplitude modulation systems",
+                "Noise in frequency modulation systems",
+                "Pre-emphasis and de-emphasis",
+                "Threshold effect in angle modulation",
+                "Matched Filter"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Pulse Modulation - I",
+              "topics": [
+                "Sampling process",
+                "Baseband pulse transmission - inter symbol interference and nyquist criterion",
+                "Generation and detection of pulse amplitude pulse position and pulse code modulation (PCM)"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Pulse Modulation - II",
+              "topics": [
+                "Differential pulse code modulation",
+                "Delta modulation",
+                "Noise considerations in PCM",
+                "Digital Multiplexers"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Information Coding and Decoding",
+              "topics": [
+                "Coding for error detection and correction",
+                "Block coding - coding and decoding",
+                "Hamming code",
+                "Cyclic codes",
+                "Convolution coding and decoding",
+                "Viterbi algorithm",
+                "Shannon Fano and Hoffman Codes",
+                "Communication Systems, Simon Haykins & Moher, John Willey India Pvt. Ltd, 5th Edition, 2010, ISBN 9788126521517",
+                "Modern Analog and Digital Communication System, B P Lathi, Zhi Ding, Oxford University Press, 4th edition. ISBN-13 : 978-0198073802",
+                "Electronics Communication Systems, Kennedy George, Davis Bernard, Prasanna SRM, Mc-Graw Hill 5th edition, New dehli, 2011, ISBN: 9780071077828",
+                "Principle of Electronics Communication, Frezel Louis E., Mc-Graw Hill 5th edition, New dehli, 2007, ISBN: 9780073222783",
+                "An Introduction to Analog and Digital Communication, Simon Haykins, John Wiley India Pvt. Ltd., 4th edition, 2008, ISBN: 9788126536535",
+                "Communication Systems: Analog and Digital, R.P.Singh and S.Sapre, TMH 2nd edition, 2007. ISBN-978-1259004605"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Communication Engineering Lab [117404P]",
+          "subject_code": "117404P",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Establish simple and half duplex communication link",
+                "Establish simple and full duplex communication link",
+                "Generation of AM Modulated Wave for different Carrier Frequencies",
+                "Measurement of Modulation Index of generated the AM Wave",
+                "Use AM Demodulator circuit to detect the received signal. Calculate the S/N ratio",
+                "Use IC 566 to generate FM modulation and measure its Modulation Index",
+                "Use any software to generate AM and FM waves",
+                "Perform the generation and detection of ASK, FSK, BPSK, DBPSK signals with variable length data pattern",
+                "Verify the Sampling Theorem for different frequencies",
+                "Verify the Modulation and demodulation of PAM, PWM & PPM",
+                "Perform the generation the various data formatting schemes (Unipolar, Bipolar, Manchester, AMI etc.)",
+                "Calculate the S/N ratio and design Matched Filter for PCM System"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Indian Knowledge System",
+          "subject_code": "117406",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Indian Knowledge Systems",
+              "topics": [
+                "Overview of IKS",
+                "Organization of IKS",
+                "Conception and constitution of knowledge in indian tradition",
+                "The oral tradition",
+                "Models and Strategies of IKS",
+                "Unit 2.0: Overview of IKS Domains and Relevance The Vedas as the basis of IKS Overview of all the six vedangas Relevance of following IKS domains in present technical education system: Arthashastra (Indian economics and political systems) Ganita and Jyamiti (Indian mathematics, astronomy and geometry) Rasayana (Indian chemical Sciences) Ayurveda (Indian Biological Sciences / Diet & Nutrition) Jyotish Vidya (observational astronomy and calendar systems) Prakriti Vidya (Indian system of terrestrial/ material sciences/ecology and atmospheric sciences) Vastu Vidya (Indian system of aesthetics - iconography and built-environment /architecture) Nyaya Shastra (Indian systems of social ethics, logic and law) Shilpa and Natya Shastra (Indian classical arts: performing and fine arts) Sankhya and Yoga Darshna (Indian psychology, yoga and consciousness studies) Vrikshayurveda (plant science/sustainable agriculture/food preservation methods)",
+                "The Vedas as the basis of IKS",
+                "Overview of all the six vedangas",
+                "Relevance of following IKS domains in present technical education system:",
+                "Arthashastra (Indian economics and political systems)",
+                "Ganita and Jyamiti (Indian mathematics, astronomy and geometry)",
+                "Rasayana (Indian chemical Sciences)",
+                "Ayurveda (Indian Biological Sciences / Diet & Nutrition)",
+                "Jyotish Vidya (observational astronomy and calendar systems)",
+                "Prakriti Vidya (Indian system of terrestrial/ material sciences/ecology and atmospheric sciences)",
+                "Vastu Vidya (Indian system of aesthetics - iconography and built-environment /architecture)",
+                "Nyaya Shastra (Indian systems of social ethics, logic and law)",
+                "Shilpa and Natya Shastra (Indian classical arts: performing and fine arts)",
+                "Sankhya and Yoga Darshna (Indian psychology, yoga and consciousness studies)",
+                "Vrikshayurveda (plant science/sustainable agriculture/food preservation methods)",
+                "Introduction to Indian Knowledge System: Concepts and Applications, Archak, K.B. (2012), Kaveri Books, New Delhi, ISBN-13:978-9391818203",
+                "Introduction To Indian Knowledge System: Concepts and Applications, Mahadevan, B. Bhat, Vinayak Rajat, Nagendra Pavana R.N., PHI, ISBN: 9789391818203",
+                "Glimpse into Kautilya's Arthashastra Ramachandrudu P. (2010), Sanskrit Academy, Hyderabad, ISBN:9788380171074",
+                "\"Introduction\" in Studies in Epics and Puranas, (Eds.), KM Munshi and N Chandrashekara Aiyer Bhartiya Vidya Bhavan"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "subjects": [
+        {
+          "subject_name": "Open Elective: Basic of AI [100615]",
+          "subject_code": "100615",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to AI & Searching Techniques",
+              "topics": [
+                "Introduction To Artificial Intelligence",
+                "Types Of AI And Intelligent Agents",
+                "Breadth-first Search",
+                "Depth-first Search",
+                "Hill Climbing",
+                "And Its Variations",
+                "Heuristic Search Techniques: Best-first Search",
+                "A* Algorithm",
+                "Constraint Satisfaction Problem",
+                "Means-end Analysis",
+                "Introduction To Game Playing",
+                "Min-max",
+                "And Alpha-beta Pruning Algorithms"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Knowledge Representation",
+              "topics": [
+                "Propositional Logic",
+                "First-Order Predicate Logic",
+                "Resolution Principle",
+                "Unification",
+                "Semantic Nets",
+                "Conceptual Dependencies",
+                "Frames",
+                "Scripts",
+                "And Production Rules"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Understanding Natural Languages I",
+              "topics": [
+                "Components And Steps Of Communication",
+                "The Contrast Between Formal And Natural Languages In The Context Of Grammar",
+                "Chomsky Hierarchy Of Grammars",
+                "Parsing",
+                "And Semantics",
+                "Parsing Techniques"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Understanding Natural Languages II",
+              "topics": [
+                "Context-Free And Transformational Grammar",
+                "Recursive And Augmented Transition Networks"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "AI in Decision Making",
+              "topics": [
+                "Utility Theory",
+                "Utility Functions",
+                "Decision Networks",
+                "Sequential Decision Problems",
+                "Partially Observable Markov Decision Process (MDPs)",
+                "Game Theory",
+                "AI Solutions For Real-time Problems Using ML"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "AI in Reinforcement Learning",
+              "topics": [
+                "Passive Reinforcement Learning (RL) And Active RL",
+                "Generalization In RL",
+                "Policy Search",
+                "Deep Reinforcement Learning",
+                "AI Solutions For Real-time Problems Using RL",
+                "Artificial Intelligence: A Modern Approach S. Russell And P. Norvig, Prentice Hall, Third Edition, 2015, ISBN-13: 978-0-13-604259-4, ISBN-10: 0-13-604259-7.",
+                "Introduction To Artificial Intelligence & Expert Systems, Patterson Pearson, 1st Ed. 2015, ISBN-10: 9332551944, ISBN-13: 978-8120307773.",
+                "Intelligent Planning: A Decomposition And Abstraction-based Approach Yang, Q, Springer Verlag, Berlin Heidelberg, 1997. ISBN-10 : 354061901, ISBN-13978-3540619017."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Electrical and Hybrid Vehicles [100616]",
+          "subject_code": "100616",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction",
+              "topics": [
+                "Conventional Vehicles: Basics Of Vehicle Performance",
+                "Vehicle Power Source Characterization",
+                "Transmission Characteristics",
+                "Mathematical Models To Describe Vehicle Performance",
+                "Introduction To Hybrid Electric Vehicles: History Of Hybrid And Electric Vehicles",
+                "Social And Environmental Importance Of Hybrid And Electric Vehicles",
+                "Impact Of Modern Drive-trains On Energy Supplies"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Hybrid Electric Drive-trains",
+              "topics": [
+                "Hybrid Electric Drive-trains: Basic Concept Of Hybrid Traction",
+                "Introduction To Various Hybrid Drive- Train Topologies",
+                "Power Flow Control In Hybrid Drive-train Topologies",
+                "Fuel Efficiency Analysis",
+                "Unit-3.0: Electric Trains Electric Drive-trains: Basic Concept Of Electric Traction Introduction To Various Electric Drive-train Topologies Power Flow Control In Electric Drive-train Topologies Fuel Efficiency Analysis Electric Propulsion Unit: Introduction To Electric Components Used In Hybrid And Electric Vehicles Configuration And Control Of DC Motor Drives Configuration And Control Of Induction Motor Drives Configuration And Control Of Permanent Magnet Motor Drives Configuration And Control Of Switch Reluctance Motor Drives Drive System Efficiency",
+                "Electric Drive-trains: Basic Concept Of Electric Traction",
+                "Introduction To Various Electric Drive-train Topologies",
+                "Power Flow Control In Electric Drive-train Topologies",
+                "Electric Propulsion Unit: Introduction To Electric Components Used In Hybrid And Electric Vehicles",
+                "Configuration And Control Of DC Motor Drives",
+                "Configuration And Control Of Induction Motor Drives",
+                "Configuration And Control Of Permanent Magnet Motor Drives",
+                "Configuration And Control Of Switch Reluctance Motor Drives",
+                "Drive System Efficiency"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Energy Storage",
+              "topics": [
+                "Energy Storage: Introduction To Energy Storage Requirements In Hybrid And Electric Vehicles",
+                "Battery Based Energy Storage And Its Analysis",
+                "Fuel Cell Based Energy Storage And Its Analysis",
+                "Super Capacitor Based Energy Storage And Its Analysis",
+                "Flywheel Based Energy Storage And Its Analysis",
+                "Hybridization Of Different Energy Storage Devices"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sizing the drive system",
+              "topics": [
+                "Sizing The Drive System: Matching The Electric Machine And The Internal Combustion Engine (ICE)",
+                "Sizing The Propulsion Motor",
+                "Sizing The Power Electronics",
+                "Selecting The Energy Storage Technology",
+                "Communications",
+                "Supporting Subsystems",
+                "Unit-6.0: Energy Management Strategies Energy Management Strategies: Introduction To Energy Management Strategies Used In Hybrid And Electric Vehicles Classification Of Different Energy Management Strategies Comparison Of Different Energy Management Strategies Implementation Issues Of Energy Management Strategies Case Studies: Design Of A Hybrid Electric Vehicle (HEV) Design Of A Battery Electric Vehicle (BEV)",
+                "Energy Management Strategies: Introduction To Energy Management Strategies Used In Hybrid And Electric Vehicles",
+                "Classification Of Different Energy Management Strategies",
+                "Comparison Of Different Energy Management Strategies",
+                "Implementation Issues Of Energy Management Strategies",
+                "Case Studies: Design Of A Hybrid Electric Vehicle (HEV)",
+                "Design Of A Battery Electric Vehicle (BEV)",
+                "C. Mi, M. A. Masrur And D. W.Gao, “Hybrid Electric Vehicles: Principles And Applications With Practical Perspectives”, John Wiley & Sons, 2011.",
+                "S. Onori, L. Serrao And G. Rizzoni, “Hybrid Electric Vehicles: Energy Management Strategies”, Springer, 2015.",
+                "M. Ehsani, Y. Gao, S. E. Gay And A. Emadi, “Modern Electric, Hybrid Electric, And FuelCell Vehicles: Fundamentals, Theory, And Design”, CRC Press, 2004.",
+                "T. Denton, “Electric And Hybrid Vehicles”, Routledge,2016."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Industrial Automation [100617]",
+          "subject_code": "100617",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit-1.0: Introduction to Industrial Automation Introduction To Industry 4.0 And Its Components Need Of Automation In Industries Principles And Strategies Of Automation Factory Automation Process Automation Basic Elements Of An Automated System Structure Of Industrial Automation Advanced Automation Functions Levels Of Automations Industrial Control Systems- Process And Discrete System Types Of Automation System: Fixed Programmable Flexible Integrated Automation And Its Application Different Systems Used For Industrial Automation: PLC HMI SCADA DCS Drives Introduction To Internet Of Things (IoT) And Industrial Internet Of Things (IIOT) And Its Application In Automation Role Of Robots In Automation And Its Components Fundamentals Of Automated Production Lines Or Transfer Lines And Its Applications",
+                "Introduction To Industry 4.0 And Its Components",
+                "Need Of Automation In Industries",
+                "Principles And Strategies Of Automation",
+                "Factory Automation",
+                "Process Automation",
+                "Basic Elements Of An Automated System",
+                "Structure Of Industrial Automation",
+                "Advanced Automation Functions",
+                "Levels Of Automations",
+                "Industrial Control Systems- Process And Discrete System",
+                "Types Of Automation System: Fixed",
+                "Programmable",
+                "Flexible",
+                "Integrated Automation And Its Application",
+                "Different Systems Used For Industrial Automation: PLC",
+                "HMI",
+                "SCADA",
+                "DCS",
+                "Drives",
+                "Introduction To Internet Of Things (IoT) And Industrial Internet Of Things (IIOT) And Its Application In Automation",
+                "Role Of Robots In Automation And Its Components",
+                "Fundamentals Of Automated Production Lines Or Transfer Lines And Its Applications",
+                "Unit-2.0: Sensors and Input Field Devices Analog Input Devices Electromagnetic Relays Contactors Motor Starters Manually Operated Switches Toggle Switch Pushbutton Switch Knife Switch And Selector Switches Mechanically Operated Switches Limit Switch Temperature Switch (Thermostat) Pressure Switch Level Switch And Their Symbols Discrete/Digital Input Devices Construction And Working Of Sensors Proximity Sensors- Inductive Capacitive Optical And Ultrasonic Advanced Sensors-Construction And Working Of Temperature Sensors- Thermistor Thermocouple And Resistance Temperature Detector (RTD) Liquid Level Sensor -Capacitive And Ultrasonic Force -Strain/Weight Sensors Flow Sensors – Turbine Flow Sensor Pressure Sensors- Linear Variable Differential Transformer (LVDT) Inclination Sensor –Inclinometer Acceleration Sensor- Accelerometer Angular And Linear Position Sensor",
+                "Analog Input Devices Electromagnetic Relays",
+                "Contactors",
+                "Motor Starters",
+                "Manually Operated Switches Toggle Switch",
+                "Pushbutton Switch",
+                "Knife Switch And Selector Switches",
+                "Mechanically Operated Switches Limit Switch",
+                "Temperature Switch (Thermostat)",
+                "Pressure Switch",
+                "Level Switch And Their Symbols",
+                "Discrete/Digital Input Devices",
+                "Construction And Working Of Sensors",
+                "Proximity Sensors- Inductive",
+                "Capacitive",
+                "Optical And Ultrasonic",
+                "Advanced Sensors-Construction And Working Of Temperature Sensors- Thermistor",
+                "Thermocouple And Resistance Temperature Detector (RTD)",
+                "Liquid Level Sensor -Capacitive And Ultrasonic",
+                "Force -Strain/Weight Sensors",
+                "Flow Sensors – Turbine Flow Sensor",
+                "Pressure Sensors- Linear Variable",
+                "Differential Transformer (LVDT)",
+                "Inclination Sensor –Inclinometer",
+                "Acceleration Sensor- Accelerometer",
+                "Angular And Linear Position Sensor",
+                "Unit-3.0: Actuators and Output Devices Introduction To Actuators Classification Of Actuators Mechanical Actuators -Translational And Rotational Motion Kinematic Chains Cams Gears Belt And Chain Drives Bearings Hydraulic And Pneumatic Actuators Linear And Rotary Actuators Single And Double Acting Cylinder Directional Process And Pressure Control Valves Electrical Actuators Electromechanical Actuators Construction Working And Application Of Stepper Motors AC/DC Servo Motors BLDC Motor (Very Brief) Electrohydraulic Actuators-Solenoid Valve Thermal Actuators And Magnetic Actuators Selection Of Actuators",
+                "Introduction To Actuators",
+                "Classification Of Actuators",
+                "Mechanical Actuators -Translational And Rotational Motion",
+                "Kinematic Chains",
+                "Cams",
+                "Gears",
+                "Belt And Chain Drives",
+                "Bearings",
+                "Hydraulic And Pneumatic Actuators Linear And Rotary Actuators",
+                "Single And Double Acting Cylinder",
+                "Directional",
+                "Process And Pressure Control Valves",
+                "Electrical Actuators",
+                "Electromechanical Actuators",
+                "Construction",
+                "Working And Application Of Stepper Motors",
+                "AC/DC Servo Motors",
+                "BLDC Motor (Very Brief)",
+                "Electrohydraulic Actuators-Solenoid Valve",
+                "Thermal Actuators And Magnetic Actuators",
+                "Selection Of Actuators"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Other output Devices",
+              "topics": [
+                "Other Output Devices- Indicators",
+                "Alarms Pilot Lights",
+                "Buzzers",
+                "Valves",
+                "Motor Starters",
+                "Horns And Alarms",
+                "Stack Lights Control Relays",
+                "Pumps And Fans",
+                "Unit-5.0: Control System Open And Closed Loop System Their Transfer Function First Order And Second Order System And Their Output Response And Parameters Types Of Control – On-off Feed Forward Open Loop And Closed Loop Control And Transfer Function Controllers In Closed Loop Control Proportional Controller (P Controller) Integral Controller (I Controller) Derivative Controller (D- Controller) P-I Controller P-D Controller PID Controller",
+                "Open And Closed Loop System",
+                "Their Transfer Function",
+                "First Order And Second Order System And Their Output Response And Parameters",
+                "Types Of Control – On-off",
+                "Feed Forward",
+                "Open Loop And Closed Loop Control And Transfer Function",
+                "Controllers In Closed Loop Control",
+                "Proportional Controller (P Controller)",
+                "Integral Controller (I Controller)",
+                "Derivative Controller (D- Controller)",
+                "P-I Controller",
+                "P-D Controller",
+                "PID Controller",
+                "Unit-6.0: SCADA and DCS Introduction Need Benefits And Typical Applications Of SCADA And DCS SCADA Architecture - Remote Terminal Units (RTUs) Master Terminal Units Various SCADA Editors Communication Protocols For SCADA Comparison Of SCADA With DCS Interfacing SCADA System With PLC Typical Connection Diagram Object Linking And Embedding For Process Control (OPC) Architecture Creating SCADA Screen HMI For Simple Object Steps For Linking SCADA Object (defining Tags And Items, Creating Trends Etc..) With PLC Ladder Program Using OPC Configuring Simple Applications Using SCADA: Traffic Light Control Water Distribution Pipeline Control Power Generation Transmission And Distribution Etc. Procedure To Maintain The SCADA Based PLC System",
+                "Introduction",
+                "Need",
+                "Benefits And Typical Applications Of SCADA And DCS",
+                "SCADA Architecture - Remote Terminal Units (RTUs)",
+                "Master Terminal Units",
+                "Various SCADA Editors",
+                "Communication Protocols For SCADA",
+                "Comparison Of SCADA With DCS",
+                "Interfacing SCADA System With PLC Typical Connection Diagram",
+                "Object Linking And Embedding For Process Control (OPC) Architecture",
+                "Creating SCADA Screen HMI For Simple Object",
+                "Steps For Linking SCADA Object (defining Tags And Items, Creating Trends Etc..) With PLC Ladder Program Using OPC",
+                "Configuring Simple Applications Using SCADA: Traffic Light Control",
+                "Water Distribution",
+                "Pipeline Control",
+                "Power Generation",
+                "Transmission And Distribution Etc.",
+                "Procedure To Maintain The SCADA Based PLC System",
+                "Industrial Automation With SCADA: Concepts, Communications And Security, K S Manoj Notion Press; 1st Edition, 2019, ISBN-13: 978-1684668281.",
+                "Introduction To Industrial Automation, Stamarios Maneis, George Nikolakopoulos, CRC Press, 1st Edition,2020, ISBN 9780367571832.",
+                "Industrial Automation Using PLC SCADA & DCS, R.G.Jamkar, Global Education Limited, 2018, ISBN-13: 978-8193579954.",
+                "Industrial Automation And Process Control, Stenerson Jon, PHI Learning, New Delhi, 2003, ISBN: 9780130618900.",
+                "Control System, Nagrath & Gopal, New Age International Pvt Ltd, ISBN: 9789386070111.",
+                "Industrial Automation And Process Control, Stenerson Jon PHI Learning, New Delhi, 2003, ISBN: 9780130618900.",
+                "Programmable Logic Controller, Jadhav, V. R., Khanna Publishers, New Delhi, 2017, ISBN: 9788174092281.",
+                "Programmable Logic Controllers And Industrial Automation - An Introduction, Mitra, Madhuchandra; Sengupta, Samarjit Penram International Publication, 2015, ISBN: 9788187972174.",
+                "Supervisory Control And Data Acquisition, Boyar, S. A., ISA Publication, USA, ISBN: 978-1936007097",
+                "Practical SCADA For Industry Bailey David; Wright Edwin Newnes (An Imprint Of Elsevier), UK 2003, ISBN: 0750658053."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Basic of ML [100618]",
+          "subject_code": "100618",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Machine Learning and Fundamentals",
+              "topics": [
+                "Introduction To Machine Learning",
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "And Reinforcement Learning",
+                "Machine Learning Basics: Capacity",
+                "Over Fitting",
+                "And Under Fitting",
+                "Hyperparameters And Validation Sets",
+                "Bias & Variance"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Bayesian Concepts and Decision Trees",
+              "topics": [
+                "Bayes Theorem Concept Learning Maximum Likelihood Classifier",
+                "Bayesian Belief Networks",
+                "Decision-trees",
+                "Univariate And Multivariate Decision Tree",
+                "Network Equivalent Of Decision Trees",
+                "Overfitting",
+                "And Evaluation"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Instant-Based Learning and Support Vector Machines",
+              "topics": [
+                "Logistic Regression",
+                "Support Vector Machine (SVM)",
+                "Kernel Function And Kernel SVM",
+                "Instant-based Learning: K- Nearest Neighbour",
+                "Locally Weighted Regression",
+                "Radial Basis Functions",
+                "Case Based Learning"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Clustering",
+              "topics": [
+                "Clustering: K-means",
+                "Adaptive Hierarchical Clustering",
+                "And Gaussian Mixture Model"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Neural Networks",
+              "topics": [
+                "Neural Network: Perception",
+                "Multilayer Network",
+                "Back Propagation"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Applications and Case Studies of Machine Learning",
+              "topics": [
+                "Applications Of Machine Learning (Case Studies): Business Analytics",
+                "Natural Language Processing",
+                "Computer Vision",
+                "Internet Of Things",
+                "Bio-informatics Etc.",
+                "Machine Learning, Tom M. Mitchell, McGraw-Hill Education (India) Private Limited, 2013, ISBN 0070428077.",
+                "Foundations Of Machine Learning, Mohri, M., Rostamizadedh, A., And Talwalkar, A. The MIT Press, 2012, 9, ISBN 78-0-262-01825-8.",
+                "Fundamentals Of Machine Learning, Dr. M. Gopal, McGraw Hill Education (India), ISBN:978-9353161837.",
+                "Machine Learning: Principles And Algorithms, P. K. Pattanayak, Universities Press (India) ISBN: 978-9386235513."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: AR VR Technology [100619]",
+          "subject_code": "100619",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Immersive Technologies",
+              "topics": [
+                "Overview Of Immersive Technologies: Augmented Reality (AR)",
+                "Virtual Reality (VR)",
+                "Mixed Reality (MR)",
+                "And Extended Reality (XR)",
+                "Applications In Education",
+                "Healthcare",
+                "Entertainment",
+                "And Industry",
+                "Key Differences Between AR",
+                "VR",
+                "MR And XR",
+                "Challenges And Future Trends",
+                "Unit-2.0: Hardware and Software Requirements AR/VR Headsets And Displays (e.g., Oculus, HoloLens, Etc.) Sensors: Motion Depth And Tracking Systems Input Devices: Controllers Gloves And Mobile Devices System Specifications Of Central Processing Unit (CPU) Graphical Processing Unit (GPU) Random Access Memory (RAM) Graphics Card And Storage Considerations AR/VR Development Platforms (overview): Unity Unreal Engine SDKs And APIs For AR VR: Vuforia ARKit ARCore",
+                "AR/VR Headsets And Displays (e.g., Oculus, HoloLens, Etc.)",
+                "Sensors: Motion",
+                "Depth",
+                "And Tracking Systems",
+                "Input Devices: Controllers",
+                "Gloves",
+                "And Mobile Devices",
+                "System Specifications Of Central Processing Unit (CPU)",
+                "Graphical Processing Unit (GPU)",
+                "Random Access Memory (RAM)",
+                "Graphics Card And Storage Considerations",
+                "AR/VR Development Platforms (overview): Unity",
+                "Unreal Engine",
+                "SDKs And APIs For AR",
+                "VR: Vuforia",
+                "ARKit",
+                "ARCore"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Unity Software",
+              "topics": [
+                "Introduction To Unity Software And Its Features",
+                "System Requirements For Unity Installation",
+                "Unity's Interface And Basic Functionalities",
+                "Assets And Its Types",
+                "Sources Of 2D And 3D Assets",
+                "Windows In Unity",
+                "Game Objects And Their Types",
+                "Rigid Bodies And Colliders",
+                "Physics-Based Interactions",
+                "Software Development Kit (SDK)-Vuforia"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Augmented Reality (AR)",
+              "topics": [
+                "Principles Of AR And Its Working Mechanisms",
+                "AR Image And Object Recognition Techniques",
+                "Location-based And Marker-based AR",
+                "Introduction To Various AR Web-based Applications",
+                "AR Design On Blippar Or Similar Platforms",
+                "Testing And Publishing AR Applications"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "AR Design and Development",
+              "topics": [
+                "Anchoring And Detecting Objects In AR",
+                "Development Of AR Application Marker-based And Marker Less In Unity",
+                "Deployment Of AR App On Android/iOS Devices"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Virtual Reality (VR)",
+              "topics": [
+                "Principles And Technical Requirements Of Virtual Reality",
+                "Types Of VR Systems: Non-immersive",
+                "Semi-immersive",
+                "And Fully Immersive",
+                "Key Elements Of Immersive VR Experience",
+                "Levels Of Immersion In VR Environment",
+                "360-degree Mediaso3.1",
+                "Learning Path - Complete VR & AR Development With Unity, Jesse Glover & J. Linowes, Packt Publishers Ltd., ISBN-101838648186, ISBN-13: 978-1838648183.",
+                "Mastering AR Development With Unity, Indika Wijesooriya, BPB.",
+                "3D Game Development With Unity, Franz Lanzinger, CRC Press, ISBN-10: 0367349183, ISBN-13: 978-0367349189.",
+                "AR With Unity; AR Foundation - A Practical Guide, Jonathan Linowes, Packt Publishers Ltd., ISBN: 978-1-83898-259-1."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Micro Electro Mechanical System (MEMS) Technology [100620]",
+          "subject_code": "100620",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Mems and Microfabrication",
+              "topics": [
+                "History Of MEMS Development",
+                "Characteristics Of MEMS",
+                "Miniaturization",
+                "Microelectronics Integration",
+                "Mass Fabrication With Precision",
+                "Micro Fabrication",
+                "Microelectronics Fabrication Process: Silicon Based MEMS Processes",
+                "New Material And Fabrication Processing",
+                "Points Of Consideration For Processing",
+                "Unit-2.0: Electrical and Mechanical Properties of Mems Materials Conductivity Of Semiconductors Crystal Plane And Orientation Stress And Stain: Definition Relationship Between Tensile Stress And Stain Mechanical Properties Of Silicon And Thin Films Flexural Beam Bending Analysis Under Single Loading Condition Types Of Beam: Deflection Of Beam Longitudinal Stain Under Pure Bending Spring Constant Tensional Deflection Intrinsic Stress Resonance And Quality Factor",
+                "Conductivity Of Semiconductors",
+                "Crystal Plane And Orientation",
+                "Stress And Stain: Definition",
+                "Relationship Between Tensile Stress And Stain",
+                "Mechanical Properties Of Silicon And Thin Films",
+                "Flexural Beam Bending Analysis Under Single Loading Condition",
+                "Types Of Beam: Deflection Of Beam",
+                "Longitudinal Stain Under Pure Bending",
+                "Spring Constant",
+                "Tensional Deflection",
+                "Intrinsic Stress",
+                "Resonance And Quality Factor",
+                "Unit-3.0: Sensing and Actuation Electrostatic Sensing And Actuation: Parallel Plate Capacitor Application-Inertial Sensor Pressure Sensor And Tactile Sensor Parallel Plate Actuator And Comb Drive Thermal Sensing And Actuations: Thermal Sensors Thermal Actuators Application-Inertial Flow And Infrared Sensors Piezoresistive Sensors: Piezoresistive Sensor Material Stress In Flexural Cantilever And Membrane- Application-Inertial Pressure Flow And Tactile Sensor Piezoelectric Sensing And Actuation:- Piezoelectric Material Properties-quartz-PZT-PVDF – ZnO Application-Inertial Acoustic Tactile Flow-surface Elastic Waves Magnetic Actuation:- Micro Magnetic Actuation Principle Deposition Of Magnetic Materials Design And Fabrication Of Magnetic Coil",
+                "Electrostatic Sensing And Actuation: Parallel Plate Capacitor",
+                "Application-Inertial Sensor",
+                "Pressure Sensor And Tactile Sensor",
+                "Parallel Plate Actuator And Comb Drive",
+                "Thermal Sensing And Actuations: Thermal Sensors",
+                "Thermal Actuators",
+                "Application-Inertial",
+                "Flow And Infrared Sensors",
+                "Piezoresistive Sensors: Piezoresistive Sensor Material",
+                "Stress In Flexural Cantilever And Membrane- Application-Inertial",
+                "Pressure",
+                "Flow And Tactile Sensor",
+                "Piezoelectric Sensing And Actuation:- Piezoelectric Material Properties-quartz-PZT-PVDF – ZnO",
+                "Acoustic",
+                "Tactile",
+                "Flow-surface Elastic Waves",
+                "Magnetic Actuation:- Micro Magnetic Actuation Principle",
+                "Deposition Of Magnetic Materials",
+                "Design And Fabrication Of Magnetic Coil"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Bulk and Surface Micromachining",
+              "topics": [
+                "Anisotropic Wet Etching",
+                "Dry Etching Of Silicon",
+                "Deep Reactive Ion Etching (DRIE)",
+                "Isotropic Wet Etching",
+                "Basic Surface Micromachining Process",
+                "Structural And Sacrificial Material",
+                "Stiction And Anti Stiction Methods",
+                "Foundry Process"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Polymer Mems",
+              "topics": [
+                "Polymers In MEMS",
+                "Polymide-SU-8",
+                "Liquid Crystal Polymer (LCP): PDMS",
+                "PMMA",
+                "Parylene",
+                "Flurocorbon",
+                "Application-Acceleration",
+                "Pressure",
+                "Flow And Tactile Sensors"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Optical Mems",
+              "topics": [
+                "Optical MEMS: - Refraction",
+                "Diffraction",
+                "MOEMS Components",
+                "Digital Mirror Display (DMD)",
+                "Grating Light Valve (GLV)",
+                "Optical Scanners",
+                "Foundations Of MEMS, Chang Liu, Pearson International Edition, 2006, ISBN-978-0132497367.",
+                "RF MEMS Theory, Design And Technology, Gaberiel M.Rebiz, John Wiley & Sons, 2003, ISBN-978-0471201694.",
+                "Introduction To Nanotechnology, Charles P.Poole, Frank J.Owens, John Wiley & Sons, 2003, ISBN-13: 978-0471079354.",
+                "Microsensors, MEMS And Smart Devices, Julian W.Gardner, Vijay K Varadhan, John Wiley & Sons, 2001, ISBN-978-0471861096."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Electronic Product Design & Packaging [100621]",
+          "subject_code": "100621",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Essentials of Electronic Product Design & Packaging",
+              "topics": [
+                "Introduction To Electronic Product Design",
+                "Electronic Packaging Fundamentals",
+                "Printed Circuit Board (PCB) Design And Fabrication",
+                "Thermal",
+                "Mechanical",
+                "And EMI/EMC Considerations",
+                "Prototyping",
+                "Testing",
+                "And Reliability",
+                "Unit-2.0: Design Aspects of Semiconductor Packaging Overview Of Semiconductor Packaging Types: Dual In-line Package (DIP) QFP BGA CSP And 3D ICs Wire Bonding Flip-chip And Through-silicon Vias (TSVs) Trends In Package Miniaturization And Integration Thermal And Mechanical Design Considerations: Heat Dissipation In Semiconductor Packages Stress And Strain Due To Thermal Cycling Package Warpage And Delamination Issues Electrical Design Aspects: Signal Integrity And Power Integrity Parasitics: Resistance Capacitance And Inductance High-speed Design Challenges And Mitigation Techniques Materials And Substrate Technologies: Die Attach Materials Encapsulants And Underfills Organic Vs Ceramic Substrates Reliability And Compatibility Of Packaging Materials Packaging Process Flow And Testing: Wafer-level Packaging And Assembly Steps Burn-in Electrical And Reliability Testing Design For Testability (DFT) In Semiconductor Packaging",
+                "Overview Of Semiconductor Packaging Types: Dual In-line Package (DIP)",
+                "QFP",
+                "BGA",
+                "CSP",
+                "And 3D ICs",
+                "Wire Bonding",
+                "Flip-chip",
+                "And Through-silicon Vias (TSVs)",
+                "Trends In Package Miniaturization And Integration",
+                "Thermal And Mechanical Design Considerations: Heat Dissipation In Semiconductor Packages",
+                "Stress And Strain Due To Thermal Cycling",
+                "Package Warpage And Delamination Issues",
+                "Electrical Design Aspects: Signal Integrity And Power Integrity",
+                "Parasitics: Resistance",
+                "Capacitance",
+                "And Inductance",
+                "High-speed Design Challenges And Mitigation Techniques",
+                "Materials And Substrate Technologies: Die Attach Materials",
+                "Encapsulants",
+                "And Underfills",
+                "Organic Vs Ceramic Substrates",
+                "Reliability And Compatibility Of Packaging Materials",
+                "Packaging Process Flow And Testing: Wafer-level Packaging And Assembly Steps",
+                "Burn-in",
+                "Electrical",
+                "And Reliability Testing",
+                "Design For Testability (DFT) In Semiconductor Packaging",
+                "Unit-3.0: Dicing & Inspection Wafer Dicing Techniques: Mechanical Sawing (Blade Dicing) Laser Dicing And Stealth Dicing Plasma Dicing (Dry Etching Methods) Comparison Of Dicing Methods Based On Precision Cost And Material Type Dicing Process Parameters And Optimization: Cut Depth Kerf Width And Feed Rate Cooling And Lubrication During Dicing Minimizing Chipping Cracking And Contamination Wafer Mounting And Handling: Use Of Dicing Tapes And Frames Wafer Alignment And Chucking ESD Precautions And Cleanroom Requirements Post-Dicing Cleaning And Debris Removal: Cleaning Techniques (Wet, Dry, CO₂ Snow) Particle Contamination Control Inspection For Surface Damage Or Residues Wafer Inspection And Defect Analysis: Visual And Automated Optical Inspection (AOI) Surface And Edge Defect Detection Use Of SEM X-ray And Infrared Imaging For Deeper Inspection Yield Analysis And Defect Classification",
+                "Wafer Dicing Techniques: Mechanical Sawing (Blade Dicing)",
+                "Laser Dicing And Stealth Dicing",
+                "Plasma Dicing (Dry Etching Methods)",
+                "Comparison Of Dicing Methods Based On Precision",
+                "Cost",
+                "And Material Type",
+                "Dicing Process Parameters And Optimization: Cut Depth",
+                "Kerf Width",
+                "And Feed Rate",
+                "Cooling And Lubrication During Dicing",
+                "Minimizing Chipping",
+                "Cracking",
+                "And Contamination",
+                "Wafer Mounting And Handling: Use Of Dicing Tapes And Frames",
+                "Wafer Alignment And Chucking",
+                "ESD Precautions And Cleanroom Requirements",
+                "Post-Dicing Cleaning And Debris Removal: Cleaning Techniques (Wet, Dry, CO₂ Snow)",
+                "Particle Contamination Control",
+                "Inspection For Surface Damage Or Residues",
+                "Wafer Inspection And Defect Analysis: Visual And Automated Optical Inspection (AOI)",
+                "Surface And Edge Defect Detection",
+                "Use Of SEM",
+                "X-ray",
+                "And Infrared Imaging For Deeper Inspection",
+                "Yield Analysis And Defect Classification",
+                "Unit-4.0: Conventional Packaging Introduction To Conventional Packaging Types: Dual In-line Package (DIP) Surface Mount Device (SMD) Chip-on-Board (COB) And Leadframe-based Packaging Through-hole Vs. Surface-mount Technologies Materials Used In Conventional Packaging: Encapsulants And Molding Compounds Leadframe Materials (e.g., Copper, Brass, And Alloys) Substrate Materials: Epoxy Ceramic And Organic Laminates Packaging Assembly Processes: Die Attach Methods: Eutectic Bonding Adhesive Bonding Wire Bonding Techniques: Gold Aluminum And Copper Wire Molding And Encapsulation Processes Electrical And Thermal Design In Conventional Packaging: Signal Integrity In Conventional Packages Heat Dissipation And Thermal Management Strategies Thermal Cycling And Reliability Considerations Testing And Reliability Of Conventional Packages: Standard Testing Methods: Electrical Thermal And Mechanical Tests Reliability Testing: Accelerated Life Testing (ALT) Burn-in Tests Failure Analysis Techniques: Decapsulation Cross-sectioning",
+                "Introduction To Conventional Packaging Types: Dual In-line Package (DIP)",
+                "Surface Mount Device (SMD)",
+                "Chip-on-Board (COB) And Leadframe-based Packaging",
+                "Through-hole Vs. Surface-mount Technologies",
+                "Materials Used In Conventional Packaging: Encapsulants And Molding Compounds",
+                "Leadframe Materials (e.g., Copper, Brass, And Alloys)",
+                "Substrate Materials: Epoxy",
+                "Ceramic",
+                "And Organic Laminates",
+                "Packaging Assembly Processes: Die Attach Methods: Eutectic Bonding",
+                "Adhesive Bonding",
+                "Wire Bonding Techniques: Gold",
+                "Aluminum",
+                "And Copper Wire",
+                "Molding And Encapsulation Processes",
+                "Electrical And Thermal Design In Conventional Packaging: Signal Integrity In Conventional Packages",
+                "Heat Dissipation And Thermal Management Strategies",
+                "Thermal Cycling And Reliability Considerations",
+                "Testing And Reliability Of Conventional Packages: Standard Testing Methods: Electrical",
+                "And Mechanical Tests",
+                "Reliability Testing: Accelerated Life Testing (ALT)",
+                "Burn-in Tests",
+                "Failure Analysis Techniques: Decapsulation",
+                "Cross-sectioning",
+                "Unit-5.0: Bonding, Sealing Bonding Techniques In Semiconductor Packaging: Wire Bonding (Gold, Aluminum, Copper) Flip-chip Bonding And Solder Bumping Adhesive Bonding And Thermo-compression Bonding Laser And Ultrasonic Bonding Methods Sealing Methods In Semiconductor Packaging: Molding And Encapsulation Processes Hermetic Sealing And Its Importance For High-reliability Applications Use Of Sealing Materials: Epoxy Silicone And Elastomers Advanced Sealing Techniques For 3D And Wafer-level Packaging Reliability And Testing In Bonding And Sealing: Mechanical And Thermal Stress Testing In Bonded And Sealed Packages Failure Analysis Methods: Decapsulation Cross-sectioning And SEM Analysis",
+                "Bonding Techniques In Semiconductor Packaging: Wire Bonding (Gold, Aluminum, Copper)",
+                "Flip-chip Bonding And Solder Bumping",
+                "Adhesive Bonding And Thermo-compression Bonding",
+                "Laser And Ultrasonic Bonding Methods",
+                "Sealing Methods In Semiconductor Packaging: Molding And Encapsulation Processes",
+                "Hermetic Sealing And Its Importance For High-reliability Applications",
+                "Use Of Sealing Materials: Epoxy",
+                "Silicone",
+                "And Elastomers",
+                "Advanced Sealing Techniques For 3D And Wafer-level Packaging",
+                "Reliability And Testing In Bonding And Sealing: Mechanical And Thermal Stress Testing In Bonded And Sealed Packages",
+                "Failure Analysis Methods: Decapsulation",
+                "And SEM Analysis",
+                "Unit-6.0: Advanced Packaging Advanced Packaging Technologies: System-in-Package (SiP) And Package-on-Package (PoP) Technologies 3D Integrated Circuits (3D ICs) And Through-Silicon Vias (TSVs) Wafer-Level Packaging (WLP) And Fan-Out Wafer-Level Packaging (FOWLP) Hybrid And Multi-Chip Module (MCM) Integration Thermal And Electrical Considerations In Advanced Packaging: Thermal Management Techniques In Advanced Packaging (Heat Sinks, Thermal Vias) Electrical Performance Challenges: Signal Integrity And Power Delivery In High-density Packages Power Dissipation And Interconnect Strategies In 3D Packaging Reliability Testing Standards For Advanced Packaging (e.g., JEDEC, MIL-STD)",
+                "Advanced Packaging Technologies: System-in-Package (SiP) And Package-on-Package (PoP) Technologies",
+                "3D Integrated Circuits (3D ICs) And Through-Silicon Vias (TSVs)",
+                "Wafer-Level Packaging (WLP) And Fan-Out Wafer-Level Packaging (FOWLP)",
+                "Hybrid And Multi-Chip Module (MCM) Integration",
+                "Thermal And Electrical Considerations In Advanced Packaging: Thermal Management Techniques In Advanced Packaging (Heat Sinks, Thermal Vias)",
+                "Electrical Performance Challenges: Signal Integrity And Power Delivery In High-density Packages",
+                "Power Dissipation And Interconnect Strategies In 3D Packaging",
+                "Reliability Testing Standards For Advanced Packaging (e.g., JEDEC, MIL-STD)",
+                "Electronic Packaging And Interconnection Handbook, Charles Harper, ISBN-13, 978-0071430487, McGraw-Hill Professional, Edition: 4, Publication Date: 16 November 2004.",
+                "Electronic Product Design A.E. Ward And J.A.S. Angus Chapman And Hall, ISBN: 0-412-63200-4, 1996.",
+                "Electronic Product Design, S.D. Mehta, S Chand Publishing ISBN: 9788121936156, 2011.",
+                "Semiconductor Packaging Material Interaction And Reliability, Chen, Andrea & Lo, Randy Hsiao-Yu, ISBN-13; 978-1439862056, CRC Press, 10 October 2011.",
+                "Semiconductor Device Packaging, John H. Lau, Springer, ISBN-10: 9811613753, ISBN-13: 978-9811613753.",
+                "Microelectronics Packaging Handbook - Part 1, Part 2, Part 3, R. R. Tumalla, Springer US, ISBN-13: 978-0412084416, ISBN-13: 978-0412084416, ISBN-13: 978-0412084515.",
+                "Advanced Electronics Packaging, Richard K. Ulrich Wiley-IEEE Press, ISBN-13: 978-0471466093.",
+                "Integrated Circuit Packaging, Assembly And Interconnection, William J. Greig, Springer, ISBN-13: 978-0387281537.",
+                "3D IC Integration And Packaging, John H Lau, McGraw-Hill Education, ISBN-13: 978-0071848060."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: 3D Printing and Design [100622]",
+          "subject_code": "100622",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit-1.0: Additive Manufacturing Introduction and CAD-CAM for 3D Printing Additive V/s Conventional Manufacturing Processes Classification Of 3D Printing Processes Working Principle Of Various 3D Printing Processes- Fused Deposition Modeling (FDM) Stereo Lithography (SLA) Selective Laser Sintering (SLS) Binder Jetting Material Jetting Direct Energy Deposition And Laminate Object Manufacturing Additive Manufacturing Application Domains: Aerospace Electronics Health Care Defense Automotive Construction Food Processing Machine Tools Product Design And Prototyping Reverse Engineering For 3D Printing CAD-CAM And Its Integration CAD- Part And Surface Modeling CAD File Formats Process Chain For 3D Printing STL Interface Specification STL Data Generation STL Data Manipulation Advantages And Limitations Of STL File Format Open Files Repair Of STL Files Alternative 3D Printing Interfaces Part Orientation And Support Generation Factors Affecting Part Orientation Various Models For Part Orientation Determination The Function Of Part Supports Support Structure Design Automatic Support Structure Generation Model Slicing And Contour Data Organization Direct And Adaptive Slicing: Identification Of Peak Features Adaptive Layer Thickness Determination Tool Path Generation",
+                "Additive V/s Conventional Manufacturing Processes",
+                "Classification Of 3D Printing Processes",
+                "Working Principle Of Various 3D Printing Processes- Fused Deposition Modeling (FDM)",
+                "Stereo Lithography (SLA)",
+                "Selective Laser Sintering (SLS)",
+                "Binder Jetting",
+                "Material Jetting",
+                "Direct Energy Deposition And Laminate Object Manufacturing",
+                "Additive Manufacturing Application Domains: Aerospace",
+                "Electronics",
+                "Health Care",
+                "Defense",
+                "Automotive",
+                "Construction",
+                "Food Processing",
+                "Machine Tools",
+                "Product Design And Prototyping",
+                "Reverse Engineering For 3D Printing",
+                "CAD-CAM And Its Integration",
+                "CAD- Part And Surface Modeling",
+                "CAD File Formats",
+                "Process Chain For 3D Printing",
+                "STL Interface Specification",
+                "STL Data Generation",
+                "STL Data Manipulation",
+                "Advantages And Limitations Of STL File Format",
+                "Open Files",
+                "Repair Of STL Files",
+                "Alternative 3D Printing Interfaces",
+                "Part Orientation And Support Generation",
+                "Factors Affecting Part Orientation",
+                "Various Models For Part Orientation Determination",
+                "The Function Of Part Supports",
+                "Support Structure Design",
+                "Automatic Support Structure Generation",
+                "Model Slicing And Contour Data Organization",
+                "Direct And Adaptive Slicing: Identification Of Peak Features",
+                "Adaptive Layer Thickness Determination",
+                "Tool Path Generation",
+                "Unit-2.0: 3D Printing Materials Various Forms Of 3D Printing Raw Material- Liquid Solid Wire Powder Popular FDM SLA SLS Binder Jetting Material Jetting And Direct Energy Deposition 3D Printing Materials Polymers Metals Non-Metals Ceramics Polymers And Their Properties Powder Preparation And Their Desired Properties Choosing The Right 3D Printing Material On The Basis Of Performance Requirements And Material Properties",
+                "Various Forms Of 3D Printing Raw Material- Liquid",
+                "Solid",
+                "Wire",
+                "Powder",
+                "Popular FDM",
+                "SLA",
+                "SLS",
+                "Material Jetting And Direct Energy Deposition 3D Printing Materials",
+                "Polymers",
+                "Metals",
+                "Non-Metals",
+                "Ceramics",
+                "Polymers And Their Properties",
+                "Powder Preparation And Their Desired Properties",
+                "Choosing The Right 3D Printing Material On The Basis Of Performance Requirements And Material Properties",
+                "Unit-3.0: Solid based 3D Printing Processes Basic Principle And Working Of Fused Deposition Modeling (FDM) Process Construction Details And Working Of Established FDM Based 3D Printers For Plastics Parts 3D Printer Software- Fusion 360 Solidworks Onshape Tinkercad UltimakerCura MeshLab Simplyfy 3D Repetier Host Slic3r, Etc. – Use And Operation Of Anyone 3D Scanners And Working Producing A Part Using FDM Based 3D Printer Liquefaction Solidification And Bonding Laminated Object Manufacturing Process Cost Estimation Of FDM 3D Printed Component",
+                "Basic Principle And Working Of Fused Deposition Modeling (FDM) Process",
+                "Construction Details And Working Of Established FDM Based 3D Printers For Plastics Parts",
+                "3D Printer Software- Fusion 360",
+                "Solidworks",
+                "Onshape",
+                "Tinkercad",
+                "UltimakerCura",
+                "MeshLab",
+                "Simplyfy 3D",
+                "Repetier Host",
+                "Slic3r, Etc. – Use And Operation Of Anyone",
+                "3D Scanners And Working",
+                "Producing A Part Using FDM Based 3D Printer",
+                "Liquefaction",
+                "Solidification And Bonding",
+                "Laminated Object Manufacturing Process",
+                "Cost Estimation Of FDM 3D Printed Component"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Liquid based 3D Printing Processes",
+              "topics": [
+                "Photo Polymerization",
+                "Principle And Working Of Stereo Lithography Apparatus",
+                "SLA Based 3D Printing Processes",
+                "SLA Based 3D Printing Process Materials",
+                "Scanning Techniques",
+                "Curing Processes",
+                "Cost Estimation Of SLA 3D Printed Component"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Powder based 3D Printing Processes",
+              "topics": [
+                "Powder Fusion Mechanism",
+                "Principle And Working Of Selective Laser Sintering (SLS) Process",
+                "SLS Based 3D Printers",
+                "Laser Engineering Net Shaping Process",
+                "Electron Beam Melting",
+                "Binder Jet 3D Printing",
+                "Materials And Process Parameters For SLS Based 3D Printing Processes",
+                "Cost Estimation Of SLS Based 3D Printed Component",
+                "Unit-6.0: Post Processing and Quality Need Of Post Processing: Functional And Aesthetic Reasons Steps Of Post Processing: Cleaning/Support Removal Fixing Curing Or Hardening Surface Finishing Colouring Cleaning: Support Removal (FDM And Material Jetting) Powder Removal (SLS And Powder Bed Fusion) Washing (SLA And Photo Polymerisation) Fixing: Filling Gluing Welding Surface Finishing: Sanding Polishing Tumbling Hydro Dipping Epoxy Coating Electro Plating Vapour Smoothing-Acetone Treatment Colouring Coating Priming And Painting Inspection And Testing: Digital Visual Physical Defects And Their Causes",
+                "Need Of Post Processing: Functional And Aesthetic Reasons",
+                "Steps Of Post Processing: Cleaning/Support Removal",
+                "Fixing",
+                "Curing Or Hardening",
+                "Surface Finishing",
+                "Colouring",
+                "Cleaning: Support Removal (FDM And Material Jetting)",
+                "Powder Removal (SLS And Powder Bed Fusion)",
+                "Washing (SLA And Photo Polymerisation)",
+                "Fixing: Filling",
+                "Gluing",
+                "Welding",
+                "Surface Finishing: Sanding",
+                "Polishing",
+                "Tumbling",
+                "Hydro Dipping",
+                "Epoxy Coating",
+                "Electro Plating",
+                "Vapour Smoothing-Acetone Treatment",
+                "Coating",
+                "Priming And Painting",
+                "Inspection And Testing: Digital",
+                "Visual",
+                "Physical",
+                "Defects And Their Causes",
+                "Fundamentals And Applications Of Additive Manufacturing, Sharad K. Pradhan, Ankit Nayak, Surendra Singh Thakur, Vishal Francis, Aniket Nagargoje CRC Press, Taylor & Francis, ISBN 9781032898049.",
+                "Understanding Additive Manufacturing: Rapid Prototyping, Rapid Tooling, Rapid Manufacturingandreas Gebhardt, Hanser Publisher, 2011, ISBN: 156990507X, 9781569905074.",
+                "3D Printing And Design, Sabrie Soloman, Khanna Publishing House, Delhi, ISBN: 9789386173768.",
+                "3D Printing And Rapid Prototyping- Principles And Applications, C.K. Chua, Kah Fai Leong World Scientific, 2017, ISBN: 9789813146754.",
+                "Getting Started With 3D Printing: A Hands-on Guide To The Hardware, Software, And Services Behind The New Manufacturing Revolution, Liza Wallach Kloski, Nick Kloski Make Community, LLC; 2nd Edition, 2021, ISBN: 9781680450200."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective-II",
+          "subject_code": "1006XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Robotic Programming and Software Development",
+          "subject_code": "117601",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Robotic Programming and Software Development Lab",
+          "subject_code": "117601P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Bio MEMS",
+          "subject_code": "117602",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Signal Conditioning and Data Acquisition System",
+          "subject_code": "117603",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Signal Conditioning and Data Acquisition System Lab",
+          "subject_code": "117603P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Employability Skills (Non-Credit)",
+          "subject_code": "117604",
+          "type": "theory",
+          "credits": 0,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "NPTEL Courses-I Lab",
+          "subject_code": "117605P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective: Radiological Equipment [117606]",
+          "subject_code": "117606",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective: Mobile Robotics and Autonomous Systems [117607]",
+          "subject_code": "117607",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective: Mechatronics [117608]",
+          "subject_code": "117608",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-I",
+          "subject_code": "1176XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    }
+  ]
+}

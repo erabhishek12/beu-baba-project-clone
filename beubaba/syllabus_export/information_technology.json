@@ -1,0 +1,1231 @@
+{
+  "branch": "Information Technology",
+  "branch_id": "3816d3e8-4903-f1ce-adfc-4b6f3bdbc785",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 1,
+      "subjects": [
+        {
+          "subject_name": "Engineering Mathematics - I",
+          "subject_code": "100102",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Linear Algebra-I",
+              "topics": [
+                "Elementary Row operations",
+                "Gauss-Jordan Method for finding the inverse of Matrix",
+                "Complex Matrix: Hermitian, Skew Hermitian and Unitary Matrix",
+                "Vector space",
+                "Sub Spaces",
+                "Linear dependence and Independence of Vectors",
+                "Linear Span",
+                "Basis",
+                "Dimension",
+                "Extension of basis of subspace",
+                "The rank of a matrix",
+                "Row and column space",
+                "Solvability of system of linear equations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Linear Algebra-II",
+              "topics": [
+                "Linear Transformations",
+                "Kernel and Range of linear transformation",
+                "Matrix Representation of a linear transformation",
+                "Rank-Nullity Theorem",
+                "Eigen Value and Eigen Vectors",
+                "Properties of Eigen vectors",
+                "Eigen Bases",
+                "Orthogonal Transformation",
+                "Similarity Transformation",
+                "Matrix Diagonalization",
+                "Cayley-Hamilton Theorem"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Calculus for single variable",
+              "topics": [
+                "Indeterminate form",
+                "L'Hospital Rule",
+                "Rolle's Theorem",
+                "Mean Value Theorem",
+                "Expansion of function (single variable)",
+                "Taylor and Maclaurin Series",
+                "Riemann Integration",
+                "Riemann Sum",
+                "Improper Integrals",
+                "Beta and Gamma function and their properties"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Multivariable Calculus (Differentiation)",
+              "topics": [
+                "Function with two or more variable",
+                "Limit, continuity and Partial differentiation",
+                "Total Differentiation",
+                "Taylor's series and Maclaurin's series for function with two variable",
+                "Jacobian",
+                "Maxima and Minima",
+                "Method of Lagrange's multiplier"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Multivariable Calculus (Integration)",
+              "topics": [
+                "Double Integral",
+                "Change of order of integration",
+                "Triple integral",
+                "Change of Variable in a Double and Triple Integrals",
+                "Change to polar coordinate",
+                "Change to cylindrical coordinate",
+                "Change to spherical polar coordinate",
+                "Application to area and volume using double and triple integral"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Vector Calculus",
+              "topics": [
+                "Scalar and vector fields",
+                "Gradient",
+                "Directional derivative",
+                "Divergence",
+                "Curl and their properties",
+                "Line integral",
+                "Green's theorem in plane (without proof)",
+                "Surface integral",
+                "Stoke's theorem (without proof)",
+                "Volume Integral",
+                "Gauss-Divergence' theorem (without proof)",
+                "AICTE's Prescribed Textbook: Mathematics-I (Calculus & Linear Algebra), Reena Garg, Khanna Book Publishing Co. ISBN-10 9391505171",
+                "Advanced Engineering Mathematics, Chandrika Prasad & Reena Garg, Khanna Book Publishing Co., 2021. ISBN 10: 9386173522 / ISBN 13: 9789386173522.",
+                "Higher Engineering Mathematics, B.V. Ramana, Tata McGraw Hill New Delhi, 11th Reprint, 2010, ISBN-10 007063419X ISBN-13978-0070634190.",
+                "Advanced Engineering Mathematics, SrkIyengar Rk Jain, Narosa, 5th Edition, ISBN-10 81848756061 SBN-13978-8184875607",
+                "Advanced Engineering Mathematics, Erwin Kreyszig, 9th Edition, John Wiley & Sons, 2006."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Physics",
+          "subject_code": "100104",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Frame of Reference and Oscillations",
+              "topics": [
+                "Non-Inertial frame of reference",
+                "Rotating coordinate system",
+                "Centripetal and Coriolis acceleration and its application in weather system",
+                "Harmonic Oscillator",
+                "Damped Harmonic motion: overdamped, critically Damped and lightly damped oscillators",
+                "Force Oscillators and Resonance",
+                "Unit 2.0: Optics and LASER Huygens's Principle Superposition of Waves and interference of Light by wave front-splitting and amplitude-splitting Young's double slit experiment Michelson interferometer Fraunhofer diffraction from single slit and circular aperture Diffraction Grating and their resolving power Einstein's theory of matter-radiations interaction Einstein's Coefficients (A and B) Amplification by population inversion Different types of lasers - Gas Laser, Helium-Neon Laser, Solid State Laser (Ruby, Neodymium), Semiconductor Laser",
+                "Huygens's Principle",
+                "Superposition of Waves and interference of Light by wave front-splitting and amplitude-splitting",
+                "Young's double slit experiment",
+                "Michelson interferometer",
+                "Fraunhofer diffraction from single slit and circular aperture",
+                "Diffraction Grating and their resolving power",
+                "Einstein's theory of matter-radiations interaction",
+                "Einstein's Coefficients (A and B)",
+                "Amplification by population inversion",
+                "Different types of lasers - Gas Laser, Helium-Neon Laser, Solid State Laser (Ruby, Neodymium), Semiconductor Laser",
+                "Unit 3.0: Quantum Mechanics Compton Effect Photoelectric Effect Wave Particle duality de Broglie's hypothesis Heisenberg's Uncertainty Principle Wave function and wave packets Phase and group velocities Schrodinger's Wave Equation Normalization Expectation values Eigenvalues and Eigenfunction Application of Schrodinger Wave Equation for particle in one dimensional box: its wavefunction and eigenvalue of energy and momentum",
+                "Compton Effect",
+                "Photoelectric Effect",
+                "Wave Particle duality",
+                "de Broglie's hypothesis",
+                "Heisenberg's Uncertainty Principle",
+                "Wave function and wave packets",
+                "Phase and group velocities",
+                "Schrodinger's Wave Equation",
+                "Normalization",
+                "Expectation values",
+                "Eigenvalues and Eigenfunction",
+                "Application of Schrodinger Wave Equation for particle in one dimensional box: its wavefunction and eigenvalue of energy and momentum",
+                "Unit 4.0: Vector Calculus and Electrostatics Gradient, Divergence and Curl Line, Surface and Volume integrals Gauss's Divergence theorem and Stokes' theorem in Cartesian Coordinate Gauss's Law and its applications Divergence and Curl of Electrostatic fields Electrostatic Potential Boundary Conditions Poisson's and Laplace's equations Dielectrics Polarization Bound Charges Electric displacement Boundary Conditions in dielectrics",
+                "Gradient, Divergence and Curl",
+                "Line, Surface and Volume integrals",
+                "Gauss's Divergence theorem and Stokes' theorem in Cartesian Coordinate",
+                "Gauss's Law and its applications",
+                "Divergence and Curl of Electrostatic fields",
+                "Electrostatic Potential",
+                "Boundary Conditions",
+                "Poisson's and Laplace's equations",
+                "Dielectrics",
+                "Polarization",
+                "Bound Charges",
+                "Electric displacement",
+                "Boundary Conditions in dielectrics",
+                "Unit 5.0: Magnetostatics and Electrodynamics Lorentz force Biot-Savart and Ampere's circuital laws and their applications Divergence and Curl of Magneto static fields Magnetic vector potential Force and torque on a magnetic dipole Magnetic Materials Magnetization Bound currents Boundary conditions Ohm's law Motional EMF Faraday's Law Lenz's law Self and mutual inductance Energy stored in magnetic field Maxwell's equations in vacuum and nonconducting medium Continuity Equation Poynting Theorem Wave Equations: plain electromagnetic wave in vacuum and their transverse nature and Polarization",
+                "Lorentz force",
+                "Biot-Savart and Ampere's circuital laws and their applications",
+                "Divergence and Curl of Magneto static fields",
+                "Magnetic vector potential",
+                "Force and torque on a magnetic dipole",
+                "Magnetic Materials",
+                "Magnetization",
+                "Bound currents",
+                "Ohm's law",
+                "Motional EMF",
+                "Faraday's Law",
+                "Lenz's law",
+                "Self and mutual inductance",
+                "Energy stored in magnetic field",
+                "Maxwell's equations in vacuum and nonconducting medium",
+                "Continuity Equation",
+                "Poynting Theorem",
+                "Wave Equations: plain electromagnetic wave in vacuum and their transverse nature and Polarization"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Solids and Semi-Conductors",
+              "topics": [
+                "Free electron theory of metal",
+                "Fermi level",
+                "Bloch's theorem for particle in a periodic Potential",
+                "Kroning-Penney model and origin of energy band",
+                "Metals, semiconductors and insulators",
+                "Intrinsic and extrinsic semiconductors",
+                "Carrier transport, diffusion and drift",
+                "P-N junction",
+                "Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles, R. Eisberg R. Resnick, Wiley India Pvt. Ltd ISBN 978-81-265-0818-1",
+                "Theory of Vibration with Application, W.T. Thomson M. D. Dahleh, Pearson India ISBN 978-81-317-0482-0",
+                "Introduction to Electrodynamics, D.J. Griffiths, Pearson India, ISBN 978-93-325-5044-5",
+                "Electromagnetism, I.S. Grant, W. R. Phillips, Wiley India Pvt. Ltd ISBN 978-04-719-2712-9",
+                "The Feynman Lectures on Physics, R.P. Feynman R. B. Leighton, Pearson India ISBN 978-00-710-7458-2",
+                "Optics, Ajay Ghatak, McGraw Hill ISBN 978-93-901-1359-0",
+                "Physics of Vibration and Waves, H. J. Pain, Wiley India Pvt. Ltd, ISBN 978-04-700-1296-3",
+                "Concept of Modern Physics, Arthur Beiser, McGraw Hill ISBN 978-93-513-4185-7",
+                "Introduction to Solid State Physics, C. Kittle, Wiley India Pvt. Ltd, ISBN 978-81-265-7843-6"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Physics Lab",
+          "subject_code": "100104P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Determination of the capacitance and permittivity of the given material.",
+                "Determination of e/m of electron.",
+                "Determination of Planck's constant and Photoelectric Work Function using Photoelectric cell.",
+                "Verification of inverse square law using photocell.",
+                "Determination of Wavelength of (He-Ne) LASER using Diffraction Grating Method.",
+                "Calculation of Energy Band Gap of a semiconductor.",
+                "Determination of Dielectric constant using resonance method.",
+                "Determination of Wavelength of Sodium light by measuring the diameter of the Newton's Ring.",
+                "Determination of curvature of convex surface of a lens by Newton's ring.",
+                "Verification of existence of Bohr's Energy level with Frank-Hertz apparatus.",
+                "Determination of the Earth's horizontal magnetic field intensity and magnetic Moment of a magnet by employing magnetometer.",
+                "Verification of Faraday's Law and Lenz's Law of Electromagnetic Induction."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Introduction to AI",
+          "subject_code": "100105",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Computer Fundamentals & Emerging Technologies",
+          "subject_code": "100108",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Universal Human Values",
+          "subject_code": "100109",
+          "type": "theory",
+          "credits": 2,
+          "L": 2,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Essence of Indian Constitution",
+          "subject_code": "100110",
+          "type": "theory",
+          "credits": 0,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Basics of Electrical & Electronics Engineering",
+          "subject_code": "100111",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Basics of Electrical & Electronics Engineering Lab",
+          "subject_code": "100111P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Programming for Problem Solving Lab",
+          "subject_code": "100112P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Tutorial 1: Problem solving using computers. Lab 1: Familiarization with programming environment.",
+                "Tutorial 2: Variable types and type conversions. Lab 2: Simple computational problems using arithmetic expressions.",
+                "Tutorial 3: Branching and logical expressions. Lab 3: Problems involving if-then-else structures.",
+                "Tutorial 4: Loops, while and for loops. Lab 4: Iterative problems e.g., sum of series.",
+                "Tutorial 5: 1D Arrays: searching, sorting. Lab 5: 1D Array manipulation.",
+                "Tutorial 6: 2D arrays and Strings. Lab 6: Matrix problems, String operations.",
+                "Tutorial 7: Functions, call by value. Lab 7: Simple functions.",
+                "Tutorial 8 & 9: Numerical methods (Root finding, numerical differentiation, numerical integration). Lab 8 and 9: Programming for solving Numerical methods problems.",
+                "Tutorial 10: Recursion, structure of recursive calls. Lab 10: Recursive functions.",
+                "Tutorial 11: Pointers, structures and dynamic memory allocation. Lab 11: Pointers and structures.",
+                "Tutorial 12: File handling. Lab 12: File operations."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "subjects": [
+        {
+          "subject_name": "Engineering Mathematics-II",
+          "subject_code": "100202",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Complex Analysis - I",
+              "topics": [
+                "Functions of complex variable",
+                "Limit",
+                "Continuity",
+                "Differentiability",
+                "Analytic function",
+                "Cauchy-Riemann Equations in Cartesian and polar form",
+                "Harmonic function and harmonic conjugate"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Complex Analysis - II",
+              "topics": [
+                "Line Integral",
+                "Contour integrals",
+                "Cauchy theorem",
+                "Cauchy's Integral formula (without proof)",
+                "Taylors series",
+                "Zero of analytic functions",
+                "Singularities",
+                "Laurent's series",
+                "Residue",
+                "Cauchy residue theorem (without Proof) and its applications"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Ordinary Differential Equations",
+              "topics": [
+                "Linear differential equations of nth Order with constant coefficients",
+                "Solution of Homogeneous and Non-Homogeneous Equations",
+                "Equations with variable coefficients",
+                "Cauchy-Euler Equations",
+                "Method of Variation of Parameters"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sequence and Series",
+              "topics": [
+                "Introduction of Sequence and Series",
+                "Nature of series Tests of convergence of Series",
+                "Comparison test",
+                "D'Alembert ratio test",
+                "Cauchy's Root test",
+                "Raabe's test",
+                "Logarithmic test",
+                "Cauchy's condensation test"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Laplace Transform Laplace Transform Existence theorem Properties of Laplace Transform",
+              "topics": [
+                "Laplace Transform",
+                "Existence theorem",
+                "Properties of Laplace Transform",
+                "Laplace Transform of Periodic functions",
+                "Inverse Laplace Transform",
+                "Convolution theorem",
+                "Application of Laplace Transform to solve Ordinary differential equations"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Fourier Series Fourier Series Fourier Series for odd and even",
+              "topics": [
+                "Fourier Series",
+                "Fourier Series for odd and even functions",
+                "Half range sine and cosine series",
+                "Parseval's theorem",
+                "Advanced Engineering Mathematics, Kreyszig Erwin, John Wiley and Sons, 10th Edition, 2020 ISBN: 978-0470-45836-5",
+                "Advanced Engineering Mathematics, Dass H.K., S Chand and Company pvt.Ltd., 22nd Edition, 2018 ISBN: 978-93-5283-718-2",
+                "Higher Engineering Mathematics, Grewal B.S., Khanna Publishers, 44th Edition, 2023 ISBN: 9788174091154",
+                "Complex Variables (Theory and Applications), Kasana H.S., PHI, 2nd Edition, 2015 ISBN: 978-81-203-2641-5",
+                "A Text Book of Engineering Mathematics, Bali N.P., Goyal Manish Laxmi Publications, 9th Edition, 2014",
+                "Higher Engineering Mathematics, Ramana B.V., Tata McGraw Hill New Delhi, 11th Reprint, 2010, ISBN-10 007063419X ISBN-13978-0070634190",
+                "Differential Equations, Ross S.L., Wiley Publications, 3rd edition, 2016 ISBN: 978-81-265-1537-0",
+                "Advanced Differential Equations, Raisinghania M.D., S.Chand and Company PVT.LTD., 18th Edition, 2015 ISBN: 978-81-219-0893-1",
+                "Schaum's Outlines Complex Variables, Spiegel Murray R, Lipschutz Seymour, Schiller J John and Spellman Dennis, MC Graw Hill Education Private Ltd, 2nd Edition, 2010 ISBN: 978-0-07-008538-1"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry",
+          "subject_code": "100215",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Atomic and Molecular Structure Electromagnetic radiations Dual nature of electron and Heisenberg uncertainty Principle Photoelectric effect Planck's theory Principles for the combination of atomic orbitals to form molecular orbitals Bent's rule VSEPR theory (typical example) co-ordination numbers and geometries Isomerism in transition metal compounds Metal Carbonyls; Synthesis and Structure",
+                "Electromagnetic radiations",
+                "Dual nature of electron and Heisenberg uncertainty Principle",
+                "Photoelectric effect",
+                "Planck's theory",
+                "Principles for the combination of atomic orbitals to form molecular orbitals",
+                "Bent's rule",
+                "VSEPR theory (typical example) co-ordination numbers and geometries",
+                "Isomerism in transition metal compounds",
+                "Metal Carbonyls; Synthesis and Structure"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Spectroscopy",
+              "topics": [
+                "Principle of rotational and vibrational spectroscopy",
+                "Selection rule for application in diatomic molecules",
+                "Elementary idea of electronic spectroscopy",
+                "UV-VIS spectroscopy with related rules and its applications",
+                "Basic Principle of nuclear Magnetic resonance spectroscopy with applications"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Electrochemistry and Fuels",
+              "topics": [
+                "Nernst equation",
+                "EMF and electrochemical cell",
+                "Introduction of corrosion",
+                "Corrosion mechanism",
+                "Types of corrosion",
+                "Water line corrosion",
+                "Stress corrosion",
+                "Pitting corrosion",
+                "Lead acid storage cell",
+                "Leclanche cell",
+                "Calorific value of fuels",
+                "Proximate and ultimate analysis of coals",
+                "Fuel cells",
+                "Bio fuels"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Water Chemistry",
+              "topics": [
+                "Hardness of water",
+                "Estimation of water hardness by EDTA and Alkalinity method",
+                "Removal of hardness of water: soda lime process, zeolite process, Ion exchange process",
+                "Boiler problem",
+                "Sludge and scale formation",
+                "Priming and foaming",
+                "Boiler corrosion and Caustic embrittlement",
+                "Unit 5.0: Polymer and Plastics Polymerization techniques (free radical, ionic, and co-ordination mechanism) Preparation properties and technical application of phenol-formaldehyde resins Elastomers Synthetic rubbers (Buna-S, Buna-N, neoprene) Inorganic polymers Silicones Adhesives Epoxy resins Structural difference between thermoplastic and thermosetting Plastics Importance of commercially important thermoplastics and thermosets Poly ethylene Polyvinyl chloride Polystyrene",
+                "Polymerization techniques (free radical, ionic, and co-ordination mechanism)",
+                "Preparation properties and technical application of phenol-formaldehyde resins",
+                "Elastomers",
+                "Synthetic rubbers (Buna-S, Buna-N, neoprene)",
+                "Inorganic polymers",
+                "Silicones",
+                "Adhesives",
+                "Epoxy resins",
+                "Structural difference between thermoplastic and thermosetting Plastics",
+                "Importance of commercially important thermoplastics and thermosets",
+                "Poly ethylene",
+                "Polyvinyl chloride",
+                "Polystyrene"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Organic Reactions and Synthesis of A Drug Molecule",
+              "topics": [
+                "Introduction to intermediate and reaction involving Substitution, addition, elimination, oxidation-reduction",
+                "Diels Elder cyclization and epoxide ring opening reactions",
+                "Synthesis of commonly used drug molecules like aspirin",
+                "University Chemistry, B.H. Mahan, Pearson",
+                "Chemistry, principles and application, M.J. Sienko and R.A. Plane, McGraw Hill International",
+                "Fundamentals of molecular Spectroscopy, C.N. Banwell, McGraw Hill International",
+                "Engineering Chemistry (NPTEL Web- Book), B.L. Tembe, Kamaluddin and M.S. Krishnan, NPTEL",
+                "Physical Chemistry, P.W. Atkins, Oxford University Press",
+                "A text book of engineering chemistry, S. Chawala, DhangatRai Publication",
+                "General Chemistry Part 1, R. Sarkar, New Central Book agency"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Engineering Chemistry Lab",
+          "subject_code": "100215P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "To estimate hardness of water by alkalinity method",
+                "To estimate hardness of water by EDTA method",
+                "To remove hardness of water by ion exchange method",
+                "Determination of pH of a given acid solution using a standard sodium hydroxide solution",
+                "Determination of surface tension and viscosity",
+                "Chemical analysis of salt (Acid radical and basic radical)",
+                "Adsorption of acetic acid by charcoal",
+                "Test of adulteration of fat butter, sugar, turmeric powder, chilli powder and pepper",
+                "Saponification/ acid value of an oil",
+                "Identification of organic substances and their functional groups",
+                "Potentiometric determination of redox potentials and emf",
+                "Synthesis of drug/polymer like ASPRIN/ Urea- formaldehyde resin",
+                "Thin layer chromatography",
+                "Analysis of flue gas by orsat apparatus"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Communicative English",
+          "subject_code": "100216",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Vocabulary Building",
+              "topics": [
+                "Nature of Word Formation",
+                "Root Word and Morpheme",
+                "Prefix and Suffix",
+                "Foreign Expressions in English",
+                "Synonym and Antonym",
+                "Homophone and Homograph",
+                "Abbreviation and Acronym"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Basic Writing Skills",
+              "topics": [
+                "Parts of Speech: Types of Words",
+                "Structures of Sentence",
+                "Kind of Sentence",
+                "Phrase and Clause",
+                "Punctuation Marks",
+                "Capitalization",
+                "Tenses: Present, Past and Future",
+                "Voices: Active and Passive",
+                "Formation of Questions using Primary Auxiliaries, Modals and Wh-Words"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Common Errors in English",
+              "topics": [
+                "Articles",
+                "Prepositions",
+                "Modifiers",
+                "Subject-Verb Agreement",
+                "Noun-Pronoun agreement",
+                "Redundancies",
+                "Cliches",
+                "Spelling Error"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Principles of Appropriate Writing",
+              "topics": [
+                "Defining: Describing, Classifying and Exemplifying",
+                "Introduction, Body, and Conclusion",
+                "References, Quotations and Illustrations",
+                "Organizing the Paragraphs in a Document",
+                "7Cs of the Professional Writing: Clear, Concise, Concrete, Correct, Coherent, Complete and Courteous"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Practices of Formal Writing",
+              "topics": [
+                "Formal Letter: Cover-Letter and Application",
+                "Resume Writing",
+                "Report Writing",
+                "Minutes of Meeting",
+                "Memorandum",
+                "Notice",
+                "Essay Writing: Personal and Impersonal",
+                "Email Writing Etiquettes",
+                "Article Writing",
+                "Writing for Current Social Media"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Comprehension of Written English",
+              "topics": [
+                "Of Studies (Essay) by Sir Francis Bacon",
+                "The Sun Rising (Poem) by John Donne",
+                "The Last Leaf (Story) by O Henry",
+                "Unseen/Untaught Passage",
+                "English language and communication skills for engineers, Sanjay Kumar, Pushplata, Oxford university Press",
+                "Communicative English for Technical student, Dr. BijayBhadur Singh and Dr. KalpanaSinha, Foundation publishing House (FPM)",
+                "Communication Skill (As per VRV syllabus 2018), Sanjay Kumar and Pushplata, Oxford University Press",
+                "A course in Listening & Speaking, V. Sasi Kumar, P. KiranmaiDutt and GeethaRajeevan, Foundation Books"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Communicative English Lab",
+          "subject_code": "100216P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Introduction: Language Lab of English includes Listening Comprehension, Reading Comprehension, Speaking Skills: Phonetics, International Phonetic Alphabet Symbols (IPAS), Sounds: Vowels and Consonants, Pronunciation, Intonation, Stress and Rhythm, Just A Minute Technique (JAM), Communication: Verbal and Non-Verbal; Ethical Usage of Artificial Intelligence, Self-Introduction: Social, Academic and Professional; Interview: Online and Offline; Oral Presentation, Debate, Group Discussion, Group-Activities, and Brainstorming Vocabulary Activities.",
+                "Listening Comprehension and Speed (Software)",
+                "Reading Comprehension and Speed (Software)",
+                "Pronunciation: Learning and Test (Software)",
+                "Self-Introduction: Social, Academic and Professional",
+                "English Typing: Microsoft Word Document (MS Word), and Microsoft Power Point Presentation (PPT)",
+                "Oral Presentation",
+                "Interview: Online and Offline",
+                "Just A Minute Technique (JAM) and Extempore",
+                "Debate",
+                "Group Discussion",
+                "Activities: Role Play, Peer Activities, and Group Activities",
+                "Anchoring and Addressing: an Assembly, a Meeting, a Seminar, a Party"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Python Programming",
+          "subject_code": "100218",
+          "type": "theory",
+          "credits": 2,
+          "L": 2,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Input and Output",
+              "topics": [
+                "Identifiers",
+                "Keywords",
+                "Statements and Expressions",
+                "Variables",
+                "Operators",
+                "Precedence and Associativity",
+                "Data Types",
+                "Indentation",
+                "Comments",
+                "Reading Input",
+                "Print Output",
+                "Type Conversions",
+                "The type() Function and Is Operator",
+                "Dynamic and Strongly Typed Language",
+                "Module 2: Control Flow statements, Function and Loops Control Flow Statements The if Decision Control Flow Statement The if...else Decision Control Flow Statement The if...elseif...else Decision Control Statement Nested if Statement Built-In Functions Commonly Used Modules Function Definition and Calling the Function The return Statement and void Function Scope and Lifetime of Variables Default Parameters The while Loop The for Loop The continue and break Statements",
+                "Control Flow Statements",
+                "The if Decision Control Flow Statement",
+                "The if...else Decision Control Flow Statement",
+                "The if...elseif...else Decision Control Statement",
+                "Nested if Statement",
+                "Built-In Functions",
+                "Commonly Used Modules",
+                "Function Definition and Calling the Function",
+                "The return Statement and void Function",
+                "Scope and Lifetime of Variables",
+                "Default Parameters",
+                "The while Loop",
+                "The for Loop",
+                "The continue and break Statements"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Strings",
+              "topics": [
+                "Creating and Storing Strings",
+                "Basic String Operations",
+                "Accessing Characters in String by Index Number",
+                "String Slicing and Joining",
+                "String Methods",
+                "Formatting Strings"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Lists",
+              "topics": [
+                "Creating Lists",
+                "Basic List Operations",
+                "Indexing and Slicing in Lists",
+                "Built-In Functions Used on Lists",
+                "List Methods",
+                "The del Statement",
+                "Module 5: Dictionaries, Tuples and Sets Creating Dictionary Accessing and Modifying key value Pairs in Dictionaries Built-In Functions Used on Dictionaries Dictionary Methods The del Statement Tuples and Sets Creating Tuples Basic Tuple Operations Indexing and Slicing in Tuples Built-In Functions Used on Tuples Relation between Tuples and Lists Relation between Tuples and Dictionaries Tuple Methods Using zip() Function Sets Set Methods Traversing of Sets Frozen set",
+                "Creating Dictionary",
+                "Accessing and Modifying key value Pairs in Dictionaries",
+                "Built-In Functions Used on Dictionaries",
+                "Dictionary Methods",
+                "Tuples and Sets",
+                "Creating Tuples",
+                "Basic Tuple Operations",
+                "Indexing and Slicing in Tuples",
+                "Built-In Functions Used on Tuples",
+                "Relation between Tuples and Lists",
+                "Relation between Tuples and Dictionaries",
+                "Tuple Methods",
+                "Using zip() Function",
+                "Sets",
+                "Set Methods",
+                "Traversing of Sets",
+                "Frozen set"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Files",
+              "topics": [
+                "Types of Files",
+                "Creating and Reading Text Data",
+                "File Methods to Read and Write Data",
+                "Reading and Writing Binary Files",
+                "The Pickle Module",
+                "Reading and Writing CSV Files",
+                "Python os and os.path Modules",
+                "Introduction to Python Programming, Gowrishankar S, VeenaA, 1st Edition, CRC Press/Taylor & Francis, 2018. ISBN-13: 978-0815394372",
+                "Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas, 1st Edition, O'Reilly Media, 2016. ISBN-13: 978-1491912058",
+                "Core Python Applications Programming, Wesley J Chun, 3rd Edition, Pearson Education India, 2015. ISBN-13: 978-9332555365",
+                "Python Programming A Modular Approach, SheetalTaneja, Pearson Publications",
+                "Programming and Problem Solving with Python, Ashok NamdevKamathane and Amit Ashok Kamathane, Tata McGraw Hill Education (India) Private Limited"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Python Programming Lab",
+          "subject_code": "100218P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Input and Output: Write a program to demonstrate different number data types in Python.",
+                "Input and Output: Write a program to perform different Arithmetic Operations on numbers in Python.",
+                "Input and Output: Write a program to create, concatenate and print a string and accessing sub-string from a given string.",
+                "Input and Output: Create a variable \"number\" and assign an Integer to the number. Check the assigned Integer is \"Positive\" or \"Negative\".",
+                "Input and Output: Write a program to find the largest element among three Numbers.",
+                "Input and Output: Write a program to print the sum of all the even numbers in the range 1 - 50 and print the even sum.",
+                "Input and Output: Write a Program to display all prime numbers within an interval of 20 and 50.",
+                "Variables and Functions: Write a program to swap two numbers without using a temporary variable.",
+                "Variables and Functions: Write a program to define a function with multiple return values.",
+                "Variables and Functions: Write a python program to find factorial of a number using Recursion.",
+                "Variables and Functions: Write a python script to print the current date in the following format \"WED 09 02:26:23 IST 2020\".",
+                "Variables and Functions: Write a Python program to convert temperatures to and from Celsius, Fahrenheit [Formula: c/5 = f-32/9].",
+                "Variables and Functions: Write a Python script that prints prime numbers less than 20.",
+                "Loops and Conditionals: Write a program to print the following patterns using loop: * ** *** ****",
+                "Loops and Conditionals: Write a program to print multiplication tables of 8, 15, 69.",
+                "Loops and Conditionals: Write a program to check whether the given input is digit or lowercase character or uppercase character or a special character (use 'if-else-if' ladder).",
+                "Loops and Conditionals: Write a python Program to print the Fibonacci sequence using while loop.",
+                "Strings: Write a program to find the length of the string without using any library functions.",
+                "Strings: Write a program to check if two strings are anagrams or not.",
+                "Strings: Write a program to check if the substring is present in a given string or not. (use regular expressions)",
+                "Lists: Write a program to perform the given operations on a list: i. add ii. Insert iii. slicing",
+                "Lists: Write a program to perform any 5 built-in functions by taking any list.",
+                "Lists: Write a program to get a list of the even numbers from a given list of numbers.(use only comprehensions).",
+                "Lists: Write a program to implement round robin.",
+                "Tuples: Write a program to create tuples (name, age, address, college) for at least two members and concatenate the tuples and print the concatenated tuples.",
+                "Tuples: Write a program to return the top 'n' most frequently occurring chars and their respective counts. e.g. aaaaabbbbcccc, 2 should return [(a 5) (b 4)]",
+                "Sets: Write a program to count the number of vowels in a string (No control flow allowed).",
+                "Sets: Write a program that displays which letters are present in both strings.",
+                "Sets: Write a program to sort given list of strings in the order of their vowel counts.",
+                "Dictionaries: Write a program to generate a dictionary that contains numbers (between 1 and n) in the form of (x, x*x).",
+                "Dictionaries: Write a program to check if a given key exists in a dictionary or not.",
+                "Dictionaries: Write a program to add a new key-value pair to an existing dictionary.",
+                "Dictionaries: Write a program to sum all the items in a given dictionary.",
+                "Files: Write a program to sort words in a file and put them in another file. The output file should have only lower case words, so any upper case words from source must be lowered. (Handle exceptions)",
+                "Files: Write a program to find the most frequent words in a text. (read from a text file).",
+                "Write a program to check whether a given number has an even number of 1's in its binary representation (No control flow allowed).",
+                "Write a program to implement user defined map() function.",
+                "Write a program to return a list in which duplicates are removed and the items are sorted from a given input list of strings.",
+                "Write a program to implement left binary search.",
+                "Write a program to change days to hours, hours to minutes and minutes to seconds using currying of composition of functions.",
+                "Write a program to generate an infinite number of even numbers (Use generator)",
+                "Write a program to convert a given iterable into a list. (Using iterator)",
+                "Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Introduction to Web Design",
+          "subject_code": "100219",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Fundamentals of Internet and Web Technologies",
+              "topics": [
+                "Web Basics and Overview: Introduction to Internet, World Wide Web",
+                "History of the web",
+                "Website",
+                "Homepage",
+                "Domain Name",
+                "Web Browsers and Web server",
+                "Web Server Working",
+                "Client-Server Architecture",
+                "3-Tier Web Architecture",
+                "Web hosting",
+                "URL",
+                "MIME",
+                "HTTP protocol",
+                "Web Programmers Toolbox"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Introduction to HTML: Elements and Structure",
+              "topics": [
+                "Introduction to html: Fundamentals of HTML elements",
+                "History of HTML",
+                "Document body",
+                "Different tags",
+                "Sections",
+                "Text",
+                "Heading",
+                "Paragraphs",
+                "Hyperlink",
+                "Lists",
+                "Tables",
+                "Color coding and images",
+                "Div and Span Tags for grouping",
+                "Character entities",
+                "URL Encoding",
+                "Frames and frame sets"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "HTML Forms and Multimedia Integration",
+              "topics": [
+                "HTML form",
+                "Form Elements",
+                "Form Attributes",
+                "HTML canvas",
+                "Embedding audio and video in a webpage",
+                "HTML Vs XHTML"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Introduction to CSS: Styling and Layouts",
+              "topics": [
+                "Need for CSS",
+                "Introduction to CSS",
+                "Basic syntax and structure",
+                "External Style Sheets",
+                "Internal Style Sheets",
+                "Inline Style",
+                "CSS Selectors",
+                "Div & span tag",
+                "CSS Color",
+                "CSS Backgrounds",
+                "Borders",
+                "Margins",
+                "Padding",
+                "Box Model",
+                "Height width",
+                "Outline",
+                "Text",
+                "Font",
+                "Tables",
+                "CSS Buttons",
+                "CSS Display",
+                "CSS Float & Clear",
+                "CSS Overflow",
+                "Unit 5.0: JavaScript Basics: Scripting and Control Java Script: Introduction to Client-side Scripting What can JavaScript Do Need of JavaScript Enhancing HTML Documents with JavaScript The Building Blocks: Data types, variables Types of Operators Operator Precedence Type conversion Conditional statement in JavaScript: if else, and else if, Switch statement Loops in JavaScript: for, while, do/while, break, continue",
+                "Java Script: Introduction to Client-side Scripting",
+                "What can JavaScript Do",
+                "Need of JavaScript",
+                "Enhancing HTML Documents with JavaScript",
+                "The Building Blocks: Data types, variables",
+                "Types of Operators",
+                "Operator Precedence",
+                "Type conversion",
+                "Conditional statement in JavaScript: if else, and else if, Switch statement",
+                "Loops in JavaScript: for, while, do/while, break, continue"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Advanced JavaScript: Objects and Events",
+              "topics": [
+                "Advanced JavaScript: Objects in JavaScript (array, number, string, Boolean)",
+                "Event handling (e.g., onclick, onsubmit)",
+                "Error handling",
+                "JavaScript scope",
+                "Responsive modal forms",
+                "Form validation",
+                "Beginning Web Programming with HTML, XHTML, and CSS., Jon Duckett, Publisher(s): WROX ISBN: 9780470259313",
+                "JavaScript: The Definitive Guide, 6th Edition, David Flanagan, Publisher(s): O'Reilly Media, Inc. ISBN: 978059680552",
+                "Internet & World Wide Web: How to Program, Fourth Edition, H. M. Deitel- Deitel& Associates, Inc., P. J. Deitel - Deitel& Associates, Inc, Publisher(s): Pearson ISBN: 9780136085645",
+                "Internet and Web Technologies, Kamal Raj, Publisher: McGraw Hill Education India ISBN: 9780070472969"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Introduction to Web Design Lab",
+          "subject_code": "100219P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Design a home page which displays information about your college department using heading, HTML entities and paragraphs. Implement different types of list tags in the college department home page. Create a webpage for any clinic using marquee and HTML formatting tags. Create an image(s) and iframe in a webpage.",
+                "Create a Hyperlink in home page connecting it to 3 different pages. Design a webpage using HTML that includes an image map, and embeds audio and video. Design a time-table and display it in a tabular format. Design an admission form for any course in your college with text, password fields, drop-down list, check-boxes, radio button, submit, and reset button.",
+                "Design a static webpage using HTML to create a frameset with header, navigation, and content sections. Create a webpage with a frameset divided into 3 frames: 20% on the left for page contents, 60% at the center for the main body, and 20% on the right for remarks. Create a web page multiple types of style sheet used in a single page.",
+                "Create a catalogue for an online shopping company that sells electronic items using CSS. Design a webpage of your home town with an attractive background color, text font, and an image using inline CSS formatting. Create a student web form for entering student information. Design a library webpage using different CSS border styles and the CSS box model.",
+                "Write a JavaScript program: Find the largest among three numbers. Calculate the factorial of a number. Check whether a given number is an Armstrong number. Find the sum of natural numbers using recursion. Check whether a string is a palindrome. Convert a decimal number to binary.",
+                "Write a JavaScript program: To design a scientific calculator with event handling for each button. To compute the squares and cubes of numbers from 0 to 10, and display the results in an HTML table format.",
+                "Write JavaScript to validate the following fields of the registration page: Name: Must contain only alphabets and be at least 6 characters long. Password: Must be at least 6 characters long. E-mail ID: Must follow the standard pattern name@domain.com and not contain invalid characters. Phone Number: Must contain exactly 10 digits."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Sports/Yoga/NCC/NSS",
+          "subject_code": "100220P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Encouraging creativity and innovation: The course could aim to foster a culture of creativity and innovation among engineering students. It could provide opportunities for students to generate and develop new ideas, think critically, and come up with innovative solutions to real-world problems. This objective could be achieved through brainstorming sessions, design thinking exercises, and hands-on projects.",
+                "Enhancing problem-solving skills: The course could focus on enhancing the problem-solving skills of engineering students. It could provide training on various problem-solving techniques, such as root cause analysis, critical thinking, and decision-making. Students may learn how to identify and analyse complex problems, develop feasible solutions, and implement them effectively.",
+                "Developing project management skills: The course could aim to develop project management skills among engineering students. It could cover topics such as project planning, scheduling, budgeting, and risk management. Students may learn how to manage resources, communicate effectively, and work collaboratively in a project-based environment.",
+                "Promoting interdisciplinary collaboration: The course could encourage interdisciplinary collaboration among engineering students. It could provide opportunities for students from different engineering disciplines to work together on innovative projects. This could foster cross-disciplinary learning, encourage diverse perspectives, and promote teamwork and collaboration skills.",
+                "Facilitating practical application of engineering concepts: The course could focus on the practical application of engineering concepts and principles. It could provide students with opportunities to apply their theoretical knowledge to real-world projects, prototypes, or simulations. Students may learn how to translate engineering theories into practical solutions and develop hands-on experience in implementing innovative projects.",
+                "Upon completion, students may have:",
+                "Developed innovative projects: Students may have successfully developed innovative projects that demonstrate their creativity, problem-solving skills, and technical competence. These projects could be prototypes, models, simulations, or practical solutions to real-world problems, showcasing their ability to apply engineering concepts in a creative and innovative manner.",
+                "Improved critical thinking and problem-solving skills: Students may have honed their critical thinking and problem-solving skills through various course activities, such as brainstorming, design thinking, and project development. They may have learned to analyse complex problems, identify viable solutions, and make informed decisions based on technical, economic, and social considerations.",
+                "Enhanced project management and teamwork skills: Students may have gained practical experience in managing projects, including planning, scheduling, budgeting, and risk management. They may have learned how to work effectively in a team, collaborate with diverse team members, and communicate project progress and results professionally.",
+                "Increased interdisciplinary knowledge and collaboration: Students may have gained exposure to interdisciplinary concepts and collaborated with peers from different engineering disciplines. They may have learned to appreciate diverse perspectives, leverage interdisciplinary knowledge, and work collaboratively to develop innovative solutions that integrate multiple domains of engineering.",
+                "Cultivated a mindset of innovation and entrepreneurship: Students may have developed a mindset of innovation and entrepreneurship, recognizing the importance of creativity, adaptability, and continuous improvement in engineering practice. They may have learned to identify opportunities, think critically, and take risks to develop and implement innovative projects with commercial or societal potential.",
+                "Any topics related to innovative project."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "subjects": [
+        {
+          "subject_name": "Digital Electronics",
+          "subject_code": "106301",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Digital Electronics Lab",
+          "subject_code": "106301P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Data Structure and Algorithm",
+          "subject_code": "106302",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Data Structure and Algorithm Lab",
+          "subject_code": "106302P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Object Oriented Programming using JAVA",
+          "subject_code": "106303",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Object Oriented Programming using JAVA Lab",
+          "subject_code": "106303P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Discrete Mathematics and Graph Theory",
+          "subject_code": "106304",
+          "type": "theory",
+          "credits": 4,
+          "L": 3,
+          "T": 1,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Operating System",
+          "subject_code": "106305",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Operating System Lab",
+          "subject_code": "106305P",
+          "type": "lab",
+          "credits": 1,
+          "L": 0,
+          "T": 0,
+          "P": 2,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Universal Human Values",
+          "subject_code": "106306",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Indian Knowledge System",
+          "subject_code": "106307",
+          "type": "theory",
+          "credits": 0,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Internship – I",
+          "subject_code": "106308",
+          "type": "lab",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    }
+  ]
+}

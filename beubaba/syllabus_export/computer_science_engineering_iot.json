@@ -1,0 +1,3205 @@
+{
+  "branch": "Computer Science & Engineering (IoT)",
+  "branch_id": "45b7eaa3-c929-18e6-998a-ac45b88fa398",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 5,
+      "subjects": [
+        {
+          "subject_name": "Professional Practice, Law & Ethics",
+          "subject_code": "",
+          "type": "theory",
+          "credits": 0,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "IoT Architecture & Design",
+          "subject_code": "155501",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "IoT - An Architectural Overview (7 hrs)",
+              "topics": [
+                "Definition",
+                "Characteristics",
+                "Evolution",
+                "Applications",
+                "Architectures",
+                "Conceptual Framework",
+                "Enabling Technologies",
+                "Wireless Networks",
+                "M2M Communication",
+                "IoT System Layers",
+                "Design Principles",
+                "Communication Technologies",
+                "IoT Protocols",
+                "Business Processes",
+                "Everything As A Service (Xaas)",
+                "Role Of Cloud",
+                "Security",
+                "Privacy Aspects",
+                "Unit 2.0: Elements of IoT (7 hrs) Hardware Components: Sensors Digital Sensors Actuators RFID Technology Wireless Sensor Networks Participatory Sensing Technology Embedded Platforms For IoT: Introduction To Arduino (Configuration And Use) Raspberry Pi (Basic Functionality Of Raspberry Pi B+ Board, Setup, Configuration, And Use) Software Components: Programming APIs (Python/Node.js/Arduino) For Communication Protocols - MQTT, ZigBee, Bluetooth, CoAP, UDP, TCP",
+                "Hardware Components: Sensors",
+                "Digital Sensors",
+                "Actuators",
+                "RFID Technology",
+                "Wireless Sensor Networks",
+                "Participatory Sensing Technology",
+                "Embedded Platforms For IoT: Introduction To Arduino (Configuration And Use)",
+                "Raspberry Pi (Basic Functionality Of Raspberry Pi B+ Board, Setup, Configuration, And Use)",
+                "Software Components: Programming APIs (Python/Node.js/Arduino) For Communication Protocols - MQTT, ZigBee, Bluetooth, CoAP, UDP, TCP",
+                "Unit 3.0: Sensors and Actuators in IoT (7 hrs) Introduction To Sensors: Sensor Vs. Transducer Nature Of Sensors Sensor Output Characteristics Sensing Technologies Digital Output Sensors Types Of Sensors And Actuators: Humidity Sensors Ultrasonic Sensors Temperature Sensors Industrial Sensors - Description & Characteristics Evolution Of IoT Sensors: First- Generation Advanced Generation Integrated IoT Sensors Polytronics Systems Sensors' Swarm",
+                "Introduction To Sensors: Sensor Vs. Transducer",
+                "Nature Of Sensors",
+                "Sensor Output Characteristics",
+                "Sensing Technologies",
+                "Digital Output Sensors",
+                "Types Of Sensors And Actuators: Humidity Sensors",
+                "Ultrasonic Sensors",
+                "Temperature Sensors",
+                "Industrial Sensors - Description & Characteristics",
+                "Evolution Of IoT Sensors: First- Generation",
+                "Advanced Generation",
+                "Integrated IoT Sensors",
+                "Polytronics Systems",
+                "Sensors' Swarm"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "IoT Architecture (8 hrs)",
+              "topics": [
+                "Introduction To IoT Architecture: Overview",
+                "Key Components",
+                "Importance",
+                "IoT Reference Architecture: Functional View",
+                "Information View",
+                "Deployment And Operational View",
+                "Other Relevant Architectural Views"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "IoT APIs (5 hrs)",
+              "topics": [
+                "Representational State Transfer (REST)",
+                "Uniform Resource Identifiers (URIs)",
+                "Types Of APIs",
+                "WebSocket"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "IoT Challenges, Applications, and Case Studies (8 hrs)",
+              "topics": [
+                "Challenges In IoT: Design Challenges",
+                "Development Challenges",
+                "Security Challenges",
+                "Other Challenges",
+                "IoT Applications & Case Studies: Smart Agriculture: Smart Irrigation System",
+                "Temperature Controller",
+                "Smart Home & Automation: Home Automation",
+                "Smart Metering",
+                "Healthcare: E- Health",
+                "Internet of Things, Architecture and Design Principles Raj Kamal 1st edition, McGraw Hill Education, May 2017",
+                "Internet of Things: A Hands-On Approach Arshdeep Baga and Vijay Madisetti 1st Edition, Universities press, 2015.",
+                "IoT (Internet of Things Programming: A simple and fast way of Learning IoT David Etter Kindle edition 2016.",
+                "Architecting the Internet of Things Bernd Scholz-Reiter and Florian Michahelles, ISBN 978-3- 642-19156-5 e-ISBN 978-3-642-19157-2, Springer, 2016",
+                "Programming the Raspberry Pi: Getting Started with Python Simon Monk, January 2012, McGraw Hill Professional.",
+                "Getting Started with the Internet of Things Cuno Pfister O'Reilly Media, 2011, ISBN: 978-1- 4493- 9357- 1."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "IoT Architecture & Design Lab",
+          "subject_code": "155501P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform any 10 experiments from the following list:",
+                "Introduction to IoT Platforms: Setting Up Arduino, Raspberry Pi, and NodeMCU a. Familiarization with hardware, software installation, and basic connectivity.",
+                "Interfacing Ultrasonic Sensor for Distance Measurement Using Arduino, Raspberry Pi, and NodeMCU a. Measure distance and display the data on a serial monitor.",
+                "IoT-Based LED Control Using Arduino, Raspberry Pi, and NodeMCU a. Implement LED control through GPIO pins and cloud-based control.",
+                "Temperature Monitoring and Notification System Using LM35 and NodeMCU a. Measure temperature and send alerts via IoT cloud services.",
+                "Intrusion Detection System Using Ultrasonic Sensor and Arduino a. Detect motion and trigger an alarm for security applications.",
+                "IoT-Based Smart Lighting System Using LDR and Arduino a. Implement an automatic night lamp based on ambient light conditions.",
+                "Air Quality Monitoring Using MQ135 Sensor and IoT Cloud Integration a. Measure pollution levels and display data on an LCD or IoT dashboard.",
+                "Wi-Fi-Based IoT Connectivity: Connecting Arduino to Available Networks a. Establish a Wi-Fi connection and send sensor data to an IoT cloud platform.",
+                "Bluetooth-Based Home Automation Using Arduino and Relay Module a. Control home appliances using a mobile app and Bluetooth module.",
+                "Smart Agriculture: Sensor-Based Monitoring Using NodeMCU. a. Implement soil moisture and environmental sensors for precision farming."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Database Management System",
+          "subject_code": "155502",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction (8 hrs)",
+              "topics": [
+                "Data Abstraction",
+                "Data Independence",
+                "Data Definition Language (DDL)",
+                "Data Manipulation Language (DML)",
+                "Data Models: Entity- Relationship Model",
+                "Network Model",
+                "Relational And Object Oriented Data Models",
+                "Integrity Constraints",
+                "Data Manipulation Operations",
+                "Unit 2.0: Relational Query Languages (10 hrs) Relational Algebra Tuple And Domain Relational Calculus SQL3 DDL And DML Constructs Open Source And Commercial DBMS - MYSQL, ORACLE, DB2, SQL Server Relational Database Design: Domain And Data Dependency Armstrong'S Axioms Normal Forms Dependency Preservation Lossless Design Query Processing And Optimization: Evaluation Of Relational Algebra Expressions Query Equivalence Join Strategies Query Optimization Algorithms",
+                "Relational Algebra",
+                "Tuple And Domain Relational Calculus",
+                "SQL3",
+                "DDL And DML Constructs",
+                "Open Source And Commercial DBMS - MYSQL, ORACLE, DB2, SQL Server",
+                "Relational Database Design: Domain And Data Dependency",
+                "Armstrong'S Axioms",
+                "Normal Forms",
+                "Dependency Preservation",
+                "Lossless Design",
+                "Query Processing And Optimization: Evaluation Of Relational Algebra Expressions",
+                "Query Equivalence",
+                "Join Strategies",
+                "Query Optimization Algorithms"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Storage Strategies (4 hrs)",
+              "topics": [
+                "Indices",
+                "B- Trees",
+                "Hashing"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Transaction Processing (8 hrs)",
+              "topics": [
+                "Concurrency Control",
+                "ACID Property",
+                "Serializability Of Scheduling",
+                "Locking And Timestamp Based Schedulers",
+                "Multi- Version And Optimistic Concurrency Control Schemes",
+                "Database Recovery"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Database Security (6 hrs)",
+              "topics": [
+                "Authentication",
+                "Authorization And Access Control",
+                "DAC, MAC And RBAC Models",
+                "Intrusion Detection",
+                "SQL Injection"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Advanced Topics (6 hrs)",
+              "topics": [
+                "Object Oriented And Object Relational Databases",
+                "Logical Databases",
+                "Web Databases",
+                "Distributed Databases",
+                "Data Warehousing And Data Mining",
+                "\"Database System Concepts\", 6th Edition by Abraham Silberschatz, Henry F. Korth, S. Sudarshan, McGraw- Hill.",
+                "\"Principles of Database and Knowledge - Base Systems\", Vol 1 by J. D. Ullman, Computer Science Press.",
+                "\"Fundamentals of Database Systems\", 5th Edition by R. Elmasri and S. Navathe, Pearson Education",
+                "\"Foundations of Databases\", Reprint by Serge Abiteboul, Richard Hull, Victor Vianu, Addison - Wesley."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Database Management System Lab",
+          "subject_code": "155502P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform any 10 experiments from the following list:",
+                "Student should decide on a case study and formulate the problem statement.",
+                "Conceptual Designing using ER Diagrams (Identifying entities, attributes, keys and relationships between entities, cardinalities, generalization, specialization etc.) Note: Student is required to submit a document by drawing ER Diagram to the Lab teacher.",
+                "Converting ER Model to Relational Model (Represent entities and relationships in Tabular form, Represent attributes as columns, identifying keys) Note: Student is required to submit a document showing the database tables created from ER Model.",
+                "Normalization -To remove the redundancies and anomalies in the above relational tables, Normalize up to Third Normal Form.",
+                "Creation of Tables using SQL-Overview of using SQL tool, Data types in SQL, Creating Tables (along with Primary and Foreign keys), Altering Tables and Dropping Tables.",
+                "Practicing DML commands-Insert, Select, Update, Delete.",
+                "Practicing Queries using ANY, ALL, IN, EXISTS, NOT EXISTS, UNION, INTERSECT, CONSTRAINTS etc.",
+                "Practicing Sub queries (Nested, Correlated) and Joins (Inner, Outer and Equi).",
+                "Practice Queries using COUNT, SUM, AVG, MAX, MIN, GROUP BY, HAVING, VIEWS Creation and Dropping.",
+                "Practicing on Triggers - creation of trigger, Insertion using trigger, Deletion using trigger, Updating using trigger."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Artificial Intelligence",
+          "subject_code": "155503",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction (7 hrs)",
+              "topics": [
+                "Overview",
+                "Turing Test",
+                "Intelligent Agents"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Problem Solving (7 hrs)",
+              "topics": [
+                "Solving Problems By Searching: Uninformed Search - Depth First Search",
+                "Breadth First Search",
+                "DFID",
+                "Heuristic Search - Generate And Test",
+                "Best First Search",
+                "Beam Search",
+                "Hill Climbing",
+                "A*"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Problem Reduction Search & Game Playing (7 hrs)",
+              "topics": [
+                "AND/OR Graphs",
+                "AO*",
+                "Constraint Satisfaction",
+                "Means- Ends Analysis",
+                "Stochastic Search Methods - Simulated Annealing",
+                "Particle Swarm Optimization",
+                "Game Playing - Minimax Algorithm",
+                "Alpha- Beta Pruning"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Knowledge and Reasoning (7 hrs)",
+              "topics": [
+                "Building A Knowledge Base - Propositional Logic",
+                "First Order Logic",
+                "Inference In First Order Logic",
+                "Resolution - Refutation Proofs",
+                "Theorem Proving In First Order Logic",
+                "Planning",
+                "Partial Order Planning",
+                "Uncertain Knowledge And Reasoning",
+                "Probabilities",
+                "Bayesian Networks"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Learning (7 hrs)",
+              "topics": [
+                "Overview Of Different Forms Of Learning: Unsupervised",
+                "Supervised",
+                "Semi- Supervised",
+                "K- Means Clustering Algorithm",
+                "Decision Trees",
+                "Neural Networks",
+                "Deep Learning"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Advanced Topics (7 hrs)",
+              "topics": [
+                "Introduction To Computer Vision",
+                "Natural Language Processing",
+                "Expert Systems",
+                "Robotics",
+                "Genetic Algorithm",
+                "S. Russell and P. Norvig, \"Artificial Intelligence: A Modern Approach,\" Prentice Hall",
+                "E. Rich, K. Knight and S. B. Nair, \"Artificial Intelligence,\" TMH.",
+                "C. Bishop,\"Pattern Recognition and Machine Learning,\" Springer",
+                "D. W. Patterson, \"Introduction to artificial intelligence and expert systems,\" Prentice Hall",
+                "A. C. Staugaard, Jr., \"Robotics and AI: An Introduction to Applied Machine Intelligence,\" Prentice Hall",
+                "I. Bratko, \"Prolog Programming for Artificial Intelligence,\" Addison-Wesley",
+                "S. O. Haykin, \"Neural Networks and Learning Machines,\" Prentice Hall",
+                "D. Jurafsky and J. H. Martin, \"Speech and Language Processing,\" Prentice Hall."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Cryptography and Network Security",
+          "subject_code": "155504",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Security Concepts (7 hrs) Introduction The Need For Security Security Approaches Principles Of Security Types Of Security Attacks Security Services Security Mechanisms A Model For Network Security Cryptography Concepts And Techniques: Introduction Plain Text And Cipher Text Substitution Techniques Transposition Techniques Encryption And Decryption Symmetric And Asymmetric Key Cryptography Stenography Key Range And Key Size Possible Types Of Attacks",
+                "Introduction",
+                "The Need For Security",
+                "Security Approaches",
+                "Principles Of Security",
+                "Types Of Security Attacks",
+                "Security Services",
+                "Security Mechanisms",
+                "A Model For Network Security",
+                "Cryptography Concepts And Techniques: Introduction",
+                "Plain Text And Cipher Text",
+                "Substitution Techniques",
+                "Transposition Techniques",
+                "Encryption And Decryption",
+                "Symmetric And Asymmetric Key Cryptography",
+                "Stenography",
+                "Key Range And Key Size",
+                "Possible Types Of Attacks"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Block Ciphers and Symmetric Key Cryptography (7 hrs)",
+              "topics": [
+                "Symmetric Key Ciphers: Block Cipher Principles- DES",
+                "AES",
+                "Blowfish",
+                "RC5",
+                "International Data Encryption Algorithm (IDEA)",
+                "Block Cipher Operation Modes",
+                "Stream Ciphers - RC4"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Number Theory and Asymmetric Key Cryptography (8 hrs)",
+              "topics": [
+                "Number Theory: Prime And Relatively Prime Numbers",
+                "Modular Arithmetic",
+                "Fermat'S And Euler'S Theorems",
+                "Testing For Primality",
+                "The Chinese Remainder Theorem",
+                "Discrete Logarithms",
+                "Asymmetric Key Ciphers: Principles Of Public Key Cryptosystems",
+                "The RSA Algorithm",
+                "Diffie Hellman Key Exchange",
+                "Elgamal Encryption & Decryption",
+                "Knapsack Algorithm",
+                "Unit 4.0: Cryptographic Hash Functions, Authentication, and Digital Signatures (7 hrs) Cryptographic Hash Functions: Message Authentication Secure Hash Algorithm (SHA- 512) Message Authentication Codes: Authentication Requirements HMAC CMAC Digital Signatures Elgamal Digital Signature Scheme Key Management And Distribution: Symmetric Key Distribution Using Symmetric & Asymmetric Encryption Distribution Of Public Keys Kerberos X.509 Authentication Service Public - Key Infrastructure",
+                "Cryptographic Hash Functions: Message Authentication",
+                "Secure Hash Algorithm (SHA- 512)",
+                "Message Authentication Codes: Authentication Requirements",
+                "HMAC",
+                "CMAC",
+                "Digital Signatures",
+                "Elgamal Digital Signature Scheme",
+                "Key Management And Distribution: Symmetric Key Distribution Using Symmetric & Asymmetric Encryption",
+                "Distribution Of Public Keys",
+                "Kerberos",
+                "X.509 Authentication Service",
+                "Public - Key Infrastructure"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Transport Layer Security and Wireless Network Security (6 hrs)",
+              "topics": [
+                "Transport- Level Security: Web Security Considerations",
+                "Secure Socket Layer And Transport Layer Security",
+                "HTTPS",
+                "Secure Shell (SSH)",
+                "Wireless Network Security: Wireless Security",
+                "Mobile Device Security",
+                "IEEE 802.11 Wireless LAN",
+                "IEEE 802.11I Wireless LAN Security",
+                "Unit 6.0: E- Mail and IP Security: Concepts and Applications (7 hrs) E- Mail Security: Pretty Good Privacy S/MIME IP Security: IP Security Overview IP Security Architecture Authentication Header Encapsulating Security Payload Combining Security Associations Internet Key Exchange Case Studies On Cryptography And Security: Secure Multiparty Calculation Virtual Elections Single Sign On Secure Inter- Branch Payment Transactions Cross Site Scripting Vulnerability",
+                "E- Mail Security: Pretty Good Privacy",
+                "S/MIME",
+                "IP Security: IP Security Overview",
+                "IP Security Architecture",
+                "Authentication Header",
+                "Encapsulating Security Payload",
+                "Combining Security Associations",
+                "Internet Key Exchange",
+                "Case Studies On Cryptography And Security: Secure Multiparty Calculation",
+                "Virtual Elections",
+                "Single Sign On",
+                "Secure Inter- Branch Payment Transactions",
+                "Cross Site Scripting Vulnerability",
+                "Cryptography and Network Security: Principles and Practice William, Stallings, Pearson Education, 8th Edition (2022), ISBN- 13: 978- 1292437480.",
+                "Cryptography and Network Security, Atul Kahate, McGraw Hill Education India Pvt Ltd, 3rd Edition (2017), ISBN- 13: 978- 1259029882.",
+                "Cryptography and Network Security, Behrouz A. Forouzan, McGraw Hill Education, 3rd Edition (2015), ISBN- 13: 978- 0070702080.",
+                "Cryptography and Network Security, C.K. Shyamala, N. Harini, Dr. T.R. Padmanabhan, Wiley India, 1st Edition (2011), ISBN- 13: 978- 8126521793.",
+                "Information Security: Principles and Practice Mark Stamp, Wiley, 2nd Edition (2011), ISBN- 13: 978- 0470626399.",
+                "Principles of Computer Security: CompTIA Security+ and Beyond Wm. Arthur Conklin, Greg White, McGraw Hill Education, 5th Edition (2018), ISBN- 13: 978- 1260026375."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Seminar",
+          "subject_code": "155505",
+          "type": "theory",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Seminar details and topics will be announced by the department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: IoT Communication Protocols [155506]",
+          "subject_code": "155506",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to IoT Communication Protocols (6 hrs)",
+              "topics": [
+                "Overview Of IoT Communication",
+                "Need For Communication Protocols In IoT",
+                "Comparison Of IoT Communication With Traditional Communication",
+                "IoT Communication Stack (OSI & TCP/IP Model In IoT)"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Data Link Layer Protocols in IoT Communication (8 hrs)",
+              "topics": [
+                "Role Of Data Link Layer In IoT",
+                "PHY/MAC Layer (3GPP MTC, IEEE 802.11, IEEE 802.15)",
+                "Wireless HART",
+                "Z- Wave",
+                "Bluetooth Low Energy",
+                "Zigbee Smart Energy",
+                "RFID And NFC",
+                "DASH7"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Addressing and Network Layer Protocols in IoT (7 hrs)",
+              "topics": [
+                "IPv4 Vs. IPv6",
+                "6LoWPAN",
+                "6TiSCH",
+                "ND",
+                "DHCP",
+                "ICMP",
+                "And IoT Routing Protocols (RPL, CORPL, CARP)"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "IoT Transport Layer (8 hrs)",
+              "topics": [
+                "Connection Models",
+                "Protocols",
+                "And Secure Communication: Overview Of Transport Layer In IoT",
+                "Connection- Oriented Vs. Connectionless Protocols",
+                "Transport Protocols Used In IoT: TCP",
+                "MPTCP",
+                "UDP",
+                "DCCP",
+                "SCTP",
+                "Security And Reliability In IoT Transport Layer: TLS",
+                "DTLS"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Session Layer in IoT Communication (7 hrs)",
+              "topics": [
+                "Role Of The Session Layer In IoT Data Exchange",
+                "Key Requirements For IoT Application Protocols (Scalability, Security, Latency)",
+                "Lightweight Protocols Vs Traditional Protocols",
+                "Protocols For IoT Communication: HTTP",
+                "CoAP",
+                "XMPP",
+                "AMQP",
+                "MQTT",
+                "DDS"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "IoT Security & Emerging Communication Trend (6 hrs)",
+              "topics": [
+                "Security Challenges In IoT Communication",
+                "Emerging IoT Communication Technologies: LoRaWAN",
+                "5G And IoT Technologies",
+                "Edge Computing & Fog Networking For IoT Communication",
+                "Internet of Things: Architecture and Design Principles Raj Kamal McGraw Hill; 2nd Edition, (ISBN: 9789390727384).",
+                "IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things, David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton, Jerome Henry, Pearson Education, 1st Edition, (ISBN: 978-1587144561).",
+                "Building the Internet of Things with IPv6 and MIPv6: The Evolving World of M2M Communications, Daniel Minoli, Wiley Publications, 2016, (ISBN: 978-1-118-473474)."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Data Analytics for IoT [155507]",
+          "subject_code": "155507",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to IoT and IoT Analytics (6 hrs)",
+              "topics": [
+                "Introduction To IoT",
+                "Applications",
+                "IoT Architectures And Components",
+                "Fundamental To Analytics",
+                "IoT Analytics Challenges"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "IoT Devices and Networking Protocols (7 hrs)",
+              "topics": [
+                "Overview Of IoT Devices And Sensors",
+                "Basics Of Networking For IoT",
+                "IoT Connectivity Protocols (E.G., Wi- Fi, Bluetooth, Zigbee, LoRaWAN)",
+                "IoT Data Messaging Protocols (MQTT, CoAP, AMQP, Etc.)",
+                "Analyzing Network Data To Infer Device Characteristics"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "IoT Analytics for the Cloud (7 hrs)",
+              "topics": [
+                "Introduction To Elastic Analytics",
+                "Decouple Key Components",
+                "Cloud Security And Analytics",
+                "Designing Data Processing For Analytics",
+                "Applying Big Data Technology To Storage"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Exploring IoT Data (8 hrs)",
+              "topics": [
+                "Exploring And Visualizing IoT Data",
+                "Techniques To Assess Data Quality In IoT",
+                "Preprocessing IoT Data For Analytics",
+                "Basic Time Series Analysis In IoT",
+                "Statistical Analysis For IoT Applications"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Machine Learning and IoT Analytics (7 hrs)",
+              "topics": [
+                "Introduction To Machine Learning For IoT",
+                "Feature Engineering With IoT Data",
+                "Validation Methods In IoT Analytics",
+                "Need Of The Bias- Variance Tradeoff",
+                "Use Cases Of Machine Learning In IoT"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Advanced Topics in IoT Analytics (7 hrs)",
+              "topics": [
+                "Deep Learning Techniques For IoT Analytics",
+                "Predictive Analytics And Anomaly Detection In IoT",
+                "Edge AI And On- Device Analytics",
+                "Ethical Considerations And Challenges In IoT Analytics",
+                "Empowering IoT with Big Data Analytics, Mohamed Adel Serhani, Elsevier, 1st Edition (2024), ISBN: 9780443216404.",
+                "Internet of Things and Data Analytics Handbook, Hwaiyu Geng, Wiley, 1st Edition (2017), ISBN: 97811119173649.",
+                "Innovations in Computational Intelligence, Big Data Analytics, and Internet of Things, Hounding Song, Information Age Publishing, 1st Edition (2023), ISBN: 9781648025281.",
+                "Intelligent Network Design Driven by Big Data Analytics, IoT, AI, and Cloud Computing, D. Jude Hemanth, The Institution of Engineering and Technology, 1st Edition (2023), ISBN: 9781839535338."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Emerging Web Technology [155508]",
+          "subject_code": "155508",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction to Web Development and AI (8 hrs) Overview Of Web Programming: Understanding The Fundamentals Of Web Development - Including Client- Side And Server- Side Scripting Languages Introduction To Artificial Intelligence (AI): Definition, Scope And Applications Of AI In Various Fields Intersection Of Web Development And AI: Exploring How AI Technologies Enhance Web Applications And User Experiences Tools And Technologies: Introduction To Essential Tools And Technologies For Web Development And AI Integration",
+                "Overview Of Web Programming: Understanding The Fundamentals Of Web Development - Including Client- Side And Server- Side Scripting Languages",
+                "Introduction To Artificial Intelligence (AI): Definition, Scope And Applications Of AI In Various Fields",
+                "Intersection Of Web Development And AI: Exploring How AI Technologies Enhance Web Applications And User Experiences",
+                "Tools And Technologies: Introduction To Essential Tools And Technologies For Web Development And AI Integration",
+                "Unit 2.0: Front end Development and AI Integration (8 hrs) What Is HTML: History, HTML Documents - Basic Structure - Creating An HTML Document - Features And Limitations - Mark Up Tags - Heading- Paragraphs - Line Breaks - HTML Tags - Formatting Tags Introduction To Elements Of HTML - Working With Text Working With Lists, Tables And Frames - Working With Hyperlinks - Images - Image Format (Quality, Size, Type, ...) - Importing Images (Scanners) - Working With Forms And Controls Responsive Web Design: Techniques For Creating Web Applications That Adapt To Different Screen Sizes And Devices Introduction To AI Libraries And APIs: Overview Of Popular AI Libraries And APIs For Frontend Integration",
+                "What Is HTML: History, HTML Documents - Basic Structure - Creating An HTML Document - Features And Limitations - Mark Up Tags - Heading- Paragraphs - Line Breaks - HTML Tags - Formatting Tags",
+                "Introduction To Elements Of HTML - Working With Text",
+                "Working With Lists, Tables And Frames - Working With Hyperlinks - Images - Image Format (Quality, Size, Type, ...) - Importing Images (Scanners) - Working With Forms And Controls",
+                "Responsive Web Design: Techniques For Creating Web Applications That Adapt To Different Screen Sizes And Devices",
+                "Introduction To AI Libraries And APIs: Overview Of Popular AI Libraries And APIs For Frontend Integration",
+                "Unit 3.0: Introduction to Cascading Style Sheets (8 hrs) Concept Of CSS - Creating Style Sheet, CSS Properties - CSS Styling (Background, Text Format, Controlling Fonts) - Working With Block Elements And Objects - Working With Lists And Tables - CSS Id And Class Box Model (Introduction, Border Properties, Padding Properties, Margin Properties) - CSS Advanced (Grouping, Dimension, Display, Positioning - Floating, Align, Pseudo Class - Navigation Bar - Image Sprites - Attribute Sector) - CSS Color - Creating Page Layout And Site Designs",
+                "Concept Of CSS - Creating Style Sheet, CSS Properties - CSS Styling (Background, Text Format, Controlling Fonts) - Working With Block Elements And Objects - Working With Lists And Tables - CSS Id And Class Box Model (Introduction, Border Properties, Padding Properties, Margin Properties) - CSS Advanced (Grouping, Dimension, Display, Positioning - Floating, Align, Pseudo Class - Navigation Bar - Image Sprites - Attribute Sector) - CSS Color - Creating Page Layout And Site Designs",
+                "Unit 4.0: Introduction to Web Publishing, Multimedia and Hosting (6 hrs) Creating The Web Site - Saving The Site Working On The Web Site - Creating Web Site Structure - Creating Titles For Web Pages Themes - Publishing Web Sites - Inserting Audio Files - Video Files And Acceptable Formats (MPEG, Quick Time - Video For Windows) Inserting Video Files - Screen Control Attributes (WIDTH, HEIGHT, ALIGN) - Start Control Attributes (START, FILEOPEN, LOOP, LOOPDELAY, And MOUSEOVER) - Basic Concepts Of Images: Digital Images And Digital Image Representation - Image Formats: TIFF, BMP, JPG/JPEG, GIF, And PIC.PDF Hosting Basics - Types Of Hosting",
+                "Creating The Web Site - Saving The Site Working On The Web Site - Creating Web Site Structure - Creating Titles For Web Pages Themes - Publishing Web Sites - Inserting Audio Files - Video Files And Acceptable Formats (MPEG, Quick Time - Video For Windows)",
+                "Inserting Video Files - Screen Control Attributes (WIDTH, HEIGHT, ALIGN) - Start Control Attributes (START, FILEOPEN, LOOP, LOOPDELAY, And MOUSEOVER) - Basic Concepts Of Images: Digital Images And Digital Image Representation - Image Formats: TIFF, BMP, JPG/JPEG, GIF, And PIC.PDF",
+                "Hosting Basics - Types Of Hosting"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Introduction to React and core concept (6 hrs)",
+              "topics": [
+                "Overview",
+                "JSX",
+                "And React Components",
+                "Props",
+                "State",
+                "And Component Lifecycle Methods"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "React Router, State Management, Hooks (6 hrs)",
+              "topics": [
+                "Navigation And Routing In Single- Page Applications",
+                "Context API And Redux For Global State",
+                "Use State",
+                "Use Effect",
+                "And Custom Hooks",
+                "\"Building Intelligent Web Applications: How to Get Started with Artificial Intelligence- Driven Web Applications\" by Mark Watson (Year: 2019)",
+                "Web Development with Artificial Intelligence\" by Ibrahim Naji (Year: 2020)",
+                "\"Learning React: Functional Web Development with React and Redux\" by Alex Banks and Eve Porcello",
+                "\"React Design Patterns and Best Practices\" by Carlos Santana Roldán",
+                "AI for Web Development: Leverage the Power of Machine Learning and Deep Learning to Build Smart Web Applications\" by Sandeep Kumar Patel (Year: 2019)",
+                "\"Full stack React: The Complete Guide to ReactJS and Friends\" by Accomazzo, Murray, and Lerner."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Mathematical Foundation for IoT [155509]",
+          "subject_code": "155509",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Mathematical Logic and Set Theory (7 hrs)",
+              "topics": [
+                "Propositional Logic: Statements",
+                "Connectives",
+                "Well- Formed Formulas",
+                "Truth Tables",
+                "Tautologies Normal Forms",
+                "Predicate Logic: Quantifiers",
+                "Free And Bound Variables",
+                "Inference Theory",
+                "Set Theory: Operations On Sets",
+                "Principle Of Inclusion- Exclusion",
+                "Relations (Equivalence, Partial Ordering)",
+                "Hasse Diagrams"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Number Theory and Algebraic Structures (7 hrs)",
+              "topics": [
+                "Number Theory: Congruences",
+                "Modular Arithmetic",
+                "Fermat'S Theorem",
+                "Euler'S Theorem",
+                "Chinese Remainder Theorem",
+                "Algebraic Structures: Groups",
+                "Subgroups",
+                "Cosets",
+                "Normal Subgroups",
+                "Lagrange'S Theorem",
+                "Rings",
+                "Fields",
+                "Homomorphism & Isomorphism"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Probability and Statistics for IoT (7 hrs)",
+              "topics": [
+                "Counting Principles: Permutations And Combinations",
+                "Binomial Theorem",
+                "Probability: Conditional Probability",
+                "Bayes' Theorem",
+                "Random Variables: Discrete & Continuous",
+                "Expectation",
+                "Variance",
+                "Distributions: Binomial",
+                "Poisson",
+                "Normal Distributions",
+                "Moment Generating Functions",
+                "Inequalities: Markov'S And Chebyshev'S Inequalities"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Graph Theory and Network Structures (7 hrs)",
+              "topics": [
+                "Graph Basics: Eulerian & Hamiltonian Graphs",
+                "Adjacency & Incidence Matrices",
+                "Graph Traversals: BFS",
+                "DFS",
+                "Shortest Path (Dijkstra'S, Floyd- Warshall)",
+                "Graph Coloring & Covering: Chromatic Number",
+                "Planar Graphs",
+                "Kuratowski'S Theorem",
+                "Trees: Spanning Trees",
+                "Prim'S & Kruskal'S Algorithms",
+                "Weighted Trees",
+                "Max- Flow Min- Cut Theorem"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Recurrence Relations and Generating Functions (7 hrs)",
+              "topics": [
+                "Recurrence Relations: Generating Functions",
+                "Function Of Sequences",
+                "Partial Fractions",
+                "Calculating Coefficient Of Generating Functions",
+                "Solving Homogeneous & Non- Homogeneous Recurrence Relations"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Linear Algebra for IoT and Data Analysis (7 hrs)",
+              "topics": [
+                "Vector Spaces: Basis",
+                "Dimension",
+                "Linear Transformations",
+                "Matrices: Rank",
+                "Determinants",
+                "Inverse",
+                "Eigenvalues & Eigenvectors",
+                "Orthogonality: Gram- Schmidt Process",
+                "QR Factorization",
+                "Applications In IoT: PCA For Data Reduction",
+                "SVD For Signal Processing",
+                "Learning Techniques for the Internet of Things, Praveen Kumar Donta, Abhishek Hazra, Lauri Lovén, Springer; 1st Edition, ISBN- 13: 978- 3031505133",
+                "Mathematical Foundations of Computing, American Institute of Mathematical Sciences."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Software Engineering [155510]",
+          "subject_code": "155510",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction (8 hrs) What Is Software Engineering And Its History Software Crisis Evolution Of A Programming System Product Characteristics Of Software Brooks' No Silver Bullet And Software Myths Software Development Life Cycles: Software Development Process The Code- And- Fix Model The Waterfall Model The Evolutionary Model The Incremental Implementation Prototyping The Spiral Model Software Reuse Critical Comparisons Of SDLC Models An Introduction To Non- Traditional Software Development Process: Rational Unified Process Rapid Application Development Agile Development Process",
+                "What Is Software Engineering And Its History",
+                "Software Crisis",
+                "Evolution Of A Programming System Product",
+                "Characteristics Of Software",
+                "Brooks' No Silver Bullet",
+                "And Software Myths",
+                "Software Development Life Cycles: Software Development Process",
+                "The Code- And- Fix Model",
+                "The Waterfall Model",
+                "The Evolutionary Model",
+                "The Incremental Implementation",
+                "Prototyping",
+                "The Spiral Model",
+                "Software Reuse",
+                "Critical Comparisons Of SDLC Models",
+                "An Introduction To Non- Traditional Software Development Process: Rational Unified Process",
+                "Rapid Application Development",
+                "Agile Development Process",
+                "Unit 2.0: Requirements (8 hrs) Importance Of Requirement Analysis User Needs Software Features And Software Requirements Classes Of User Requirements: Enduring And Volatile Sub Phases Of Requirement Analysis Functional And Nonfunctional Requirements Barriers To Eliciting User Requirements The Software Requirements Document And SRS Standards Requirements Engineering Case Study Of SRS For A Real Time System Tools For Requirements Gathering: Document Flow Chart Decision Table Decision Tree Introduction To Nontraditional Requirements",
+                "Importance Of Requirement Analysis",
+                "User Needs",
+                "Software Features And Software Requirements",
+                "Classes Of User Requirements: Enduring And Volatile",
+                "Sub Phases Of Requirement Analysis",
+                "Functional And Nonfunctional Requirements",
+                "Barriers To Eliciting User Requirements",
+                "The Software Requirements Document And SRS Standards",
+                "Requirements Engineering",
+                "Case Study Of SRS For A Real Time System",
+                "Tools For Requirements Gathering: Document Flow Chart",
+                "Decision Table",
+                "Decision Tree",
+                "Introduction To Nontraditional Requirements"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Software Design (6 hrs)",
+              "topics": [
+                "Goals Of Good Software Design",
+                "Design Strategies And Methodologies",
+                "Data Oriented Software Design",
+                "Coupling",
+                "Cohesion",
+                "Modular Structure",
+                "Packaging",
+                "Structured Analysis: DFD",
+                "Data Dictionary",
+                "Structured Design: Structure Chart",
+                "Object Oriented Design",
+                "Top- Down And Bottom- Up Approach",
+                "UML",
+                "UML Diagrams",
+                "Design Patterns",
+                "Unit 4.0: Software Project Management (6 hrs) Overview Of Project Manager Responsibilities & Project Planning Software Measurement And Metrics: Line Of Code (LOC) Function Point (FP) Based Measures Various Size Oriented Measures: Halstead'S Software Science Project Size Estimation Metrics Project Estimation Techniques COCOMO Staffing Level Estimation Scheduling Organization & Team Structures Staffing Risk Management",
+                "Overview Of Project Manager Responsibilities & Project Planning",
+                "Software Measurement And Metrics: Line Of Code (LOC)",
+                "Function Point (FP) Based Measures",
+                "Various Size Oriented Measures: Halstead'S Software Science",
+                "Project Size Estimation Metrics Project Estimation",
+                "Techniques",
+                "COCOMO",
+                "Staffing Level Estimation",
+                "Scheduling",
+                "Organization & Team Structures Staffing",
+                "Risk Management",
+                "Unit 5.0: Software Coding & Testing (7 hrs) Development: Selecting A Language Coding Guidelines Writing Code Code Documentation Testing Process Design Of Test Cases Functional Testing: Boundary Value Analysis Equivalence Class Testing Decision Table Testing Cause Effect Graphing Structural Testing Cyclomatic Complexity Measures: Control Flow Graphs Path Testing Data Flow And Mutation Testing Unit Testing Integration And System Testing Debugging Alpha & Beta Testing Testing Tools & Standards",
+                "Development: Selecting A Language",
+                "Coding Guidelines",
+                "Writing Code",
+                "Code Documentation",
+                "Testing Process",
+                "Design Of Test Cases",
+                "Functional Testing: Boundary Value Analysis",
+                "Equivalence Class Testing",
+                "Decision Table Testing",
+                "Cause Effect Graphing",
+                "Structural Testing",
+                "Cyclomatic Complexity Measures: Control Flow Graphs",
+                "Path Testing",
+                "Data Flow And Mutation Testing",
+                "Unit Testing",
+                "Integration And System Testing",
+                "Debugging",
+                "Alpha & Beta Testing",
+                "Testing Tools & Standards"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Software Maintenance (7 hrs)",
+              "topics": [
+                "Management Of Maintenance",
+                "Maintenance Process",
+                "Maintenance Models",
+                "Regression Testing",
+                "Reverse Engineering",
+                "Software Reengineering",
+                "Configuration Management",
+                "Documentation",
+                "Software Reliability & Quality Management: Introduction To Reliability And Metrics To Reliability Measure",
+                "Overview Of S/W Quality Management System ISO 9000",
+                "SEI CMM",
+                "Software Engineering: A Practitioner's Approach, R. S. Pressman, McGraw Hill",
+                "Fundamental of Software Engg. By Rajib Mall 4th edition PHI",
+                "A Concise Introduction to Software Engineering By Pankaj Jalote.",
+                "Zero Defect Software, G. G. Schulmeyer, McGraw-Hill",
+                "Object Oriented Modeling and Design, J. Rumbaugh, Prentice Hall",
+                "Software Engineering, K.K. Aggarwal, Yogesh Singh, New Age International Publishers"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Summer Entrepreneurship-II",
+          "subject_code": "155511P",
+          "type": "lab",
+          "credits": 6,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "6 weeks entrepreneurship training/project work. Details to be announced."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "NPTEL Course",
+          "subject_code": "155512P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "NPTEL course of 4 credits. Details to be announced by the department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective-I",
+          "subject_code": "1555XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Professional Practice, Law & Ethics",
+          "subject_code": "prof-practice",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Syllabus to be provided by the department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "subjects": [
+        {
+          "subject_name": "Machine Learning",
+          "subject_code": "155601",
+          "type": "theory",
+          "credits": 4,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction",
+              "topics": [
+                "Basic definitions",
+                "Linear Algebra",
+                "Statistical learning theory",
+                "Types of learning",
+                "Hypothesis space and Inductive bias",
+                "Evaluation and cross validation",
+                "Optimization"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Statistical Decision Theory and Bayesian Learning Statistical Decision Theory Bayesian",
+              "topics": [
+                "Statistical Decision Theory",
+                "Bayesian Learning (ML, MAP, Bayes estimates, Conjugate priors)",
+                "Linear Regression",
+                "Ridge Regression",
+                "Lasso",
+                "Principal Component Analysis",
+                "Partial Least Squares"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Linear Classification and Advanced Methods Linear Classification Logistic Regression Linear",
+              "topics": [
+                "Linear Classification",
+                "Logistic Regression",
+                "Linear Discriminant Analysis",
+                "Quadratic Discriminant Analysis",
+                "Perceptron",
+                "Support Vector Machines + Kernels",
+                "Artificial Neural Networks + Back Propagation",
+                "Decision Trees",
+                "Bayes Optimal Classifier",
+                "Naive Bayes"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Hypothesis Testing and Ensemble Methods",
+              "topics": [
+                "Hypothesis testing",
+                "Ensemble Methods",
+                "Bagging",
+                "Adaboost",
+                "Gradient Boosting"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Clustering Clustering K-means K-medoids Density-based Hierarchical Spectral",
+              "topics": [
+                "Clustering",
+                "K-means",
+                "K-medoids",
+                "Density-based Hierarchical",
+                "Spectral"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Advanced Topics",
+              "topics": [
+                "Expectation Maximization",
+                "GMMs",
+                "Learning theory",
+                "Intro to Reinforcement Learning",
+                "Bayesian Networks",
+                "Machine Learning. Tom Mitchell. First Edition, McGraw- Hill, 1997",
+                "Introduction to Machine Learning Edition 2, by Ethem Alpaydin",
+                "J. Shavlik and T. Dietterich (Ed), Readings in Machine Learning, Morgan Kaufmann, 1990",
+                "P. Langley, Elements of Machine Learning, Morgan Kaufmann, 1995",
+                "Understanding Machine Learning. Shai Shalev- Shwartz and Shai Ben- David. Cambridge University Press. 2017",
+                "The Elements of Statistical Learning. Trevor Hastie, Robert Tibshirani and Jerome Friedman. Second Edition. 2009"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Machine Learning Lab",
+          "subject_code": "155601P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform all experiments:",
+                "Experiment 1: a) Implementation of Python Basic Libraries such as Statistics, Math, Numpy and Scipy. b) Implementation of Python Libraries for ML application such as Pandas and Matplotlib.",
+                "Experiment 2: a) Creation and Loading different datasets in Python. b) Write a python program to compute Mean, Median, Mode, Variance, Standard Deviation using Datasets.",
+                "Experiment 3: a) Write a python program to compute reshaping the data, Filtering the data, merging the data and handling the missing values in datasets.",
+                "Experiment 4: a) Write a Python program to implement Simple Linear Regression and plot the graph. b) Implementation of Multiple Linear Regression for House Price Prediction using sklearn.",
+                "Experiment 5: Implementation of Logistic Regression for iris using sklearn.",
+                "Experiment 6: Implementation of random forest algorithm.",
+                "Experiment 7: Implementation of naive bayes classifier algorithm and plot the graph.",
+                "Experiment 8: Implementation of SVM classification and plot the graph.",
+                "Experiment 9: a) Implementation of PCA. b) Implementation of LDA.",
+                "Experiment 10: a) Implementation of k-means clustering. b) Implementation of hierarchical clustering."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Computer Networks",
+          "subject_code": "155602",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Data Communication Components",
+              "topics": [
+                "Representation of Data and its Flow Networks",
+                "Various Connection Topology",
+                "Protocols and Standards",
+                "OSI model",
+                "Transmission Media",
+                "LAN: Wired LAN",
+                "Wireless LANs",
+                "Connecting LAN and Virtual LAN"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Techniques for Bandwidth Utilization",
+              "topics": [
+                "Multiplexing - Frequency division, Time division and Wave division",
+                "Concepts on spread spectrum"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Data Link Layer and Medium Access Sub Layer",
+              "topics": [
+                "Error Detection and Error Correction - Fundamentals",
+                "Block coding",
+                "Hamming Distance",
+                "CRC",
+                "Flow Control and Error control protocols - Stop and Wait",
+                "Go back - N ARQ",
+                "Selective Repeat ARQ",
+                "Sliding Window",
+                "Piggybacking",
+                "Random Access",
+                "Multiple access protocols - Pure ALOHA, Slotted ALOHA, CSMA/CD, CDMA/CA"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Network Layer",
+              "topics": [
+                "Switching",
+                "Logical addressing - IPV4, IPV6",
+                "Address mapping - ARP, RARP, BOOTP and DHCP",
+                "Delivery, Forwarding and Unicast Routing protocols"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Transport Layer",
+              "topics": [
+                "Process to Process Communication",
+                "User Datagram Protocol (UDP)",
+                "Transmission Control Protocol (TCP)",
+                "SCTP Congestion Control",
+                "Quality of Service",
+                "QoS improving techniques: Leaky Bucket and Token Bucket algorithm"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Application Layer",
+              "topics": [
+                "Domain Name Space (DNS)",
+                "DDNS",
+                "TELNET",
+                "EMAIL",
+                "File Transfer Protocol (FTP)",
+                "WWW",
+                "HTTP",
+                "SNMP",
+                "Bluetooth",
+                "Firewalls",
+                "Basic concepts of Cryptography",
+                "Data Communication and Networking, 4th Edition, Behrouz A. Forouzan, McGraw-Hill",
+                "Data and Computer Communication, 8th Edition, William Stallings, Pearson Prentice Hall India",
+                "Computer Networks, 8th Edition, Andrew S. Tanenbaum, Pearson New International Edition",
+                "Internetworking with TCP/IP, Volume 1, 6th Edition Douglas Comer, Prentice Hall of India",
+                "TCP/IP Illustrated, Volume 1, W. Richard Stevens, Addison-Wesley, United States of America"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Ad hoc & Sensor Networks",
+          "subject_code": "155603",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Ad Hoc and Sensor Networks",
+              "topics": [
+                "Characteristics of ad hoc wireless networks",
+                "Applications of ad hoc networks",
+                "Challenges in ad hoc networks",
+                "Wireless sensor networks (WSN) - Characteristics and applications",
+                "Design issues in WSN",
+                "Sensor network architecture - Layered architecture, Cross- layer design"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "MAC Protocols for Ad Hoc and Sensor Networks",
+              "topics": [
+                "Fundamentals of MAC design",
+                "Issues in designing MAC protocols",
+                "MAC protocols for ad hoc networks - Contention- based protocols (Aloha, CSMA, MACA, MACAW)",
+                "Scheduling- based MAC protocols",
+                "MAC protocols for WSN - S- MAC, T- MAC, B- MAC, X- MAC",
+                "Energy- efficient MAC protocols"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Routing Protocols in Ad Hoc and Sensor Networks",
+              "topics": [
+                "Challenges in routing",
+                "Proactive vs. Reactive routing",
+                "Ad hoc routing protocols - AODV, DSR, DSDV, OLSR",
+                "Hybrid routing (ZRP)",
+                "Hierarchical routing",
+                "Geographic routing",
+                "Routing protocols for WSN - Flooding, SPIN, LEACH, TEEN, Directed diffusion",
+                "Geographic and Energy- Aware Routing (GEAR)"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Transport and Energy Management in Wireless Sensor Networks",
+              "topics": [
+                "Issues in transport protocols",
+                "TCP over ad hoc networks",
+                "Transport protocols for WSN - CODA, RMST, PSFQ, ESRT",
+                "Energy- efficient routing in WSN",
+                "Data aggregation",
+                "Clustering techniques for WSN",
+                "Energy harvesting in sensor networks",
+                "Sleep- wake scheduling algorithms"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Localization, Synchronization, and Data Dissemination in WSN",
+              "topics": [
+                "Localization techniques - GPS- based localization",
+                "Range- based localization (RSSI, TOA, TDOA, AOA)",
+                "Range- free localization (Centroid, DV- Hop, APIT)",
+                "Time synchronization in WSN - RBS, TPSN",
+                "Data dissemination and query processing in WSN",
+                "Mobile sink- based data collection",
+                "Unit 6.0: Security and Emerging Trends in Ad Hoc and Sensor Networks Security issues in ad hoc and sensor networks Attack models - Eavesdropping, Sybil attack, Blackhole, Wormhole Intrusion detection in WSN Secure routing in ad hoc networks Privacy- preserving techniques Emerging trends - Mobile ad hoc networks (MANETs), Vehicular ad hoc networks (VANETs) Cognitive radio sensor networks (CRSN) AI/ML applications in WSN",
+                "Security issues in ad hoc and sensor networks",
+                "Attack models - Eavesdropping, Sybil attack, Blackhole, Wormhole",
+                "Intrusion detection in WSN",
+                "Secure routing in ad hoc networks",
+                "Privacy- preserving techniques",
+                "Emerging trends - Mobile ad hoc networks (MANETs), Vehicular ad hoc networks (VANETs)",
+                "Cognitive radio sensor networks (CRSN)",
+                "AI/ML applications in WSN",
+                "C. Siva Ram Murthy, B.S. Manoj, Ad Hoc Wireless Networks: Architectures and Protocols, Pearson, 2004",
+                "Feng Zhao, Leonidas Guibas, Wireless Sensor Networks: An Information Processing Approach, Elsevier, 2004",
+                "Holger Karl, Andreas Willig, Protocols and Architectures for Wireless Sensor Networks, Wiley, 2005",
+                "C. K. Toh, Ad Hoc Mobile Wireless Networks: Protocols and Systems, Pearson, 2002",
+                "Edgar H. Callaway, Wireless Sensor Networks: Architectures and Protocols, CRC Press, 2003",
+                "Thomas Haenselmann, Wireless Sensor Networks: Design Principles for Scalable Distributed Systems, Springer, 2007",
+                "Kazem Sohraby, Daniel Minoli, Taieb Znati, Wireless Sensor Networks: Technology, Protocols, and Applications, Wiley, 2007"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Ad hoc & Sensor Networks Lab",
+          "subject_code": "155603P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform all experiments:",
+                "Experiment 1: Introduction to Wireless Network Simulation Overview of NS2/NS3, MATLAB, and OMNeT++ for ad hoc and sensor networks. Understanding network topology setup and performance analysis metrics.",
+                "Experiment 2: Simulation of Ad Hoc Routing Protocols Implement and analyze AODV, DSR, and DSDV routing protocols. Compare throughput, end-to-end delay, and packet delivery ratio.",
+                "Experiment 3: MAC Protocol Implementation for Ad Hoc Networks Implement and analyze contention-based MAC protocols (CSMA, MACA, MACAW). Study the impact of collision avoidance techniques in wireless communication.",
+                "Experiment 4: Energy-Efficient Routing in Wireless Sensor Networks (WSN) Implement LEACH (Low-Energy Adaptive Clustering Hierarchy) protocol. Compare energy consumption and network lifetime.",
+                "Experiment 5: Localization Techniques in WSN Implement range-based (RSSI, TOA, TDOA) and range-free (DV-Hop, Centroid) localization algorithms. Evaluate accuracy and error rates in node positioning.",
+                "Experiment 6: Time Synchronization in WSN Implement RBS (Reference Broadcast Synchronization) and TPSN (Timing-sync Protocol for Sensor Networks). Analyze clock drift and synchronization accuracy.",
+                "Experiment 7: Data Aggregation in WSN Implement data aggregation techniques using clustering methods. Compare efficiency in terms of energy saving and data redundancy.",
+                "Experiment 8: Security Attacks in Ad Hoc and Sensor Networks Simulate wormhole, blackhole, and Sybil attacks in NS2/NS3. Implement countermeasures for secure routing.",
+                "Experiment 9: QoS-Based Routing in Ad Hoc Networks Implement QoS-aware routing using bandwidth and delay constraints. Analyze performance trade-offs between QoS metrics.",
+                "Experiment 10: Performance Evaluation of Sleep-Wake Scheduling Algorithms Implement duty-cycle-based sleep-wake scheduling algorithms. Compare energy efficiency and network lifetime improvement."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "AI and Ethics",
+          "subject_code": "155604",
+          "type": "theory",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction",
+              "topics": [
+                "Definition of morality and ethics in AI",
+                "AI, and society"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Impact of AI",
+              "topics": [
+                "Impact on society",
+                "Impact on human psychology",
+                "Impact on the legal system",
+                "Impact on the environment and the planet",
+                "Impact on trust"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Ethical Initiatives in AI",
+              "topics": [
+                "International ethical initiatives",
+                "Ethical harms, and concerns",
+                "Case study: healthcare robots",
+                "Autonomous Vehicles",
+                "Warfare, and weaponization"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "AI Standards And Regulation",
+              "topics": [
+                "Model Process for Addressing Ethical Concerns During System Design",
+                "Transparency of Autonomous Systems",
+                "Data Privacy Process",
+                "Algorithmic Bias Considerations",
+                "Ontological Standard for Ethically Driven Robotics and Automation Systems"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Rob ethics: Social and Ethical Implication of Robotics",
+              "topics": [
+                "Robotics- Ethics and Morality",
+                "Moral Theories- Ethics in Science and Technology",
+                "Ethical Issues in an ICT Society",
+                "Harmonization of Principles",
+                "Ethics and Professional Responsibility",
+                "Robotics Taxonomy"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Challenges and Opportunities",
+              "topics": [
+                "Ethical issues in artificial intelligence",
+                "Societal Issues Concerning the Application of Artificial Intelligence in Medicine",
+                "Decision- making role in industries",
+                "National and International Strategies on AI",
+                "Eleanor Bird, Jasmin Fox-Skelly, Nicola Jenner, Ruth Larvey, Emma Weitkamp and Alan Winfield,\" The ethics of artificial intelligence: Issues and initiatives\", EPRS | European Parliamentary Research Service Scientific Foresight Unit (STOA) PE 634.452- March 2020",
+                "Patrick Lin, Keith Abney, George A Bekey,\" Robot Ethics: The Ethical and Social Implications of Robotics\", The MIT Press- January 2014",
+                "Towards a Code of Ethics for Artificial Intelligence (Artificial Intelligence: Foundations, Theory, and Algorithms) by Paula Boddington, November 2017",
+                "Mark Coeckelbergh,\" AI Ethics\", The MIT Press Essential Knowledge series, April 2020"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Constitution of India",
+          "subject_code": "155605",
+          "type": "theory",
+          "credits": 0,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Meaning of the constitution law and constitutionalism",
+              "topics": [
+                "Historical perspective of the Constitution of India",
+                "Salient features and characteristics of the Constitution of India"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Scheme of the fundamental rights",
+              "topics": [
+                "The scheme of the Fundamental Duties and its legal status",
+                "The Directive Principles of State Policy – Its importance and implementation"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Federal structure and distribution of legislative and financial powers between",
+              "topics": [
+                "Parliamentary Form of Government in India – The constitution powers and status of the President of India"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Amendment of the Constitutional Powers and Procedure",
+              "topics": [
+                "The historical perspectives of the constitutional amendments in India"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Emergency Provisions",
+              "topics": [
+                "National Emergency",
+                "President Rule",
+                "Financial Emergency",
+                "Local Self Government – Constitutional Scheme in India"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Scheme of the Fundamental Right to Equality",
+              "topics": [
+                "Scheme of the Fundamental Right to certain Freedom under Article 19",
+                "Scope of the Right to Life and Personal Liberty under Article 21",
+                "\"Constitution of India\" (for Competitive Exams) - Published by Naidhruva Edutech Learning Solutions, Bengaluru. - 2022",
+                "\"Introduction to the Constitution of India\", (Students Edition.) by Durga Das Basu (DD Basu): Prentice -Hall, 2008",
+                "\"Constitution of India, Professional Ethics and Human Rights\" by Shubham Singles, Charles E. Haries, and et al: published by Cengage Learning India, Latest Edition - 2019",
+                "\"The Constitution of India\" by Merunandan K B: published by Merugu Publication, Second Edition, Bengaluru",
+                "\"Samvidhana Odu\" - for Students & Youths by Justice HN Nagamohan Dhas, Sahayana, kerekon",
+                "M.Govindarajan, S.Natarajan, V.S.Senthilkumar, \"Engineering Ethics\", Prentice -Hall, 2004"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "NPTEL Course",
+          "subject_code": "155605P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Details for NPTEL Course will be provided by the department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Mobile and Wireless Computing for IoT [155607]",
+          "subject_code": "155607",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Wireless Networks",
+              "topics": [
+                "Fundamentals of Wireless Communication: Applications, History, Transmission, Frequencies, Signals, Antennas",
+                "Signal Propagation, Multiplexing, Modulation, Spread Spectrum, Cellular Systems"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Medium Access Control & Telecommunication Systems",
+              "topics": [
+                "MAC Protocols: SDMA, FDMA, TDMA, CDMA",
+                "Telecommunication Systems: GSM, DECT, TETRA, UMTS, IMT-2000, Introduction to LTE (4G)"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Wireless LANs and PANs",
+              "topics": [
+                "Wireless LAN and PAN: IEEE 802.11 standards, Infrared vs. Radio, Infrastructure vs. Ad hoc Networks, HIPERLAN, Bluetooth, ZigBee, IoT Wireless Standards, Overview of 5G"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Mobile Network Layer",
+              "topics": [
+                "Mobile Network Layer: Mobile IP, DHCP, Routing in Adhoc Networks (DSDV, DSR, AODV)",
+                "Mobile TCP variants, Fast Retransmit, Time-out Freezing, Selective Retransmission"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Mobility Management and Applications",
+              "topics": [
+                "Mobility Management and Applications: Handoffs, File Systems, Wireless Application Protocol (WAP), Mobile OS (Android/iOS)",
+                "Case Studies - Mobile Banking, M- commerce, Location- Based Services"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Emerging Trends in Wireless & Mobile Computing",
+              "topics": [
+                "Emerging Trends: 5G and Beyond, Network Slicing, Massive MIMO, IoT and Wireless Sensor Networks (WSN), LoRa, NB- IoT, Sigfox, Edge Computing, 6G Concepts",
+                "Mobile Communications Jochen Schiller Pearson / Addison-Wesley, 2nd Ed., 2003. ISBN: 978-0321123817",
+                "Wireless Communications & Networks, William Stallings, Pearson, 2nd Ed., 2014 (Int'l Adaptation). Print ISBN: 978-1292027388",
+                "Mobile Computing: Technology, Applications, and Service Creation, Asoke K. Talukder, Hasan Ahmed, Roopa Yavagal, McGraw-Hill Education India, Reprint 2011 (orig. 2006). Print ISBN: 978-0070144576"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Natural Language Processing [155608]",
+          "subject_code": "155608",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Sound",
+              "topics": [
+                "Biology of Speech Processing",
+                "Place and Manner of Articulation",
+                "Word Boundary Detection",
+                "Argmax based computations",
+                "HMM and Speech Recognition"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Words and Word Forms",
+              "topics": [
+                "Morphology fundamentals",
+                "Morphological Diversity of Indian Languages",
+                "Morphology Paradigms",
+                "Finite State Machine Based Morphology",
+                "Automatic Morphology Learning",
+                "Shallow Parsing",
+                "Named Entities",
+                "Maximum Entropy Models",
+                "Random Fields"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Structures",
+              "topics": [
+                "Theories of Parsing",
+                "Parsing Algorithms",
+                "Robust and Scalable Parsing on Noisy Text as in Web documents"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Hybrid of Rule Based and Probabilistic Parsing",
+              "topics": [
+                "Scope Ambiguity and Attachment Ambiguity resolution"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Meaning",
+              "topics": [
+                "Lexical Knowledge Networks, Wordnet Theory",
+                "Indian Language Wordnets and Multilingual Dictionaries",
+                "Semantic Roles",
+                "Word Sense Disambiguation",
+                "WSD and Multilinguality",
+                "Metaphors",
+                "Coreferences"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Web 2.0 Applications",
+              "topics": [
+                "Sentiment Analysis",
+                "Text Entailment",
+                "Robust and Scalable Machine Translation",
+                "Question Answering in Multilingual Setting",
+                "Cross Lingual Information Retrieval (CLIR)",
+                "Jurafsky, Dan and Martin, James, \"Speech and Language Processing\", 2nd Edition, Prentice Hall, 2008",
+                "Manning, Christopher and Heinrich, Schutze, \"Foundations of Statistical Natural Language Processing\", MIT Press, 1999",
+                "Allen James, \"Natural Language Understanding\", 2nd edition, Benjamin Cumming, 1995",
+                "Charniak, Eugene, \"Statistical Language Learning\", MIT Press, 1993"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Introduction to Industry 4.0 [155609]",
+          "subject_code": "155609",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Industry 4.0",
+              "topics": [
+                "Sensing & Actuation",
+                "Industry 4.0: Globalization and Emerging Issues",
+                "The Fourth Revolution",
+                "LEAN Production Systems",
+                "Smart and Connected business perspective"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Cyber Physical Systems & Emerging Technologies Cyber Physical Systems Next",
+              "topics": [
+                "Cyber Physical Systems",
+                "Next Generation Sensors",
+                "Collaborative Platform",
+                "Product Lifecycle Management",
+                "Artificial Intelligence",
+                "Big Data",
+                "Blockchain and its role in secure transactions"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Cloud Computing for Industry 4.0",
+              "topics": [
+                "Introduction to Cloud Technologies",
+                "Top Cloud Services Providers platforms and their real- life use cases exploration (AWS, Azure, GCP)"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "The Role of Augmented Reality in the Age of Industry",
+              "topics": [
+                "Introduction to AR/VR",
+                "AR Hardware & Software",
+                "Industrial Applications of AR"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Industrial Internet of Things (IIoT) & Security",
+              "topics": [
+                "Introduction to IIoT",
+                "Industrial Internet System",
+                "Industrial Process",
+                "Key Enablers of IIoT",
+                "Blockchain for IoT Security and Data Integrity",
+                "Cybersecurity Challenges in Industry 4.0"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Case Studies",
+              "topics": [
+                "Real time use cases from different Industries like Oil, chemical, manufacturing, and pharmaceutical industry",
+                "Applications of UAVs in Industries",
+                "The Concept Industry 4.0, An Empirical Analysis of Technologies and Applications in Production Logistics, Christoph Jan Bartodziej, Springer Fachmedien Wiesbaden, November 2016, ISBN: 9783658165024",
+                "Industry 4.0, Entrepreneurship and Structural Change in the New Digital Landscape, Tessaleno Devezas, João Leitão, Askar Sarygulov, Springer, 1st Edition, 2017, ISBN: 9783319496047",
+                "Blockchain for Industry 4.0: Secure IoT Solutions, Seung Ho Hong, Springer, ISBN: 9789811552721"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Data Science [155610]",
+          "subject_code": "155610",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Data Science",
+              "topics": [
+                "Concept of Data Science",
+                "Traits of Big data",
+                "Web Scraping",
+                "Analysis vs Reporting"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Programming Tools for Data Science",
+              "topics": [
+                "Python Toolkits: Matplotlib, NumPy, Scikit- learn, NLTK",
+                "Data Visualization: Bar Charts, Line Charts, Scatterplots",
+                "Working with data: Reading Files, Scraping the Web, Using APIs (Example: Using the Twitter APIs)",
+                "Cleaning and Munging, Manipulating Data, Rescaling, Dimensionality Reduction",
+                "Unit 3.0: Mathematical Foundations Linear Algebra: Vectors, Matrices Statistics: Describing a Single Set of Data, Correlation, Simpson's Paradox, Correlation and Causation Probability: Dependence and Independence, Conditional Probability, Bayes's Theorem, Random Variables, Continuous Distributions, The Normal Distribution, The Central Limit Theorem Hypothesis and Inference: Statistical Hypothesis Testing, Confidence Intervals, Phacking, Bayesian Inference",
+                "Linear Algebra: Vectors, Matrices",
+                "Statistics: Describing a Single Set of Data, Correlation, Simpson's Paradox, Correlation and Causation",
+                "Probability: Dependence and Independence, Conditional Probability, Bayes's Theorem, Random Variables, Continuous Distributions, The Normal Distribution, The Central Limit Theorem",
+                "Hypothesis and Inference: Statistical Hypothesis Testing, Confidence Intervals, Phacking, Bayesian Inference",
+                "Unit 4.0: Basic concept of Machine Learning Overview of Machine learning concepts - Over fitting and train/test splits Types of Machine learning - Supervised, Unsupervised, Reinforced learning Introduction to Bayes Theorem Linear Regression - model assumptions, regularization (lasso, ridge, elastic net) Classification and Regression algorithms - Naive Bayes, K- Nearest Neighbors, logistic regression, support vector machines (SVM), decision trees, and random forest Classification Errors Analysis of Time Series- Linear Systems Analysis, Nonlinear Dynamics, Rule Induction Neural Networks Learning And Generalization, Overview of Deep Learning",
+                "Overview of Machine learning concepts - Over fitting and train/test splits",
+                "Types of Machine learning - Supervised, Unsupervised, Reinforced learning",
+                "Introduction to Bayes Theorem",
+                "Linear Regression - model assumptions, regularization (lasso, ridge, elastic net)",
+                "Classification and Regression algorithms - Naive Bayes, K- Nearest Neighbors, logistic regression, support vector machines (SVM), decision trees, and random forest",
+                "Classification Errors",
+                "Analysis of Time Series- Linear Systems Analysis, Nonlinear Dynamics, Rule Induction",
+                "Neural Networks Learning And Generalization, Overview of Deep Learning"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Case Studies & Applications",
+              "topics": [
+                "Weather forecasting",
+                "Stock market prediction",
+                "Object recognition",
+                "Real Time Sentiment Analysis"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Practical Implementation & Mini Project",
+              "topics": [
+                "Hands- on Python programs: Flower classification, Loan approval prediction, Traffic prediction, Hate speech detection, Actor age prediction",
+                "Mini project for time prediction",
+                "Data Science From Scratch: First Principles with Python, Joel Grus, O'Reilly, First Edition, 2015, ISBN: 9789352130962",
+                "Machine Learning, Tom M. Mitchell McGraw Hill Education, First Edition, 2017, ISBN: 978-1259096952",
+                "Hands-On Machine Learning with Scikit-Learn, Keras & Tensor Flow, Aurélien Gérón, O'Reilly, 3rd Edition, 2022, ISBN: 978-9355421982",
+                "Python for Data Analysis, Wes McKinney, O'Reilly Media, 2nd Edition, 2017, ISBN: 978-1491957660",
+                "Practical Statistics for Data Scientists, Peter Bruce, O'Reilly; 2nd edition, 2020, ISBN: 978-1492072942"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Blockchain Technology [155611]",
+          "subject_code": "155611",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction Overview of Block chain, Public Ledgers, Bitcoin, Smart Contracts Block in a Block chain, Transactions, Distributed Consensus Public vs Private Block chain, Understanding Crypto currency to Block chain Permissioned Model of Block chain, Overview of Security aspects of Block chain Basic Crypto Primitives: Cryptographic Hash Function, Properties of a hash function, Hash pointer and Merkle tree, Digital Signature, Public Key Cryptography, A basic crypto currency",
+                "Overview of Block chain, Public Ledgers, Bitcoin, Smart Contracts",
+                "Block in a Block chain, Transactions, Distributed Consensus",
+                "Public vs Private Block chain, Understanding Crypto currency to Block chain",
+                "Permissioned Model of Block chain, Overview of Security aspects of Block chain",
+                "Basic Crypto Primitives: Cryptographic Hash Function, Properties of a hash function, Hash pointer and Merkle tree, Digital Signature, Public Key Cryptography, A basic crypto currency"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Understanding Block chain with Crypto currency",
+              "topics": [
+                "Bitcoin and Block chain: Creation of coins, Payments and double spending",
+                "Bitcoin Scripts, Bitcoin P2P Network, Transaction in Bitcoin Network",
+                "Block Mining, Block propagation and block relay"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Working with Consensus in Bitcoin",
+              "topics": [
+                "Distributed consensus in open environments",
+                "Consensus in a Bitcoin network",
+                "Proof of Work (PoW) - basic introduction, Hashcash PoW, Bitcoin PoW",
+                "Attacks on PoW and the monopoly problem",
+                "Proof of Stake, Proof of Burn and Proof of Elapsed Time",
+                "The life of a Bitcoin Miner, Mining Difficulty, Mining Pool",
+                "Unit 4.0: Understanding Block chain for Enterprises Permissioned Block chain: Permissioned model and use cases Design issues for Permissioned block chains Execute contracts, State machine replication Overview of Consensus models for permissioned block chain- Distributed consensus in closed environment, Paxos, RAFT Consensus Byzantine general problem, Byzantine fault tolerant system Lamport- Shostak- Pease BFT Algorithm, BFT over Asynchronous systems",
+                "Permissioned Block chain: Permissioned model and use cases",
+                "Design issues for Permissioned block chains",
+                "Execute contracts, State machine replication",
+                "Overview of Consensus models for permissioned block chain- Distributed consensus in closed environment, Paxos, RAFT Consensus",
+                "Byzantine general problem, Byzantine fault tolerant system",
+                "Lamport- Shostak- Pease BFT Algorithm, BFT over Asynchronous systems"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Enterprise application of Block chain",
+              "topics": [
+                "Cross border payments, Know Your Customer (KYC), Food Security",
+                "Mortgage over Block chain, Block chain enabled Trade",
+                "We Trade - Trade Finance Network, Supply Chain Financing, Identity on Block chain"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Block chain application development",
+              "topics": [
+                "Hyperledger Fabric- Architecture, Identities and Policies, Membership and Access Control, Channels, Transaction Validation",
+                "Writing smart contract using Hyperledger Fabric, Writing smart contract using Ethereum",
+                "Overview of Ripple and Corda",
+                "Melanie Swan, \"Block Chain: Blueprint for a New Economy\", O'Reilly, 2015",
+                "Josh Thompsons, \"Block Chain: The Block Chain for Beginners- Guide to Block chain Technology and Leveraging Block Chain Programming\"",
+                "Daniel Drescher, \"Block Chain Basics\", Apress; 1st edition, 2017",
+                "Anshul Kaushik, \"Block Chain and Crypto Currencies\", Khanna Publishing House, Delhi",
+                "Imran Bashir, \"Mastering Block Chain: Distributed Ledger Technology, Decentralization and Smart Contracts Explained\", Packt Publishing",
+                "Ritesh Modi, \"Solidity Programming Essentials: A Beginner's Guide to Build Smart Contracts for Ethereum and Block Chain\", Packt Publishing",
+                "Salman Baset, Luc Desrosiers, Nitin Gaur, Petr Novotny, Anthony O'Dowd, Venkatraman Ramakrishna, \"Hands-On Block Chain with Hyperledger: Building Decentralized Applications with Hyperledger Fabric and Composer\", Import, 2018"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Python Programming [155612]",
+          "subject_code": "155612",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Input and Output",
+              "topics": [
+                "Identifiers, Keywords, Statements and Expressions, Variables",
+                "Operators, Precedence and Associativity, Data Types, Indentation, Comments",
+                "Reading Input, Print Output, Type Conversions",
+                "The type() Function and Is Operator, Dynamic and Strongly Typed Language",
+                "Unit 2.0: Control Flow statements, Function, Loops and Strings Control Flow Statements, The if Decision Control Flow Statement The if...else Decision Control Flow Statement, The if...elseif...else Decision Control Statement, Nested if Statement Built- In Functions, Commonly Used Modules, Function Definition and Calling the Function The return Statement and void Function, Scope and Lifetime of Variables, Default Parameters The while Loop, The for Loop, The continue and break Statements Creating and Storing Strings, Basic String Operations, Accessing Characters in String by Index Number String Slicing and Joining, String Methods, Formatting Strings",
+                "Control Flow Statements, The if Decision Control Flow Statement",
+                "The if...else Decision Control Flow Statement, The if...elseif...else Decision Control Statement, Nested if Statement",
+                "Built- In Functions, Commonly Used Modules, Function Definition and Calling the Function",
+                "The return Statement and void Function, Scope and Lifetime of Variables, Default Parameters",
+                "The while Loop, The for Loop, The continue and break Statements",
+                "Creating and Storing Strings, Basic String Operations, Accessing Characters in String by Index Number",
+                "String Slicing and Joining, String Methods, Formatting Strings"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Lists",
+              "topics": [
+                "Creating Lists, Basic List Operations, Indexing and Slicing in Lists",
+                "Built- In Functions Used on Lists, List Methods, The del Statement",
+                "Unit 4.0: Dictionaries, Tuples and Sets Creating Dictionary, Accessing and Modifying key value Pairs in Dictionaries Built- In Functions Used on Dictionaries, Dictionary Methods, The del Statement Tuples and Sets, Creating Tuples, Basic Tuple Operations, Indexing and Slicing in Tuples Built- In Functions Used on Tuples, Relation between Tuples and Lists, Relation between Tuples and Dictionaries Tuple Methods, Using zip() Function, Sets, Set Methods, Traversing of Sets, Frozen set",
+                "Creating Dictionary, Accessing and Modifying key value Pairs in Dictionaries",
+                "Built- In Functions Used on Dictionaries, Dictionary Methods, The del Statement",
+                "Tuples and Sets, Creating Tuples, Basic Tuple Operations, Indexing and Slicing in Tuples",
+                "Built- In Functions Used on Tuples, Relation between Tuples and Lists, Relation between Tuples and Dictionaries",
+                "Tuple Methods, Using zip() Function, Sets, Set Methods, Traversing of Sets, Frozen set"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Files",
+              "topics": [
+                "Types of Files, Creating and Reading Text Data, File Methods to Read and Write Data",
+                "Reading and Writing Binary Files, The Pickle Module, Reading and Writing CSV Files",
+                "Python os and os.path Modules"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Object Oriented Design and Python Modules",
+              "topics": [
+                "Programming types, Object Oriented Programming, Object Oriented Design, Inheritance and Polymorphism",
+                "Introduction to modules, statistics module, numpy, introduction to popular machine learning libraries Tensor Flow & Keras",
+                "Introduction to Python Programming, Gowrishankar S, Veena A, 1st Edition, CRC Press/Taylor & Francis, 2018. ISBN-13: 978-0815394372",
+                "Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas, 1st Edition, O'Reilly Media, 2016. ISBN-13: 978-1491912058",
+                "Core Python Applications Programming, Wesley J Chun, 3rd Edition, Pearson Education India, 2015. ISBN-13: 978-9332555365",
+                "Python Programming A Modular Approach, Sheetal Taneja, Pearson Publications",
+                "Programming and Problem Solving with Python, Ashok Namdev Kamathe and Amit Ashok Kamathane, Tata McGraw Hill Education (India) Private Limited",
+                "Allen B. Downey, \"Think Python: How to Think Like a Computer Scientist\", 2nd Edition, Green Tea Press, 2015, ISBN: 978-9352134755",
+                "Charles Dierbach, \"Introduction to Computer Science Using Python\", 1st Edition, Wiley India Pvt Ltd. ISBN-13: 978-8126556014",
+                "Wesley J Chun, \"Core Python Applications Programming\", 3rd Edition, Pearson Education India, 2015. ISBN-13: 978-9332555365"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Graph Theory [155613]",
+          "subject_code": "155613",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction What is graph, Application of graphs Finite and infinite graphs, incidence and degree Isolated Vertex, pendant Vertex, and Null graph Paths and circuits, isomorphism, sub graphs A puzzle with multicolored cubes Walks, paths, and circuits Connected graphs, disconnected graphs and components Euler graphs, Operations on graphs More on Euler graphs Hamiltonian paths and circuits The Traveling Salesman problem",
+                "What is graph, Application of graphs",
+                "Finite and infinite graphs, incidence and degree",
+                "Isolated Vertex, pendant Vertex, and Null graph",
+                "Paths and circuits, isomorphism, sub graphs",
+                "A puzzle with multicolored cubes",
+                "Walks, paths, and circuits",
+                "Connected graphs, disconnected graphs and components",
+                "Euler graphs, Operations on graphs",
+                "More on Euler graphs",
+                "Hamiltonian paths and circuits",
+                "The Traveling Salesman problem"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Trees and Fundamental circuits",
+              "topics": [
+                "Trees, some properties of trees",
+                "Pendant vertices in a tree",
+                "Distance and centers in a tree",
+                "Rooted and binary trees",
+                "On counting trees",
+                "Spanning trees, fundamental circuits",
+                "Finding all spanning trees of a Graph",
+                "Spanning trees in a Weighted graph",
+                "Unit 3.0: Cut set, and cut vertices Properties of a cut set All cut sets in a graph Fundamental circuits and cut sets Connectivity and separability Network flows 1- Isomorphism, 2- Isomorphism Planar and Dual Graphs: Combinatorial vs. Geometric Graphs Planar graph, kuratowski's Two Graphs Difference Representations of a planar graph Detection of planarity Geometric Dual, Combinatorial Dual More on criteria of planarity Thickness and crossings",
+                "Properties of a cut set",
+                "All cut sets in a graph",
+                "Fundamental circuits and cut sets",
+                "Connectivity and separability",
+                "Network flows",
+                "1- Isomorphism, 2- Isomorphism",
+                "Planar and Dual Graphs: Combinatorial vs. Geometric Graphs",
+                "Planar graph, kuratowski's Two Graphs",
+                "Difference Representations of a planar graph",
+                "Detection of planarity",
+                "Geometric Dual, Combinatorial Dual",
+                "More on criteria of planarity",
+                "Thickness and crossings"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Matrix Representation of Graphs",
+              "topics": [
+                "Incidence Matrix Sub matrices of A(G)",
+                "Circuits Matrix",
+                "Fundamental Circuit Matrix and Rank of B",
+                "An application to a switching Network",
+                "Cut-set Matrix",
+                "Relationships among Af, Bf and Cf",
+                "Path Matrix",
+                "Adjacency Matrix"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Coloring, Covering and partitioning",
+              "topics": [
+                "Chromatic number",
+                "Chromatic partitioning",
+                "Chromatics polynomial",
+                "Coverings",
+                "Four color problem"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Directed Graphs",
+              "topics": [
+                "What's a directed Graphs",
+                "Some types of Digraphs",
+                "Digraphs and binary Relations",
+                "Directed paths and connectedness",
+                "Euler Digraphs",
+                "Trees with Directed Edges",
+                "Fundamental Circuits in Digraphs",
+                "Matrices A, B and C of Digraphs",
+                "Adjacency Matrix of a Digraph",
+                "Paired Comparisons and Tournaments",
+                "Acyclic Digraphs and Decyelization",
+                "Douglas B. West, \"Introduction to Graph Theory\", Prentice Hall of India",
+                "Deo, N: Graph theory, PHI",
+                "Bondy and Murthy: Graph theory and application. Addison Wesley",
+                "R. Diestel, \"Graph Theory\", Springer-Verlag, 2nd edition, 2000",
+                "John M. Aldous and Robin J. Wilson: Graphs and Applications-An Introductory Approach, Springer",
+                "Robin J, Wilson: Introduction to Graph Theory, Addison Wesley",
+                "Frank Harary, \"Graph Theory\", Narosa",
+                "R. Ahuja, T. Magnanti, and J. Orlin, \"Network Flows: Theory, Algorithms, and Applications\", Prentice-Hall"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Augmented Reality and Virtual Reality [155614]",
+          "subject_code": "155614",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Augmented Reality",
+              "topics": [
+                "What Is Augmented Reality: Defining Augmented Reality, History of Augmented Reality",
+                "The Relationship Between AR and Other Technologies: Media, Technologies, Spectrum Between Real and Virtual Worlds",
+                "Applications of Augmented Reality"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Augmented Reality Concepts & Working",
+              "topics": [
+                "How Does Augmented Reality Work?",
+                "Concepts Related to AR, Ingredients of an Augmented Reality Experience",
+                "AR Components - Scene Generator, Tracking System, Monitoring System, Display, Game Scene"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "AR Devices & Interfaces",
+              "topics": [
+                "AR Devices: Optical See-Through HMD, Virtual Retinal Systems, Monitor-Based Systems, Projection Displays, Video See-Through Systems"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Introduction to Virtual Reality",
+              "topics": [
+                "Defining Virtual Reality, History of VR",
+                "Human Physiology and Perception",
+                "Key Elements of Virtual Reality Experience",
+                "Virtual Reality Systems. Interface to the Virtual World: Input & Output - Visual, Aural & Haptic Displays",
+                "Applications of Virtual Reality"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Representing the Virtual World",
+              "topics": [
+                "Representation of the Virtual World",
+                "Visual Representation in VR",
+                "Aural Representation in VR",
+                "Haptic Representation in VR",
+                "Case Study: GHOST (General Haptics Open Software Toolkit) software development toolkit"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Visual Perception & Rendering",
+              "topics": [
+                "Visual Perception: Perception of Depth, Motion, and Color",
+                "Combining Sources of Information",
+                "Visual Rendering: Ray Tracing and Shading Models, Rasterization",
+                "Correcting Optical Distortions, Improving Latency and Frame Rates",
+                "Augmented Reality: Principles and Practice Dieter Schmalstieg, Tobias Höllerer Addison, Wesley Professional, 1st ed., 2016. Print ISBN: 9780321883575",
+                "Practical Augmented Reality: A Guide to the Technologies, Applications, and Human Factors for AR and VR, Steve Aukstakalnis, Addison-Wesley Professional PTG, 1st ed., 2017. Print ISBN: 9780134094236",
+                "Virtual Reality Steven M. LaValle, Cambridge University Press, 1st ed., 2023 (print). Print ISBN: 9781107198937"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Computer Vision and Robotics [155615]",
+          "subject_code": "155615",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Computer Vision",
+              "topics": [
+                "What is Computer Vision? Applications in IoT (e.g., smart cameras, face recognition)",
+                "Basics of Image Formation: Pinhole camera concept, digital images, pixels, and resolution",
+                "Light and Color: Color models (RGB, Grayscale), simple shading concepts",
+                "Image Representation: How images are stored and displayed"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Image Processing Fundamentals",
+              "topics": [
+                "Basic Image Operations: Brightness, contrast adjustment, negative images, histogram",
+                "Filters and Convolution: Smoothing (blur) and sharpening filters with real examples",
+                "Edge Detection: Introduction to edges, Canny, and Sobel operators",
+                "Introduction to Noise and Noise Removal"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Features and Segmentation",
+              "topics": [
+                "Detecting Features: Corners and simple shape detection",
+                "Image Segmentation: Splitting an image into regions or objects (e.g., background vs. foreground)",
+                "Thresholding and Contour Detection",
+                "Applications: Object detection basics (e.g., QR code detection)"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Introduction to Robotics",
+              "topics": [
+                "What is a Robot? Types of robots (industrial, service, mobile, and autonomous)",
+                "Components of Robots: Sensors, actuators, controllers, and power systems",
+                "Basics of Robot Movements: Wheels, motors, and simple path following",
+                "IoT and Robotics: Smart home robots and warehouse robots"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Robot Sensors and Planning",
+              "topics": [
+                "Sensors in Robotics: Distance sensors, cameras, IR sensors, ultrasonic sensors",
+                "Sensor Fusion: How robots combine data from multiple sensors",
+                "Basics of Path Planning: Grid- based pathfinding and obstacle avoidance (intro to potential fields)",
+                "Applications: Line- following robot, delivery robots"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Emerging Trends and Hands-on Applications",
+              "topics": [
+                "Introduction to OpenCV: Simple programs (e.g., converting to grayscale, edge detection)",
+                "Introduction to Arduino/Raspberry Pi for Robotics",
+                "Emerging Applications: Self- driving cars, drones, smart surveillance",
+                "Mini Project Discussion: Face detection app or simple line- following robot",
+                "Learning OpenCV 4: Computer Vision with Python Adrian Kaehler, Gary Bradski, O'Reilly, 2019, ISBN: 978-1491937990",
+                "Robotics: Modelling, Planning and Control Bruno Siciliano, Lorenzo Sciavicco, Springer, 2nd Edition, ISBN: 978-1849966344",
+                "Introduction to Autonomous Robots, Nikolaus Correll, Bradley Hayes, Amazon KDP, 2022, ISBN: 979-8714113980"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Microprocessors and Microcontrollers [155616]",
+          "subject_code": "155616",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Fundamentals of 8085 Architecture and Programming",
+              "topics": [
+                "Introduction to Microprocessor Systems: Architecture and Pin diagram of 8085, Timing Diagram, Memory organization, Addressing modes, Interrupts",
+                "Assembly Language Programming, 8085 interrupts, Additional I/O concepts and processes"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "8085 Interfacing and Peripheral Devices",
+              "topics": [
+                "Interfacing of 8085 with 8255, 8254/8253, 8251, 8259: Introduction, Generation of I/O Ports, Programmable Peripheral Interface (PPI)"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Keyboard, Display and Data Converters",
+              "topics": [
+                "Intel 8255, Sample- and- Hold Circuit and Multiplexer, Keyboard and Display Interface, Keyboard and Display Controller (8279)",
+                "Programmable Interval timers (Intel 8253/8254), USART (8251), PIC (8259), DAC, ADC, LCD, Stepper Motor"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "8086 Architecture and Memory Interfacing",
+              "topics": [
+                "Introduction to 8086, 80286, 80386 and 80486 Microprocessor: 8086 Architecture, Generation of physical address, Pin diagram of 8086",
+                "Minimum Mode and Maximum mode, Bus cycle, Memory Organization, Memory Interfacing, Addressing Modes, Assembler Directives"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "8086 Instruction Set and Interrupts",
+              "topics": [
+                "Instruction set of 8086, Assembly Language Programming, Hardware, and Software Interrupts",
+                "Introduction of 80286, 80386, and 80486 microprocessors",
+                "Unit 6.0: 8051 Microcontroller and Applications Overview of Microcontroller 8051: Introduction to 8051 Microcontroller, Architecture, Memory organization, Special function registers, Port Operation, Memory Interfacing, I/O Interfacing Programming 8051 resources, interrupts, Programmer's model of 8051, Operand types, Operand addressing, Data transfer instructions, Arithmetic instructions, Logic instructions, Control transfer instructions Timer and Counter Programming, Interrupt Programming",
+                "Overview of Microcontroller 8051: Introduction to 8051 Microcontroller, Architecture, Memory organization, Special function registers, Port Operation, Memory Interfacing, I/O Interfacing",
+                "Programming 8051 resources, interrupts, Programmer's model of 8051, Operand types, Operand addressing, Data transfer instructions, Arithmetic instructions, Logic instructions, Control transfer instructions",
+                "Timer and Counter Programming, Interrupt Programming"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective-II",
+          "subject_code": "1556XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "subjects": [
+        {
+          "subject_name": "Summer Entrepreneurship – III",
+          "subject_code": "100707",
+          "type": "theory",
+          "credits": 8,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Details for Summer Entrepreneurship – III will be provided by the department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Biology for Engineers",
+          "subject_code": "100708",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction Biology for Engineers Purpose: To convey that Biology is as important a scientific discipline as Mathematics, Physics and Chemistry Bring out the fundamental differences between science and engineering by drawing a comparison between eye and camera, Bird flying and aircraft Mention the most exciting aspect of biology as an independent scientific discipline Why we need to study biology? Discuss how biological observations of 18th Century that lead to major discoveries Examples from Brownian motion and the origin of thermodynamics by referring to the original observation of Robert Brown and Julius Mayor These examples highlight the fundamental importance of observations in any scientific inquiry",
+                "Purpose: To convey that Biology is as important a scientific discipline as Mathematics, Physics and Chemistry",
+                "Bring out the fundamental differences between science and engineering by drawing a comparison between eye and camera, Bird flying and aircraft",
+                "Mention the most exciting aspect of biology as an independent scientific discipline",
+                "Why we need to study biology?",
+                "Discuss how biological observations of 18th Century that lead to major discoveries",
+                "Examples from Brownian motion and the origin of thermodynamics by referring to the original observation of Robert Brown and Julius Mayor",
+                "These examples highlight the fundamental importance of observations in any scientific inquiry",
+                "Unit 2.0: Classification Purpose: To convey that classification per se is not what biology is all about. The underlying criterion, such as morphological, biochemical or ecological be highlighted Hierarchy of life forms at phenomenological level A common thread weaves this hierarchy Classification Discuss classification based on (a) cellularity- Unicellular or multicellular (b) ultrastructure- prokaryotes or eucaryotes (c) energy and Carbon utilization - Autotrophs, heterotrophs, lithotopes (d) Ammonia excretion - aminotelic, urocotelic, ureotelic (e) Habitat- acquatic or terrestrial (f) Molecular taxonomy- three major kingdoms of life A given organism can come under different category based on classification Model organisms for the study of biology come from different groups. E.coli, S.cerevisiae, D. Melanogaster, C. elegance, A. Thaliana, M. musculus",
+                "Purpose: To convey that classification per se is not what biology is all about. The underlying criterion, such as morphological, biochemical or ecological be highlighted",
+                "Hierarchy of life forms at phenomenological level",
+                "A common thread weaves this hierarchy Classification",
+                "Discuss classification based on (a) cellularity- Unicellular or multicellular (b) ultrastructure- prokaryotes or eucaryotes (c) energy and Carbon utilization - Autotrophs, heterotrophs, lithotopes (d) Ammonia excretion - aminotelic, urocotelic, ureotelic (e) Habitat- acquatic or terrestrial (f) Molecular taxonomy- three major kingdoms of life",
+                "A given organism can come under different category based on classification",
+                "Model organisms for the study of biology come from different groups. E.coli, S.cerevisiae, D. Melanogaster, C. elegance, A. Thaliana, M. musculus",
+                "Unit 3.0: Genetics and Biomolecules Genetics: Purpose: To convey that \"Genetics is to biology what Newton's laws are to Physical Sciences\" Mendel's Concept of segregation and independent Gene mapping, Gene interaction, Epistasis Meiosis and Mitosis be taught as a part of genetics. Emphasis to be give not to the mechanics of cell division nor the phases but how genetic material passes from parent to offspring Concepts of recessiveness and dominance Concept of mapping of phenotype to genes Discuss about the single gene disorders in humans Discuss the concept of complementation using human genetics Biomolecules: Purpose: To convey that all forms of life has the same building blocks and yet the manifestations are as diverse as one can imagine Molecules of life. In this context discuss monomeric units and polymeric structures Discuss about sugars, starch and cellulose. Amino acids and proteins. Nucleotides and DNA/RNA. Two carbon units and lipids",
+                "Genetics: Purpose: To convey that \"Genetics is to biology what Newton's laws are to Physical Sciences\"",
+                "Mendel's Concept of segregation and independent Gene mapping, Gene interaction, Epistasis",
+                "Meiosis and Mitosis be taught as a part of genetics. Emphasis to be give not to the mechanics of cell division nor the phases but how genetic material passes from parent to offspring",
+                "Concepts of recessiveness and dominance",
+                "Concept of mapping of phenotype to genes",
+                "Discuss about the single gene disorders in humans",
+                "Discuss the concept of complementation using human genetics",
+                "Biomolecules: Purpose: To convey that all forms of life has the same building blocks and yet the manifestations are as diverse as one can imagine",
+                "Molecules of life. In this context discuss monomeric units and polymeric structures",
+                "Discuss about sugars, starch and cellulose. Amino acids and proteins. Nucleotides and DNA/RNA. Two carbon units and lipids",
+                "Unit 4.0: Enzymes and Information Transfer Enzymes: Purpose: To convey that without catalysis life would not have existed on earth Enzymology: How to monitor enzyme catalysed reactions How does an enzyme catalyse reactions? Enzyme classification. Mechanism of enzyme action. Discuss at least two examples. Enzyme kinetics and kinetic parameters. Why should we know these parameters to understand biology? RNA catalysis Information Transfer: Purpose: The molecular basis of coding and decoding genetic information is universal Molecular basis of information transfer. DNA as a genetic material. Hierarchy of DNA structure- from single stranded to double helix to nucleosomes. Concept of genetic code. Universality and degeneracy of genetic code. Define gene in terms of complementation and recombination",
+                "Enzymes: Purpose: To convey that without catalysis life would not have existed on earth",
+                "Enzymology: How to monitor enzyme catalysed reactions",
+                "How does an enzyme catalyse reactions? Enzyme classification. Mechanism of enzyme action. Discuss at least two examples. Enzyme kinetics and kinetic parameters. Why should we know these parameters to understand biology? RNA catalysis",
+                "Information Transfer: Purpose: The molecular basis of coding and decoding genetic information is universal",
+                "Molecular basis of information transfer. DNA as a genetic material. Hierarchy of DNA structure- from single stranded to double helix to nucleosomes. Concept of genetic code. Universality and degeneracy of genetic code. Define gene in terms of complementation and recombination",
+                "Unit 5.0: Macromolecular Analysis and Metabolism Macromolecular Analysis: Purpose: To analyse biological processes at the reductionistic level. Proteins- structure and function. Hierarch in protein structure. Primary secondary, tertiary and quaternary structure. Proteins as enzymes, transporters, receptors and structural elements Metabolism: Purpose: The fundamental principles of energy transactions are the same in physical and biological world. Thermodynamics as applied to biological systems. Exothermic and endothermic versus endergonic and exergonic reactions. Concept of Keq and its relation to standard free energy. Spontaneity. ATP as an energy currency. This should include the breakdown of glucose to CO2 + H2O (Glycolysis and Krebs cycle) and synthesis of glucose from CO2 and H2O (Photosynthesis). Energy yielding and energy consuming reactions. Concept of Energy charge",
+                "Macromolecular Analysis: Purpose: To analyse biological processes at the reductionistic level. Proteins- structure and function. Hierarch in protein structure. Primary secondary, tertiary and quaternary structure. Proteins as enzymes, transporters, receptors and structural elements",
+                "Metabolism: Purpose: The fundamental principles of energy transactions are the same in physical and biological world. Thermodynamics as applied to biological systems. Exothermic and endothermic versus endergonic and exergonic reactions. Concept of Keq and its relation to standard free energy. Spontaneity. ATP as an energy currency. This should include the breakdown of glucose to CO2 + H2O (Glycolysis and Krebs cycle) and synthesis of glucose from CO2 and H2O (Photosynthesis). Energy yielding and energy consuming reactions. Concept of Energy charge",
+                "Unit 6.0: Microbiology Concept of single celled organisms. Concept of species and strains. Identification and classification of microorganisms. Microscopy. Ecological aspects of single celled organisms. Sterilization and media compositions. Growth kinetics Plant Physiology covering, Transpiration; Mineral nutrition Ecology covering, Ecosystems- Components, types, flow of matter and energy in an ecosystem; Community ecology- Characteristics, frequency, life forms, and biological spectrum; Ecosystem structure- Biotic and abiotic factors, food chain, food web, ecological pyramids",
+                "Concept of single celled organisms. Concept of species and strains. Identification and classification of microorganisms. Microscopy. Ecological aspects of single celled organisms. Sterilization and media compositions. Growth kinetics",
+                "Plant Physiology covering, Transpiration; Mineral nutrition Ecology covering, Ecosystems- Components, types, flow of matter and energy in an ecosystem; Community ecology- Characteristics, frequency, life forms, and biological spectrum; Ecosystem structure- Biotic and abiotic factors, food chain, food web, ecological pyramids",
+                "N. A. Campbell, J. B. Reece, L. Urry, M. L. Cain and S. A. Wasserman, \"Biology: A global approach\", Pearson Education Ltd, 2014",
+                "E. E. Conn, P. K. Stumpf, G. Bruening and R. H. Doi, \"Outlines of Biochemistry\", John Wiley and Sons, 2009",
+                "D. L. Nelson and M. M. Cox, \"Principles of Biochemistry\", W.H. Freeman and Company, 2012",
+                "G. S. Stent and R. Calendar, \"Molecular Genetics\", Freeman and company, 1978",
+                "L. M. Prescott, J. P. Harley and C. A. Klein, \"Microbiology\", McGraw Hill Higher Education, 2005"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Project-I",
+          "subject_code": "100709P",
+          "type": "lab",
+          "credits": 6,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Details for Project-I will be provided by the supervisor / department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Soft Skills and Interpersonal Communication [100728]",
+          "subject_code": "100728",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Self-Discovery and Analysis",
+              "topics": [
+                "Self-Analysis: SWOT Analysis, Who am I, Attributes, Importance of Self-Confidence, Self-Esteem"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Creative and Innovative Thinking",
+              "topics": [
+                "Creativity: Out of Box Thinking, Lateral Thinking"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Attitude and Motivation",
+              "topics": [
+                "Attitude: Factors Influencing Attitude, Challenges and Lessons from Attitude, Etiquette",
+                "Motivation: Factors of Motivation, Self-Talk, Intrinsic & Extrinsic Motivators"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Strategic Goal Setting",
+              "topics": [
+                "Goal Setting: Wish List, SMART Goals, Blue Print for Success, Short Term, Long Term, Life Time Goals"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Effective Time Management",
+              "topics": [
+                "Time Management: Value of Time, Diagnosing Time Management, Weekly Planner, To Do List, Prioritizing Work"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Interpersonal Skills and Teamwork",
+              "topics": [
+                "Interpersonal Skills: Gratitude - Understanding the relationship between Leadership Networking & Team work. Assessing Interpersonal Skills Situation description of Interpersonal Skill",
+                "Team Work - Necessity of Team Work Personally, Socially and Educationally",
+                "Soft Skills, 2015, Career Development Centre, Green Pearl Publications",
+                "Covey Sean, Seven Habits of Highly Effective Teens, New York, Fireside Publishers, 1998",
+                "Carnegie Dale, How to win Friends and Influence People, New York: Simon & Schuster, 1998"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Introduction to VLSI Design [100729]",
+          "subject_code": "100729",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction MOSFET, threshold voltage, current, Channel length modulation, body bias",
+              "topics": [
+                "Unit 2.0: CMOS inverter, static characteristics, noise margin, effect of process variation, supply scaling, dynamic characteristics, inverter design for a given VTC and speed, effect of input rise time and fall time, static and dynamic power dissipation, energy & power delay product, sizing chain of inverters, latch up effect- Simulation of static and dynamic characteristics, layout, post layout simulation"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Static CMOS design, Complementary CMOS, static properties, propagation delay, Elmore",
+              "topics": []
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Pseudo NMOS inverter, DCVSL, PTL, DPTL & Transmission gate logic,",
+              "topics": []
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Circuit design considerations of Arithmetic circuits, shifter, CMOS memory design",
+              "topics": []
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "BiCMOS logic - static and dynamic behaviour - Delay and",
+              "topics": [
+                "Principles of CMOS VLSI design: a system perspective by Neil H.E. Weste and Kamran Eshraghian; Addision Wesley pub",
+                "Digital integrated circuits by Demassa & Ciccone. Wiley pub",
+                "Modern VLSI Design system on silicon by Wayne Wolf: Addision Wesley Longman Publisher",
+                "Basic VLSI Design by Douglas A Pucknell & Kamran Eshraghian; PHI",
+                "Digital Integrated Circuits: A Design Perspective by Jan M Rabaey; PHI"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Sales and Marketing [100734]",
+          "subject_code": "100734",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction to Sales and Marketing",
+              "topics": [
+                "Marketing: Definition, importance, and evolution of marketing concepts",
+                "Sales: Definition, role of sales in a business, and the relationship between sales and marketing",
+                "Marketing Mix (4Ps): Product, Price, Place (Distribution), and Promotion",
+                "Consumer Behavior: Understanding consumer motivations, buying decisions, and factors influencing purchasing",
+                "Unit 2.0: Market Analysis and Strategy Market Segmentation, Targeting, and Positioning (STP): Identifying target markets, developing positioning strategies Market Research: Understanding the purpose of market research, types of research methods, and data analysis Competitive Analysis: Identifying competitors, analyzing their strengths and weaknesses, and developing competitive strategies Strategic Marketing Planning: Developing marketing plans, setting objectives, and measuring performance",
+                "Market Segmentation, Targeting, and Positioning (STP): Identifying target markets, developing positioning strategies",
+                "Market Research: Understanding the purpose of market research, types of research methods, and data analysis",
+                "Competitive Analysis: Identifying competitors, analyzing their strengths and weaknesses, and developing competitive strategies",
+                "Strategic Marketing Planning: Developing marketing plans, setting objectives, and measuring performance",
+                "Unit 3.0: Sales Management and Techniques Sales Processes and Strategies: Understanding different sales strategies, lead generation, and sales techniques Sales Force Management: Recruiting, training, motivating, and managing sales personnel Customer Relationship Management (CRM): Understanding the importance of CRM, managing customer interactions, and building strong relationships Sales Communication and Negotiation: Developing effective communication skills, negotiation techniques, and closing sales",
+                "Sales Processes and Strategies: Understanding different sales strategies, lead generation, and sales techniques",
+                "Sales Force Management: Recruiting, training, motivating, and managing sales personnel",
+                "Customer Relationship Management (CRM): Understanding the importance of CRM, managing customer interactions, and building strong relationships",
+                "Sales Communication and Negotiation: Developing effective communication skills, negotiation techniques, and closing sales",
+                "Unit 4.0: Marketing Communication and Promotion Advertising: Understanding different advertising media, campaign planning, and media buying Sales Promotion: Understanding different types of sales promotions, couponing, and loyalty programs Public Relations (PR): Building positive relationships with the public, media relations, and crisis communication Digital Marketing: Understanding online marketing channels, social media marketing, SEO, and email marketing",
+                "Advertising: Understanding different advertising media, campaign planning, and media buying",
+                "Sales Promotion: Understanding different types of sales promotions, couponing, and loyalty programs",
+                "Public Relations (PR): Building positive relationships with the public, media relations, and crisis communication",
+                "Digital Marketing: Understanding online marketing channels, social media marketing, SEO, and email marketing"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Product, Branding, and Pricing Strategies",
+              "topics": [
+                "Product and Brand Management: Developing and managing product lines, branding strategies, and brand equity",
+                "Pricing Strategies: Understanding different pricing methods, pricing objectives, and pricing policies"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Distribution Channels and Ethics in Sales & Marketing",
+              "topics": [
+                "Distribution Channels: Understanding different distribution channels, logistics, and supply chain management",
+                "Ethics in Sales and Marketing: Understanding ethical issues in sales and marketing, and responsible marketing practices",
+                "K.S. Chandrasekar, Marketing Management Text And Cases, Tata Mcgraw- Hill Publication, New Delhi.2010",
+                "Govindarajan, Marketing Management Concepts, Cases, Chhallenges And Trends, Prentice Hall Of India, New Delhi. 2009",
+                "Philip Kotler, Marketing Management- Analysis Planning And Control, Prentice Hall Of India, New Delhi,",
+                "Ramaswamy. V S & Namakumari. S, Marketing Management-Planning Implementation And Control, Macmillan Business Books, New Delhi, 2002",
+                "Balaram Dogra & Karminder Ghuman, Rural Marketing: Concept & Cases, Tata Mcgraw- Hill Publishing Company, New Delhi, 2008",
+                "Ravi Shanker, Services Marketing: The Indian Perspective, Excel Books, New Delhi, 2008"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Digital Signal Processing [100735]",
+          "subject_code": "100735",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Discrete-time signals and systems",
+              "topics": [
+                "Discrete time signals and systems: Sequences; representation of signals on orthogonal basis; Representation of discrete systems using difference equations, Sampling and reconstruction of signals - aliasing; Sampling theorem and Nyquist rate"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Z-transform",
+              "topics": [
+                "Z-Transform, Region of Convergence, Analysis of Linear Shift Invariant systems using z-transform, Properties of z-transform for causal signals, Interpretation of stability in z-domain, Inverse z-transforms"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Discrete Fourier Transform",
+              "topics": [
+                "Frequency Domain Analysis, Discrete Fourier Transform (DFT), Properties of DFT, Convolution of signals, Fast Fourier Transform Algorithm, Parseval's Identity, Implementation of Discrete Time Systems"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Design of Digital filters",
+              "topics": [
+                "Design of FIR Digital filters: Window method, Park-McClellan's method. Design of IIR Digital Filters: Butterworth, Chebyshev and Elliptic Approximations; Low-pass, Bandpass, Band-stop and Highpass filters"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Effect of finite register length in FIR filter design, Parametric",
+              "topics": []
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Applications of Digital Signal Processing",
+              "topics": [
+                "Correlation Functions and Power Spectra, Stationary Processes, Optimal filtering using ARMA Model, Linear Mean-Square Estimation, Wiener Filter",
+                "S. K. Mitra, \"Digital Signal Processing: A computer based approach\", McGraw Hill, 2011",
+                "A.V. Oppenheim and R. W. Schafer, \"Discrete Time Signal Processing\", Prentice Hall, 1989",
+                "J. G. Proakis and D.G. Manolakis, \"Digital Signal Processing: Principles, Algorithms and Applications\", Prentice Hall, 1997",
+                "L. R. Rabiner and B. Gold, \"Theory and Application of Digital Signal Processing\", Prentice Hall, 1992",
+                "J. R. Johnson, \"Introduction to Digital Signal Processing\", Prentice Hall, 1992",
+                "D. J. DeFatta, J. G. Lucas and W. S. Hodgkiss, \"Digital Signal Processing\", John Wiley & Sons, 1988"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective: Control System [100736]",
+          "subject_code": "100736",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Discrete Representation of Continuous Systems",
+              "topics": [
+                "Basics of Digital Control Systems. Discrete representation of continuous systems. Sample and hold circuit. Mathematical Modelling of sample and hold circuit. Effects of Sampling and Quantization. Choice of sampling frequency. ZOH equivalent"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Discrete System Analysis",
+              "topics": [
+                "Z-Transform and Inverse Z Transform for analyzing discrete time systems. Pulse Transfer function. Pulse transfer function of closed loop systems. Mapping from s-plane to z plane. Solution of Discrete time systems. Time response of discrete time system"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Stability of Discrete Time System",
+              "topics": [
+                "Stability analysis using Jury test, Stability analysis using bilinear transformation, Design of digital control system with dead beat response, Practical issues with dead beat response design"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "State Space Approach for discrete time systems",
+              "topics": [
+                "State space models of discrete systems, State space analysis. Lyapunov Stability. Controllability, reach-ability, Re-constructibility and observability analysis. Effect of pole zero cancellation on the controllability & observability"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Design of Digital Control System",
+              "topics": [
+                "Design of Discrete PID Controller, Design of discrete state feedback controller. Design of set point tracker. Design of Discrete Observer for LTI System. Design of Discrete compensator"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Discrete output feedback control",
+              "topics": [
+                "Design of discrete output feedback control. Fast output sampling (FOS) and periodic output feedback controller design for discrete time systems",
+                "K. Ogata, \"Digital Control Engineering\", Prentice Hall, Englewood Cliffs, 1995",
+                "M. Gopal, \"Digital Control Engineering\", Wiley Eastern, 1988",
+                "G. F. Franklin, J. D. Powell and M. L. Workman, \"Digital Control of Dynamic Systems\", Addison-Wesley, 1998",
+                "B.C. Kuo, \"Digital Control System\", Holt, Rinehart and Winston, 1980"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Open Elective-I",
+          "subject_code": "1007XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Deep Learning",
+          "subject_code": "155701",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction Definition of AI, Machine Learning, Deep Learning Human Brain vs Artificial Neuron, Biological neuron and artificial neuron analogy Neuron Models: McCulloch-Pitts neuron, Activation functions (Sigmoid, Tanh, ReLU, Leaky ReLU, Softmax) Perceptron, Multilayer Perceptrons, Back-Propagation Algorithm, XOR Problem Difficulty of training deep neural networks, Discussion on deep learning frameworks",
+                "Definition of AI, Machine Learning, Deep Learning",
+                "Human Brain vs Artificial Neuron, Biological neuron and artificial neuron analogy",
+                "Neuron Models: McCulloch-Pitts neuron, Activation functions (Sigmoid, Tanh, ReLU, Leaky ReLU, Softmax)",
+                "Perceptron, Multilayer Perceptrons, Back-Propagation Algorithm, XOR Problem",
+                "Difficulty of training deep neural networks, Discussion on deep learning frameworks"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Optimization & Hyperparameter Tuning",
+              "topics": [
+                "Gradient Descent, stochastic gradient, momentum, RMSProp, ADAM",
+                "Regularization for Deep Learning: Parameter Norm Penalties - L2 Parameter Regularization, Dataset Augmentation, Semi-Supervised Learning",
+                "Optimization for Training Deep Models"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Convolutional Neural Networks (CNN)",
+              "topics": [
+                "Convolution operation, Filters, Padding, Stride, Pooling, Normalization",
+                "Modern CNN architectures: LeNet, AlexNet, VGG, GoogLeNet, ResNet, Inception, EfficientNet",
+                "Transfer Learning & Fine-tuning, Image Augmentation"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sequence Modeling",
+              "topics": [
+                "RNN, Vanishing Gradient in RNN, LSTM & GRU networks, Bidirectional RNNs",
+                "Applications: Text generation, Sentiment analysis, Time-series forecasting"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Attention and Transformers",
+              "topics": [
+                "Attention mechanism (Self-attention, Multi-head)",
+                "Positional Autoencoders, Encoder-Decoder architecture, Sparse Autoencoders, Denoising Autoencoders, Variational Autoencoders (VAE)",
+                "Transformer architecture, BERT, GPT"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Generative Models",
+              "topics": [
+                "Basics, GANs (Generative Adversarial Networks)- Generator & Discriminator, DCGAN, CycleGAN, StyleGAN",
+                "Applications of GANs",
+                "Ian Goodfellow, Yoshua Bengio, Aaron Courville, \"Deep Learning,\" MIT Press, 2016",
+                "Christopher Bishop, \"Pattern Recognition and Machine Learning,\" Springer, 2006",
+                "Aston Zhang, Zachary C. Lipton, Mu Li, Alex J. Smola, \"Dive into Deep Learning (D2L),\" 2020 (Free online book)",
+                "François Chollet, \"Deep Learning with Python,\" Manning Publications, 2018",
+                "Christoph Molnar, \"Interpretable Machine Learning,\" 2020 (For Explainable AI)"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Deep Learning Lab",
+          "subject_code": "155701P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform any 10 experiments from the following list:",
+                "Write a program to implement a single-layer perceptron for binary classification",
+                "Build an MLP classifier using a custom forward pass and backpropagation",
+                "Implement Backward propagation neural network",
+                "Implement Gradient Descent, SGD, and Momentum on a simple function and plot convergence",
+                "Write a program to perform manual convolution on an image using a custom filter (edge detection / blur)",
+                "Build a CNN on MNIST / CIFAR-10 using PyTorch or TensorFlow",
+                "Train, test, and report accuracy",
+                "Use a pretrained model (VGG16 / ResNet50) and fine-tune it on a small dataset",
+                "RNN / LSTM for Text Generation, sentiment analysis",
+                "Implement LSTM-based text generation on a small text corpus (e.g., nursery rhymes)",
+                "Build a Denoising Autoencoder to remove noise from images (MNIST/CIFAR-10)"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Privacy and Security in IoT [155702]",
+          "subject_code": "155702",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Security in IoT",
+              "topics": [
+                "IoT security: Vulnerabilities, Attacks and Countermeasures",
+                "Security Engineering for IoT development",
+                "IoT security lifecycle"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Network Robustness and Malware Propagation Control in IoT Network Robustness",
+              "topics": [
+                "Network Robustness",
+                "Fusion Based Defense Scheme",
+                "Sequential Defense Scheme",
+                "Location Certificate Based Scheme",
+                "Sybil node detection scheme",
+                "Formal Modeling and Verification",
+                "Sybil Attack Detection in Vehicular Networks",
+                "Performance evaluation of various Malware Dynamics Models",
+                "Analysis of Attack Vectors on Smart Home Systems"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Crypto Foundations",
+              "topics": [
+                "Block ciphers, message integrity, authenticated encryption, hash functions, Merkle trees, elliptic curves",
+                "Public-key crypto (PKI), signature algorithms"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Privacy Preservation in IoT",
+              "topics": [
+                "Privacy Preservation Data Dissemination: Network Model, Threat Model - Problem formulation and definition - Baseline data dissemination - Spatial Privacy Graph based data dissemination - Experiment Validation",
+                "Smart building concept- Privacy Threats in Smart Building - Privacy Preserving Approaches in Smart Building - Smart Meter Privacy Preserving Approaches"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Trust Models for IoT",
+              "topics": [
+                "Trust Model Concepts - Public Key Infrastructures Architecture Components - Public Key Certificate Formats - Design Considerations for Digital Certificates - Public Key Reference Infrastructure for the IoT",
+                "Authentication in IoT - Computational Security for IoT"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Security Protocols for IoT Access Networks",
+              "topics": [
+                "Time Based Secure Key Generation - Security Access Algorithm: Unidirectional, Bidirectional Transmission - Cognitive Security - IoT Security Framework - Secure IoT Layers - Secure Communication Links in IoT - Secure Resource Management, Secure IoT Databases",
+                "William Stallings, \"Cryptography and Network Security\", Pearson Education/PHI, 2006",
+                "V.K. Jain, \"Cryptography and Network Security\", Khanna Publishing House",
+                "Gupta Sarika, \"Information and Cyber Security\", Khanna Publishing House, Delhi",
+                "Russell, Brian and Drew Van Duren. Practical Internet of Things Security, 2016,1st edition, PACKT Publishing Ltd, UK",
+                "Kim, S., Deka, G. C., & Zhang, P. (2019). Role of blockchain technology in IoT applications. Academic Press",
+                "Whitehouse O Security of things: An Implementers' guide to cyber security for internet of things devices and beyond, 2014, 1st edition, NCC Group, UK",
+                "Hu, Fei. Security and Privacy in Internet of Things (IoTs): Models, Algorithms, and Implementations, 2016, 1st edition, CRC Press, USA"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Application of IoT in Robotics [155703]",
+          "subject_code": "155703",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction To Robotics and IoT",
+              "topics": [
+                "Introduction of Robotics: Definition, history, and application of robotics",
+                "Types of robots: mobile robots, autonomous robots, industrial robots",
+                "Introduction to IoT: Definition, components, and architecture",
+                "Evolution of IoT & enabling technologies (RFID, WSN, Cloud, Big Data)",
+                "Unit 2.0: IoT Sensors and Actuators Types of IoT Sensors: Temperature, humidity, pressure, proximity Actuators in IoT: DC motors, servo motors, stepper motors, solenoids Selection criteria of sensors and actuators into robotic systems Robotic perception enhancement using IoT sensors Integration of cameras, LiDAR, ultrasonic sensors with IoT Real-time control of robotic actuators using IoT data Interfacing sensors/actuators with microcontrollers (Arduino/RPi/NodeMCU)",
+                "Types of IoT Sensors: Temperature, humidity, pressure, proximity",
+                "Actuators in IoT: DC motors, servo motors, stepper motors, solenoids",
+                "Selection criteria of sensors and actuators into robotic systems",
+                "Robotic perception enhancement using IoT sensors",
+                "Integration of cameras, LiDAR, ultrasonic sensors with IoT",
+                "Real-time control of robotic actuators using IoT data",
+                "Interfacing sensors/actuators with microcontrollers (Arduino/RPi/NodeMCU)"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Design Principles for Connected Devices",
+              "topics": [
+                "IoT/M2M System Layers and Design Standardization",
+                "Communication technologies: Wi-Fi, BLE, ZigBee, LoRa, RFID",
+                "Data Enrichment, Data Consolidation and Device Management at Gateway",
+                "Web communication protocols (HTTP, MQTT, CoAP, WebSockets)",
+                "Message Communication Protocols; Internet Connectivity; Internet connectivity and IP addressing in IoT devices"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "IoT Platforms and Middleware",
+              "topics": [
+                "Overview of IoT platforms: AWS IoT, Azure IoT, Google Cloud IoT",
+                "Middleware for integrating IoT devices and robotics",
+                "Hands-on experience with setting up and using IoT platforms for robotics applications",
+                "Introduction to edge computing and its relevance in robotics"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Data Acquisition and Processing",
+              "topics": [
+                "Data acquisition from IoT sensors and actuators in robotic systems",
+                "Data logging formats: JSON, CSV, MQTT payloads",
+                "Data processing techniques: Filtering, aggregation, normalization",
+                "Real-time data analysis in robotics applications"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "IoT-Enabled Robotic Applications & Case Studies",
+              "topics": [
+                "Robotic Applications: Smart robotic systems using IoT; IoT-based mobile robots; Industrial IoT (IIoT) robotics applications; Healthcare & service robots with IoT; Autonomous delivery robots",
+                "Case studies: Drones, warehouse robots, smart agriculture robots; Mini-project discussion: IoT-controlled robot",
+                "Raj Kamal, \"Internet of Things: Architecture and Design Principles\", McGraw Hill, Latest Edition",
+                "K. S. Fu, R. C. Gonzalez, \"Robotics: Control, Sensing, Vision, and Intelligence\", McGraw-Hill",
+                "Claire Rowland, \"Designing Connected Products for IoT\", O'Reilly, Latest Edition",
+                "Hanes, Salgueiro, Grossetete, \"IoT Fundamentals: Networking Technologies, Protocols, and Use Cases\", Cisco Press, Latest Edition"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Programming for IoT Boards [155704]",
+          "subject_code": "155704",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "IoT Ecosystem and Enabling Technologies",
+              "topics": [
+                "IoT Ecosystem, Challenges and Levels of Implementation, Enabling Technologies",
+                "Overview of Processing Elements and Peripherals"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Programming for Prototyping Boards",
+              "topics": [
+                "Environment: Board, IDE, shields",
+                "Programming: syntax, variables, types, operators, constructs and functions",
+                "Sketch: skeleton, compile and upload, accessing pins",
+                "Debugging: UART communication protocol and serial library"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Interfacing with Prototyping Boards",
+              "topics": [
+                "Circuits: design, wiring, passive components",
+                "Sensors and Actuators: Interfacing, Read/Write",
+                "Software libraries; Shields - interfacing and libraries"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Single Board Computers: Programming & Interfacing",
+              "topics": [
+                "SBC Architecture & Schematic Board schematic",
+                "Setup, Configure & Use, OS implications: Linux - basics, file system and processes, Shell CLI & GUI",
+                "Programming APIs - RPi. GPIO - PWM library to access pins - Tkinter GUI"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "IoT Networking, Protocols & Cloud Integration",
+              "topics": [
+                "Networking & Internet Connectivity, Standard Internet Protocols - MQTT & CoAP",
+                "Networking Socket Interface - Cloud - Public APIs and SDK's for accessing cloud services",
+                "Social Network APIs - Interfacing - sensors and actuators - Pi Camera, Servo - APIs for data conversion",
+                "Unit 6.0: Embedded Programming and RTOS Embedded Programming: MCU, GPIO, WDT, timers/counters - I/O - A/D - D/A, PWM, Interrupts, Memory; serial communication UART - I2C - SPI, Peripheral Interfacing OS - basics - types - tasks - process - threads (POSIX Threads), thread preemption - Preemptive Task Scheduling Policies - Priority Inversion - Task communication - Task Synchronization issues - racing and deadlock - binary and counting semaphores (Mutex example) - choosing RTOS Real World Projects: IoT Integrated Primary Health Care, Face Detection by AI, Cloud IoT Systems for Smart Agriculture, Smart Home Gadgets, Autonomous Car Features, Speed and horn intensity control",
+                "Embedded Programming: MCU, GPIO, WDT, timers/counters - I/O - A/D - D/A, PWM, Interrupts, Memory; serial communication UART - I2C - SPI, Peripheral Interfacing",
+                "OS - basics - types - tasks - process - threads (POSIX Threads), thread preemption - Preemptive Task Scheduling Policies - Priority Inversion - Task communication - Task Synchronization issues - racing and deadlock - binary and counting semaphores (Mutex example) - choosing RTOS",
+                "Real World Projects: IoT Integrated Primary Health Care, Face Detection by AI, Cloud IoT Systems for Smart Agriculture, Smart Home Gadgets, Autonomous Car Features, Speed and horn intensity control",
+                "Yamanoor, Sai, and Srihari Yamanoor. Python Programming with Raspberry Pi, 2017, 1st edition, Packt Publishing Ltd., UK",
+                "Donald Norris, The Internet of Things: Do-It-Yourself Projects with Arduino, Raspberry Pi, and BeagleBone Black, 2015, 1st edition, McGraw Hill Education, India",
+                "Marco Schwartz, Home Automation with Arduino, 3rd edition, Open Home Automation 2014. Schwartz, Marco. Internet of things with arduino cookbook, 2016, 1st edition, Packt Publishing Ltd., UK",
+                "Kooijman, Matthijs. Building Wireless Sensor Networks Using Arduino, 2015, 1st edition, Packt Publishing Ltd., UK"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Pattern Recognition [155705]",
+          "subject_code": "155705",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction",
+              "topics": [
+                "Introduction fundamentals and definitions, Feature vectors, Classifiers, Supervised and Unsupervised learning, Bayesian decision theory"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Features",
+              "topics": [
+                "Types and traits, scaling ordering, measurements, normalization, invariance, feature properties",
+                "Dimensionality reduction of feature space, dimensionality reduction by feature selection, PCA, KPCA, ICA"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Parameter estimation",
+              "topics": [
+                "Maximum likelihood estimation (MLE), least squares estimation (LSE), Method of minimum variance & unbiased Estimation (MVUE); parameter free methods: KNN, Clustering",
+                "Special classifiers: linear regression, LDA, SVM, CNN"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Classifiers and learning",
+              "topics": [
+                "Fundamentals of classifiers, Linear Classifiers, Nonlinear Classifiers. Unsupervised and semi supervised learning: Learning from unclassified data, Characteristics analysis of different classifiers"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Clustering",
+              "topics": [
+                "Basic Concepts of clustering, Hierarchical agglomerative clustering, K-means partitional clustering, semi supervised learning with expectation maximization using labelled and unlabelled data"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Classification and Ensemble Learning Techniques",
+              "topics": [
+                "Classification with nominal features : decision tree, random forest; classifier independent concepts, Combinations of classifiers: boosting, voting, stacking",
+                "Christopher Bishop, Pattern Recognition and Machine Learning, Springer, 2nd printing edition, 2011",
+                "Richard O. Duda, Peter E. Hart, David G. Stork, Pattern Classification, John Wiley, 2nd edition, 2002",
+                "Kevin P. Murphy, Machine Learning: A Probabilistic Perspective, The MIT Press; Illustrated edition, 2012",
+                "S. Theodoridis, K. Koutroumbas, \"Pattern Recognition\", Academic Press, 4th edition, 2008"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Sensors and Actuator Devices for IoT [155706]",
+          "subject_code": "155706",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0: Introduction to Sensors Principles of sensing, classification and characteristics, Static and dynamic parameters, Environmental Parameters (EP), Sensor Characterization Electromechanical Sensors: Introduction, Resistive Potentiometer, Strain Gauge, Resistance Strain Gauge, Semiconductor Strain Gauges Inductive Sensors: Sensitivity and Linearity of the Sensor, Types; Capacitive Sensors: Electrostatic Transducer, Force/Stress Sensors Using Quartz Resonators, Ultrasonic Sensors",
+                "Principles of sensing, classification and characteristics, Static and dynamic parameters, Environmental Parameters (EP), Sensor Characterization",
+                "Electromechanical Sensors: Introduction, Resistive Potentiometer, Strain Gauge, Resistance Strain Gauge, Semiconductor Strain Gauges",
+                "Inductive Sensors: Sensitivity and Linearity of the Sensor, Types; Capacitive Sensors: Electrostatic Transducer, Force/Stress Sensors Using Quartz Resonators, Ultrasonic Sensors",
+                "Unit 2.0: Thermal and Magnetic Sensors Thermal Sensors: Gas Thermometric Sensors, Thermal Expansion Type Thermometric Sensors, Acoustic Temperature Sensor, Dielectric Constant and Refractive Index Thermosensors, Helium Low Temperature Thermometer, Nuclear and Magnetic Thermometer, Resistance Change Type Thermometric Sensors, Junction Semiconductor Types Magnetic Sensors: Working Principles, Types and Characteristics, Force & displacement Sensors",
+                "Thermal Sensors: Gas Thermometric Sensors, Thermal Expansion Type Thermometric Sensors, Acoustic Temperature Sensor, Dielectric Constant and Refractive Index Thermosensors, Helium Low Temperature Thermometer, Nuclear and Magnetic Thermometer, Resistance Change Type Thermometric Sensors, Junction Semiconductor Types",
+                "Magnetic Sensors: Working Principles, Types and Characteristics, Force & displacement Sensors"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Radiation Sensors",
+              "topics": [
+                "Radiation Sensors: Introduction, Basic Characteristics, Types of Photoresistors /Photodetectors, X-ray and Nuclear Radiation Sensors, Fiber Optic Sensors"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Smart Sensors & Interfacing",
+              "topics": [
+                "Introduction, Primary Sensors, Excitation, Amplification, Filters, Converters (ADC/DAC), Compensation, Information Coding and Processing, Data Communication, Standards for Smart Sensor Interface, Sensor Nodes & Automation Interfaces"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Sensors Applications",
+              "topics": [
+                "On-board Automobile Sensors, Home Appliance Sensors, Medical Diagnostic Sensors, Sensors for Manufacturing, Environmental Monitoring Sensors"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Actuators",
+              "topics": [
+                "Pneumatic and Hydraulic Actuation Systems, Valves and Rotary actuators, Mechanical Actuation Systems, Electrical Actuation Systems (Solenoids, Motors, Relays)",
+                "D. Patranabis-Sensors and Transducers, PHI Learning Private Limited",
+                "W. Bolton-Mechatronics, Pearson Education Limited. Reference Books",
+                "Patranabis-Sensors and Actuators-2nd Ed., PHI, 2013",
+                "Robert H. Bishop-The Mechatronics Handbook, 2nd Ed., Mechatronic Systems, Sensors and Actuators, fundamentals and modelling e- Resources & other digital material"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective-IV",
+          "subject_code": "1557XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1359 @@
+{
+  "branch": "Computer Science & Engineering (AI & ML)",
+  "branch_id": "3bcb324a-3178-8537-aca7-ce406244d7d1",
+  "course": "B.Tech",
+  "semesters": [
+    {
+      "semester": 5,
+      "subjects": [
+        {
+          "subject_name": "Program Elective Courses-I",
+          "subject_code": "",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Professional Practice, Law & Ethics",
+          "subject_code": "",
+          "type": "theory",
+          "credits": 0,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Professional Practice, Law & Ethics",
+          "subject_code": "157500",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Contents as per college curriculum."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Database Management System",
+          "subject_code": "157501",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Data Abstraction Data Independence Data Definition Language (DDL) Data Manipulation",
+              "topics": [
+                "Data Abstraction",
+                "Data Independence",
+                "Data Definition Language (DDL)",
+                "Data Manipulation Language (DML)",
+                "Entity-Relationship Model",
+                "Network Model",
+                "Relational Data Model",
+                "Object Oriented Data Model",
+                "Integrity Constraints",
+                "Data Manipulation Operations"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Relational Algebra Tuple And Domain Relational Calculus SQL3 DDL And",
+              "topics": [
+                "Relational Algebra",
+                "Tuple And Domain Relational Calculus",
+                "SQL3",
+                "DDL And DML Constructs",
+                "MySQL",
+                "Oracle",
+                "DB2",
+                "SQL Server",
+                "Domain And Data Dependency",
+                "Armstrong's Axioms",
+                "Normal Forms",
+                "Dependency Preservation",
+                "Lossless Design",
+                "Evaluation Of Relational Algebra Expressions",
+                "Query Equivalence",
+                "Join Strategies",
+                "Query Optimization Algorithms"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Indices B-Trees Hashing",
+              "topics": [
+                "Indices",
+                "B-Trees",
+                "Hashing"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Concurrency Control ACID Property Serializability Of Scheduling Locking Based Schedulers",
+              "topics": [
+                "Concurrency Control",
+                "ACID Property",
+                "Serializability Of Scheduling",
+                "Locking Based Schedulers",
+                "Timestamp Based Schedulers",
+                "Multi-Version Concurrency Control",
+                "Optimistic Concurrency Control Schemes",
+                "Database Recovery"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Authentication Authorization And Access Control DAC MAC RBAC Models Intrusion",
+              "topics": [
+                "Authentication",
+                "Authorization And Access Control",
+                "DAC",
+                "MAC",
+                "RBAC Models",
+                "Intrusion Detection",
+                "SQL Injection"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Object Oriented Databases Object Relational Databases Logical Databases Web Databases",
+              "topics": [
+                "Object Oriented Databases",
+                "Object Relational Databases",
+                "Logical Databases",
+                "Web Databases",
+                "Distributed Databases",
+                "Data Warehousing",
+                "Data Mining",
+                "\"Database System Concepts\", 6th Edition by Abraham Silberschatz, Henry F. Korth, S. Sudarshan, McGraw-Hill.",
+                "\"Principles of Database and Knowledge - Base Systems\", Vol 1 by J. D. Ullman, Computer Science Press.",
+                "\"Fundamentals of Database Systems\", 5th Edition by R. Elmasri and S. Navathe, Pearson Education",
+                "\"Foundations of Databases\", Reprint by Serge Abiteboul, Richard Hull, Victor Vianu, Addison - Wesley."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Database Management System Lab",
+          "subject_code": "157501P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform the following experiments:",
+                "Student should decide on a case study and formulate the problem statement.",
+                "Conceptual Designing using ER Diagrams (Identifying entities, attributes, keys and relationships between entities, cardinalities, generalization, specialization etc.) Note: Student is required to submit a document by drawing ER Diagram to the Lab teacher.",
+                "Converting ER Model to Relational Model (Represent entities and relationships in Tabular form, Represent attributes as columns, identifying keys) Note: Student is required to submit a document showing the database tables created from ER Model.",
+                "Normalization -To remove the redundancies and anomalies in the above relational tables, Normalize up to Third Normal Form.",
+                "Creation of Tables using SQL-Overview of using SQL tool, Data types in SQL, Creating Tables (along with Primary and Foreign keys), Altering Tables and Dropping Tables.",
+                "Practicing DML commands-Insert, Select, Update, Delete.",
+                "Practicing Queries using ANY, ALL, IN, EXISTS, NOT EXISTS, UNION, INTERSECT, CONSTRAINTS etc.",
+                "Practicing Sub queries (Nested, Correlated) and Joins (Inner, Outer and Equi).",
+                "Practice Queries using COUNT, SUM, AVG, MAX, MIN, GROUP BY, HAVING, VIEWS Creation and Dropping.",
+                "Practicing on Triggers - creation of trigger, Insertion using trigger, Deletion using trigger, Updating using trigger."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Artificial Intelligence",
+          "subject_code": "157502",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Overview Turing Test Intelligent Agents",
+              "topics": [
+                "Overview",
+                "Turing Test",
+                "Intelligent Agents"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Depth First Search Breadth First Search DFID Generate And Test",
+              "topics": [
+                "Depth First Search",
+                "Breadth First Search",
+                "DFID",
+                "Generate And Test",
+                "Best First Search",
+                "Beam Search",
+                "Hill Climbing",
+                "A*"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "AND/OR Graphs AO* Constraint Satisfaction Means-Ends Analysis Simulated Annealing Particle",
+              "topics": [
+                "AND/OR Graphs",
+                "AO*",
+                "Constraint Satisfaction",
+                "Means-Ends Analysis",
+                "Simulated Annealing",
+                "Particle Swarm Optimization",
+                "Minimax Algorithm",
+                "Alpha-Beta Pruning"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Building A Knowledge Base Propositional Logic First Order Logic Inference",
+              "topics": [
+                "Building A Knowledge Base",
+                "Propositional Logic",
+                "First Order Logic",
+                "Inference In First Order Logic",
+                "Resolution Refutation Proofs",
+                "Theorem Proving In First Order Logic",
+                "Planning",
+                "Partial Order Planning",
+                "Uncertain Knowledge And Reasoning",
+                "Probabilities",
+                "Bayesian Networks"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Unsupervised Learning Supervised Learning Semi-Supervised Learning K-Means Clustering Algorithm Decision",
+              "topics": [
+                "Unsupervised Learning",
+                "Supervised Learning",
+                "Semi-Supervised Learning",
+                "K-Means Clustering Algorithm",
+                "Decision Trees",
+                "Neural Networks",
+                "Deep Learning"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Introduction To Computer Vision Natural Language Processing Expert Systems Robotics",
+              "topics": [
+                "Introduction To Computer Vision",
+                "Natural Language Processing",
+                "Expert Systems",
+                "Robotics",
+                "Genetic Algorithm",
+                "S. Russell and P. Norvig, \"Artificial Intelligence: A Modern Approach,\" Prentice Hall",
+                "E. Rich, K. Knight and S. B. Nair, \"Artificial Intelligence,\" TMH.",
+                "C. Bishop,\"Pattern Recognition and Machine Learning,\" Springer",
+                "D. W. Patterson, \"Introduction to artificial intelligence and expert systems,\" Prentice Hall",
+                "A. C. Staugaard, Jr., \"Robotics and AI: An Introduction to Applied Machine Intelligence,\" Prentice Hall",
+                "I. Bratko, \"Prolog Programming for Artificial Intelligence,\" Addison-Wesley",
+                "S. O. Haykin, \"Neural Networks and Learning Machines,\" Prentice Hall",
+                "D. Jurafsky and J. H. Martin, \"Speech and Language Processing,\" Prentice Hall."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Computer Network",
+          "subject_code": "157503",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "OSI Reference Model TCP/IP Protocol Suite Network Architecture Physical Topology",
+              "topics": [
+                "OSI Reference Model",
+                "TCP/IP Protocol Suite",
+                "Network Architecture",
+                "Physical Topology"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Analog And Digital Signals Transmission Impairment Data Rate Limits Performance",
+              "topics": [
+                "Analog And Digital Signals",
+                "Transmission Impairment",
+                "Data Rate Limits",
+                "Performance Analysis Of A Network",
+                "Representation And Synchronization Of Bits",
+                "Analog And Digital Transmission",
+                "Multiplexing And Spreading Techniques",
+                "Guided Transmission Media",
+                "Circuit Switching",
+                "Packet Switching",
+                "Virtual Circuit Switching"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Framing Flow And Error Control (Noiseless And Noisy Channels Protocols)",
+              "topics": [
+                "Framing",
+                "Flow And Error Control (Noiseless And Noisy Channels Protocols)",
+                "Point-To-Point Protocol",
+                "Pure ALOHA",
+                "Slotted ALOHA",
+                "CSMA/CD",
+                "CSMA/CA",
+                "Bit-Map Protocol",
+                "Polling",
+                "Token Passing",
+                "TDMA",
+                "FDMA",
+                "CDMA",
+                "Physical Addressing And Ethernet",
+                "Connecting LANs And Virtual LANs"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Internet Protocol Version 4 Internet Protocol Version 6 ARP RARP",
+              "topics": [
+                "Internet Protocol Version 4",
+                "Internet Protocol Version 6",
+                "ARP",
+                "RARP",
+                "BOOTP",
+                "DHCP",
+                "ICMP",
+                "IGMP",
+                "Routing Algorithms"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "UDP TCP Congestion Control And QoS Client-Server Model Socket Interface",
+              "topics": [
+                "UDP",
+                "TCP",
+                "Congestion Control And QoS",
+                "Client-Server Model",
+                "Socket Interface"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "DNS Remote Logging SMTP POP FTP Introduction To WWW HTTP",
+              "topics": [
+                "DNS",
+                "Remote Logging",
+                "SMTP",
+                "POP",
+                "FTP",
+                "Introduction To WWW",
+                "HTTP",
+                "B. Forouzan, \"Data Communication and Network\", McGraw-Hill Publications. 4th ed.",
+                "A. S. Tanenbaum, \"Computer Networks\", Pearson Education Asia. 5th ed.",
+                "W. Stalling, \"Data and Computer Communication\", PHI (EEE). 8th ed.",
+                "A. L. Garcia and I. Widjaja, \"Communication Networks: Fundamental Concepts and Key Architectures\", Tata McGraw-Hill. 2nd ed.",
+                "S. Sharma, \"A course in Computer Networks\", Kataria. 3rd ed."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Computer Network Lab",
+          "subject_code": "157503P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Perform any 25 experiments from the following list:",
+                "Write a report that includes a diagram showing the topology, type of connection devices, and speed of the wired and wireless LAN in your organization. Also find out the MAC and IP addresses and the subnet mask of your computer.",
+                "Install and run a network diagnosis tool such as TCP dump or Wireshark. Start capturing packets on an active interface, open a browser and type the address of your favourite search engine. Wait till the page loads and stop capture. List out the type and number of each type of packets captured.",
+                "Write a program to create a server that listens to port 53 using stream sockets. Write a simple client program to connect to the server. Send a simple text message \"Hello\" from the client to the server and the server to the client and close the connection.",
+                "Write a program to create a chat server that listens to port 54 using stream sockets. Write a simple client program to connect to the server. Send multiple text messages from the client to the server and vice versa. When either party types \"Bye\", close the connection.",
+                "Write a program to create a server that listens to port 55 using stream sockets. Write a simple client program to connect to the server. The client should request for a text file and the server should return the file before terminating the connection.",
+                "Write a program to create a server that listens to port 56 using stream sockets. Write a simple client program to connect to the server. Run multiple clients that request the server for binary files. The server should service each client one after the other before terminating the connection.",
+                "Write a program to create a server that listens to port 57 using stream sockets. Write a simple client program to connect to the server. Run multiple clients that request the server for text files. The server should service all clients concurrently.",
+                "Write a program to create a server that listens to port 59 using datagram sockets. Write a simple client program that requests the server for a binary file. The server should service multiple clients concurrently and send the requested files in response.",
+                "Creation of sample network topologies using CISCO packet tracer.",
+                "Creation of a subnet, assignment of addresses and communication within and outside the subnet.",
+                "Error Detection using CRC (Python/Java): Implement the Cyclic Redundancy Check (CRC) algorithm for error detection in data transmission.",
+                "Hamming Code for Error Correction (Python/Java): Implement the Hamming Code algorithm to detect and correct single-bit errors in transmitted data.",
+                "Sliding Window Protocol (Python/Java): Simulate Stop-and-Wait and Go-Back-N ARQ protocols to demonstrate flow control in a network.",
+                "Selective Repeat ARQ (Python/Java): Implement the Selective Repeat ARQ protocol for reliable data transmission.",
+                "CSMA/CD and CSMA/CA Simulation (Python/Java): Simulate Carrier Sense Multiple Access with Collision Detection (CSMA/CD) and Collision Avoidance (CSMA/CA).",
+                "IPv4 and IPv6 Addressing (Python/Java): Implement a program to validate and classify IP addresses as IPv4 or IPv6.",
+                "ARP and RARP Implementation (Python/Java): Simulate Address Resolution Protocol (ARP) and Reverse Address Resolution Protocol (RARP).",
+                "BOOTP and DHCP Simulation (Python/Java): Implement the BOOTP and DHCP mechanisms for dynamic IP address allocation.",
+                "Routing Algorithms (Python/Java): Implement the Distance Vector Routing (DVR) and Link State Routing (LSR) algorithms.",
+                "TCP and UDP Simulation (Python/Java): Implement a client-server model to demonstrate TCP and UDP socket programming.",
+                "Congestion Control using Leaky Bucket Algorithm (Python/Java): Simulate the Leaky Bucket algorithm for congestion control.",
+                "Congestion Control using Token Bucket Algorithm (Python/Java): Implement the Token Bucket algorithm to regulate network traffic.",
+                "FTP and HTTP Simulation (Python/Java): Implement a program to simulate FTP file transfer and send HTTP GET/POST requests.",
+                "DNS Query Resolution (Python/Java): Write a program to perform DNS resolution and retrieve IP addresses for given domain names.",
+                "Email Client Simulation (Python/Java): Implement a basic email client that can send and receive messages using SMTP and POP3 protocols."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Machine Learning",
+          "subject_code": "157504",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Types Of Learning Model, Parameters, Bias-Variance Test, Train And Validation",
+              "topics": [
+                "Types Of Learning",
+                "Model, Parameters, Bias-Variance",
+                "Test, Train And Validation Datasets",
+                "Error Function",
+                "Curse Of Dimensionality",
+                "Predictive Analysis Using Regression"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Fundamental Data Types In Python Looping And Decision-Making Constructs Functions",
+              "topics": [
+                "Fundamental Data Types In Python",
+                "Looping And Decision-Making Constructs",
+                "Functions",
+                "Classes",
+                "File Handling",
+                "Database Access",
+                "Output Formatting",
+                "Modules",
+                "Statistics Module",
+                "NumPy",
+                "Introduction To TensorFlow",
+                "Introduction To Keras"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Clustering K-Means GMM EM Algorithm Eigen Values And Eigen Vectors",
+              "topics": [
+                "Clustering",
+                "K-Means",
+                "GMM",
+                "EM Algorithm",
+                "Eigen Values And Eigen Vectors",
+                "PCA - Unsupervised Dimensionality Reduction Technique"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "KNN Bayes Classifier Decision Tree SVM: Soft Margin, Hard Margin,",
+              "topics": [
+                "KNN",
+                "Bayes Classifier",
+                "Decision Tree",
+                "SVM: Soft Margin, Hard Margin, Kernel Trick",
+                "LDA - Supervised Dimensionality Reduction Technique"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Bagging Random Forest Boosting Q-Learning SARSA Algorithms",
+              "topics": [
+                "Bagging",
+                "Random Forest",
+                "Boosting",
+                "Q-Learning",
+                "SARSA Algorithms"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Introduction To Neural Networks Perceptron Model Learning Rules And Activation",
+              "topics": [
+                "Introduction To Neural Networks",
+                "Perceptron Model",
+                "Learning Rules And Activation Functions",
+                "Multi-Layer Feed Forward",
+                "Back-Propagation",
+                "Introduction To Feedback Networks",
+                "Machine Learning. Tom Mitchell, McGraw-Hill.",
+                "Machine learning: an algorithmic perspective. Marsland, Stephen. Chapman and Hall/CRC, 2011.",
+                "Introduction to artificial neural systems. Zurada, Jacek M. Vol. 8. St. Paul: West publishing company, 1992.",
+                "A Tutorial on Support Vector Machines for Pattern Recognition. Christopher Burges, Data Mining and Knowledge Discovery, 1998"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Seminar",
+          "subject_code": "157505",
+          "type": "theory",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Seminar details as per college guidelines."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Pattern Recognition [157506]",
+          "subject_code": "157506",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Definition Applications Of Pattern Recognition Supervised Vs. Unsupervised Learning Statistical",
+              "topics": [
+                "Definition",
+                "Applications Of Pattern Recognition",
+                "Supervised Vs. Unsupervised Learning",
+                "Statistical Vs. Structural Pattern Recognition",
+                "Pattern Recognition System Design",
+                "Overview Of Feature Extraction And Selection"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Bayes Decision Theory Maximum Likelihood Estimation Bayesian Classifier Naive Bayes",
+              "topics": [
+                "Bayes Decision Theory",
+                "Maximum Likelihood Estimation",
+                "Bayesian Classifier",
+                "Naive Bayes Classifier",
+                "Parametric And Non-Parametric Approaches",
+                "K-Nearest Neighbors (KNN)",
+                "Probabilistic Graphical Models"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Feature Selection Techniques Principal Component Analysis (PCA) Linear Discriminant Analysis",
+              "topics": [
+                "Feature Selection Techniques",
+                "Principal Component Analysis (PCA)",
+                "Linear Discriminant Analysis (LDA)",
+                "Independent Component Analysis (ICA)",
+                "Singular Value Decomposition (SVD)",
+                "Feature Engineering For Pattern Recognition"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Support Vector Machines (SVM) Decision Trees Random Forest Neural Networks",
+              "topics": [
+                "Support Vector Machines (SVM)",
+                "Decision Trees",
+                "Random Forest",
+                "Neural Networks (MLP, CNNs)",
+                "Deep Learning Approaches",
+                "Autoencoders",
+                "Precision",
+                "Recall",
+                "F1-Score",
+                "ROC Curve"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "K-Means Clustering Hierarchical Clustering DBSCAN Gaussian Mixture Models (GMM) Self-Organizing",
+              "topics": [
+                "K-Means Clustering",
+                "Hierarchical Clustering",
+                "DBSCAN",
+                "Gaussian Mixture Models (GMM)",
+                "Self-Organizing Maps (SOM)",
+                "Hidden Markov Models (HMM)",
+                "Applications Of Clustering In Pattern Recognition"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Pattern Recognition In Image Processing Speech Recognition Biometrics Natural Language",
+              "topics": [
+                "Pattern Recognition In Image Processing",
+                "Speech Recognition",
+                "Biometrics",
+                "Natural Language Processing (NLP)",
+                "Object Detection And Recognition",
+                "AI-Driven Pattern Recognition",
+                "Ethical Considerations In Pattern Recognition",
+                "Richard O. Duda, Peter E. Hart, David G. Stork - Pattern Classification, Wiley.",
+                "Sergios Theodoridis, Konstantinos Koutroumbas - Pattern Recognition, Academic Press.",
+                "C. M. Bishop - Pattern Recognition and Machine Learning, Springer.",
+                "S. Haykin - Neural Networks and Learning Machines, Pearson.",
+                "Christopher Bishop - Neural Networks for Pattern Recognition, Oxford University Press.",
+                "S. V. N. Vishwanathan - Introduction to Statistical Learning Theory, Springer.",
+                "Anil K. Jain, Robert P. Duin, Jianchang Mao - Statistical Pattern Recognition: A Review, Elsevier.",
+                "Trevor Hastie, Robert Tibshirani, Jerome Friedman - The Elements of Statistical Learning, Springer."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Software Engineering [157507]",
+          "subject_code": "157507",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0 What Is Software Engineering And Its History Software Crisis Evolution Of A Programming System Product Characteristics Of Software Brooks' No Silver Bullet Software Myths Software Development Life Cycles Software Development Process The Code-And-Fix Model The Waterfall Model The Evolutionary Model The Incremental Implementation Prototyping The Spiral Model Software Reuse Critical Comparisons Of SDLC Models An Introduction To Non-Traditional Software Development Process Rational Unified Process Rapid Application Development Agile Development Process",
+                "What Is Software Engineering And Its History",
+                "Software Crisis",
+                "Evolution Of A Programming System Product",
+                "Characteristics Of Software",
+                "Brooks' No Silver Bullet",
+                "Software Myths",
+                "Software Development Life Cycles",
+                "Software Development Process",
+                "The Code-And-Fix Model",
+                "The Waterfall Model",
+                "The Evolutionary Model",
+                "The Incremental Implementation",
+                "Prototyping",
+                "The Spiral Model",
+                "Software Reuse",
+                "Critical Comparisons Of SDLC Models",
+                "An Introduction To Non-Traditional Software Development Process",
+                "Rational Unified Process",
+                "Rapid Application Development",
+                "Agile Development Process",
+                "Unit 2.0 Importance Of Requirement Analysis User Needs Software Features And Software Requirements Classes Of User Requirements: Enduring And Volatile Sub Phases Of Requirement Analysis Functional And Nonfunctional Requirements Barriers To Eliciting User Requirements The Software Requirements Document And SRS Standards Requirements Engineering Case Study Of SRS For A Real Time System Tools For Requirements Gathering: Document Flow Chart Decision Table Decision Tree Introduction To Nontraditional Requirements",
+                "Importance Of Requirement Analysis",
+                "User Needs",
+                "Software Features And Software Requirements",
+                "Classes Of User Requirements: Enduring And Volatile",
+                "Sub Phases Of Requirement Analysis",
+                "Functional And Nonfunctional Requirements",
+                "Barriers To Eliciting User Requirements",
+                "The Software Requirements Document And SRS Standards",
+                "Requirements Engineering",
+                "Case Study Of SRS For A Real Time System",
+                "Tools For Requirements Gathering: Document Flow Chart",
+                "Decision Table",
+                "Decision Tree",
+                "Introduction To Nontraditional Requirements"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Goals Of Good Software Design Design Strategies And Methodologies Data",
+              "topics": [
+                "Goals Of Good Software Design",
+                "Design Strategies And Methodologies",
+                "Data Oriented Software Design",
+                "Coupling",
+                "Cohesion",
+                "Modular Structure",
+                "Packaging",
+                "Structured Analysis: DFD, Data Dictionary",
+                "Structured Design: Structure Chart",
+                "Object Oriented Design",
+                "Top-Down And Bottom-Up Approach",
+                "UML",
+                "UML Diagrams",
+                "Design Patterns"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Overview Of Project Manager Responsibilities & Project Planning Software Measurement",
+              "topics": [
+                "Overview Of Project Manager Responsibilities & Project Planning",
+                "Software Measurement And Metrics: Line Of Code (LOC)",
+                "Function Point (FP) Based Measures",
+                "Various Size Oriented Measures: Halstead's Software Science",
+                "Project Size Estimation Metrics",
+                "Project Estimation Techniques",
+                "COCOMO",
+                "Staffing Level Estimation",
+                "Scheduling",
+                "Organization & Team Structures",
+                "Staffing",
+                "Risk Management"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Selecting A Language Coding Guidelines Writing Code Code Documentation Testing",
+              "topics": [
+                "Selecting A Language",
+                "Coding Guidelines",
+                "Writing Code",
+                "Code Documentation",
+                "Testing Process",
+                "Design Of Test Cases",
+                "Boundary Value Analysis",
+                "Equivalence Class Testing",
+                "Decision Table Testing",
+                "Cause Effect Graphing",
+                "Structural Testing",
+                "Control Flow Graphs",
+                "Path Testing",
+                "Data Flow And Mutation Testing",
+                "Unit Testing",
+                "Integration And System Testing",
+                "Debugging",
+                "Alpha & Beta Testing",
+                "Testing Tools & Standards"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Management Of Maintenance Maintenance Process Maintenance Models Regression Testing Reverse",
+              "topics": [
+                "Management Of Maintenance",
+                "Maintenance Process",
+                "Maintenance Models",
+                "Regression Testing",
+                "Reverse Engineering",
+                "Software Reengineering",
+                "Configuration Management",
+                "Documentation",
+                "Introduction To Reliability And Metrics To Reliability Measure",
+                "Overview Of S/W Quality Management System ISO 9000",
+                "SEI CMM",
+                "Software Engineering: A Practitioner's Approach, R. S. Pressman, McGraw Hill",
+                "Fundamental of Software Engg. By Rajib Mall 4th edition PHI",
+                "A Concise Introduction to Software Engineering By Pankaj Jalote.",
+                "Zero Defect Software, G. G. Schulmeyer, McGraw- Hill",
+                "Object Oriented Modeling and Design, J. Rumbaugh, Prentice Hall",
+                "Software Engineering, K.K. Aggarwal, Yogesh Singh, New Age International Publishers."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Emerging Web Technology [157508]",
+          "subject_code": "157508",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Unit 1.0 Overview Of Web Programming Understanding The Fundamentals Of Web Development - Including Client-Side And Server-Side Scripting Languages Introduction To Artificial Intelligence (AI): Definition, Scope And Applications Of AI In Various Fields Intersection Of Web Development And AI: Exploring How AI Technologies Enhance Web Applications And User Experiences Tools And Technologies: Introduction To Essential Tools And Technologies For Web Development And AI Integration",
+                "Overview Of Web Programming",
+                "Understanding The Fundamentals Of Web Development - Including Client-Side And Server-Side Scripting Languages",
+                "Introduction To Artificial Intelligence (AI): Definition, Scope And Applications Of AI In Various Fields",
+                "Intersection Of Web Development And AI: Exploring How AI Technologies Enhance Web Applications And User Experiences",
+                "Tools And Technologies: Introduction To Essential Tools And Technologies For Web Development And AI Integration",
+                "Unit 2.0 What Is HTML: History HTML Documents - Basic Structure Creating An HTML Document Features And Limitations Mark Up Tags Heading, Paragraphs, Line Breaks HTML Tags Formatting Tags Introduction To Elements Of HTML Working With Text Working With Lists, Tables And Frames Working With Hyperlinks Images Image Format (Quality, Size, Type, ...) Importing Images (Scanners) Working With Forms And Controls Responsive Web Design: Techniques For Creating Web Applications That Adapt To Different Screen Sizes And Devices Introduction To AI Libraries And APIs: Overview Of Popular AI Libraries And APIs For Frontend Integration",
+                "What Is HTML: History",
+                "HTML Documents - Basic Structure",
+                "Creating An HTML Document",
+                "Features And Limitations",
+                "Mark Up Tags",
+                "Heading, Paragraphs, Line Breaks",
+                "HTML Tags",
+                "Formatting Tags",
+                "Introduction To Elements Of HTML",
+                "Working With Text",
+                "Working With Lists, Tables And Frames",
+                "Working With Hyperlinks",
+                "Images",
+                "Image Format (Quality, Size, Type, ...)",
+                "Importing Images (Scanners)",
+                "Working With Forms And Controls",
+                "Responsive Web Design: Techniques For Creating Web Applications That Adapt To Different Screen Sizes And Devices",
+                "Introduction To AI Libraries And APIs: Overview Of Popular AI Libraries And APIs For Frontend Integration",
+                "Unit 3.0 Concept Of CSS Creating Style Sheet CSS Properties CSS Styling (Background, Text Format, Controlling Fonts) Working With Block Elements And Objects Working With Lists And Tables CSS Id And Class Box Model (Introduction, Border Properties, Padding Properties, Margin Properties) CSS Advanced (Grouping, Dimension, Display, Positioning - Floating, Align, Pseudo Class - Navigation Bar - Image Sprites - Attribute Sector) CSS Color Creating Page Layout And Site Designs",
+                "Concept Of CSS",
+                "Creating Style Sheet",
+                "CSS Properties",
+                "CSS Styling (Background, Text Format, Controlling Fonts)",
+                "Working With Block Elements And Objects",
+                "Working With Lists And Tables",
+                "CSS Id And Class",
+                "Box Model (Introduction, Border Properties, Padding Properties, Margin Properties)",
+                "CSS Advanced (Grouping, Dimension, Display, Positioning - Floating, Align, Pseudo Class - Navigation Bar - Image Sprites - Attribute Sector)",
+                "CSS Color",
+                "Creating Page Layout And Site Designs",
+                "Unit 4.0 Creating The Web Site Saving The Site Working On The Web Site Creating Web Site Structure Creating Titles For Web Pages Themes Publishing Web Sites Inserting Audio Files Video Files And Acceptable Formats (MPEG, Quick Time - Video For Windows) Inserting Video Files Screen Control Attributes (WIDTH, HEIGHT, ALIGN) Start Control Attributes (START, FILEOPEN, LOOP, LOOPDELAY, And MOUSEOVER) Basic Concepts Of Images: Digital Images And Digital Image Representation Image Formats: TIFF, BMP, JPG/JPEG, GIF, And PIC.PDF Hosting Basics Types Of Hosting",
+                "Creating The Web Site",
+                "Saving The Site",
+                "Working On The Web Site",
+                "Creating Web Site Structure",
+                "Creating Titles For Web Pages",
+                "Themes",
+                "Publishing Web Sites",
+                "Inserting Audio Files",
+                "Video Files And Acceptable Formats (MPEG, Quick Time - Video For Windows)",
+                "Inserting Video Files",
+                "Screen Control Attributes (WIDTH, HEIGHT, ALIGN)",
+                "Start Control Attributes (START, FILEOPEN, LOOP, LOOPDELAY, And MOUSEOVER)",
+                "Basic Concepts Of Images: Digital Images And Digital Image Representation",
+                "Image Formats: TIFF, BMP, JPG/JPEG, GIF, And PIC.PDF",
+                "Hosting Basics",
+                "Types Of Hosting"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Overview JSX React Components Props State Component Lifecycle Methods",
+              "topics": [
+                "Overview",
+                "JSX",
+                "React Components",
+                "Props",
+                "State",
+                "Component Lifecycle Methods"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Navigation And Routing In Single-Page Applications Context API Redux For",
+              "topics": [
+                "Navigation And Routing In Single-Page Applications",
+                "Context API",
+                "Redux For Global State",
+                "useState",
+                "useEffect",
+                "Custom Hooks",
+                "\"Building Intelligent Web Applications: How to Get Started with Artificial Intelligence- Driven Web Applications\" by Mark Watson (Year: 2019)",
+                "Web Development with Artificial Intelligence\" by Ibrahim Naji (Year: 2020)",
+                "\"Learning React: Functional Web Development with React and Redux\" by Alex Banks and Eve Porcello",
+                "\"React Design Patterns and Best Practices\" by Carlos Santana Roldán",
+                "AI for Web Development: Leverage the Power of Machine Learning and Deep Learning to Build Smart Web Applications\" by Sandeep Kumar Patel (Year: 2019)",
+                "\"Full stack React: The Complete Guide to ReactJS and Friends\" by Accomazzo, Murray, and Lerner."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Digital Signal Processing [157509]",
+          "subject_code": "157509",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Z-Transform And DTFT Frequency Domain Sampling (Sampling Of DTFT) DFT",
+              "topics": [
+                "Z-Transform And DTFT",
+                "Frequency Domain Sampling (Sampling Of DTFT)",
+                "DFT And Its Inverse",
+                "Zero Padding",
+                "DFT As A Linear Transformation (Matrix Method)",
+                "Properties",
+                "Spectrum Analysis Using DFT",
+                "Filtering Of Long Data Sequences Using DFT: Overlap Save Method",
+                "Overlap Add Method"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "Decimation-In-Time (DIT-FFT) Algorithm Decimation-In-Frequency (DIF-FFT) Algorithm Inverse DFT Using FFT",
+              "topics": [
+                "Decimation-In-Time (DIT-FFT) Algorithm",
+                "Decimation-In-Frequency (DIF-FFT) Algorithm",
+                "Inverse DFT Using FFT Algorithms",
+                "Goertzel Algorithm",
+                "Chirp-Z Transform Algorithm"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Frequency Response And Filter Characteristics Phase Delay And Group Delay",
+              "topics": [
+                "Frequency Response And Filter Characteristics",
+                "Phase Delay And Group Delay",
+                "Zero-Phase Filter",
+                "Linear-Phase Filter",
+                "Simple FIR Filters",
+                "Simple IIR Filters",
+                "All Pass Filter",
+                "Minimum-Phase System",
+                "Averaging Filter",
+                "Comb Filter",
+                "Digital Resonator",
+                "Notch Filter",
+                "Digital Sinusoidal Oscillator",
+                "Unit 4.0 Desirability Of Linear-Phase Filters Frequency Response Of Linear Phase FIR Filters Filter Specifications: Absolute Specifications, Relative Specifications, Analog Filter Specifications Design Techniques: Windowing, Frequency Sampling Method, Digital Hilbert Transformer Analog Filters Butterworth Approximation Chebyshev Approximation Bilinear Transformation Method Warping Effect Spectral Transformation Design Of Low Pass Filter Design Of High Pass Filter Design Of Band Pass Filter Design Of Band Elimination Filter",
+                "Desirability Of Linear-Phase Filters",
+                "Frequency Response Of Linear Phase FIR Filters",
+                "Filter Specifications: Absolute Specifications, Relative Specifications, Analog Filter Specifications",
+                "Design Techniques: Windowing, Frequency Sampling Method, Digital Hilbert Transformer",
+                "Analog Filters",
+                "Butterworth Approximation",
+                "Chebyshev Approximation",
+                "Bilinear Transformation Method",
+                "Warping Effect",
+                "Spectral Transformation",
+                "Design Of Low Pass Filter",
+                "Design Of High Pass Filter",
+                "Design Of Band Pass Filter",
+                "Design Of Band Elimination Filter"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Direct Form FIR Cascade Form FIR Linear-Phase Form FIR FIR",
+              "topics": [
+                "Direct Form FIR",
+                "Cascade Form FIR",
+                "Linear-Phase Form FIR",
+                "FIR Lattice Structure",
+                "Direct Form-I IIR",
+                "Direct Form-II IIR",
+                "Cascade Form IIR",
+                "Parallel Form IIR",
+                "All Pole Lattice Structure",
+                "Lattice-Ladder (Pole-Zero) Lattice Structure"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Decimation Interpolation The Polyphase Decomposition Digital Filter Banks Nyquist Filters",
+              "topics": [
+                "Decimation",
+                "Interpolation",
+                "The Polyphase Decomposition",
+                "Digital Filter Banks",
+                "Nyquist Filters",
+                "Two-Channel QMF",
+                "Digital Signal Processing by Alan V. Oppenheim, Ronald W. Schafer, PHI",
+                "S K Mitra, Digital Signal Processing-A Computer Based Approach, Tata McGraw Hill.",
+                "Digital Signal Processing by John G. Proakis, Dimitris K Manolakis, Pearson."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Program Elective: Artificial Neural Network [157510]",
+          "subject_code": "157510",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Introduction Artificial Neural Networks Historical Development Of Neural Networks Biological",
+              "topics": [
+                "Introduction",
+                "Artificial Neural Networks",
+                "Historical Development Of Neural Networks",
+                "Biological Neural Networks",
+                "Comparison Between Them And The Computer",
+                "Comparison Between Artificial And Biological Neural Network",
+                "Basic Building Blocks Of Artificial Neural Networks",
+                "Artificial Neural Network (ANN) Terminologies"
+              ]
+            },
+            {
+              "unit_index": 1,
+              "unit_title": "McCulloch - Pitts Neuron Model Learning Rules Hebbian Learning Rule",
+              "topics": [
+                "McCulloch - Pitts Neuron Model",
+                "Learning Rules",
+                "Hebbian Learning Rule",
+                "Perceptron Learning Rule",
+                "Delta Learning Rule (Widrow-Hoff Rule Or Least Mean Square (LMS) Rule)",
+                "Competitive Learning Rule",
+                "Out Star Learning",
+                "Boltzmann Based Learning",
+                "Hebb Net",
+                "Perceptron Networks: Introduction",
+                "Single Layer Perceptron",
+                "Brief Introduction To Multilayer Perceptron Networks"
+              ]
+            },
+            {
+              "unit_index": 2,
+              "unit_title": "Adaline Madaline Associative Memory Networks: Introduction Algorithms For Pattern Association",
+              "topics": [
+                "Adaline",
+                "Madaline",
+                "Associative Memory Networks: Introduction",
+                "Algorithms For Pattern Association",
+                "Hetero Associative Memory Neural Networks",
+                "Auto Associative Memory Network",
+                "Bi-Directional Associative Memory"
+              ]
+            },
+            {
+              "unit_index": 3,
+              "unit_title": "Discrete Hopfield Net Continuous Hopfield Net Relation Between BAM And",
+              "topics": [
+                "Discrete Hopfield Net",
+                "Continuous Hopfield Net",
+                "Relation Between BAM And Hopfield Nets",
+                "Feed Forward Networks: Introduction",
+                "Back Propagation Network (BPN)",
+                "Radial Basis Function Network (RBFN)"
+              ]
+            },
+            {
+              "unit_index": 4,
+              "unit_title": "Image Recognition Object Detection Segmentation Text Generation Sentiment Analysis Language",
+              "topics": [
+                "Image Recognition",
+                "Object Detection",
+                "Segmentation",
+                "Text Generation",
+                "Sentiment Analysis",
+                "Language Translation"
+              ]
+            },
+            {
+              "unit_index": 5,
+              "unit_title": "Model Deployment: Strategies For Deploying Neural Network Models In Production",
+              "topics": [
+                "Model Deployment: Strategies For Deploying Neural Network Models In Production Environments",
+                "Ethical Considerations: Discussing The Ethical Implications And Challenges In Neural Network Applications",
+                "Case Studies: Analyzing Real-World Applications And Success Stories Of Neural Networks",
+                "Sivanandam, S Sumathi, S N Deepa; \"Introduction to Neural Networks\", 2nd ed., TATA McGraw HILL : 2005.",
+                "Hagan Demuth Beale, 'Neural network design', PWS publishing company, 1995",
+                "Freeman, J.A and Skapura, D.M., 'Neural networks-Algorithms, applications and programming techniques' Addison Wesley, 1991",
+                "Simon Haykin, \"Neural networks A comprehensive foundations\", 2nd ed., Pearson Education, 2004.",
+                "B Yegnanarayana, \"Artificial neural networks\", 1st ed., Prentice Hall of India P Ltd, 2005.",
+                "Li Min Fu, \"Neural networks in Computer intelligence\", 1st ed., TMH, 2003"
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "Summer Entrepreneurship-II [157511P] (6 Weeks)",
+          "subject_code": "157511P",
+          "type": "lab",
+          "credits": 6,
+          "L": 0,
+          "T": 0,
+          "P": 6,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "6 Weeks Summer Entrepreneurship-II program details as per college."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        },
+        {
+          "subject_name": "NPTEL Course",
+          "subject_code": "157512P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [
+            {
+              "unit_index": 0,
+              "unit_title": "Unit 1",
+              "topics": [
+                "Details for NPTEL Course will be provided by the department."
+              ]
+            }
+          ],
+          "books": [],
+          "has_detailed_syllabus": true
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "subjects": [
+        {
+          "subject_name": "Automata Theory and Compiler Design",
+          "subject_code": "157601",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Ad hoc & Network Sensors",
+          "subject_code": "157602",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Ad hoc & Network Sensors Lab",
+          "subject_code": "157602P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Python Programming",
+          "subject_code": "157603",
+          "type": "theory",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Python Programming Lab",
+          "subject_code": "157603P",
+          "type": "lab",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Cryptography",
+          "subject_code": "157604",
+          "type": "theory",
+          "credits": 3,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "AI and Ethics",
+          "subject_code": "157605",
+          "type": "theory",
+          "credits": 1,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Constitution of India",
+          "subject_code": "157606",
+          "type": "theory",
+          "credits": 0,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "NPTEL Course-II Lab",
+          "subject_code": "157607P",
+          "type": "lab",
+          "credits": 2,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-II: Cloud Computing Network [157608]",
+          "subject_code": "157608",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-II: Distributed Computing [157609]",
+          "subject_code": "157609",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-II: Network Security [157610]",
+          "subject_code": "157610",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-II: Internet & Intranet Engineering [157611]",
+          "subject_code": "157611",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-III: Computer Graphics [157612]",
+          "subject_code": "157612",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-III: Quantum Computing [157613]",
+          "subject_code": "157613",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-III: Block Chain Technology [157614]",
+          "subject_code": "157614",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective-III: E-Commerce and ERP [157615]",
+          "subject_code": "157615",
+          "type": "theory",
+          "credits": null,
+          "L": null,
+          "T": null,
+          "P": null,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        },
+        {
+          "subject_name": "Program Elective Course-II",
+          "subject_code": "1576XX",
+          "type": "theory",
+          "credits": 3,
+          "L": 3,
+          "T": 0,
+          "P": 0,
+          "units": [],
+          "books": [],
+          "has_detailed_syllabus": false
+        }
+      ]
+    }
+  ]
+}

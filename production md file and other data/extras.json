@@ -1,0 +1,171 @@
+{
+  "categories": [
+    {
+      "id": "books",
+      "name": "Books",
+      "groups": [
+        {
+          "heading": "GATE Solved PYQs",
+          "products": [
+            {
+              "name": "Computer Science & IT",
+              "desc": "Chapter-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/711VIRm4oVL._SL1500_.jpg",
+              "link": "https://amzn.to/4seZC0K",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Computer Science & IT",
+              "desc": "Topic-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71QZ467L-tL._SL1500_.jpg",
+              "link": "https://amzn.to/4dunWbb",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Civil Engineering",
+              "desc": "Chapter-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71tMDhVFPDL._SL1500_.jpg",
+              "link": "https://amzn.to/4cerWKS",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Civil Engineering",
+              "desc": "Topic-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71L74I9c9zL._SL1500_.jpg",
+              "link": "https://amzn.to/4bScgxV",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Mechanical Engineering",
+              "desc": "Chapter-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71kyOVMzeRL._SL1500_.jpg",
+              "link": "https://amzn.to/4sfG4cz",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Mechanical Engineering",
+              "desc": "Topic-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71d+s04tCnL._SL1500_.jpg",
+              "link": "https://amzn.to/4sT5KwU",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Electrical Engineering",
+              "desc": "Chapter-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71jOn-b40wL._SL1500_.jpg",
+              "link": "https://amzn.to/41dZoMo",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Electrical Engineering",
+              "desc": "Topic-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71IEayCI7mL._SL1500_.jpg",
+              "link": "https://amzn.to/3Qj61uo",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Electronics & Communication Engineering",
+              "desc": "Chapter-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71H+D0qKyuL._SL1500_.jpg",
+              "link": "https://amzn.to/4sghzvV",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Electronics & Communication Engineering",
+              "desc": "Topic-wise Previous Year Solved Papers (2000–2026)",
+              "img": "https://m.media-amazon.com/images/I/71AqCKSaFQL._SL1500_.jpg",
+              "link": "https://amzn.to/41gjJAF",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Computer Science and IT",
+              "desc": "Complete Study Material with 3100+ MCQs, NTQs & MSQs",
+              "img": "https://m.media-amazon.com/images/I/71TmqNfR3lL._SL1500_.jpg",
+              "link": "https://amzn.to/4tudJ3f",
+              "zoom": "0.8"
+            },
+            {
+              "name": "Data Science & AI",
+              "desc": "Complete Guide | 2600+ MCQs | Solved Papers 2024–2026",
+              "img": "https://m.media-amazon.com/images/I/71tfqdhUxGL._SL1500_.jpg",
+              "link": "https://amzn.to/4e2HlAe",
+              "zoom": "0.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essentials",
+      "name": "Hostel Essentials",
+      "groups": [
+        {
+          "heading": "Instant Noodles",
+          "products": [
+            {
+              "name": "MAGGI (Special Noodles)",
+              "desc": "Pack of 12, 840g, 70g each",
+              "img": "https://m.media-amazon.com/images/I/71Hiy0dmhlL._SL1100_.jpg",
+              "link": "https://amzn.to/4ts8l0q",
+              "zoom": "0.9"
+            },
+            {
+              "name": "MAGGI (Classic Noodles)",
+              "desc": "Pack of 12, 840g, 70g each",
+              "img": "https://m.media-amazon.com/images/I/71R+kuYnovL._SL1500_.jpg",
+              "link": "https://amzn.to/41aDXfd",
+              "zoom": "1"
+            },
+            {
+              "name": "YiPPee! Instant Noodles",
+              "desc": "Pack of 12, 840g, 70g each",
+              "img": "https://m.media-amazon.com/images/I/91-nD27eQiL._SL1500_.jpg",
+              "link": "https://amzn.to/3Ol2ETa",
+              "zoom": "0.95"
+            },
+            {
+              "name": "Korean Ramen Spicy Noodles",
+              "desc": "5 in 1, 400gm, 80g each",
+              "img": "https://m.media-amazon.com/images/I/71wFlVOJPeL._SL1500_.jpg",
+              "link": "https://amzn.to/3Q16LUU",
+              "zoom": "1.25"
+            }
+          ]
+        },
+        {
+          "heading": "Instant Pasta",
+          "products": [
+            {
+              "name": "MAGGI (Instant Pasta)",
+              "desc": "Family Pack, 8 in 1, 538g",
+              "img": "https://m.media-amazon.com/images/I/81+6N7Qe7TL._SL1500_.jpg",
+              "link": "https://amzn.to/4bQgNAR",
+              "zoom": "0.9"
+            },
+            {
+              "name": "Maggi Masala Penne Pasta",
+              "desc": "69.5 g Pouch",
+              "img": "https://m.media-amazon.com/images/I/81Sw4jMPQsL._SL1500_.jpg",
+              "link": "https://amzn.to/4sgjgcL",
+              "zoom": "0.95"
+            },
+            {
+              "name": "Maggi Instant Pasta - Cheesy Tomato Twist",
+              "desc": "68.5 g Pouch",
+              "img": "https://m.media-amazon.com/images/I/81LQ0ILprOL._SL1500_.jpg",
+              "link": "https://amzn.to/41e59d0",
+              "zoom": "0.95"
+            },
+            {
+              "name": "Maggi Instant Pasta - Mushroom Penne",
+              "desc": "68.5 g Pouch",
+              "img": "https://m.media-amazon.com/images/I/81MWPLpOTHL._SL1500_.jpg",
+              "link": "https://amzn.to/4cokwFP",
+              "zoom": "0.95"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
