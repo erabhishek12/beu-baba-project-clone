@@ -261,6 +261,16 @@ export const authService = {
     USE_SUPABASE
       ? supabaseAuthService.requestPasswordReset(email)
       : mockAuthService.requestPasswordReset(email),
+  /** Google sign-in. Only meaningful with the real backend. */
+  signInWithGoogle: (): Promise<void> =>
+    USE_SUPABASE
+      ? supabaseAuthService.signInWithGoogle()
+      : Promise.reject(new Error('Google sign-in needs the online backend.')),
+  /** Has the signed-up email been confirmed yet? */
+  refreshVerification: (): Promise<boolean> =>
+    USE_SUPABASE ? supabaseAuthService.refreshVerification() : Promise.resolve(true),
+  resendConfirmation: (email: string): Promise<void> =>
+    USE_SUPABASE ? supabaseAuthService.resendConfirmation(email) : Promise.resolve(),
   changePassword: (userId: string, current: string, next: string): Promise<void> =>
     USE_SUPABASE
       ? supabaseAuthService.changePassword(current, next)

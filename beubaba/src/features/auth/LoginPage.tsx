@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import { GoogleButton } from './GoogleButton'
 import { Link, useNavigate } from 'react-router-dom'
 import { Mail, Lock } from 'lucide-react'
 import { AuthPanel } from './AuthPanel'
@@ -45,6 +46,7 @@ export function LoginPage() {
 
   return (
     <AuthPanel title="Welcome back" subtitle="Sign in to continue your studies.">
+      <GoogleButton label="Continue with Google" variant="primary" />
       <form onSubmit={onSubmit} noValidate className="flex flex-col gap-4">
         {serverError && (
           <div
@@ -94,16 +96,6 @@ export function LoginPage() {
           Create an account
         </Link>
       </p>
-
-      {/* Preview convenience: fill the demo admin credentials so the moderation
-          panel is reachable. Mock-only — removed with the Supabase adapter. */}
-      <button
-        type="button"
-        onClick={() => setValues({ email: 'admin@beubaba.app', password: 'admin1234' })}
-        className="mt-4 w-full rounded-xl border border-line/70 bg-chip px-3 py-2 text-center text-caption text-ink-tertiary transition-colors hover:text-ink-secondary"
-      >
-        Demo admin: admin@beubaba.app · admin1234 (tap to fill)
-      </button>
     </AuthPanel>
   )
 }

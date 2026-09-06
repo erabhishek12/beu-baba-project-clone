@@ -9,6 +9,8 @@
  * status flow is demonstrable end-to-end without a backend.
  */
 import { store, delay } from '@/services/storage'
+import { USE_SUPABASE } from '@/services/backend/config'
+import * as sbs from '@/services/backend/supabaseSupport'
 import { notificationService } from '@/services/notificationService'
 import type {
   SupportCategory,
@@ -55,6 +57,7 @@ function saveMsgs(convId: string, list: SupportMessage[]) {
 
 export const supportService = {
   async listConversations(userId: string): Promise<SupportConversation[]> {
+    if (USE_SUPABASE) return sbs.listConversations(userId)
     await delay(120)
     return convs(userId).sort(
       (a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime(),
@@ -63,6 +66,7 @@ export const supportService = {
 
   /** Owner-scoped: returns undefined if the conversation isn't the user's. */
   async getThread(userId: string, convId: string): Promise<SupportThread | undefined> {
+    if (USE_SUPABASE) return sbs.getThread(convId)
     await delay(120)
     const conv = convs(userId).find((c) => c.id === convId)
     if (!conv) return undefined
@@ -70,6 +74,7 @@ export const supportService = {
   },
 
   async unreadForUser(userId: string): Promise<number> {
+    if (USE_SUPABASE) return sbs.unreadForUser(userId)
     const list = convs(userId)
     let n = 0
     for (const c of list) {
@@ -82,6 +87,12 @@ export const supportService = {
     userId: string,
     input: { subject: string; category: SupportCategory; body: string; attachment?: Attachment | null },
   ): Promise<SupportThread> {
+    if (USE_SUPABASE) {
+      const id = await sbs.startThread(input.subject.trim(), input.category, input.body.trim())
+      const thread = await sbs.getThread(id)
+      if (!thread) throw new Error('Could not open the conversation.')
+      return thread
+    }
     await delay()
     const now = new Date().toISOString()
     const conv: SupportConversation = {
@@ -114,6 +125,13 @@ export const supportService = {
     convId: string,
     input: { body: string; attachment?: Attachment | null },
   ): Promise<SupportMessage> {
+    if (USE_SUPABASE) {
+      await sbs.postMessage(convId, input.body.trim())
+      const thread = await sbs.getThread(convId)
+      const last = thread?.messages[thread.messages.length - 1]
+      if (!last) throw new Error('Message was not saved.')
+      return last
+    }
     await delay(160)
     const now = new Date().toISOString()
     const msg: SupportMessage = {
@@ -137,6 +155,7 @@ export const supportService = {
 
   /** Mark developer messages in a thread as read (called when the user opens it). */
   async markThreadRead(_userId: string, convId: string): Promise<void> {
+    if (USE_SUPABASE) return sbs.markThreadRead(convId)
     const now = new Date().toISOString()
     const list = msgs(convId).map((m) =>
       m.sender_role === 'developer' && !m.read_at ? { ...m, read_at: now } : m,
@@ -149,6 +168,8 @@ export const supportService = {
    * from the admin panel; this just proves the notification + status wiring.
    */
   async scheduleAutoReply(userId: string, convId: string): Promise<void> {
+    // Mock-only: a real developer answers from the admin panel.
+    if (USE_SUPABASE) return
     setTimeout(async () => {
       const now = new Date().toISOString()
       const reply: SupportMessage = {

@@ -3,15 +3,32 @@ import { Navigate, useLocation } from 'react-router-dom'
 import { useAuth } from '@/app/providers/AuthProvider'
 import { FullScreenLoader } from '@/components/feedback/FullScreenLoader'
 
-/** Requires an authenticated session; otherwise redirects to login. */
+/**
+ * Requires an authenticated session; otherwise redirects to login.
+ *
+ * Also gates on profile completeness. A Google sign-in gives us an email and a
+ * name but NOT a branch or semester, and the whole app is organised around
+ * those — without them the Quiz tab has nothing to filter and Home is empty.
+ * So an incomplete profile is sent to /complete-profile first.
+ */
 export function RequireAuth({ children }: { children: ReactNode }) {
-  const { status } = useAuth()
+  const { status, user } = useAuth()
   const location = useLocation()
 
   if (status === 'loading') return <FullScreenLoader />
   if (status === 'unauthenticated') {
     return <Navigate to="/login" replace state={{ from: location.pathname }} />
   }
+
+  const needsSetup =
+    !!user &&
+    (!user.student?.branch_id ||
+      !user.student?.current_semester_id ||
+      !user.student?.onboarding_completed)
+  if (needsSetup && location.pathname !== '/complete-profile') {
+    return <Navigate to="/complete-profile" replace />
+  }
+
   return <>{children}</>
 }
 

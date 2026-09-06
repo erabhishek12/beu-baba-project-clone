@@ -20,6 +20,8 @@ import {
   QrCode,
   KeyRound,
   Type,
+  Camera,
+  Languages,
 } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { staggerParent, staggerChild } from '@/lib/motion'
@@ -54,6 +56,8 @@ export const TOOLBOX: ToolDef[] = [
   { slug: 'date-diff', label: 'Date Difference', desc: 'Days between two dates', icon: Hourglass, clay: 'tool-date-diff', group: 'Utility' },
   { slug: 'qr', label: 'QR Generator', desc: 'Make a QR code from text/URL', icon: QrCode, clay: 'tool-qr', group: 'Utility' },
   { slug: 'password', label: 'Password Generator', desc: 'Strong random passwords', icon: KeyRound, clay: 'tool-password', group: 'Utility' },
+  { slug: 'ocr', label: 'Photo to Text', desc: 'Pull text out of a photo of your notes', icon: Camera, clay: 'ocr', group: 'Utility' },
+  { slug: 'translator', label: 'Translator', desc: 'English and Indian languages', icon: Languages, clay: 'translator', group: 'Utility' },
   { slug: 'text-formatter', label: 'Text Formatter', desc: 'Case, trim, count & clean text', icon: Type, clay: 'tool-text-formatter', group: 'Utility' },
 ]
 

@@ -1,27 +1,31 @@
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
+import { ASSET_V } from '@/lib/brand'
 import { motion } from 'framer-motion'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { ChatSheet } from '@/features/chatbot/ChatSheet'
 
 /**
  * Floating chat launcher — bottom-right, above the mobile bottom nav.
- * Carries the BEU BABA mascot (the chat identity) and opens the chat &
- * support section. Calm clay-style FAB: soft extrusion, press settle,
- * no pulse rings / particles / neon.
+ * Carries the BEU BABA mascot and opens the BEU BABA assistant (spec §29:
+ * globally available on normal app pages). Calm clay-style FAB: soft
+ * extrusion, press settle, no pulse rings / particles / neon.
  */
 export function FloatingChatButton() {
-  const navigate = useNavigate()
   const { pathname } = useLocation()
   const reduced = useReducedMotion()
+  const [open, setOpen] = useState(false)
 
   // Already inside the chat section — the launcher would only overlap it.
   if (pathname.startsWith('/support')) return null
 
   return (
+    <>
     <motion.button
       type="button"
-      onClick={() => navigate('/support')}
-      aria-label="Open chat and support"
-      title="Chat & support"
+      onClick={() => setOpen(true)}
+      aria-label="Open the BEU BABA assistant"
+      title="Ask BEU BABA"
       whileTap={reduced ? undefined : { scale: 0.92 }}
       initial={reduced ? false : { scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
@@ -33,12 +37,12 @@ export function FloatingChatButton() {
       }}
     >
       <img
-        src="/assets/brand-mascot.webp"
+        src={`/assets/brand-mascot.webp?v=${ASSET_V}`}
         alt=""
         aria-hidden
         draggable={false}
         decoding="async"
-        className="size-full scale-[1.8] object-cover object-[50%_14%] select-none"
+        className="size-full scale-105 object-contain select-none"
       />
       {/* soft top-light so the FAB reads clay, not sticker */}
       <span
@@ -50,5 +54,7 @@ export function FloatingChatButton() {
         }}
       />
     </motion.button>
+      <ChatSheet open={open} onClose={() => setOpen(false)} />
+    </>
   )
 }

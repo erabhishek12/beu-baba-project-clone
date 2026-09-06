@@ -58,6 +58,8 @@ const ICONS = [
   'revision',
   'mathmind',
   'focus',
+  'collaborate',
+  'planner',
   'ocr',
   'translator',
   'trophy',

@@ -8,6 +8,13 @@
  * can be cleared rather than producing a broken link.
  */
 import { store, delay } from '@/services/storage'
+import { USE_SUPABASE } from '@/services/backend/config'
+import {
+  listRecent,
+  pushRecent,
+  removeRecent,
+  clearRecent,
+} from '@/services/backend/supabaseUserData'
 
 export type RecentType = 'pyq' | 'subject' | 'quiz' | 'resource'
 
@@ -36,14 +43,32 @@ export const recentlyViewedService = {
     )
     list.unshift({ ...item, viewed_at: new Date().toISOString() })
     store.set(KEY(userId), list.slice(0, MAX))
+    // Fire-and-forget: recording a view must never delay navigation.
+    if (USE_SUPABASE) pushRecent(userId, { ...item, target_id: item.target_id })
   },
 
   async list(userId: string): Promise<RecentItem[]> {
+    if (USE_SUPABASE && userId && userId !== 'anonymous') {
+      try {
+        const rows = await listRecent(userId)
+        return rows.map((r) => ({
+          type: r.type,
+          target_id: r.target_id,
+          title: r.title,
+          subtitle: r.subtitle ?? undefined,
+          url: r.url ?? '',
+          viewed_at: r.viewed_at,
+        })) as RecentItem[]
+      } catch {
+        return read(userId)
+      }
+    }
     await delay(80)
     return read(userId)
   },
 
   async remove(userId: string, type: RecentType, targetId: string): Promise<void> {
+    if (USE_SUPABASE) await removeRecent(userId, type, targetId)
     await delay(60)
     store.set(
       KEY(userId),
@@ -52,6 +77,7 @@ export const recentlyViewedService = {
   },
 
   async clear(userId: string): Promise<void> {
+    if (USE_SUPABASE) await clearRecent(userId)
     await delay(60)
     store.remove(KEY(userId))
   },

@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local backend configuration — never commit real Supabase keys
+.env
+.env.local
+.env.*.local

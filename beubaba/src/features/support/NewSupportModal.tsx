@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Modal } from '@/components/glass/Modal'
 import { Button } from '@/components/ui/Button'
@@ -11,13 +11,31 @@ import { supportService, SUPPORT_CATEGORIES } from '@/services/supportService'
 import type { SupportCategory } from '@/types/domain'
 import type { Attachment } from '@/lib/media'
 
-export function NewSupportModal({ open, onClose }: { open: boolean; onClose: () => void }) {
+export function NewSupportModal({
+  open,
+  onClose,
+  prefill,
+}: {
+  open: boolean
+  onClose: () => void
+  /** Question carried over from the assistant when it could not answer (§28). */
+  prefill?: string
+}) {
   const userId = useUserId()
   const navigate = useNavigate()
   const toast = useToast()
   const [category, setCategory] = useState<SupportCategory>('bug')
   const [subject, setSubject] = useState('')
   const [body, setBody] = useState('')
+
+  // Carry the assistant's unanswered question into the message so the
+  // developer receives the actual context, not an empty ticket.
+  useEffect(() => {
+    if (open && prefill) {
+      setBody((b) => b || prefill)
+      setSubject((s) => s || prefill.slice(0, 60))
+    }
+  }, [open, prefill])
   const [attachment, setAttachment] = useState<Attachment | null>(null)
   const [errors, setErrors] = useState<{ subject?: string; body?: string }>({})
   const [saving, setSaving] = useState(false)

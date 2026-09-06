@@ -63,6 +63,20 @@ const CATEGORIES: {
   },
 ]
 
+/**
+ * Small shortcut row under the category tiles.
+ *
+ * Deliberately only FOUR: the study loop (planner, revision), the practice
+ * warm-up (Math Mind) and the external study sites. Anything more and the home
+ * screen stops being a starting point and becomes a menu.
+ */
+const SHORTCUTS: { label: string; icon: AppIconName; to: string }[] = [
+  { label: 'Planner', icon: 'planner', to: '/study/planner' },
+  { label: 'Revision', icon: 'revision', to: '/revision' },
+  { label: 'Math Mind', icon: 'mathmind', to: '/tools/math-mind' },
+  { label: 'Sites', icon: 'collaborate', to: '/tools/collaborate' },
+]
+
 const DAILY_GOAL = 3
 
 const TOD_ICON: Record<ReturnType<typeof timeOfDay>, LucideIcon> = {
@@ -202,6 +216,22 @@ export function HomePage() {
                   name={c.icon}
                   className="pointer-events-none absolute -bottom-1 -right-1 size-16 drop-shadow-[0_8px_14px_rgba(40,30,90,0.18)] sm:size-20"
                 />
+              </button>
+            ))}
+          </section>
+
+          {/* Quick shortcuts — kept to four so home stays uncluttered */}
+          <section className="mt-3 grid grid-cols-4 gap-2">
+            {SHORTCUTS.map((sc) => (
+              <button
+                key={sc.label}
+                onClick={() => navigate(sc.to)}
+                className="flex flex-col items-center gap-1 rounded-2xl bg-surface px-1.5 py-2.5 ring-1 ring-line transition-shadow hover:shadow-neu-sm"
+              >
+                <AppIcon name={sc.icon} className="size-9" />
+                <span className="text-center text-label leading-tight text-ink-secondary">
+                  {sc.label}
+                </span>
               </button>
             ))}
           </section>

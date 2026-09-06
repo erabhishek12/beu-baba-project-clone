@@ -1,4 +1,6 @@
 import { Navigate, useParams } from 'react-router-dom'
+import { OcrTool } from './OcrTool'
+import { TranslatorTool } from './TranslatorTool'
 import {
   CgpaTool,
   SgpaTool,
@@ -25,6 +27,8 @@ const TOOLS: Record<string, () => React.ReactElement> = {
   percentage: PercentageTool,
   marks: MarksTool,
   attendance: AttendanceTool,
+  ocr: OcrTool,
+  translator: TranslatorTool,
   age: AgeTool,
   'date-diff': DateDiffTool,
   'unit-converter': UnitConverterTool,

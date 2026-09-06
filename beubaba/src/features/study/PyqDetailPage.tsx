@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
+import { Download, CheckCircle2 } from 'lucide-react'
+import { offlineService, offlineSupported } from '@/services/offlineService'
 import { ChevronLeft, Clock, Award, ListOrdered, Wand2 } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { Pill } from '@/components/ui/Pill'
@@ -18,13 +20,49 @@ export function PyqDetailPage() {
   const navigate = useNavigate()
   const [assist, setAssist] = useState<StudyContext | null>(null)
 
+  // Keep a copy on the phone so the paper opens with no connection.
+  const [savedOffline, setSavedOffline] = useState(false)
+  useEffect(() => {
+    if (!id) return
+    void offlineService.has(`pyq:${id}`).then(setSavedOffline)
+  }, [id])
+
+  async function saveOffline() {
+    if (!detail || !paper) return
+    if (savedOffline) {
+      await offlineService.remove(`pyq:${id}`)
+      setSavedOffline(false)
+      return
+    }
+    await offlineService.save({
+      key: `pyq:${id}`,
+      kind: 'pyq',
+      title: `${paper.subject}${paper.year ? ` (${paper.year})` : ''}`,
+      subtitle: paper.semester != null ? `Semester ${paper.semester}` : undefined,
+      data: detail,
+    })
+    setSavedOffline(true)
+  }
+
   const { data: paper, isLoading: metaLoading } = useQuery({
     queryKey: ['pyq', id],
     queryFn: () => pyqService.get(id),
   })
   const { data: detail, isLoading: detailLoading } = useQuery({
     queryKey: ['pyq-detail', id],
-    queryFn: () => pyqService.detail(id),
+    queryFn: async () => {
+      try {
+        const d = await pyqService.detail(id)
+        return d
+      } catch (e) {
+        // No connection: fall back to a copy the student saved for offline use.
+        const saved = await offlineService.get<Awaited<ReturnType<typeof pyqService.detail>>>(
+          `pyq:${id}`,
+        )
+        if (saved) return saved.data
+        throw e
+      }
+    },
   })
 
   useRecordView('pyq', id, paper ? `${paper.subject}${paper.year ? ` (${paper.year})` : ''}` : null, {
@@ -109,6 +147,22 @@ export function PyqDetailPage() {
                   url: `/study/pyq/${id}`,
                 }}
               />
+              {offlineSupported() && detail && (
+                <button
+                  onClick={saveOffline}
+                  className="flex items-center gap-1.5 text-body-sm font-semibold text-ink-secondary"
+                >
+                  {savedOffline ? (
+                    <>
+                      <CheckCircle2 className="size-4 text-success" aria-hidden /> Saved offline
+                    </>
+                  ) : (
+                    <>
+                      <Download className="size-4" aria-hidden /> Save offline
+                    </>
+                  )}
+                </button>
+              )}
               <ReportButton
                 targetType="pyq"
                 targetId={id}

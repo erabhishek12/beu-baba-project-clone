@@ -8,6 +8,8 @@
  * RLS in the Supabase adapter). Data is scoped by user id in the mock store.
  */
 import { store, delay } from '@/services/storage'
+import { USE_SUPABASE } from '@/services/backend/config'
+import { getSupabase } from '@/services/backend/supabaseClient'
 import { notificationService } from '@/services/notificationService'
 import type {
   Report,
@@ -43,6 +45,27 @@ export interface CreateReportInput {
 
 export const reportService = {
   async create(userId: string, input: CreateReportInput): Promise<Report> {
+    if (USE_SUPABASE) {
+      const { data, error } = await getSupabase()
+        .from('reports')
+        .insert({
+          reporter_id: userId,
+          target_type: input.target_type,
+          target_id: input.target_id,
+          target_label: input.target_label,
+          reason: input.reason,
+          details: input.details.trim(),
+          context_path: input.context_path ?? null,
+        })
+        .select()
+        .single()
+      if (error) throw new Error(error.message)
+      const row = data as Record<string, unknown>
+      return {
+        ...(row as unknown as Report),
+        attachment: input.attachment ?? null,
+      }
+    }
     await delay()
     const now = new Date().toISOString()
     const report: Report = {
@@ -76,17 +99,43 @@ export const reportService = {
 
   /** A student's OWN reports (owner-scoped). */
   async listMine(userId: string): Promise<Report[]> {
+    if (USE_SUPABASE) {
+      const { data, error } = await getSupabase()
+        .from('reports')
+        .select('*')
+        .eq('reporter_id', userId)
+        .order('created_at', { ascending: false })
+      if (error) throw new Error(error.message)
+      return (data ?? []) as unknown as Report[]
+    }
     await delay(120)
     return store.get<Report[]>(OWNER_KEY(userId), [])
   },
 
   /** Moderation queue — role-gated (admin/moderator). */
   async listAll(): Promise<Report[]> {
+    if (USE_SUPABASE) {
+      // RLS decides what is visible: moderators see all, students only their own.
+      const { data, error } = await getSupabase()
+        .from('reports')
+        .select('*')
+        .order('created_at', { ascending: false })
+      if (error) throw new Error(error.message)
+      return (data ?? []) as unknown as Report[]
+    }
     await delay(120)
     return store.get<Report[]>(GLOBAL_KEY, [])
   },
 
   async setStatus(reportId: string, status: ReportStatus): Promise<void> {
+    if (USE_SUPABASE) {
+      const { error } = await getSupabase()
+        .from('reports')
+        .update({ status, updated_at: new Date().toISOString() })
+        .eq('id', reportId)
+      if (error) throw new Error(error.message)
+      return
+    }
     await delay(120)
     const all = store.get<Report[]>(GLOBAL_KEY, [])
     const next = all.map((r) => (r.id === reportId ? { ...r, status } : r))

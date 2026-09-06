@@ -74,6 +74,34 @@ export const TOOLS: Tool[] = [
     to: '/tools/colleges',
     tint: 'blue',
   },
+  {
+    label: 'Math Mind',
+    desc: 'Five levels of maths practice with worked solutions',
+    clay: 'mathmind',
+    to: '/tools/math-mind',
+    tint: 'blue',
+  },
+  {
+    label: 'Revision',
+    desc: 'Questions you got wrong, until you know them',
+    clay: 'revision',
+    to: '/revision',
+    tint: 'blue',
+  },
+  {
+    label: 'Focus games',
+    desc: 'Short brain warm-ups for a study break',
+    clay: 'focus',
+    to: '/tools/games',
+    tint: 'blue',
+  },
+  {
+    label: 'Study collaboration',
+    desc: 'Doubt Desk, JavaSourceCode and Study Hub',
+    clay: 'collaborate',
+    to: '/tools/collaborate',
+    tint: 'blue',
+  },
 ]
 
 export function ToolsPage() {

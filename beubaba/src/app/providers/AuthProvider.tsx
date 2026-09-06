@@ -21,7 +21,8 @@ interface AuthContextValue {
   roles: Role[]
   isAdmin: boolean
   login: (email: string, password: string) => Promise<void>
-  register: (input: RegisterInput) => Promise<void>
+  /** Returns the new session so the caller can check email verification. */
+  register: (input: RegisterInput) => Promise<SessionUser>
   logout: () => Promise<void>
   refresh: () => Promise<void>
   setUser: (user: SessionUser) => void
@@ -61,6 +62,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const session = await authService.register(input)
     setUser(session)
     setStatus('authenticated')
+    return session
   }, [])
 
   const logout = useCallback(async () => {

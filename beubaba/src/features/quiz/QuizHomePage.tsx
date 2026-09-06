@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useQuery, keepPreviousData } from '@tanstack/react-query'
 import { motion } from 'framer-motion'
@@ -8,6 +8,7 @@ import { Pill } from '@/components/ui/Pill'
 import { PageHero } from '@/components/ui/PageHero'
 import { Skeleton } from '@/components/feedback/Skeleton'
 import { QuizCard } from '@/features/quiz/QuizCard'
+import { useAuth } from '@/app/providers/AuthProvider'
 import { useUserId } from '@/features/quiz/hooks'
 import { quizService } from '@/services/quizService'
 import { staggerParent } from '@/lib/motion'
@@ -26,19 +27,26 @@ export function QuizHomePage() {
   const [query, setQuery] = useState('')
   const [type, setType] = useState('all')
   const [subject, setSubject] = useState<string | null>(null)
+  // Default to the student's own branch — otherwise every branch's papers show
+  // up and the list is meaningless. They can still switch to "All branches".
+  const { user } = useAuth()
+  const myBranch = user?.student?.branch_id ?? null
+  const [branchOnly, setBranchOnly] = useState(true)
+  const branchId = branchOnly && myBranch ? myBranch : undefined
 
   const { data: subjects } = useQuery({
-    queryKey: ['quiz-subjects'],
-    queryFn: () => quizService.listSubjects(),
+    queryKey: ['quiz-subjects', branchId ?? 'all'],
+    queryFn: () => quizService.listSubjects(branchId),
   })
 
   const { data: quizzes, isLoading } = useQuery({
-    queryKey: ['quizzes', query.trim(), type, subject],
+    queryKey: ['quizzes', query.trim(), type, subject, branchId ?? 'all'],
     queryFn: () =>
       quizService.listQuizzes({
         query: query.trim() || undefined,
         type,
         subjectCode: subject || undefined,
+        branchId,
       }),
     placeholderData: keepPreviousData,
   })
@@ -55,6 +63,14 @@ export function QuizHomePage() {
 
   const featured = useMemo(() => quizzes?.[0], [quizzes])
   const rest = useMemo(() => quizzes?.slice(1) ?? [], [quizzes])
+
+  // With the full bank this list is ~750 quizzes. Rendering every card at once
+  // blocked the main thread for most of a second whenever the Quiz tab opened,
+  // which read as a freeze. Show a page at a time instead.
+  const PAGE = 20
+  const [shown, setShown] = useState(PAGE)
+  useEffect(() => { setShown(PAGE) }, [query, type, subject, branchId])
+  const visible = useMemo(() => rest.slice(0, shown), [rest, shown])
 
   return (
     <div className="page-x pb-8 pt-6">
@@ -109,6 +125,18 @@ export function QuizHomePage() {
         ))}
       </div>
 
+      {/* Branch scope — only worth showing when we know the student's branch */}
+      {myBranch && (
+        <div className="mt-2 flex gap-2">
+          <Chip active={branchOnly} onClick={() => { setBranchOnly(true); setSubject(null) }}>
+            My branch
+          </Chip>
+          <Chip active={!branchOnly} onClick={() => { setBranchOnly(false); setSubject(null) }}>
+            All branches
+          </Chip>
+        </div>
+      )}
+
       {/* Subject chips */}
       {!!subjects?.length && (
         <div className="mt-2 flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
@@ -125,6 +153,8 @@ export function QuizHomePage() {
 
       {isLoading && !quizzes ? (
         <div className="mt-4 space-y-3">
+          {/* featured card is taller than the rest — match the real layout */}
+          <Skeleton className="h-40 rounded-2xl" />
           {Array.from({ length: 4 }).map((_, i) => (
             <Skeleton key={i} className="h-24 rounded-2xl" />
           ))}
@@ -160,10 +190,19 @@ export function QuizHomePage() {
             animate="visible"
             className="mt-3 space-y-3"
           >
-            {rest.map((q) => (
+            {visible.map((q) => (
               <QuizCard key={q.id} quiz={q} />
             ))}
           </motion.div>
+
+          {rest.length > shown && (
+            <button
+              onClick={() => setShown((n) => n + PAGE)}
+              className="mt-3 w-full rounded-2xl bg-surface px-4 py-3 text-body-sm font-semibold text-ink-secondary ring-1 ring-line"
+            >
+              Show more ({rest.length - shown} left)
+            </button>
+          )}
         </>
       ) : (
         <Card className="mt-6 flex flex-col items-center py-10 text-center">

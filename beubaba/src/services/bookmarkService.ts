@@ -6,6 +6,12 @@
  */
 import { store, delay } from '@/services/storage'
 import type { Bookmark, BookmarkType } from '@/types/domain'
+import { USE_SUPABASE } from '@/services/backend/config'
+import {
+  listBookmarks,
+  addBookmark,
+  removeBookmark,
+} from '@/services/backend/supabaseUserData'
 
 const KEY = (userId: string) => `bookmarks:${userId}`
 
@@ -23,6 +29,7 @@ export interface ToggleBookmarkInput {
 
 export const bookmarkService = {
   async list(userId: string): Promise<Bookmark[]> {
+    if (USE_SUPABASE) return listBookmarks(userId)
     await delay(100)
     return list(userId).sort(
       (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime(),
@@ -30,11 +37,27 @@ export const bookmarkService = {
   },
 
   async isSaved(userId: string, type: BookmarkType, targetId: string): Promise<boolean> {
+    if (USE_SUPABASE) {
+      const rows = await listBookmarks(userId)
+      return rows.some((b) => b.target_type === type && b.target_id === targetId)
+    }
     return list(userId).some((b) => b.target_type === type && b.target_id === targetId)
   },
 
   /** Idempotent toggle — returns the new saved state. */
   async toggle(userId: string, input: ToggleBookmarkInput): Promise<boolean> {
+    if (USE_SUPABASE) {
+      const rows = await listBookmarks(userId)
+      const exists = rows.some(
+        (b) => b.target_type === input.target_type && b.target_id === input.target_id,
+      )
+      if (exists) {
+        await removeBookmark(userId, input.target_type, input.target_id)
+        return false
+      }
+      await addBookmark(userId, input)
+      return true
+    }
     await delay(80)
     const current = list(userId)
     const idx = current.findIndex(
@@ -60,6 +83,12 @@ export const bookmarkService = {
   },
 
   async remove(userId: string, bookmarkId: string): Promise<void> {
+    if (USE_SUPABASE) {
+      // Supabase ids are synthesised as "<type>:<target_id>".
+      const [type, ...rest] = bookmarkId.split(':')
+      await removeBookmark(userId, type, rest.join(':'))
+      return
+    }
     await delay(60)
     store.set(
       KEY(userId),

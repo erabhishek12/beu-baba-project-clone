@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { OnboardingFlow, hasOnboarded } from '@/components/onboarding/OnboardingFlow'
+import { useLocation } from 'react-router-dom'
 import { BottomNav } from '@/components/navigation/BottomNav'
 import { FloatingChatButton } from '@/components/navigation/FloatingChatButton'
 import { AppHeader } from '@/components/navigation/AppHeader'
@@ -9,8 +10,12 @@ import { SplashScreen } from '@/features/splash/SplashScreen'
 import { useSplash } from '@/features/splash/useSplash'
 import { useAuth } from '@/app/providers/AuthProvider'
 import { InstallBanner } from '@/app/pwa/InstallBanner'
+import { BannerOverlay } from '@/components/banner/BannerOverlay'
+import { SharePrompt } from '@/components/share/SharePrompt'
 import { settingsService } from '@/services/settingsService'
 import { useUserId } from '@/features/quiz/hooks'
+import { useAppBackButton } from '@/app/pwa/useAppBackButton'
+import { useToast } from '@/components/feedback/Toast'
 
 /**
  * Authenticated student shell: quiet environment + a very subtle faded campus
@@ -21,12 +26,21 @@ export function AppLayout() {
   const splash = useSplash()
   const userId = useUserId()
   const firstName = user?.profile.full_name.split(' ')[0]
+  // True while a quiz attempt is open: /quiz/<id>/attempt/<attemptId>
+  const inAttempt = /^\/quiz\/[^/]+\/attempt\//.test(useLocation().pathname)
+
+  // Native-style Back: never closes the installed app on the first press.
+  const toast = useToast()
+  const exitHint = useCallback(() => toast.info('Press back again to exit'), [toast])
+  useAppBackButton(exitHint)
   // First-launch onboarding (reference-matched): shown once per browser.
   const [onboarding, setOnboarding] = useState(() => !hasOnboarded())
 
   // Honor the persisted "reduce motion" preference for this account/device.
   useEffect(() => {
     settingsService.applyFor(userId)
+    // Then pull the server copy so preferences follow the user to a new device.
+    void settingsService.hydrate(userId)
   }, [userId])
 
   return (
@@ -51,8 +65,14 @@ export function AppLayout() {
       </main>
       </div>
       <BottomNav />
-      <FloatingChatButton />
+      {/* The floating assistant would sit on top of the quiz action bar, so it
+          is the only thing hidden during an attempt. The nav stays visible. */}
+      {!inAttempt && <FloatingChatButton />}
       <InstallBanner />
+      {/* Admin announcement, shown once per the rules set on the banner. */}
+      <BannerOverlay />
+      {/* Weekly, dismissible nudge to share the app. Hidden during a quiz. */}
+      {!inAttempt && <SharePrompt />}
 
       {splash.visible && !onboarding && (
         <SplashScreen name={firstName} onClose={splash.close} onSkipToday={splash.skipToday} />

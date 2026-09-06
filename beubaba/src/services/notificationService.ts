@@ -8,6 +8,8 @@
  * Nothing is shown as an ad. Data is scoped by user id for privacy.
  */
 import { store, delay } from '@/services/storage'
+import { USE_SUPABASE } from '@/services/backend/config'
+import * as sbn from '@/services/backend/supabaseSupport'
 import { settingsService } from '@/services/settingsService'
 
 export type NotificationCategory =
@@ -62,6 +64,7 @@ function seedFor(userId: string): AppNotification[] {
 
 export const notificationService = {
   async list(userId: string): Promise<AppNotification[]> {
+    if (USE_SUPABASE) return sbn.listNotifications(userId)
     await delay(60)
     let items = store.get<AppNotification[] | null>(key(userId), null)
     if (items == null) {
@@ -74,11 +77,13 @@ export const notificationService = {
   },
 
   async unreadCount(userId: string): Promise<number> {
+    if (USE_SUPABASE) return sbn.unreadNotificationCount(userId)
     const items = await notificationService.list(userId)
     return items.filter((n) => !n.read).length
   },
 
   async markRead(userId: string, id: string): Promise<void> {
+    if (USE_SUPABASE) return sbn.markNotificationRead(id)
     const items = store.get<AppNotification[]>(key(userId), [])
     store.set(
       key(userId),
@@ -87,6 +92,7 @@ export const notificationService = {
   },
 
   async markAllRead(userId: string): Promise<void> {
+    if (USE_SUPABASE) return sbn.markAllNotificationsRead()
     const items = store.get<AppNotification[]>(key(userId), [])
     store.set(
       key(userId),
@@ -95,6 +101,7 @@ export const notificationService = {
   },
 
   async remove(userId: string, id: string): Promise<void> {
+    if (USE_SUPABASE) return sbn.deleteNotification(userId, id)
     const items = store.get<AppNotification[]>(key(userId), [])
     store.set(
       key(userId),
@@ -103,12 +110,17 @@ export const notificationService = {
   },
 
   async clearAll(userId: string): Promise<void> {
+    if (USE_SUPABASE) return sbn.clearNotifications(userId)
     store.set(key(userId), [])
   },
 
   async push(userId: string, n: Omit<AppNotification, 'id' | 'created_at' | 'read'>): Promise<void> {
     // Honor the user's per-category notification preferences (Settings). The
     // 'system' category is always delivered (account/security-level messages).
+    // With the real backend a student may NOT create notifications: the
+    // database refuses it on purpose. Server-side events (e.g. a support reply)
+    // insert them instead, so this becomes a no-op rather than an error.
+    if (USE_SUPABASE) return
     if (n.category !== 'system') {
       const prefs = settingsService.get(userId).notifications
       if (n.category in prefs && !prefs[n.category as keyof typeof prefs]) return

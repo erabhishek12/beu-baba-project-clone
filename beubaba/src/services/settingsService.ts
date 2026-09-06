@@ -3,6 +3,8 @@
  * These are device/account preferences only — no academic data lives here.
  */
 import { store } from '@/services/storage'
+import { USE_SUPABASE } from '@/services/backend/config'
+import { fetchSettings, pushSettings } from '@/services/backend/supabaseUserData'
 
 export interface UserSettings {
   notifications: {
@@ -44,8 +46,30 @@ export const settingsService = {
     }
   },
   set(userId: string, next: UserSettings): void {
+    // Local first so the UI is instant and offline still works; the server copy
+    // is written through in the background.
     store.set(KEY(userId), next)
     applyReduceMotion(next.reduceMotion)
+    if (USE_SUPABASE && userId && userId !== 'anonymous') pushSettings(userId, next)
+  },
+
+  /**
+   * Pull the server copy into local storage. Called once after login so
+   * preferences follow the user to a new device. Reads stay synchronous.
+   */
+  async hydrate(userId: string): Promise<void> {
+    if (!USE_SUPABASE || !userId || userId === 'anonymous') return
+    try {
+      const remote = await fetchSettings(userId)
+      if (remote) {
+        store.set(KEY(userId), remote)
+        applyReduceMotion(remote.reduceMotion)
+      } else {
+        pushSettings(userId, this.get(userId))
+      }
+    } catch {
+      // Offline or blocked: keep using the local copy.
+    }
   },
   /** Apply persisted prefs to the document (call once at app boot / login). */
   applyFor(userId: string): void {

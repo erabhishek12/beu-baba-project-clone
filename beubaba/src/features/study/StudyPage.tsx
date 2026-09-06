@@ -10,6 +10,7 @@ const TABS: { to: string; label: string; icon: AppIconName; end?: boolean }[] = 
   { to: '/study', label: 'PYQs', icon: 'pyq', end: true },
   { to: '/study/syllabus', label: 'Syllabus', icon: 'syllabus' },
   { to: '/study/calendar', label: 'Calendar', icon: 'calendar' },
+  { to: '/study/planner', label: 'Planner', icon: 'planner' },
 ]
 
 /**
@@ -47,7 +48,8 @@ export function StudyPage() {
             className={({ isActive }) =>
               cn(
                 'flex min-h-[96px] flex-col items-start justify-between overflow-hidden rounded-3xl p-3.5 shadow-neu-sm ring-1 transition-shadow hover:shadow-neu',
-                t.to === '/study/calendar' && 'col-span-2 flex-row items-center justify-between',
+                // Calendar used to be full-width; with Planner added they now
+                // pair up like PYQs/Syllabus instead of leaving a lone tile.
                 TILE_BG[i],
                 isActive && 'ring-2 ring-accent',
               )

@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 import { AppLayout } from '@/app/layouts/AppLayout'
 import { AuthLayout } from '@/app/layouts/AuthLayout'
 import { RequireAuth, RequireGuest, RequireAdmin } from '@/app/guards'
@@ -38,6 +38,25 @@ import { NotificationsPage } from '@/features/notifications/NotificationsPage'
 import { AdminHomePage } from '@/features/admin/AdminHomePage'
 import { AdminResourcesPage } from '@/features/admin/AdminResourcesPage'
 import { AdminReportsPage } from '@/features/admin/AdminReportsPage'
+import { AdminReviewPage } from '@/features/admin/AdminReviewPage'
+import { AdminBulkReviewPage } from '@/features/admin/AdminBulkReviewPage'
+import { AdminBannersPage } from '@/features/admin/AdminBannersPage'
+import { VerifyEmailPage } from '@/features/auth/VerifyEmailPage'
+import { CompleteProfilePage } from '@/features/auth/CompleteProfilePage'
+import { NotFoundPage } from '@/features/misc/NotFoundPage'
+import { AdminUsersPage } from '@/features/admin/AdminUsersPage'
+import { AdminQuestionsPage } from '@/features/admin/AdminQuestionsPage'
+import { AdminSupportPage } from '@/features/admin/AdminSupportPage'
+import { AdminAssistantPage } from '@/features/admin/AdminAssistantPage'
+import { AdminAcademicCmsPage } from '@/features/admin/AdminAcademicCmsPage'
+import { AdminAnalyticsPage } from '@/features/admin/AdminAnalyticsPage'
+import { AdminSystemPage } from '@/features/admin/AdminSystemPage'
+import { AdminNoticesPage } from '@/features/admin/AdminNoticesPage'
+import { CollaboratePage } from '@/features/tools/CollaboratePage'
+import { MathMindPage } from '@/features/mathmind/MathMindPage'
+import { RevisionPage } from '@/features/revision/RevisionPage'
+import { FocusGamesPage } from '@/features/games/FocusGamesPage'
+import { StudyPlannerPage } from '@/features/study/StudyPlannerPage'
 import { AdminAcademicPage } from '@/features/admin/AdminAcademicPage'
 import { AdminImportPage } from '@/features/admin/AdminImportPage'
 import { AdminHeroPage } from '@/features/admin/AdminHeroPage'
@@ -50,6 +69,20 @@ import { HistoryPage } from '@/features/quiz/HistoryPage'
 
 export const router = createBrowserRouter([
   {
+    // Signed in but missing branch/semester (typical after Google sign-in).
+    // Deliberately NOT under RequireGuest: that guard bounces authenticated
+    // users to "/", and RequireAuth would bounce them straight back here —
+    // an infinite redirect. It sits outside the app shell too, so the nav is
+    // hidden until setup is finished.
+    path: '/complete-profile',
+    element: (
+      <RequireAuth>
+        <AuthLayout />
+      </RequireAuth>
+    ),
+    children: [{ index: true, element: <CompleteProfilePage /> }],
+  },
+  {
     element: (
       <RequireGuest>
         <AuthLayout />
@@ -59,6 +92,7 @@ export const router = createBrowserRouter([
       { path: '/login', element: <LoginPage /> },
       { path: '/register', element: <RegisterPage /> },
       { path: '/forgot-password', element: <ForgotPasswordPage /> },
+      { path: '/verify-email', element: <VerifyEmailPage /> },
     ],
   },
   {
@@ -94,6 +128,14 @@ export const router = createBrowserRouter([
       { path: '/tools/exams', element: <GovExamsPage /> },
       { path: '/tools/exams/:id', element: <GovExamDetailPage /> },
       { path: '/tools/colleges', element: <CollegesPage /> },
+      // External study sites (spec §22) — clearly labelled, open in a new tab.
+      { path: '/tools/collaborate', element: <CollaboratePage /> },
+      // Spec §19-§21: Math Mind, Revision Center and focus games.
+      { path: '/tools/math-mind', element: <MathMindPage /> },
+      { path: '/revision', element: <RevisionPage /> },
+      { path: '/tools/games', element: <FocusGamesPage /> },
+      // Syllabus progress + exam planner.
+      { path: '/study/planner', element: <StudyPlannerPage /> },
       { path: '/tools/toolbox', element: <ToolboxPage /> },
       { path: '/tools/toolbox/:slug', element: <ToolboxRouter /> },
       { path: '/profile', element: <ProfilePage /> },
@@ -147,6 +189,100 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        // MCQ review desk. RequireAdmin keeps it off students' screens; the
+        // database re-checks the `review_questions` permission on every call.
+        path: '/admin/review',
+        element: (
+          <RequireAdmin>
+            <AdminReviewPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        // Bulk review (Phase 4). Same admin guard; the database re-checks the
+        // review permission and the strict safety gate on every call.
+        path: '/admin/bulk-review',
+        element: (
+          <RequireAdmin>
+            <AdminBulkReviewPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        // Banners / announcements (spec §34-§39). Admin-guarded; the database
+        // re-checks permissions on every write.
+        path: '/admin/banners',
+        element: (
+          <RequireAdmin>
+            <AdminBannersPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/users',
+        element: (
+          <RequireAdmin>
+            <AdminUsersPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/questions',
+        element: (
+          <RequireAdmin>
+            <AdminQuestionsPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/support',
+        element: (
+          <RequireAdmin>
+            <AdminSupportPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/assistant',
+        element: (
+          <RequireAdmin>
+            <AdminAssistantPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/content',
+        element: (
+          <RequireAdmin>
+            <AdminAcademicCmsPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/analytics',
+        element: (
+          <RequireAdmin>
+            <AdminAnalyticsPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/notices',
+        element: (
+          <RequireAdmin>
+            <AdminNoticesPage />
+          </RequireAdmin>
+        ),
+      },
+      {
+        path: '/admin/system',
+        element: (
+          <RequireAdmin>
+            <AdminSystemPage />
+          </RequireAdmin>
+        ),
+      },
+      {
         path: '/admin/reports',
         element: (
           <RequireAdmin>
@@ -160,5 +296,5 @@ export const router = createBrowserRouter([
       { path: '/privacy', element: <PrivacyPolicyPage /> },
     ],
   },
-  { path: '*', element: <Navigate to="/" replace /> },
+  { path: '*', element: <NotFoundPage /> },
 ])

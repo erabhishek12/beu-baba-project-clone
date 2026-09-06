@@ -4,6 +4,7 @@
  * cropped WebP tile so header, sidebar, auth, splash and loader all render
  * the identical premium mark at any size.
  */
+import { ASSET_V } from '@/lib/brand'
 export function LogoMark({
   className = 'size-9',
   title = 'BEU BABA',
@@ -13,10 +14,10 @@ export function LogoMark({
 }) {
   return (
     <img
-      src="/assets/logo.webp"
+      src={`/assets/logo.webp?v=${ASSET_V}`}
       alt=""
       aria-label={title}
-      className={`shrink-0 rounded-[24%] shadow-[0_6px_16px_rgba(76,60,220,0.28)] ${className}`}
+      className={`shrink-0 object-contain ${className}`}
     />
   )
 }

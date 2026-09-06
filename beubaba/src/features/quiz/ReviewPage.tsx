@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { renderMath } from '@/components/ui/MathText'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { ChevronLeft, CheckCircle2, XCircle, MinusCircle, Flag } from 'lucide-react'
@@ -114,7 +115,7 @@ function ReviewCard({ item, number }: { item: QuestionReviewItem; number: number
               {item.topic}
             </Pill>
           </div>
-          <p className="mt-1.5 text-body font-medium text-ink">{item.stem}</p>
+          <p className="mt-1.5 text-body font-medium text-ink">{renderMath(item.stem)}</p>
         </div>
       </div>
 
@@ -137,7 +138,7 @@ function ReviewCard({ item, number }: { item: QuestionReviewItem; number: number
               <span className="flex size-6 shrink-0 items-center justify-center rounded-md border border-line bg-surface text-caption font-bold text-ink-tertiary">
                 {String.fromCharCode(65 + i)}
               </span>
-              <span className="flex-1">{opt}</span>
+              <span className="flex-1">{renderMath(opt)}</span>
               {isCorrect && <CheckCircle2 className="size-4 text-success" aria-hidden />}
               {isSelected && !isCorrect && <XCircle className="size-4 text-danger" aria-hidden />}
             </div>

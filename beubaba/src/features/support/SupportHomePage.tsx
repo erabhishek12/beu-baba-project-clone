@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { LifeBuoy, Plus, ChevronRight, Flag, Inbox } from 'lucide-react'
@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/Button'
 import { Pill } from '@/components/ui/Pill'
 import { Skeleton } from '@/components/feedback/Skeleton'
 import { ToolHeader } from '@/features/tools/ToolHeader'
+import { useSearchParams } from 'react-router-dom'
 import { NewSupportModal } from './NewSupportModal'
 import { supportService, SUPPORT_STATUS_LABEL } from '@/services/supportService'
 import type { SupportStatus } from '@/types/domain'
@@ -33,6 +34,20 @@ export function SupportHomePage() {
   const userId = useUserId()
   const navigate = useNavigate()
   const [newOpen, setNewOpen] = useState(false)
+
+  // The assistant sends unanswered questions here as ?q=... (spec §28).
+  const [params, setParams] = useSearchParams()
+  const askedQuestion = params.get('q') ?? ''
+  useEffect(() => {
+    if (askedQuestion) {
+      setNewOpen(true)
+      // Clear it so a refresh does not reopen the composer.
+      const next = new URLSearchParams(params)
+      next.delete('q')
+      setParams(next, { replace: true })
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [askedQuestion])
 
   const { data: conversations, isLoading } = useQuery({
     queryKey: ['support-conversations', userId],
@@ -105,7 +120,7 @@ export function SupportHomePage() {
         ))}
       </div>
 
-      <NewSupportModal open={newOpen} onClose={() => setNewOpen(false)} />
+      <NewSupportModal open={newOpen} onClose={() => setNewOpen(false)} prefill={askedQuestion} />
     </div>
   )
 }

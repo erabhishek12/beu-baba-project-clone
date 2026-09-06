@@ -1,4 +1,5 @@
 import { useNavigate, useParams } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { motion } from 'framer-motion'
 import {
@@ -20,6 +21,9 @@ import { Skeleton } from '@/components/feedback/Skeleton'
 import { useUserId, formatClock } from '@/features/quiz/hooks'
 import { quizService } from '@/services/quizService'
 import type { QuizResult } from '@/types/domain'
+import { stampBrand, SITE_LABEL } from '@/lib/brand'
+import { revisionService } from '@/services/revisionService'
+import { isBankQuizId } from '@/services/quiz/supabaseQuizAdapter'
 
 export function ResultPage() {
   const { quizId = '', attemptId = '' } = useParams()
@@ -30,6 +34,19 @@ export function ResultPage() {
     queryKey: ['result', userId, attemptId],
     queryFn: () => quizService.getResult(userId, attemptId),
   })
+
+  // Spec §20: wrong answers feed the Revision Center automatically, and
+  // per-topic accuracy updates the weak-topic list. Runs once per attempt;
+  // failures are silent because a result page must still render offline.
+  const syncedRef = useRef<string | null>(null)
+  useEffect(() => {
+    if (!result || !attemptId) return
+    if (!isBankQuizId(quizId)) return          // legacy quizzes use their own path
+    if (syncedRef.current === attemptId) return
+    syncedRef.current = attemptId
+    void revisionService.syncFromAttempt(attemptId).catch(() => undefined)
+  }, [result, attemptId, quizId])
+
 
   if (isLoading) {
     return (
@@ -130,7 +147,7 @@ export function ResultPage() {
         </button>
         <div className="flex gap-2.5">
           <button
-            onClick={() => downloadCard(result)}
+            onClick={() => void downloadCard(result)}
             className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-line/70 bg-surface-secondary/60 py-3 text-body-sm font-semibold text-ink-secondary transition-colors hover:bg-surface-secondary"
           >
             <Download className="size-4" aria-hidden />
@@ -217,10 +234,11 @@ function StatTile({ icon, label, value }: { icon: React.ReactNode; label: string
 
 /** Share the outcome (no private data — §33): Web Share with clipboard fallback. */
 async function shareResult(result: QuizResult) {
-  const text = `I scored ${result.percentage}% on ${result.quiz_title ?? 'a BEU BABA quiz'} — ${result.correct}/${result.total} correct. Try it on BEU BABA!`
+  // Always include the site link so a shared result can bring people back.
+  const text = `I scored ${result.percentage}% on ${result.quiz_title ?? 'a BEU BABA quiz'} — ${result.correct}/${result.total} correct. Try it on BEU BABA — ${SITE_LABEL}`
   try {
     if (navigator.share) {
-      await navigator.share({ title: 'BEU BABA result', text })
+      await navigator.share({ title: 'BEU BABA result', text, url: `https://${SITE_LABEL}` })
       return
     }
   } catch {
@@ -261,7 +279,7 @@ ${result.topics?.length ? `<h3>Topic performance</h3><ul>${result.topics.map((t)
 }
 
 /** Generate a shareable result card as a PNG via canvas (no private data; §33). */
-function downloadCard(result: QuizResult) {
+async function downloadCard(result: QuizResult) {
   const w = 1080
   const h = 1350
   const canvas = document.createElement('canvas')
@@ -322,6 +340,10 @@ function downloadCard(result: QuizResult) {
   ctx.fillStyle = '#949cab'
   ctx.font = '28px system-ui, sans-serif'
   ctx.fillText(new Date(result.submitted_at).toLocaleDateString(), w / 2, 1140)
+
+  // Logo + wordmark + site URL + diagonal watermark, so a shared or
+  // re-screenshotted card always carries attribution back to the app.
+  await stampBrand(ctx, w, h, { footerY: h - 110 })
 
   const url = canvas.toDataURL('image/png')
   const a = document.createElement('a')

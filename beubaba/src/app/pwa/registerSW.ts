@@ -35,6 +35,12 @@ export function registerServiceWorker() {
             }
           })
         })
+
+        // Look for a new build on focus and hourly. Without this an installed
+        // app can sit on an old version until the user force-closes it.
+        const check = () => void reg.update().catch(() => undefined)
+        window.addEventListener('focus', check)
+        window.setInterval(check, 60 * 60 * 1000)
       })
       .catch(() => {
         /* registration failure is non-fatal; app still works online */
@@ -44,6 +50,9 @@ export function registerServiceWorker() {
     let refreshing = false
     navigator.serviceWorker.addEventListener('controllerchange', () => {
       if (refreshing) return
+      // Never yank the page out from under a running quiz attempt — the
+      // student would lose their place. The next navigation picks it up.
+      if (/^\/quiz\/[^/]+\/attempt\//.test(window.location.pathname)) return
       refreshing = true
       window.location.reload()
     })

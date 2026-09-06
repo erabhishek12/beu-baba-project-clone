@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { renderMath } from '@/components/ui/MathText'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -35,11 +36,25 @@ export function AttemptPage() {
 
   if (la || lq || !attempt || !questions) {
     return (
-      <div className="page-x pb-8 pt-6">
-        <Skeleton className="h-10 rounded-xl" />
-        <Skeleton className="mt-4 h-40 rounded-2xl" />
-        <Skeleton className="mt-3 h-14 rounded-xl" />
-        <Skeleton className="mt-2 h-14 rounded-xl" />
+      // Mirrors the real attempt layout (progress bar, topic pill, stem, four
+      // options, action bar) so the screen does not jump when data lands.
+      <div className="flex min-h-dvh flex-col">
+        <div className="glass-standard sticky top-0 z-20 flex items-center gap-3 px-4 py-3">
+          <Skeleton className="h-5 w-28 rounded-md" />
+          <div className="flex-1" />
+          <Skeleton className="h-9 w-20 rounded-xl" />
+          <Skeleton className="size-9 rounded-xl" />
+        </div>
+        <div className="page-x flex-1 pb-56 pt-5 md:pb-40">
+          <Skeleton className="h-5 w-40 rounded-md" />
+          <Skeleton className="mt-3 h-7 w-full rounded-md" />
+          <Skeleton className="mt-2 h-7 w-3/4 rounded-md" />
+          <div className="mt-5 space-y-3">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <Skeleton key={i} className="h-16 rounded-2xl" />
+            ))}
+          </div>
+        </div>
       </div>
     )
   }
@@ -189,7 +204,7 @@ function AttemptRunner({
       </div>
 
       {/* Question body */}
-      <div className="page-x flex-1 pb-40 pt-5">
+      <div className="page-x flex-1 pb-56 pt-5 md:pb-40">
         <AnimatePresence mode="wait" custom={dir}>
           <motion.div
             key={q.id}
@@ -210,7 +225,7 @@ function AttemptRunner({
               )}
             </div>
 
-            <p className="mt-3 text-h3 leading-snug text-ink">{q.stem}</p>
+            <p className="mt-3 text-h3 leading-snug text-ink">{renderMath(q.stem)}</p>
 
             <div className="mt-5 space-y-2.5">
               {q.options.map((opt, i) => {
@@ -237,7 +252,7 @@ function AttemptRunner({
                     >
                       {isSel ? <Check className="size-4" aria-hidden /> : String.fromCharCode(65 + i)}
                     </span>
-                    <span className="text-body text-ink">{opt}</span>
+                    <span className="text-body text-ink">{renderMath(opt)}</span>
                   </button>
                 )
               })}
@@ -259,8 +274,15 @@ function AttemptRunner({
         </AnimatePresence>
       </div>
 
-      {/* Footer nav */}
-      <div className="glass-elevated fixed inset-x-0 bottom-0 z-20 px-4 py-3">
+      {/*
+        Quiz action bar.
+
+        The app's BottomNav is fixed at bottom-0 (62px tall + safe area) and is
+        `md:hidden`. So on phones this bar is lifted to sit directly ON TOP of
+        the nav — both stay visible and usable. From md up the nav is gone, so
+        the bar sits flush at the bottom.
+      */}
+      <div className="glass-elevated fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom,0px)+104px)] z-nav px-4 py-3 md:bottom-0 md:pb-[calc(env(safe-area-inset-bottom,0px)+0.75rem)]">
         <div className="mx-auto flex max-w-2xl items-center gap-3">
           <button
             onClick={() => go(index - 1)}

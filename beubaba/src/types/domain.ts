@@ -224,6 +224,8 @@ export interface Quiz {
   subject_code: string
   subject_name: string
   branch_id: string | null
+  /** All branches this quiz belongs to (shared first-year papers have several). */
+  branch_ids?: string[]
   semester: number | null
   unit_index: number | null
   type: QuizType

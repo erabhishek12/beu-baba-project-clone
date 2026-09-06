@@ -1,11 +1,13 @@
 import { useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { ShieldCheck, FileStack, Flag, ChevronRight, ChevronLeft, LayoutDashboard, Megaphone, BookOpen, FileJson } from 'lucide-react'
+import { ShieldCheck, FileStack, Flag, ChevronRight, ChevronLeft, LayoutDashboard, Megaphone, BookOpen, FileJson, ClipboardCheck } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { Pill } from '@/components/ui/Pill'
 import { useAuth } from '@/app/providers/AuthProvider'
 import { resourceService } from '@/services/resourceService'
 import { reportService } from '@/services/reportService'
+import { adminService } from '@/services/adminService'
+import { Users, Activity } from 'lucide-react'
 
 /**
  * Admin panel home (spec §17 Moderation, §22 Administrative Content Control).
@@ -15,6 +17,12 @@ import { reportService } from '@/services/reportService'
 export function AdminHomePage() {
   const navigate = useNavigate()
   const { user, roles } = useAuth()
+
+  // Real counts, straight from the database (head-only queries, no row downloads).
+  const { data: stats } = useQuery({
+    queryKey: ['admin-stats'],
+    queryFn: () => adminService.stats(),
+  })
 
   const { data: pendingResources } = useQuery({
     queryKey: ['admin', 'resources', 'pending'],
@@ -61,6 +69,105 @@ export function AdminHomePage() {
       count: 0,
       countLabel: '',
       to: '/admin/academic',
+    },
+    {
+      key: 'review',
+      title: 'MCQ review',
+      desc: 'Verify imported questions before students ever see them.',
+      icon: ClipboardCheck,
+      count: 0,
+      countLabel: '',
+      to: '/admin/review',
+    },
+    {
+      key: 'bulk-review',
+      title: 'Bulk review',
+      desc: 'Publish a whole subject at once — only questions that pass safety checks.',
+      icon: ClipboardCheck,
+      count: 0,
+      countLabel: '',
+      to: '/admin/bulk-review',
+    },
+    {
+      key: 'users',
+      title: 'Users',
+      desc: 'Students, roles and account access.',
+      icon: Users,
+      count: stats?.students ?? 0,
+      countLabel: 'accounts',
+      to: '/admin/users',
+    },
+    {
+      key: 'questions',
+      title: 'Question bank',
+      desc: 'Browse, filter and triage all imported questions.',
+      icon: FileStack,
+      count: stats?.mcqTotal ?? 0,
+      countLabel: 'questions',
+      to: '/admin/questions',
+    },
+    {
+      key: 'content',
+      title: 'Academic content',
+      desc: 'Subjects, previous year papers and the calendar.',
+      icon: BookOpen,
+      count: stats?.subjects ?? 0,
+      countLabel: 'subjects',
+      to: '/admin/content',
+    },
+    {
+      key: 'analytics',
+      title: 'Analytics',
+      desc: 'Students, questions, quiz performance and links.',
+      icon: LayoutDashboard,
+      count: stats?.attempts ?? 0,
+      countLabel: 'attempts',
+      to: '/admin/analytics',
+    },
+    {
+      key: 'support',
+      title: 'Support inbox',
+      desc: 'Reply to student conversations.',
+      icon: Flag,
+      count: stats?.supportOpen ?? 0,
+      countLabel: 'open',
+      to: '/admin/support',
+    },
+    {
+      key: 'assistant',
+      title: 'AI assistant',
+      desc: 'Intents and unanswered questions.',
+      icon: LayoutDashboard,
+      count: 0,
+      countLabel: '',
+      to: '/admin/assistant',
+    },
+    {
+      key: 'notices',
+      title: 'Notices',
+      desc: 'Short announcements for students.',
+      icon: Megaphone,
+      count: stats?.notices ?? 0,
+      countLabel: '',
+      to: '/admin/notices',
+    },
+    {
+      key: 'system',
+      title: 'System',
+      desc: 'Health checks and the audit log.',
+      icon: Activity,
+      count: 0,
+      countLabel: '',
+      to: '/admin/system',
+    },
+    {
+      key: 'banners',
+      title: 'Banners',
+      desc: 'Announcements shown when students open the app.',
+      icon: ClipboardCheck,
+      count: 0,
+      countLabel: '',
+      to: '/admin/banners',
     },
     {
       key: 'reports',

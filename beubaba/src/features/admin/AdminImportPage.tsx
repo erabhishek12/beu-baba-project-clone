@@ -12,6 +12,13 @@ import {
   type ImportKind,
   type PreviewResult,
 } from '@/services/importService'
+import { USE_SUPABASE } from '@/services/backend/config'
+import {
+  syncContent,
+  detectSyncKind,
+  type SyncResult,
+  type SyncKind,
+} from '@/services/backend/supabaseContentSync'
 
 const KINDS: { key: ImportKind; label: string; hint: string }[] = [
   { key: 'bank', label: 'Question bank', hint: '[{id, stem, options[], correct_index, …}]' },
@@ -93,6 +100,11 @@ export function AdminImportPage() {
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
   const [auditTick, setAuditTick] = useState(0)
+  // Server-sync path (syllabus / pyq / calendar against the real database).
+  const [syncKind, setSyncKind] = useState<SyncKind | null>(null)
+  const [syncPayload, setSyncPayload] = useState<unknown>(null)
+  const [syncPreview, setSyncPreview] = useState<SyncResult | null>(null)
+  const [allowMassDelete, setAllowMassDelete] = useState(false)
   const audit = listAudit().slice(0, 8)
   void auditTick
 
@@ -106,6 +118,24 @@ export function AdminImportPage() {
     setFileName(file.name)
     try {
       const raw = JSON.parse(await file.text())
+
+      // A file tagged {"type":"syllabus"|"pyq"|"calendar"} goes to the database
+      // sync (migration 0016) instead of the local mock importer. Dry run
+      // first — the admin sees the numbers before anything is written.
+      const sk = USE_SUPABASE ? detectSyncKind(raw) : null
+      if (sk) {
+        setPreview(null)
+        setSyncKind(sk)
+        setSyncPayload(raw)
+        setAllowMassDelete(false)
+        const dry = await syncContent(sk, raw, true)
+        setSyncPreview(dry)
+        setBusy(false)
+        return
+      }
+      setSyncKind(null)
+      setSyncPayload(null)
+      setSyncPreview(null)
       const result = await validateImport(kind, raw)
       setPreview(result)
     } catch {
@@ -141,6 +171,25 @@ export function AdminImportPage() {
       invalidateAll()
     } catch (e) {
       setMessage(e instanceof Error ? e.message : 'Import failed — nothing was written.')
+    }
+    setBusy(false)
+  }
+
+  const applySync = async () => {
+    if (!syncKind || !syncPayload) return
+    setBusy(true)
+    setMessage('')
+    try {
+      const res = await syncContent(syncKind, syncPayload, false, allowMassDelete)
+      setMessage(
+        `Synced: ${res.inserted ?? 0} added · ${res.updated ?? 0} updated · ${res.deleted ?? 0} removed.`,
+      )
+      setSyncPreview(null)
+      setSyncKind(null)
+      setSyncPayload(null)
+      invalidateAll()
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : 'Sync failed — nothing was written.')
     }
     setBusy(false)
   }
@@ -259,6 +308,79 @@ export function AdminImportPage() {
               className="ml-auto inline-flex items-center gap-1.5 rounded-pill bg-accent px-5 py-2.5 text-caption font-bold text-white shadow-[0_8px_18px_rgba(91,110,240,0.35)] disabled:opacity-50"
             >
               <ShieldCheck className="size-4" aria-hidden /> Import {preview.ok} rows
+            </button>
+          </div>
+        </Card>
+      )}
+
+
+      {/* Database sync preview — syllabus / PYQ / calendar against the real DB.
+          Nothing is written until "Apply" is pressed. */}
+      {syncPreview && syncKind && (
+        <Card className="mt-4 p-4">
+          <p className="text-body font-bold text-ink">
+            {syncKind === 'syllabus' ? 'Syllabus' : syncKind === 'pyq' ? 'Previous year papers' : 'Calendar'} sync
+            {syncPreview.branch ? ` · ${syncPreview.branch}` : ''}
+            {syncPreview.year ? ` · ${syncPreview.year}` : ''}
+          </p>
+          <p className="mt-1 text-body-sm text-ink-secondary">
+            Preview only — nothing has been changed yet.
+          </p>
+          <div className="mt-3 grid grid-cols-3 gap-2">
+            {[
+              ['Add', syncPreview.would_insert ?? 0],
+              ['Update', syncPreview.would_update ?? 0],
+              ['Remove', syncPreview.would_delete ?? 0],
+            ].map(([label, n]) => (
+              <div key={label as string} className="rounded-xl bg-surface-secondary px-3 py-2">
+                <div className="text-h3 text-ink">{Number(n).toLocaleString()}</div>
+                <div className="text-label text-ink-secondary">{label as string}</div>
+              </div>
+            ))}
+          </div>
+
+          {!!(syncPreview.would_delete_codes || []).length && (
+            <div className="mt-3 rounded-xl bg-surface-secondary px-3 py-2">
+              <p className="text-label text-ink-secondary">These will be removed:</p>
+              <p className="mt-1 break-words text-caption text-ink">
+                {(syncPreview.would_delete_codes || []).slice(0, 40).join(', ')}
+                {(syncPreview.would_delete_codes || []).length > 40 ? ' …' : ''}
+              </p>
+            </div>
+          )}
+
+          {(syncPreview.would_delete ?? 0) > 0 && (
+            <label className="mt-3 flex items-start gap-2 text-body-sm text-ink">
+              <input
+                type="checkbox"
+                checked={allowMassDelete}
+                onChange={(e) => setAllowMassDelete(e.target.checked)}
+                className="mt-1"
+              />
+              <span>
+                I understand {syncPreview.would_delete} item(s) will be permanently removed.
+                Tick this also if the sync was refused for deleting too much.
+              </span>
+            </label>
+          )}
+
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              onClick={() => {
+                setSyncPreview(null)
+                setSyncKind(null)
+                setSyncPayload(null)
+              }}
+              className="rounded-pill bg-surface px-4 py-2 text-caption font-bold text-ink-secondary ring-1 ring-line"
+            >
+              Cancel
+            </button>
+            <button
+              disabled={busy || ((syncPreview.would_delete ?? 0) > 0 && !allowMassDelete)}
+              onClick={applySync}
+              className="inline-flex items-center gap-1.5 rounded-pill bg-accent px-4 py-2 text-caption font-bold text-white disabled:opacity-50"
+            >
+              <ShieldCheck className="size-4" aria-hidden /> Apply to database
             </button>
           </div>
         </Card>

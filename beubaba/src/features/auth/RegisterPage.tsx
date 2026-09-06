@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
+import { GoogleButton } from './GoogleButton'
 import { Link, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useQuery } from '@tanstack/react-query'
-import { Mail, Lock, Phone, User, ArrowLeft, ArrowRight, Check } from 'lucide-react'
+import { Mail, Lock, Phone, User, ArrowLeft, ArrowRight } from 'lucide-react'
 import { AuthPanel } from './AuthPanel'
 import { Stepper } from './Stepper'
 import { TextField } from '@/components/forms/TextField'
@@ -112,13 +113,20 @@ export function RegisterPage() {
       if (courseId !== form.course_id) set('course_id', courseId)
     }
     if (step === 2) {
-      if (form.avatar_type === 'generated' && !form.avatar_character_id) {
-        setErrors({ avatar: 'Please choose a character or upload a photo.' })
+      // A photo is the preferred avatar, but it is optional: if the student
+      // skips it we pick a character that matches their gender automatically,
+      // so nobody is blocked at signup by an avatar choice.
+      if (form.avatar_type === 'uploaded' && !form.avatar_url) {
+        setErrors({ avatar: 'Please choose a photo, or continue without one.' })
         return false
       }
-      if (form.avatar_type === 'uploaded' && !form.avatar_url) {
-        setErrors({ avatar: 'Please upload a photo or choose a character.' })
-        return false
+      if (form.avatar_type !== 'uploaded' && !form.avatar_character_id) {
+        const pool = charactersFor(form.gender)
+        const picked = pool[Math.floor(Math.random() * pool.length)]
+        if (picked) {
+          set('avatar_type', 'generated')
+          set('avatar_character_id', picked.id)
+        }
       }
     }
     setErrors({})
@@ -137,7 +145,7 @@ export function RegisterPage() {
     setServerError(null)
     setSubmitting(true)
     try {
-      await register({
+      const created = await register({
         full_name: form.full_name,
         email: form.email,
         phone: form.phone,
@@ -150,6 +158,13 @@ export function RegisterPage() {
         avatar_character_id: form.avatar_character_id,
         avatar_url: form.avatar_url,
       })
+      // If the project requires email confirmation there is no session yet, so
+      // the app would show a placeholder profile and refuse to save changes.
+      // Hold them on the verify screen until the address is confirmed.
+      if (created && !created.auth.email_verified) {
+        navigate(`/verify-email?email=${encodeURIComponent(form.email)}`, { replace: true })
+        return
+      }
       navigate('/', { replace: true })
     } catch (err) {
       const code = err instanceof AuthError ? err.code : 'unknown'
@@ -165,6 +180,7 @@ export function RegisterPage() {
 
   return (
     <AuthPanel title="Create your account" subtitle="A few quick steps to get set up.">
+      {step === 0 && <GoogleButton label="Sign up with Google" variant="primary" />}
       <Stepper steps={STEPS} current={step} />
 
       {serverError && (
@@ -298,58 +314,24 @@ export function RegisterPage() {
                 </div>
               </fieldset>
 
-              {/* Avatar type toggle */}
-              <div className="grid grid-cols-2 gap-2">
-                {(['generated', 'uploaded'] as const).map((t) => (
-                  <button
-                    key={t}
-                    type="button"
-                    onClick={() => set('avatar_type', t)}
-                    className={cn(
-                      'rounded-md border px-3 py-2.5 text-body-sm font-semibold transition-colors',
-                      form.avatar_type === t
-                        ? 'border-accent bg-accent-soft text-accent-ink'
-                        : 'border-line bg-surface text-ink-secondary hover:border-accent/40',
-                    )}
-                    aria-pressed={form.avatar_type === t}
-                  >
-                    {t === 'generated' ? 'Choose a character' : 'Upload a photo'}
-                  </button>
-                ))}
-              </div>
-
-              {form.avatar_type === 'generated' ? (
-                <div className="grid grid-cols-3 gap-3">
-                  {characters.map((c) => {
-                    const selected = form.avatar_character_id === c.id
-                    return (
-                      <button
-                        key={c.id}
-                        type="button"
-                        onClick={() => set('avatar_character_id', c.id)}
-                        className={cn(
-                          'relative aspect-square overflow-hidden rounded-lg border-2 transition-colors',
-                          selected ? 'border-accent' : 'border-line hover:border-accent/40',
-                        )}
-                        aria-pressed={selected}
-                        aria-label={`Select ${c.gender} ${c.label}`}
-                      >
-                        <img src={c.src} alt="" className="size-full object-cover" />
-                        {selected && (
-                          <span className="absolute right-1 top-1 flex size-5 items-center justify-center rounded-full bg-accent text-white">
-                            <Check className="size-3.5" aria-hidden />
-                          </span>
-                        )}
-                      </button>
-                    )
-                  })}
-                </div>
-              ) : (
-                <ProfileImagePicker
-                  value={form.avatar_url}
-                  onChange={(url) => set('avatar_url', url)}
-                />
-              )}
+              {/*
+                Photo is the priority (spec change): the student is only shown
+                "Upload a photo". If they skip it we assign a character that
+                matches their gender automatically in validate(), so the choice
+                never blocks signup.
+              */}
+              <ProfileImagePicker
+                value={form.avatar_url}
+                onChange={(url) => {
+                  set('avatar_url', url)
+                  // Choosing a photo makes it the avatar; clearing it falls back
+                  // to an auto-assigned character on continue.
+                  set('avatar_type', url ? 'uploaded' : 'generated')
+                }}
+              />
+              <p className="text-caption text-ink-tertiary">
+                Optional — if you skip this we will pick a character for you.
+              </p>
               {errors.avatar && (
                 <p role="alert" className="text-body-sm text-danger">
                   {errors.avatar}
